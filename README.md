@@ -8,9 +8,14 @@
 - Because there was a dearth of guides/resources that filled the gap between really simple and really complex.
 - Because most of the guides tackling more complex setups don't take usability into account (poor usability → human error → security fail).
 
+## Who's this for?
+
+- Tech-savvy folks who feel like they've probably covered the basics but are not sure.
+- Folks who need to upgrade their digital security setup for personal/professional reasons and have read a few articles about it.
+
 ## About this guide
 
-- This is draft one! I am very sleepy.
+- This is draft two! I am very sleepy.
 - This guide is a living document – please feel free to submit a pull request and/or fork your own version of this guide.
 - This guide is mostly focused on personal digital security but will also cover aspects of protecting your privacy as they often go hand in hand.
 
@@ -54,7 +59,8 @@
 - Any password less than 10 characters is bad, but it's also okay-to-string-together-non-sequitur-words.
 - Double check the security questions for your key online services (email, bank, Facebook, etc.) and make sure that they're not easy to answer by friends/looking you up on google.
 - Use a different password for every service, because password leaks happen all the time. To make this easy, use a password manager – [Lifehacker reviews them here](https://lifehacker.com/5529133/five-best-password-managers). They also help generate more secure passwords.
-- Use a non-common/obvious unlock code for your phone. Pro tip: if you insist on using thumbprint unlock, immediately power off your phone if you're ever arrested.
+- Use a non-common/obvious unlock code for your phone.
+- If you use thumbprint unlock, immediately power off your phone if you're ever arrested. In the US, [officers can compel you to provide your fingerprint but not your passcode](http://www.theatlantic.com/technology/archive/2016/05/iphone-fingerprint-search-warrant/480861/). (The latter is protected by the Fifth Amendment – people have a right not to testify against themselves.)
 
 #### Encrypt your devices
 
