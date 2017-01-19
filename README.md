@@ -1,12 +1,12 @@
 # TLDR Guide To Personal Digital Security
 
----
+![Illustration of TLDR Dude](TLDRdude.jpg)
 
 ## About
 
 ### Why another guide?
 
-- Because personal digital security is important.
+- Because personal digital security matters.
 - Because there was a dearth of guides/resources that filled the gap between really simple and really complex.
 - Because most of the guides tackling more complex setups don't take usability into account (poor usability → human error → security fail).
 
@@ -20,6 +20,7 @@
 - This is an early draft!
 - This guide is a living document – please feel free to submit a pull request and/or fork your own version of this guide.
 - This guide is mostly focused on personal digital security but will also cover aspects of protecting your privacy as they often go hand in hand.
+- **I would highly recommend doing everything in levels one and two.** I did, and I'm only a mildly technically-competent person with a really low tolerance for bad usability.
 
 ---
 
@@ -39,10 +40,17 @@
 
 ---
 
-## Science (coming soon)
+## Science
 
-- Encryption
-- Metadata
+### Encryption levels
+
+1. Not encrypted: Any third party who intercepts the data can read it as is.
+2. Regular encryption: Data is encrypted so that third parties cannot read them. But the platform (e.g. Google or Facebook) still has access, and may hand the data over to law enforcement if they are required to do so by the courts/the government.
+3. End-to-end encryption: the data can only be read by the original sender and receiver. This means not even the platform has access. So if law enforcement calls, the service provider can’t hand over the messages because they don’t have them either.
+
+### Metadata
+
+Data about your data – e.g. what number you called, and for how long (but not the contents of the call). Without enough metadata, hackers can piece together a pretty good picture of who you are, who you know where you're going, etc. Plus legal protections around metadata are generally weaker.
 
 ---
 
@@ -76,7 +84,7 @@
 
 - Turn off app-specific passwords that bypass two-factor authentication (e.g. [instructions for Gmail](https://www.lifewire.com/revoke-an-application-password-for-gmail-1171889)).
 - [Turn on Login Alerts on Facebook](https://www.facebook.com/settings?tab=security).
-- Lock your mobile phone SIM card: go to your phone provider's website to create a strong passphrase/PIN.
+- Setup up a pin code for your mobile phone SIM card: [iPhone](https://support.apple.com/en-hk/HT201529), [Android](https://support.google.com/android-one/answer/6174402?hl=en). Search your phone provider's website to find out what their default password is (it varies from carrier to carrier).
 - Always update the operating system on your computer and mobile to the latest version.
 
 ### Habits to Cultivate
@@ -145,21 +153,23 @@
 
 ---
 
-## Level 5 💦💦💦💦💦 (under construction)
+## Level 5 💦💦💦💦💦 (a work-in-progress)
 
-- YubiKey USB for two-factor authentication
-- Email PGP
-- Diceware passwords
-- Tor
-- DuckDuckGo
-- Tails
-- Self-hosted Wordpress: Cloudflare + iThemes Security 
-- If protest: leave your phone at home or use burner phone
-- Delete old accounts
+- Buy a [YubiKey](http://www.amazon.com/Yubico-Y-072-YubiKey-NEO/dp/B00LX8KZZ8/ref=sr_1_1?ie=UTF8&qid=1421839152&sr=8-1&keywords=yubikey+NEO) USB key to use for two-factor authentication
+- Fortifty your self-hosted Wordpress website with [Cloudflare](https://www.cloudflare.com) + [iThemes Security](https://wordpress.org/plugins/better-wp-security/) 
+- Keep your personal information off the internet: Google your own name, phone number and address to see what comes up, and contact the respective site to remove your details.
+- Delete old accounts to eliminate traces of personal information on the internet. Use [Justdelete.me](http://Justdelete.me) + [Have I Been Pawnd](https://haveibeenpwned.com/) to accelerate this process.
+- Encrypt emails with PGP: [Mac OSX](https://ssd.eff.org/en/module/how-use-pgp-mac-os-x),[Windows](https://ssd.eff.org/en/module/how-use-pgp-windows), [Linux](https://ssd.eff.org/en/module/how-use-pgp-linux)
+- Browse the web anonymously with [Tor](https://www.torproject.org)
+- Search the web anonymously with [DuckDuckGo](http://duckduckgo.com/)
+- Set up a fenced off, secure OS: [Tails](https://ssd.eff.org/en/module/keeping-your-data-safe)
+- If you're attending a high-risk protest: leave your phone at home or use burner phone. More info from the EFF about protesting [in the US](https://ssd.eff.org/en/module/attending-protests-united-states
+), and [internationally](https://ssd.eff.org/en/module/attending-protests-international).
+- [Generating Diceware passwords](http://world.std.com/~reinhold/diceware.html)
 
 ---
 
-Oh my you made it this far! Are you a 🤖?
+Oh my you made it this far! You are a true 🏆!
 
 ---
 
