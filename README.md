@@ -2,20 +2,22 @@
 
 ---
 
-## Why another guide?
+## About
+
+### Why another guide?
 
 - Because personal digital security is important.
 - Because there was a dearth of guides/resources that filled the gap between really simple and really complex.
 - Because most of the guides tackling more complex setups don't take usability into account (poor usability → human error → security fail).
 
-## Who's this for?
+### Who's this for?
 
-- Tech-savvy folks who feel like they've probably covered the basics but are not sure.
-- Folks who need to upgrade their digital security setup for personal/professional reasons and have read a few articles about it.
+- Folks who feel like they've covered the basics and want to make sure there aren't any gaps in their setup.
+- Folks who need to upgrade their security practices but are a little overwhelmed by long-winded and/or technical multi-page guides.
 
-## About this guide
+### How this works
 
-- This is draft two! I am very sleepy.
+- This is an early draft!
 - This guide is a living document – please feel free to submit a pull request and/or fork your own version of this guide.
 - This guide is mostly focused on personal digital security but will also cover aspects of protecting your privacy as they often go hand in hand.
 
@@ -25,8 +27,8 @@
 
 ### Threat Modeling
 
-- What kind of danger are you in? E.g. corporate espionage, police/state intervention, online harrassment/doxing, nosy neighbors.
-- What kind of assets are you protecting? E.g. confidential documents, politically sensitive information, private photos.
+- What kind of danger are you in? E.g. corporate espionage, police/state intervention, online harrassment/doxing.
+- What kind of assets are you protecting? E.g. confidential documents, private photos.
 - We're all in a little bit of danger (otherwise we wouldn't bother putting a password on our computers and phones) but it's important to think about what's at stake before dismissing concerns or becoming paranoid :)
 - For more info, read [the EFF's introduction to threat modeling](https://ssd.eff.org/en/module/introduction-threat-modeling).
 
