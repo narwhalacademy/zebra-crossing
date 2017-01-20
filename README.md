@@ -97,7 +97,7 @@ Data about your data – e.g. what number you called, and for how long (but not 
 
 #### Other
 
-- Regularly change important passwords (e.g. email, computer login, password manager master)
+- Change important passwords (e.g. email, computer login, password manager master) every year or two.
 - Wipe your devices properly before donating/giving away: [phone](http://lifehacker.com/5808280/what-should-i-do-with-my-phone-before-i-sell-it), [computer](http://lifehacker.com/5835369/how-do-i-securely-wipe-a-computer-before-donating-it-to-charity)
 
 ### Scenario: 💩 my phone/computer was stolen!
@@ -132,7 +132,7 @@ Data about your data – e.g. what number you called, and for how long (but not 
 - Use a paid VPN service when on public networks (e.g. cafe wifi). See [the EFF on Choosing the VPN That's Right for You](https://ssd.eff.org/en/module/choosing-vpn-thats-right-you). Free VPN services are bad because operators don't have enough incentive to protect you/your data.
 - Start using [Signal](https://whispersystems.org/), an end-to-end encrypted mobile messaging app that's generally agreed to be safe/secure/robust. (Beyond Signal, there is little consensus on what's secure and people tend to get very emotional about their choice of mobile messaging apps.)
 - Start making end-to-end encrypted voice calls (available on Signal, WhatsApp, Jitsi, Silent Phone, Zphone, etc.).
-- If you ever need to send someone a password, send it through multiple networks/channels (including a voice call). 
+- If you ever need to send someone a password, split it in half and send via two different channels (e.g. email + voice call). 
 - Buy more secure mobile phones ($$$): either an iPhone or an Android phone that implements a "pure" Google version of Android (at the least you should be able to goto Settings → Security and see options for encryption and SIM card lock).
 - If you own domains, use WHOIS privacy services and stick with it (they're worth the money). But note that with WHOIS lookup/history tools, if you've ever put in your real address, it's very difficult to remove from the logs.
 
