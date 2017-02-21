@@ -99,6 +99,7 @@ Data about your data – e.g. what number you called, and for how long (but not 
 
 - Change important passwords (e.g. email, computer login, password manager master) every year or two.
 - Wipe your devices properly before donating/giving away: [phone](http://lifehacker.com/5808280/what-should-i-do-with-my-phone-before-i-sell-it), [computer](http://lifehacker.com/5835369/how-do-i-securely-wipe-a-computer-before-donating-it-to-charity)
+- Don't charge your phone at public charging stations/ports – they steal data.
 
 ### Scenario: 💩 my phone/computer was stolen!
 
@@ -163,6 +164,7 @@ Data about your data – e.g. what number you called, and for how long (but not 
 - Browse the web anonymously with [Tor](https://www.torproject.org)
 - Search the web anonymously with [DuckDuckGo](http://duckduckgo.com/)
 - Set up a fenced off, secure OS: [Tails](https://ssd.eff.org/en/module/keeping-your-data-safe)
+- If you're crossing the border into a country with a track record of seizing travelers' data **and** you're carrying highly sensitive information – see [Wired's guide](https://www.wired.com/2017/02/guide-getting-past-customs-digital-privacy-intact/) and [BoingBoing's addendum](http://boingboing.net/2017/02/12/how-to-cross-a-us-or-other-b.html) about making data unavailable, setting up burner accounts, and filing for attorney privileges at the border.
 - If you're attending a high-risk protest: leave your phone at home or use burner phone. More info from the EFF about protesting [in the US](https://ssd.eff.org/en/module/attending-protests-united-states
 ), and [internationally](https://ssd.eff.org/en/module/attending-protests-international).
 - [Generating Diceware passwords](http://world.std.com/~reinhold/diceware.html)
