@@ -1,6 +1,6 @@
 # TLDR Guide To Personal Digital Security
 
-![Illustration of TLDR Dude](TLDRdude.jpg)
+![Illustration of TLDR Dude](TLDRdude.png)
 
 ## About
 
