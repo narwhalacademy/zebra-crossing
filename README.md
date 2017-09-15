@@ -4,23 +4,20 @@
 
 ## About
 
-### Why another guide?
-
-- Because personal digital security matters.
-- Because there was a dearth of guides/resources that filled the gap between really simple and really complex.
-- Because most of the guides tackling more complex setups don't take usability into account (poor usability → human error → security fail).
-
 ### Who's this for?
 
-- Folks who feel like they've covered the basics and want to make sure there aren't any gaps in their setup.
-- Folks who need to upgrade their security practices but are a little overwhelmed by long-winded and/or technical multi-page guides.
+- You're pretty tech-savvy and you're comfortable going into the settings section of their computers/smartphones
+- You've read 1-2 guides for personal digital security and are not sure about which recommendations you need to follow.
+- You're not in immediate danger. So if something is really complicted to set up and maintain, chances are it's not for you. (Usability matters!)
 
 ### How this works
 
-- This is an early draft!
 - This guide is a living document – please feel free to submit a pull request and/or fork your own version of this guide.
-- This guide is mostly focused on personal digital security but will also cover aspects of protecting your privacy as they often go hand in hand.
-- **I would highly recommend doing everything in levels one and two.** I did, and I'm only a mildly technically-competent person with a really low tolerance for bad usability.
+- **I would recommend doing everything in levels one and two.** I did, and I'm only a mildly technically-competent person.
+
+### Last updated
+
+15 September 2017
 
 ---
 
@@ -141,8 +138,10 @@ Data about your data – e.g. what number you called, and for how long (but not 
 
 - See [Crash Override: So You've Been Doxed](http://www.crashoverridenetwork.com/soyouvebeendoxed.html).
 - See [Crash Override: Preventing Doxing](http://www.crashoverridenetwork.com/preventingdoxing.html).
+- See [Equity Labs: Anti-Doxing Guide for Activists Facing Attacks from the Alt-Right](https://medium.com/@EqualityLabs/anti-doxing-guide-for-activists-facing-attacks-from-the-alt-right-ec6c290f543c)
 - Use [Traveling Mailbox](https://travelingmailbox.com/) to obscure your postal address.
 - Use [Burner](http://www.burnerapp.com/) to set up burner phone numbers for calling/texting.
+- Pay [PrivacyDuck](https://www.privacyduck.com/) to scrub your information online. If you are an activist you can contact [Equity Labs](https://medium.com/@EqualityLabs/anti-doxing-guide-for-activists-facing-attacks-from-the-alt-right-ec6c290f543c) for a discounted rate.
 
 ### Scenario: Attending a protest
 
@@ -161,6 +160,7 @@ Data about your data – e.g. what number you called, and for how long (but not 
 - Keep your personal information off the internet: Google your own name, phone number and address to see what comes up, and contact the respective site to remove your details.
 - Delete old accounts to eliminate traces of personal information on the internet. Use [Justdelete.me](http://Justdelete.me) + [Have I Been Pawnd](https://haveibeenpwned.com/) to accelerate this process.
 - Encrypt emails with PGP: [Mac OSX](https://ssd.eff.org/en/module/how-use-pgp-mac-os-x),[Windows](https://ssd.eff.org/en/module/how-use-pgp-windows), [Linux](https://ssd.eff.org/en/module/how-use-pgp-linux)
+- If PGP email is too much of a hassle, sign up for a [Protonmail](https://protonmail.com/) or [Tutanota](https://tutanota.com/) email account.
 - Browse the web anonymously with [Tor](https://www.torproject.org)
 - Search the web anonymously with [DuckDuckGo](http://duckduckgo.com/)
 - Set up a fenced off, secure OS: [Tails](https://ssd.eff.org/en/module/keeping-your-data-safe)
@@ -184,6 +184,7 @@ These are the main sources that I drew from, all of which were tremendously help
 - [Crash Override's Resource Center](http://www.crashoverridenetwork.com/resources.html)
 - [The Electronic Frontier Foundation's Surveillance Self-Defense](https://ssd.eff.org/)
 - [How to encrypt your entire life in less than an hour](https://medium.freecodecamp.com/tor-signal-and-beyond-a-law-abiding-citizens-guide-to-privacy-1a593f2104c3#.z1estrrkj) by Quincy Larson
+- [Anti-Doxing Guide for Activists Facing Attacks from the Alt-Right](https://medium.com/@EqualityLabs/anti-doxing-guide-for-activists-facing-attacks-from-the-alt-right-ec6c290f543c) by Equity Labs
 
 Let me know by filing an issue if there are any other guides that you found useful that you think I should include.
 
