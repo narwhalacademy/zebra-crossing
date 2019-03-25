@@ -101,7 +101,7 @@ Data about your data – e.g. what number you called, and for how long (but not 
 
 - Change important passwords (e.g. email, computer login, password manager master) every year or two.
 - Wipe your devices properly before donating/giving away: [phone](http://lifehacker.com/5808280/what-should-i-do-with-my-phone-before-i-sell-it), [computer](http://lifehacker.com/5835369/how-do-i-securely-wipe-a-computer-before-donating-it-to-charity).
-- Don't charge your phone at public charging stations/ports – they may steal your data.
+- Don't charge your phone at public charging stations/ports – they may steal your data. Consider charging your portable battery instead.
 
 ### Scenario: 💩 my phone/computer was stolen!
 
