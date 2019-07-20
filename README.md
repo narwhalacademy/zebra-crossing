@@ -114,6 +114,10 @@ Data about your data – e.g. what number you called, and for how long (but not 
 - Run Activity Monitor on Mac or Process Explorer on Windows to look at what processes/applications are running. Google any suspicious names.
 - Login to important online accounts to see if there have been any suspicious logins – see [this Motherboard guide for details](https://motherboard.vice.com/en_us/article/bjeznz/how-do-you-know-when-youve-been-hacked-gmail-facebook).
 
+### User: I'm a journalist (this section is WIP)
+
+- [Free 1Password accounts for journalists](https://1password.com/for-democracy/), reported [via @mshelton](https://twitter.com/mshelton/status/1080881698055716864)
+
 ---
 
 👍 Good job! You've covered the basics. What about trying out the next level?
