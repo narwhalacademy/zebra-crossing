@@ -110,12 +110,16 @@
 
 - [Free 1Password accounts for journalists](https://1password.com/for-democracy/), reported [via @mshelton](https://twitter.com/mshelton/status/1080881698055716864)
 
-👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍
+---
+
+👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍
 
 Good job! You've covered the basics.  
 What about trying out the next level?  
 
-👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍
+👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍
+
+---
 
 ## 💦💦 Level 2 
 
@@ -158,12 +162,16 @@ What about trying out the next level?
 
 - See [The Motherboard Guide to Sexting Securely](https://motherboard.vice.com/en_us/article/mb3nd4/how-to-sext-securely-safely-what-apps-to-use-sexting).
 
-🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉
+---
+
+🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉
 
 Congratulations! You're now reasonably  
 secure, which is more than most :)
 
-🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉
+🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉
+
+---
 
 ## Level 5 💦💦💦💦💦 (a work-in-progress)
 
@@ -186,12 +194,16 @@ secure, which is more than most :)
 - If you're a journalist who uses Signal regularly, step up your safety practices try following Martin Sheldon's [Locking Down Signal](https://medium.com/@mshelton/locking-down-signal-d71678f653d3) guide (or [similarly for WhatsApp](https://medium.com/@mshelton/upgrading-whatsapp-security-386c8ce496d3) if you use that a lot).
 - If you're a public figure/writer/artist, consider working under a persistent pseudonymn or collective identity – this [Tactical Tech manual](https://gendersec.tacticaltech.org/wiki/index.php/Complete_manual#Creating_and_managing_identities_online) has more details on that.
 
-🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆
+---
+
+🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆
 
 Oh my you made it this far!  
 You are a true champ!
 
-🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆
+🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆
+
+---
 
 ## Sources
 
