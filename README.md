@@ -112,12 +112,8 @@
 
 ---
 
-👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍
-
-Good job! You've covered the basics.  
-What about trying out the next level?  
-
-👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍
+**👍 job! You've covered the basics.  
+What about trying out the next level?**  
 
 ---
 
@@ -164,12 +160,8 @@ What about trying out the next level?
 
 ---
 
-🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉
-
-Congratulations! You're now reasonably  
-secure, which is more than most :)
-
-🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉
+**🎉! You're now reasonably secure,  
+which is more than most :)**
 
 ---
 
@@ -196,12 +188,8 @@ secure, which is more than most :)
 
 ---
 
-🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆
-
-Oh my you made it this far!  
-You are a true champ!
-
-🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆
+**Oh my, you made it this far.  
+You are a true 🏆!**
 
 ---
 
