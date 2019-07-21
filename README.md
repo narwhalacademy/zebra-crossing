@@ -6,9 +6,9 @@
 
 ### Who's this for?
 
-- You're pretty tech-savvy and you're comfortable going into the settings section of their computers/smartphones.
+- You're pretty tech-savvy and you're comfortable going into the settings section of your computer/smartphone.
 - You've read 1-2 guides for personal digital safety/privacy but are not sure about which recommendations you need to follow.
-- You're not in immediate danger. So if something is really complicted to set up and maintain, chances are it's not for you. (Usability matters!)
+- You're not in immediate danger. So if something is really complicated to set up and maintain, chances are it's not for you. (Usability matters!)
 
 ### How this works
 
@@ -25,7 +25,7 @@
 
 ### Threat Modeling
 
-- What kind of danger are you in? E.g. corporate espionage, police/state intervention, online harrassment/doxing.
+- What kind of danger are you in? E.g. corporate espionage, police/state intervention, online harassment/doxing.
 - What kind of assets are you protecting? E.g. confidential documents, private photos.
 - We're all in a little bit of danger (otherwise we wouldn't bother putting a password on our computers and phones) but it's important to think about what's at stake before dismissing concerns or becoming paranoid :)
 - For more info, read [the EFF's introduction to threat modeling](https://ssd.eff.org/en/module/introduction-threat-modeling).
@@ -41,13 +41,13 @@
 
 ### Encryption levels
 
-1. Not encrypted: Any third party who intercepts the data can read it as is.
+1. Not encrypted: Any third party who intercepts the data can read it as-is.
 2. Regular encryption: Data is encrypted so that third parties cannot read them. But the platform (e.g. Google or Facebook) still has access, and may hand the data over to law enforcement if they are required to do so by the courts/the government.
-3. End-to-end encryption: the data can only be read by the original sender and receiver. This means not even the platform has access. So if law enforcement calls, the service provider can’t hand over the messages because they don’t have them either.
+3. End-to-end encryption: the data can only be read by the original sender and receiver. This means not even the platform has access. So if law enforcement calls, the service provider can't hand over the messages because they don't have them either.
 
 ### Metadata
 
-Data about your data – e.g. what number you called, and for how long (but not the contents of the call). With enough metadata, hackers can piece together a pretty good picture of who you are, who you know where you're going, etc. Plus legal protections around metadata are generally weaker.
+Data about your data – e.g. what number you called, and for how long (but not the contents of the call). With enough metadata, hackers can piece together a pretty good picture of who you are, who you know, where you're going, etc. Plus legal protections around metadata are generally weaker.
 
 ---
 
@@ -63,7 +63,7 @@ Data about your data – e.g. what number you called, and for how long (but not 
 #### Good passwords
 
 - Any password less than 10 characters is bad, but it's also okay-to-string-together-non-sequitur-words.
-- Double check the security questions for your key online services (email, bank, Facebook, etc.) and make sure that they're not easy to answer by friends/looking you up on google.
+- Double check the security questions for your key online services (email, bank, Facebook, etc.) and make sure that they're not easy to answer by friends/looking you up on Google.
 - Use a different password for every service, because password leaks happen all the time. To make this easy, use a password manager – [Lifehacker reviews them here](https://lifehacker.com/5529133/five-best-password-managers). They also help generate more secure passwords.
 - Use a non-common/obvious unlock code for your phone.
 - If you use thumbprint (or facial recognition) unlock, immediately power off your phone if you're ever arrested. In the US, [officers can compel you to provide your fingerprint but not your passcode](http://www.theatlantic.com/technology/archive/2016/05/iphone-fingerprint-search-warrant/480861/). (The latter is protected by the Fifth Amendment – people have a right not to testify against themselves.)
@@ -95,13 +95,13 @@ Data about your data – e.g. what number you called, and for how long (but not 
 
 - When you get a notification to update your operating system (on your mobile or computer), do it right away.
 - Same for apps (mobile + computer).
-- Check occasionally for firmware updates for your router (and other internet-connected devices).
+- Check occasionally for firmware updates for your router (and other Internet-connected devices).
 
 #### Other
 
 - Change important passwords (e.g. email, computer login, password manager master) every year or two.
 - Wipe your devices properly before donating/giving away: [phone](http://lifehacker.com/5808280/what-should-i-do-with-my-phone-before-i-sell-it), [computer](http://lifehacker.com/5835369/how-do-i-securely-wipe-a-computer-before-donating-it-to-charity).
-- Don't charge your phone at public charging stations/ports – they steal data.
+- Don't charge your phone at public charging stations/ports – they may steal your data. Consider charging your portable battery instead.
 
 ### Scenario: 💩 my phone/computer was stolen!
 
@@ -141,7 +141,7 @@ Data about your data – e.g. what number you called, and for how long (but not 
 - Start using [Signal](https://whispersystems.org/), an end-to-end encrypted mobile messaging app that's generally agreed to be safe/secure/robust. (Beyond Signal, there is little consensus on what's secure and people tend to get very emotional about their choice of mobile messaging apps.)
 - Start making end-to-end encrypted voice calls (available on Signal, WhatsApp, Jitsi, Silent Phone, Zphone, etc.).
 - If you ever need to send someone a password, split it in half and send via two different channels (e.g. email + voice call).
-- Buy more secure mobile phones ($$$): either an iPhone or an Android phone that implements a "pure" Google version of Android (at the least you should be able to goto Settings → Security and see options for encryption and SIM card lock).
+- Buy more secure mobile phones ($$$): either an iPhone or an Android phone that implements a "pure" Google version of Android (at the least you should be able to go to Settings → Security and see options for encryption and SIM card lock).
 - If you own domains, use WHOIS privacy services and stick with it (they're worth the money). But note that with WHOIS lookup/history tools, if you've ever put in your real address, it's very difficult to remove from the logs.
 
 ### Scenario: Online harassment & doxing
@@ -159,7 +159,7 @@ Data about your data – e.g. what number you called, and for how long (but not 
 
 ### Scenario: Attending a protest
 
-- Draft a message to a trusted friend who is elsewhere. Be ready to hit send if you are arrested/there is an emergency.
+- Draft a message to a trusted friend who is elsewhere. Be ready to hit Send if you are arrested/there is an emergency.
 
 ### Scenario: Sexting & revenge porn
 
@@ -174,9 +174,9 @@ Data about your data – e.g. what number you called, and for how long (but not 
 ## Level 5 💦💦💦💦💦 (a work-in-progress)
 
 - Buy a [YubiKey](http://www.amazon.com/Yubico-Y-072-YubiKey-NEO/dp/B00LX8KZZ8/ref=sr_1_1?ie=UTF8&qid=1421839152&sr=8-1&keywords=yubikey+NEO) USB key to use for two-factor authentication.
-- Fortifty your self-hosted Wordpress website with [Cloudflare](https://www.cloudflare.com) + [iThemes Security](https://wordpress.org/plugins/better-wp-security/).
-- Keep your personal information off the internet: Google your own name, phone number and address to see what comes up, and contact the respective site to remove your details.
-- Delete old accounts to eliminate traces of personal information on the internet. Use [Justdelete.me](http://Justdelete.me) + [Have I Been Pawnd](https://haveibeenpwned.com/) to accelerate this process.
+- Fortify your self-hosted Wordpress website with [Cloudflare](https://www.cloudflare.com) + [iThemes Security](https://wordpress.org/plugins/better-wp-security/).
+- Keep your personal information off the Internet: Google your own name, phone number and address to see what comes up, and contact the respective sites to remove your details.
+- Delete old accounts to eliminate traces of personal information on the Internet. Use [Justdelete.me](http://Justdelete.me) + [Have I Been Pawnd](https://haveibeenpwned.com/) to accelerate this process.
 - Keep less information/data/photos on your devices – you can't lose what you don't have!
 - Don't use Google/Twitter/Facebook to sign up/login to other services – each service should have its own account.
 - Encrypt emails with PGP: [Mac OSX](https://ssd.eff.org/en/module/how-use-pgp-mac-os-x),[Windows](https://ssd.eff.org/en/module/how-use-pgp-windows), [Linux](https://ssd.eff.org/en/module/how-use-pgp-linux).
