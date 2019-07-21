@@ -10,25 +10,17 @@
 - You feel you could be doing more to ensure your digital safety and privacy, but you're also not in immediate danger. (If you are, seek out an expert for a 1:1 consult.)
 - You're comfortable with technology. For example, you're comfortable going into the settings section of your computer/smartphone.
 
----
-
 ### 🌱 How this guide works
 
 - Recommendations have been sorted in ascending levels of difficulty. Start from level one and work your way up!
 - **I recommend doing everything in levels one and two.** I did, and I'm only a mildly technically-competent person.
 - This guide is a living document – please feel free to submit a pull request or fork your own version of this guide on GitHub.
 
----
-
 ### 🕒 Last updated
 
 - 20 July 2019
 
----
-
 ## 🧐 Theory & Science
-
----
 
 ### 🎯 Threat Modeling
 
@@ -37,13 +29,9 @@
 - We're all in a little bit of danger (otherwise we wouldn't bother putting a password on our computer or phone) but it's important to think about what's at stake before dismissing concerns or becoming paranoid.
 - For more info, read [the EFF's introduction to threat modeling](https://ssd.eff.org/en/module/introduction-threat-modeling).
 
----
-
 ### 🔗 Weakest Link
 
 - Remember the weakest link is all that matters! E.g. if password recovery is linked to email, then hackers only need to get access to your email.
-
----
 
 ### 🔡 Encryption Levels
 
@@ -51,17 +39,11 @@
 2. Regular encryption: Data is encrypted so that third parties cannot read them. But the platform (e.g. Google or Facebook) still has access, and may hand the data over to law enforcement if they are required to do so by the courts/the government.
 3. End-to-end encryption: the data can only be read by the original sender and receiver. This means not even the platform has access. So if law enforcement calls, the service provider can't hand over the messages because they don't have them either.
 
----
-
 ### 🧩 Metadata
 
 - Data about your data – e.g. what number you called, and for how long (but not the contents of the call). With enough metadata, hackers can piece together a pretty good picture of who you are, who you know, where you're going, etc. Plus legal protections around metadata are generally weaker.
 
----
-
 ## 💦 Level 1 Recommendations
-
----
 
 ### ✅ Things To Do Now
 
@@ -93,8 +75,6 @@
 - Setup up a pin code for your mobile phone SIM card: [iPhone](https://support.apple.com/en-hk/HT201529), [Android](https://www.digitalcitizen.life/how-change-or-remove-sim-pin-android-2-steps). Search your phone provider's website to find out what their default password is (it varies from carrier to carrier).
 - [Disable macros within Microsoft Office](https://support.office.com/en-us/article/enable-or-disable-macros-in-office-files-12b036fd-d140-4e74-b45e-16fed1a7e5c6).
 
----
-
 ### 💪🏽 Habits to Cultivate
 
 #### Email
@@ -115,14 +95,10 @@
 - Wipe your devices properly before donating/giving away: [phone](http://lifehacker.com/5808280/what-should-i-do-with-my-phone-before-i-sell-it), [computer](http://lifehacker.com/5835369/how-do-i-securely-wipe-a-computer-before-donating-it-to-charity).
 - Don't charge your phone at public charging stations/ports – they may steal your data. Consider charging your portable battery instead.
 
----
-
 ### ❗️ Scenario: my phone/computer was stolen!
 
 - Follow the Freedom of Press Foundation's guide: [What To Do If Your Phone Is Seized By The Police](https://freedom.press/training/mobile-security-for-activists-and-journalists/).
 - Wipe your phone remotely: see instructions for [Android](https://support.google.com/accounts/answer/6160491?hl=en), [iOS](https://support.apple.com/kb/PH2701?locale=en_US).
-
----
 
 ### ❗️ Scenario: I think my computer has been hacked!
 
@@ -130,31 +106,18 @@
 - Run Activity Monitor on Mac or Process Explorer on Windows to look at what processes/applications are running. Google any suspicious names.
 - Login to important online accounts to see if there have been any suspicious logins – see [this Motherboard guide for details](https://motherboard.vice.com/en_us/article/bjeznz/how-do-you-know-when-youve-been-hacked-gmail-facebook).
 
---
-
 ### User: I'm a journalist (this section is WIP)
 
 - [Free 1Password accounts for journalists](https://1password.com/for-democracy/), reported [via @mshelton](https://twitter.com/mshelton/status/1080881698055716864)
 
----
+👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍
 
----
+Good job! You've covered the basics.  
+What about trying out the next level?  
 
----
-
-*👍 Good job! You've covered the basics.*
-
-*What about trying out the next level?*
-
----
-
----
-
----
+👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍
 
 ## 💦💦 Level 2 
-
----
 
 ### ✅ Things To Do Now    
 
@@ -174,8 +137,6 @@
 - Buy more secure mobile phones ($$$): either an iPhone or an Android phone that implements a "pure" Google version of Android (at the least you should be able to go to Settings → Security and see options for encryption and SIM card lock).
 - If you own domains, use WHOIS privacy services and stick with it (they're worth the money). But note that with WHOIS lookup/history tools, if you've ever put in your real address, it's very difficult to remove from the logs.
 
----
-
 ### ❗️ Scenario: Online harassment & doxing
 
 - See [Feminist Frequency's Speak Up & Stay Safe(r)](https://onlinesafety.feministfrequency.com/en/).
@@ -189,33 +150,20 @@
 - Alternately, both [PrivacyDuck](https://www.privacyduck.com/resources/) and [Motherboard](https://motherboard.vice.com/en_us/article/ne9b3z/how-to-get-off-data-broker-and-people-search-sites-pipl-spokeo) have free online resources to help you remove your information yourself.
 - Reach out to online communities you're an active member of and ask for help. See [PEN America's article on Deploying Your Supportive Cyber Communities](https://onlineharassmentfieldmanual.pen.org/cyber-safety/deploying-your-supportive-cyber-communities/).
 
----
-
 ### ❗️ Scenario: Attending a protest
 
 - Draft a message to a trusted friend who is elsewhere. Be ready to hit Send if you are arrested/there is an emergency.
-
----
 
 ### ❗️ Scenario: Sexting & revenge porn
 
 - See [The Motherboard Guide to Sexting Securely](https://motherboard.vice.com/en_us/article/mb3nd4/how-to-sext-securely-safely-what-apps-to-use-sexting).
 
----
+🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉
 
----
+Congratulations! You're now reasonably  
+secure, which is more than most :)
 
----
-
-*🎉 Congratulations!*
-
-*You're now reasonably secure, which is more than most :)*
-
----
-
----
-
----
+🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉
 
 ## Level 5 💦💦💦💦💦 (a work-in-progress)
 
@@ -238,19 +186,12 @@
 - If you're a journalist who uses Signal regularly, step up your safety practices try following Martin Sheldon's [Locking Down Signal](https://medium.com/@mshelton/locking-down-signal-d71678f653d3) guide (or [similarly for WhatsApp](https://medium.com/@mshelton/upgrading-whatsapp-security-386c8ce496d3) if you use that a lot).
 - If you're a public figure/writer/artist, consider working under a persistent pseudonymn or collective identity – this [Tactical Tech manual](https://gendersec.tacticaltech.org/wiki/index.php/Complete_manual#Creating_and_managing_identities_online) has more details on that.
 
----
+🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆
 
----
+Oh my you made it this far!  
+You are a true champ!
 
----
-
-Oh my you made it this far! You are a true 🏆!
-
----
-
----
-
----
+🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆
 
 ## Sources
 
