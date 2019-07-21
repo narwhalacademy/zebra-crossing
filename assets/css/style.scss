@@ -11,7 +11,7 @@ section { width: 520px; }
 h2 { margin-top: 4rem; }
 h3 { margin-top: 2rem; }
 ul, ol { padding-left: 1em; }
-ul li, ol li { margin-bottom: 0.5rem; }
+ul li, ol li { margin-bottom: 0.5rem; padding-left: 0.5em; }
 
 @media print, screen and (max-width: 960px) {
  div.wrapper {
