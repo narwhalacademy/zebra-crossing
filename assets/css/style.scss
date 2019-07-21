@@ -3,6 +3,9 @@
 
 @import "{{ site.theme }}";
 
+body { font-size: 16px; }
+header { width: 250px; }
+section { width: 520px; }
 h2 { margin-top: 4rem; }
 h3 { margin-top: 2rem; }
 ul li, ol li { margin-bottom: 0.5rem; }
