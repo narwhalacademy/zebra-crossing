@@ -4,8 +4,24 @@
 @import "{{ site.theme }}";
 
 body { font-size: 16px; }
-header { width: 250px; font-size: 0.9em; }
+header, header ul, footer { width: 250px; }
+header { font-size: 0.9em; text-align: center; }
+header h1 { font-size: 24px; }
 section { width: 520px; }
 h2 { margin-top: 4rem; }
 h3 { margin-top: 2rem; }
 ul li, ol li { margin-bottom: 0.5rem; }
+
+@media print, screen and (max-width: 960px) {
+ div.wrapper {
+  width:auto;
+  margin:0
+ }
+ header,
+ section,
+ footer {
+  float:none;
+  position:static;
+  width:auto
+ }
+}
