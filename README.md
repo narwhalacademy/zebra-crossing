@@ -1,59 +1,61 @@
-# TLDR Guide To Personal Digital Security
-
-![Illustration of TLDR Dude](TLDRdude.png)
-
-## About
-
-### Who's this for?
-
-- You're pretty tech-savvy and you're comfortable going into the settings section of your computer/smartphone.
-- You've read 1-2 guides for personal digital safety/privacy but are not sure about which recommendations you need to follow.
-- You're not in immediate danger. So if something is really complicated to set up and maintain, chances are it's not for you. (Usability matters!)
-
-### How this works
-
-- This guide is a living document – please feel free to submit a pull request and/or fork your own version of this guide.
-- **I would recommend doing everything in levels one and two.** I did, and I'm only a mildly technically-competent person.
-
-### Last updated
-
-19 November 2018
+# TLDR Guide To Digital Security
 
 ---
 
-## Theory
+*A short and sweet guide to staying safe on the internet today*
 
-### Threat Modeling
+---
+
+### 🤔 Who this guide is for
+
+- You use the internet on a day-to-day basis – for work, social media, financial transactions, etc.
+- You feel you could be doing more to ensure your digital safety and privacy, but you're also not in immediate danger. (If you are, seek out an expert for a 1:1 consult.)
+- You're comfortable with technology. For example, you're comfortable going into the settings section of your computer/smartphone.
+
+### 🌱 How this guide works
+
+- Recommendations have been sorted in ascending levels of difficulty (💦). Start from level one and work your way up!
+- **I recommend doing everything in levels one and two.** I did, and I'm only a mildly technically-competent person.
+- This guide is a living document – please feel free to submit a pull request or fork your own version of this guide on GitHub.
+
+### 🕒 Last updated
+
+20 July 2019
+
+---
+
+## 🧐 Theory & Science
+
+---
+
+### 🎯 Threat Modeling
 
 - What kind of danger are you in? E.g. corporate espionage, police/state intervention, online harassment/doxing.
 - What kind of assets are you protecting? E.g. confidential documents, private photos.
-- We're all in a little bit of danger (otherwise we wouldn't bother putting a password on our computers and phones) but it's important to think about what's at stake before dismissing concerns or becoming paranoid :)
+- We're all in a little bit of danger (otherwise we wouldn't bother putting a password on our computer or phone) but it's important to think about what's at stake before dismissing concerns or becoming paranoid.
 - For more info, read [the EFF's introduction to threat modeling](https://ssd.eff.org/en/module/introduction-threat-modeling).
 
-### Weakest Link
+### 🔗 Weakest Link
 
 - Remember the weakest link is all that matters! E.g. if password recovery is linked to email, then hackers only need to get access to your email.
-- For more info, read [the EFF's guide to seven steps to digital security](https://ssd.eff.org/en/module/seven-steps-digital-security).
 
----
-
-## Science
-
-### Encryption levels
+### 🔡 Encryption Levels
 
 1. Not encrypted: Any third party who intercepts the data can read it as-is.
 2. Regular encryption: Data is encrypted so that third parties cannot read them. But the platform (e.g. Google or Facebook) still has access, and may hand the data over to law enforcement if they are required to do so by the courts/the government.
 3. End-to-end encryption: the data can only be read by the original sender and receiver. This means not even the platform has access. So if law enforcement calls, the service provider can't hand over the messages because they don't have them either.
 
-### Metadata
+### 🧩 Metadata
 
 Data about your data – e.g. what number you called, and for how long (but not the contents of the call). With enough metadata, hackers can piece together a pretty good picture of who you are, who you know, where you're going, etc. Plus legal protections around metadata are generally weaker.
 
 ---
 
-## Level 1 💦
+## 💦 Level 1
 
-### Things To Do Now
+---
+
+### ✅ Things To Do Now
 
 #### Email
 
@@ -83,7 +85,7 @@ Data about your data – e.g. what number you called, and for how long (but not 
 - Setup up a pin code for your mobile phone SIM card: [iPhone](https://support.apple.com/en-hk/HT201529), [Android](https://www.digitalcitizen.life/how-change-or-remove-sim-pin-android-2-steps). Search your phone provider's website to find out what their default password is (it varies from carrier to carrier).
 - [Disable macros within Microsoft Office](https://support.office.com/en-us/article/enable-or-disable-macros-in-office-files-12b036fd-d140-4e74-b45e-16fed1a7e5c6).
 
-### Habits to Cultivate
+###  Habits to Cultivate
 
 #### Email
 
@@ -120,13 +122,19 @@ Data about your data – e.g. what number you called, and for how long (but not 
 
 ---
 
-👍 Good job! You've covered the basics. What about trying out the next level?
+---
+
+**👍 Good job! You've covered the basics. What about trying out the next level?**
 
 ---
 
-## Level 2 💦💦
+---
 
-### Things To Do Now    
+## 💦💦 Level 2 
+
+---
+
+### ✅ Things To Do Now    
 
 - Review the privacy settings on social networks you frequent: who can see your content, who can comment on it, and who can see your location.
 - Review what's connected to your main email/social media accounts (e.g. what kinds of services have access to Facebook, and what data can they access and/or can they post on your behalf).
