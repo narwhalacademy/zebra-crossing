@@ -3,11 +3,11 @@
 
 @import "{{ site.theme }}";
 
-a:link { color: #34ad65; }
-a:visited { color: #296641; }
-a:hover { color: #3dcc76; }
+a:link { color: #3fbf72; }
+a:visited { color: #2e9959; }
+a:hover { color: #3fbf72; }
 a:active { color: #3487ad; }
-h1 a { color: #34ad65; } 
+h1 a, h1 a:visited { color: #3fbf72; } 
 
 body { font-size: 16px; }
 header, header ul, footer { width: 250px; }
