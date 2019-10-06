@@ -20,6 +20,8 @@
 
 - 6 October 2019
 
+---
+
 ## 🧐 Theory & science
 
 ### 🎯 Threat modeling
@@ -143,7 +145,7 @@
 
 ---
 
-**🎉 Congratulations! You're now reasonably 
+**🎉 Congratulations! You're now reasonably  
 🎉 secure, which is more than most :)**
 
 ---
