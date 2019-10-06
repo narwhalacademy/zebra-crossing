@@ -1,9 +1,5 @@
 # TLDR Guide to Digital Security
 
-*A short and sweet guide to staying safe on the internet today*
-
----
-
 ### 🤔 Who this guide is for
 
 - You use the internet on a day-to-day basis – for work, social media, financial transactions, etc.
