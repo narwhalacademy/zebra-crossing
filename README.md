@@ -240,7 +240,7 @@
   - iOS: Settings > Notifications > Show Previews: When Unlocked
   - Android: Settings > Apps & notifications > Notifications > On lock screen: Hide sensitive content
 - Remember to make voice calls through end-to-end encrypted apps like Signal or Whatsapp.
-- More info from the EFF about protesting [in the US](https://ssd.eff.org/en/module/attending-protests-united-states](https://ssd.eff.org/en/module/attending-protests-united-states) and [internationally](https://ssd.eff.org/en/module/attending-protests-international).
+- More info from the EFF about protesting [in the US](https://ssd.eff.org/en/module/attending-protests-united-states) and [internationally](https://ssd.eff.org/en/module/attending-protests-international).
 
 ---
 
