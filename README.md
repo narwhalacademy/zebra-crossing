@@ -1,4 +1,4 @@
-# TLDR Guide to Digital Security
+# TLDR Digital Security Guide
 
 ### 🤔 Who this guide is for
 
