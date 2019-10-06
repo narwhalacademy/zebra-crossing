@@ -3,35 +3,9 @@
 
 @import "{{ site.theme }}";
 
-a:link { color: #3fbf72; }
-a:visited { color: #2e9959; }
-a:hover { color: #3fbf72; }
-a:active { color: #3487ad; }
-h1 a, h1 a:visited { color: #3fbf72; } 
-
-body { font-size: 16px; }
-header, header ul, footer { width: 250px; }
-header, footer { font-size: 0.9em; text-align: center; }
-header h1 { font-size: 24px; }
-section { width: 550px; }
 hr { margin: 2.5rem 0; }
 h1 { margin-bottom: 0.5rem; }
 h2 { margin-top: 2.5rem; }
 h3 { margin-top: 2.5rem; }
 ul, ol { padding-left: 1em; }
 ul li, ol li { margin: 0.75rem 0; padding-left: 0.5em; }
-ul li { list-style-type: circle; }
-
-@media print, screen and (max-width: 960px) {
- div.wrapper {
-  width:auto;
-  margin:0
- }
- header,
- section,
- footer {
-  float:none;
-  position:static;
-  width:auto
- }
-}
