@@ -169,11 +169,11 @@
 
 - Start using [Signal](https://whispersystems.org/), an end-to-end encrypted mobile messaging app that's generally agreed to be safe/secure/robust. (Beyond Signal, there is little consensus on what's secure and people tend to get very emotional about their choice of mobile messaging apps.)
 - When making voice or video calls, use an end-to-end encrypted app (e.g. Signal, Jitsi, Wire).
-- Buy a harder-to-hack mobile phone ($$$). Typically, this is an iPhone or Android phone that implements a "pure" Google version of Android (at the least you should be able to go to Settings → Security and see options for encryption and SIM card lock).
+- Buy a harder-to-hack mobile phone ($$$). Typically, this is an iPhone or Android phone that implements a "pure" Google version of Android.
 
 ---
 
-**😲 Wow, you even finished the difficult 
+**😲 Wow, you even finished the difficult  
 😲 digital housekeeping tasks. Well done!**
 
 ---
