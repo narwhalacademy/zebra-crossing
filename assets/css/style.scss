@@ -3,11 +3,11 @@
 
 @import "{{ site.theme }}";
 
-.main-content > h1 { display: none; }
+.project-tagline { margin-top: 0; }
 
-hr { margin: 2.5rem 0; }
-h1 { margin-bottom: 0.5rem; }
-h2 { margin-top: 2.5rem; }
-h3 { margin-top: 2.5rem; }
-ul, ol { padding-left: 1em; }
-ul li, ol li { margin: 0.75rem 0; padding-left: 0.5em; }
+.main-content > h1 { display: none; }
+.main-content hr { margin: 2.5rem 0; }
+.main-content h2 { margin-top: 2.5rem; }
+.main-content h3 { margin-top: 2.5rem; }
+.main-content ul, .main-content ol { padding-left: 1em; }
+.main-content ul li, .main-content ol li { margin: 0.75rem 0; padding-left: 0.5em; }
