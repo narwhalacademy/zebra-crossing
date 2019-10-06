@@ -14,6 +14,7 @@
 
 - Recommendations have been sorted in ascending levels of difficulty. Start from level one and work your way up!
 - *I recommend doing everything in levels one, two and three.* I did, and I'm only a mildly technically-competent person.
+- The scenario-based recommedations assume that you've done everything in levels 1-3.
 - This guide is a living document – please feel free to submit a pull request or fork your own version of this guide on GitHub.
 
 ### 🕒 Last updated
@@ -26,7 +27,7 @@
 
 ### 🎯 Threat modeling
 
-- What kind of danger are you in? E.g. corporate espionage, police/state intervention, online harassment/doxing.
+- What kind of danger are you in? E.g. corporate espionage, police/state intervention, online harassment/doxxing.
 - What kind of assets are you protecting? E.g. confidential documents, private photos.
 - We're all in a little bit of danger (otherwise we wouldn't bother putting a password on our computer or phone) but it's important to think about what's at stake before dismissing concerns or becoming paranoid.
 - For more info, read [the EFF's introduction to threat modeling](https://ssd.eff.org/en/module/introduction-threat-modeling).
@@ -208,6 +209,12 @@
 
 ---
 
+### 🍆 Sexting & non-consensual image sharing
+
+- See [The Motherboard Guide to Sexting Securely](https://motherboard.vice.com/en_us/article/mb3nd4/how-to-sext-securely-safely-what-apps-to-use-sexting).
+
+---
+
 ### ✊🏾 Attending a protest
 
 #### In case of emergency
@@ -244,28 +251,79 @@
 
 ---
 
-### 🕵🏼‍♂️ Online harassment & doxing
+### 🕵🏼‍♂️ Online harassment & doxxing
 
-- See [Feminist Frequency's Speak Up & Stay Safe(r)](https://onlinesafety.feministfrequency.com/en/).
-- See [Crash Override: So You've Been Doxed](http://www.crashoverridenetwork.com/soyouvebeendoxed.html).
-- See [Crash Override: Preventing Doxing](http://www.crashoverridenetwork.com/preventingdoxing.html).
-- See [Equity Labs: Anti-Doxing Guide for Activists Facing Attacks from the Alt-Right](https://medium.com/@EqualityLabs/anti-doxing-guide-for-activists-facing-attacks-from-the-alt-right-ec6c290f543c).
-- To help a friend who is being harassed, see Take Back The Tech's [Hey Friend!](https://www.takebackthetech.net/know-more/heyfriend) guide.
-- Use [Traveling Mailbox](https://travelingmailbox.com/) to obscure your postal address.
-- Use [Burner](http://www.burnerapp.com/) to set up burner phone numbers for calling/texting.
+Harassment and doxxing can get very specific and complicated based on the attacker, your position, the overall cultural context, etc. While we have some general suggestions below, we implore you to think about whether your situation has escalated sufficiently and whether it's time to find professional, one-on-one help.
+
+#### Recruit a trusted friend
+
+- Do not force yourself into a corner by going at this alone!
+  
+  - Baseline: Ask a trusted friend to hold space for your situation and be your sounding board on analyzing how bad the threat is.
+  
+  - Preferred: Ask a trusted friend to help you investigate, record, report and block harassers – see Take Back The Tech's [Hey Friend!](https://www.takebackthetech.net/know-more/heyfriend) guide for more details about this. In some cases, it may be healthier to hand over your phone/social media/accounts over to them so that you're not constantly triggered.
+
+- Alternately, reach out to online communities you're an active member of and ask for help. See PEN America's article on [Deploying Your Supportive Cyber Communities](https://onlineharassmentfieldmanual.pen.org/cyber-safety/deploying-your-supportive-cyber-communities/).
+
+- If no one is available right now, Heartmob has a list of [supportive organizations](https://iheartmob.org/resources/supportive_organizations), some of which have 24/7 hotlines.
+
+#### Monitor updates & collect receipts
+
+- Set up a [Talkwalker](https://www.talkwalker.com/alerts) and/or [Google Alerts](https://www.google.com/alerts) for your name/nickname.
+
+- Start logging (date, time, description, screenshot) incidents in whatever program/app that's easiest for you.
+
+#### Remove your personal information from the internet
+
 - Pay [PrivacyDuck](https://www.privacyduck.com/) to scrub your information online. If you are an activist you can contact [Equity Labs](https://medium.com/@EqualityLabs/anti-doxing-guide-for-activists-facing-attacks-from-the-alt-right-ec6c290f543c) for a discounted rate.
+
 - Pay [Reputation.com](https://www.reputation.com/) to remove your information from paid sites and monitor them to make sure it stays removed.
+
 - Alternately, both [PrivacyDuck](https://www.privacyduck.com/resources/) and [Motherboard](https://motherboard.vice.com/en_us/article/ne9b3z/how-to-get-off-data-broker-and-people-search-sites-pipl-spokeo) have free online resources to help you remove your information yourself.
-- Reach out to online communities you're an active member of and ask for help. See [PEN America's article on Deploying Your Supportive Cyber Communities](https://onlineharassmentfieldmanual.pen.org/cyber-safety/deploying-your-supportive-cyber-communities/).
-- For Twitter: ask around in your communities for shared [block lists](https://help.twitter.com/en/using-twitter/advanced-twitter-block-options) of known offenders.
-- Keep your personal information off the Internet: Google your own name, phone number and address to see what comes up, and contact the respective sites to remove your details.
-- Delete old accounts to eliminate traces of personal information on the Internet. Use [Justdelete.me](http://Justdelete.me) + [Have I Been Pawnd](https://haveibeenpwned.com/) to accelerate this process.
 
----
+#### Obscure your personal information
 
-### 🍆 Sexting & non-consensual image sharing
+- Use [Burner](http://www.burnerapp.com/) to set up burner phone numbers for calling/texting.
 
-- See [The Motherboard Guide to Sexting Securely](https://motherboard.vice.com/en_us/article/mb3nd4/how-to-sext-securely-safely-what-apps-to-use-sexting).
+- Use [Traveling Mailbox](https://travelingmailbox.com/) to obscure your postal address.
+
+- Delete old accounts to eliminate traces of personal information on the Internet. Use [Justdelete.me](http://Justdelete.me) to accelerate this process.
+
+- Review your social media accounts and delete any posts that reveal too much about where you live/where you go/who you're with.
+
+- For Twitter users:
+  
+  - Ask around in your communities for shared [block lists](https://help.twitter.com/en/using-twitter/advanced-twitter-block-options) of known offenders.
+  
+  - Use [Semiphemeral](https://micahflee.com/2019/06/semiphemeral-automatically-delete-your-old-tweets-except-for-the-ones-you-want-to-keep/) to delete most of your unwanted posts on Twitter. (Requires use of the command line.)
+
+#### Ignore/reply/report/block your harassers
+
+- Together with your support person/friend and the log of receipts, decide on your course of action (these aren't mutually exclusive):
+  
+  - Ignore: Sometimes harassers will walk away if they don't get attention.
+  
+  - De-escalate: In some contexts, you can defuse the situation with some calm words before it gets worse.
+  
+  - Report: Report the harasser to the relevant online platform and/or your local law enforcement.
+  
+  - Mute on social media: Allows for peace of mind.
+  
+  - Block on social media: Maximizes peace of mind as the harasser won't be able to see your posts. But they will notice and see it as a sign of escalation.
+  
+  - Go public: Can be dangerous, but sometimes shaming them publicly or rallying people to your support will make them go away.
+
+#### For more information
+
+- See Feminist Frequency's [Speak Up & Stay Safe(r)](https://onlinesafety.feministfrequency.com/en/).
+
+- See TrollBusters' [What to Do? Where to Go? Infographic](https://yoursosteam.wordpress.com/what-to-do-infographic/).
+
+- See Equity Labs' [Anti-Doxing Guide for Activists Facing Attacks from the Alt-Right](https://medium.com/@EqualityLabs/anti-doxing-guide-for-activists-facing-attacks-from-the-alt-right-ec6c290f543c).
+
+- See HeartMob/Hollaback's [Technical Safety Guide](https://iheartmob.org/resources/tech).
+
+- See Crash Override (RIP)'s [So You've Been Doxed](http://www.crashoverridenetwork.com/soyouvebeendoxed.html) and [Preventing Doxing](http://www.crashoverridenetwork.com/preventingdoxing.html).
 
 ---
 
@@ -311,16 +369,12 @@ This section is a catch-all for difficult or esoteric practices that do not fall
 
 - If you're a journalist who uses Signal regularly, step up your safety practices try following Martin Sheldon's [Locking Down Signal](https://medium.com/@mshelton/locking-down-signal-d71678f653d3) guide (or [similarly for WhatsApp](https://medium.com/@mshelton/upgrading-whatsapp-security-386c8ce496d3) if you use that a lot).
 
-#### Privacy
-
-- Use [Semiphemeral](https://micahflee.com/2019/06/semiphemeral-automatically-delete-your-old-tweets-except-for-the-ones-you-want-to-keep/) to delete most of your unwanted posts on Twitter. (Requires use of the command line.)
-- Search the web anonymously with [DuckDuckGo](http://duckduckgo.com/).
-- Don't use smart TVs or smart speakers.
-
 #### Other
 
-- Fortify your self-hosted Wordpress website with [Cloudflare](https://www.cloudflare.com) + [iThemes Security](https://wordpress.org/plugins/better-wp-security/).
 - Keep less information/data/photos on your devices – you can't lose what you don't have!
+- Don't use smart TVs or smart speakers.
+- Search the web anonymously with [DuckDuckGo](http://duckduckgo.com/).
+- Fortify your self-hosted Wordpress website with [Cloudflare](https://www.cloudflare.com) + [iThemes Security](https://wordpress.org/plugins/better-wp-security/).
 - Set up a fenced off, secure OS: [Tails](https://ssd.eff.org/en/module/keeping-your-data-safe).
 - For Android users: Download apps using [F-Droid](https://f-droid.org), an open-source, security-focused app store.
 - For US residents: Freeze your credit to prevent hackers from accessing sensitive data. See Security Checklist's [Freeze Your Credit](https://securitycheckli.st/) section for details.
@@ -332,7 +386,7 @@ This section is a catch-all for difficult or esoteric practices that do not fall
 
 ---
 
-## Sources
+## 🧠 Sources
 
 These are the main sources that I drew from, all of which were tremendously helpful and are good guides in their own right:
 
@@ -350,6 +404,6 @@ Let me know by filing an issue if there are any other guides that you found usef
 
 ---
 
-## License
+## 📝 License
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
