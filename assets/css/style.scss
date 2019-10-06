@@ -3,6 +3,8 @@
 
 @import "{{ site.theme }}";
 
+.main-content > h1 { display: none; }
+
 hr { margin: 2.5rem 0; }
 h1 { margin-bottom: 0.5rem; }
 h2 { margin-top: 2.5rem; }
