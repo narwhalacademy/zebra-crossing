@@ -1,4 +1,4 @@
-# TLDR Digital Security Guide
+# TLDR Digital Safety Checklist
 
 ### 🤔 Who this guide is for
 
@@ -15,7 +15,7 @@
 
 ### 🕒 Last updated
 
-- 6 October 2019
+- 14 October 2019
 
 ---
 
@@ -181,9 +181,17 @@
 
 ### 🛫 Crossing an international border
 
-- If you're entering a country with a track record of seizing travelers' data **and** you're carrying highly sensitive information – see [Wired's guide](https://www.wired.com/2017/02/guide-getting-past-customs-digital-privacy-intact/) and [BoingBoing's addendum](http://boingboing.net/2017/02/12/how-to-cross-a-us-or-other-b.html) about making data unavailable, setting up burner accounts, and filing for attorney privileges at the border.
-- Put your phone into airplane mode so that it's offline – in some jurisdictions officers (e.g. [Canada](https://bccla.org/wp-content/uploads/2018/10/Electronic-Devices-Privacy-Handbook-BCCLA_2.0.pdf)) aren't allowed to search through remote content.
-- Don't put any stickers on your laptop or phone that could be mistaken as a hacking and/or political organization – it might get you stopped at the border one day.
+- Turn off your devices because:
+  - Storage/hard drives are only encrypted when they're off, **not** when they're just in sleep mode
+  - This will also ensure that your mobile devices require a pin when they are turned on, which is protected by freedom of speech laws in some jurisdictions.
+- Store less information on your devices – in case they're seized, what you don't have they can't take.
+- Be mindful of what stickers you put on your devices – a border agent could mistake them for something suspicious.
+- Notify your people about your flight number and arrival time. Have them contact a lawyer/relevant organization if you do not show up.
+- For high risk situations (some of these practices might raise suspicions and backfire):
+  - Set up alternate photo albums, email addresses and social media accounts full of harmless content.
+  - "Forget" half of your password: Password lock your device/account so that only a trusted friend has the second half of the password.
+  - Log out of all important accounts (or simply leave your devices at home).
+- For more information, see Wired's [Guide to Getting Past Customs With Your Digital Privacy Intact](https://www.wired.com/2017/02/guide-getting-past-customs-digital-privacy-intact/) and [BoingBoing's addendum](http://boingboing.net/2017/02/12/how-to-cross-a-us-or-other-b.html) about filing for attorney privileges at the US border.
 
 ---
 
@@ -202,6 +210,7 @@
 - Download an application that will notify you when data is being sent out from your computer. E.g. [Little Snitch for Mac](https://www.obdev.at/products/littlesnitch/index.html).
 - Run Activity Monitor on Mac or Process Explorer on Windows to look at what processes/applications are running. Google any suspicious names.
 - Login to important online accounts to see if there have been any suspicious logins – see [this Motherboard guide for details](https://motherboard.vice.com/en_us/article/bjeznz/how-do-you-know-when-youve-been-hacked-gmail-facebook).
+- Setup a spare smartphone using [Haven](https://guardianproject.github.io/haven/) as a room monitor to detect unwanted intrusions.
 
 ---
 
@@ -223,14 +232,12 @@
 #### Store less share less
 
 - Keep as little sensitive personal information or incriminating information as possible – you never know whose hands it might end up in.
-- Turn on disappearing messages if your messaging app supports it:
-  - Within a chat in Signal: Tap here for settings > Disappearing Messages
-  - Within a chat in Wire: Tap the timer icon on the bottom right.
+- Turn on disappearing messages if your messaging app supports it.
+- If you need to share photos, erase the associated metadata first using [these apps](https://www.maketecheasier.com/best-apps-remove-exif-data-from-images/).
 - Turn off location history:
   - iPhone: Settings > Privacy > Location Services > System Services > Significant Locations
   - Android: Settings > Google > Google Account > Data & personalization > Location History > Manage setting > Your account & all your devices > turn off Use Location History
   - Google Maps: Settings > Maps history > Web & App Activity
-- If you need to share photos, erase the associated metadata first using [these apps](https://www.maketecheasier.com/best-apps-remove-exif-data-from-images/).
 - Delete past location history:
   - iPhone: Settings > Privacy > Location Services > System Services > Significant Locations > Clear History
   - [Android](https://support.google.com/accounts/answer/3118687?hl=en#delete)
@@ -244,6 +251,52 @@
   - Android: Settings > Apps & notifications > Notifications > On lock screen: Hide sensitive content
 - Remember to make voice calls through end-to-end encrypted apps like Signal or Whatsapp.
 - More info from the EFF about protesting [in the US](https://ssd.eff.org/en/module/attending-protests-united-states) and [internationally](https://ssd.eff.org/en/module/attending-protests-international).
+
+---
+
+### 📰 I'm a journalist working on a sensitive topic
+
+Below are some basics commonly cited in other guides. Depending on what story you're pursuing and what region you're working on, the threat level may be high enough that it warrants an individual consultation with an expert.
+
+#### Be prepared
+
+- To remotely wipe the contents of your devices using a tracking app (e.g. [Prey](https://www.preyproject.com), [Lookout Security](https://www.lookout.com/).
+
+- To be on the receiving end of a email phishing campaign (as jouranlist emails are usually more public than others).
+
+#### Protect yourself
+
+- If you're traveling, review the `Crossing an international border` scenario above.
+
+- If you're covering a protest, review the `Attending a protest` scenario above and decide which parts apply to you (if you have special journalist rights/protections where you're working).
+
+- Make sure you're using an email/storage provider that's not owned/linked to a state or organization that you're reporting on.
+
+- Store sensitive data in a password-protected cloud or external storage device as much as possible.
+
+- Remember to permanently erase sensitive files from your laptop/desktop: use [Eraser for Windows](https://eraser.heidi.ie/) and [File Shredder for Mac](https://apps.apple.com/us/app/fileshredder/id418094085?mt=12).
+
+#### Protect your sources
+
+- Use [Signal](https://www.signal.org/) or [Jitsi](https://jitsi.org/) for end-to-end encrypted voice and video calls.
+
+- Turn on disappearing messages if your messaging app supports it. (Failing that, remember to regularly clear chat logs/histories.)
+
+- Have your organization set up [SecureDrop](https://securedrop.org/). Failing that, encourage people to use [OnionShare](https://onionshare.org/) or [Firefox Send](https://send.firefox.com/).
+
+- Blur faces from photos and videos (e.g. Android [ObscuraCam](https://guardianproject.info/apps/obscuracam/), Youtube [instructions](https://technology.witness.org/2016/02/how-to-use-youtubes-new-blurring-feature-to-protect-identities/))
+
+- Erase media metadata using [these apps](https://www.maketecheasier.com/best-apps-remove-exif-data-from-images/).
+
+- See Ted Han and Quinn Norton's [Protecting Your Sources When Releasing Sensitive Documents](https://source.opennews.org/articles/how-protect-your-sources-when-releasing-sensitive-/).
+
+- See Martin Shelton's [Opening Secure Channels for Confidential Tips](https://source.opennews.org/articles/opening-secure-channels-confidential-tips/).
+
+#### For more information
+
+- If you're in an unconventional region, jurisdiction or situation, see Grégoire Pouget of Nothing2Hide's [Digital Security for Journalists Requires an Adaptable Toolkit](https://gijn.org/2019/07/16/digital-security-for-journalists-requires-an-adaptable-toolkit/) guide.
+
+- If you're running a newsroom, see Ontheline Newsrooms' see [Measures for Newsrooms and Journalists to Address Online Harassment](https://newsrooms-ontheline.ipi.media/).
 
 ---
 
@@ -370,8 +423,9 @@ This section is a catch-all for difficult or esoteric practices that do not fall
 - Keep less information/data/photos on your devices – you can't lose what you don't have!
 - Don't use smart TVs or smart speakers.
 - Search the web anonymously with [DuckDuckGo](http://duckduckgo.com/).
+- If you (or your organization) is really wedded to the Google Suite, consider [Google's Advance Protection program](https://www.wired.com/story/google-advanced-protection/).
 - Fortify your self-hosted Wordpress website with [Cloudflare](https://www.cloudflare.com) + [iThemes Security](https://wordpress.org/plugins/better-wp-security/).
-- Set up a fenced off, secure OS: [Tails](https://ssd.eff.org/en/module/keeping-your-data-safe).
+- Use a more secure operating system: [Tails](https://ssd.eff.org/en/module/keeping-your-data-safe) (works off of a USB stick) or [Qubes OS](https://www.qubes-os.org/).
 - For Android users: Download apps using [F-Droid](https://f-droid.org), an open-source, security-focused app store.
 - For US residents: Freeze your credit to prevent hackers from accessing sensitive data. See Security Checklist's [Freeze Your Credit](https://securitycheckli.st/) section for details.
 
@@ -384,19 +438,15 @@ This section is a catch-all for difficult or esoteric practices that do not fall
 
 ## 🧠 Sources
 
-These are the main sources that I drew from, all of which were tremendously helpful and are good guides in their own right:
+We consulted many sources and drew upon our own experiences in creating this resource. ([See our full list of sources.](SourcesConsulted.md)) If you're not finding quite what you want here, we recommend checking out these other resources: 
 
-- [Digital Security Low Hanging Fruit](https://www.johnscottrailton.com/jsrs-digital-security-low-hanging-fruit/) by John Scott-Railton
-- [Computer Security Tools and Concepts for Lawyers](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2831739) by Kendra Albert
-- [Crash Override's Resource Center](http://www.crashoverridenetwork.com/resources.html)
-- [The Electronic Frontier Foundation's Surveillance Self-Defense](https://ssd.eff.org/)
-- [How to encrypt your entire life in less than an hour](https://medium.freecodecamp.com/tor-signal-and-beyond-a-law-abiding-citizens-guide-to-privacy-1a593f2104c3#.z1estrrkj) by Quincy Larson
-- [Anti-Doxing Guide for Activists Facing Attacks from the Alt-Right](https://medium.com/@EqualityLabs/anti-doxing-guide-for-activists-facing-attacks-from-the-alt-right-ec6c290f543c) by Equity Labs
 - [The Motherboard Guide to Not Getting Hacked](https://motherboard.vice.com/en_us/article/d3devm/motherboard-guide-to-not-getting-hacked-online-safety-guide)
-- [A Guide to Digital Safety](https://cryptpad.fr/pad/#/2/pad/view/J38ub5rvVRaN5uNfbYJIuo4Ov8MAobKEC9Om-QCddDg/)
+- [The Electronic Frontier Foundation's Surveillance Self-Defense](https://ssd.eff.org/)
+- [Holistic digital security training curriculum for women human rights defenders](https://cyber-women.com/en/)
 - [Matt Mitchell's Twitter stream](https://twitter.com/geminiimatt/)
+- [Rory Peck Trust's Digital Security guide for freelance journalists](https://rorypecktrust.org/freelance-resources/digital-security/)
 
-Let me know by filing an issue if there are any other guides that you found useful that you think I should include.
+For a curated selection, check out Martin Shelton's [Current Digital Security Resources](https://medium.com/@mshelton/current-digital-security-resources-5c88ba40ce5c) guide.
 
 ---
 
