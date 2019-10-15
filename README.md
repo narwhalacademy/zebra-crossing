@@ -10,12 +10,12 @@
 
 - Recommendations have been sorted in ascending levels of difficulty. Start from level one and work your way up!
 - *I recommend doing everything in levels one, two and three.* I did, and I'm only a mildly technically-competent person.
-- The scenario-based recommedations assume that you've done everything in levels 1-3.
+- Then scan the scenarios to see if any of them apply to you. (They assume that you've done everything in levels 1-3.)
 - This guide is a living document – please feel free to submit a pull request or fork your own version of this guide on GitHub.
 
 ### 🕒 Last updated
 
-- 14 October 2019
+- 15 October 2019
 
 ---
 
@@ -256,13 +256,13 @@
 
 ### 📰 I'm a journalist working on a sensitive topic
 
-Below are some basics commonly cited in other guides. Depending on what story you're pursuing and what region you're working on, the threat level may be high enough that it warrants an individual consultation with an expert.
+Below are some basics that all journalists should consider. If you're working on/in a particularly sensitive story/region (e.g. a whisteblower story in the US or China), you and your team should get an tailored training session from an expert.
 
 #### Be prepared
 
-- To remotely wipe the contents of your devices using a tracking app (e.g. [Prey](https://www.preyproject.com), [Lookout Security](https://www.lookout.com/).
+- To remotely wipe the contents of your devices using a tracking app (e.g. [Find My](https://www.apple.com/icloud/find-my/) on iOS, [Find My Device](https://support.google.com/accounts/answer/6160491?hl=en) on Android, [Prey](https://www.preyproject.com), [Lookout Security](https://www.lookout.com/)).
 
-- To be on the receiving end of a email phishing campaign (as jouranlist emails are usually more public than others).
+- To be on the receiving end of an email phishing campaign (as journalist emails are usually more public than others).
 
 #### Protect yourself
 
@@ -270,11 +270,7 @@ Below are some basics commonly cited in other guides. Depending on what story yo
 
 - If you're covering a protest, review the `Attending a protest` scenario above and decide which parts apply to you (if you have special journalist rights/protections where you're working).
 
-- Make sure you're using an email/storage provider that's not owned/linked to a state or organization that you're reporting on.
-
-- Store sensitive data in a password-protected cloud or external storage device as much as possible.
-
-- Remember to permanently erase sensitive files from your laptop/desktop: use [Eraser for Windows](https://eraser.heidi.ie/) and [File Shredder for Mac](https://apps.apple.com/us/app/fileshredder/id418094085?mt=12).
+- Use a VPN if you're browsing the internet at the office (website administrators can usually see that you're coming from, say, the New York Times network)
 
 #### Protect your sources
 
@@ -284,13 +280,23 @@ Below are some basics commonly cited in other guides. Depending on what story yo
 
 - Have your organization set up [SecureDrop](https://securedrop.org/). Failing that, encourage people to use [OnionShare](https://onionshare.org/) or [Firefox Send](https://send.firefox.com/).
 
-- Blur faces from photos and videos (e.g. Android [ObscuraCam](https://guardianproject.info/apps/obscuracam/), Youtube [instructions](https://technology.witness.org/2016/02/how-to-use-youtubes-new-blurring-feature-to-protect-identities/))
+- Blur faces from photos and videos (e.g. Android [ObscuraCam](https://guardianproject.info/apps/obscuracam/), Youtube [instructions](https://technology.witness.org/2016/02/how-to-use-youtubes-new-blurring-feature-to-protect-identities/)).
 
 - Erase media metadata using [these apps](https://www.maketecheasier.com/best-apps-remove-exif-data-from-images/).
 
 - See Ted Han and Quinn Norton's [Protecting Your Sources When Releasing Sensitive Documents](https://source.opennews.org/articles/how-protect-your-sources-when-releasing-sensitive-/).
 
 - See Martin Shelton's [Opening Secure Channels for Confidential Tips](https://source.opennews.org/articles/opening-secure-channels-confidential-tips/).
+
+#### Protect your data
+
+- Make sure you're using an email/storage provider that's not owned/linked to a state or organization that you're reporting on.
+
+- Better yet, move all of your work onto end-to-end encrypted platforms. (E.g. [Protonmail]([https://protonmail.com/](https://protonmail.com/) or [Tutanota](https://tutanota.com/) for email, store documents in a [Tresorit](https://tresorit.com/) or [SpiderOak](https://spideroak.com/) cloud.) Be aware that [courts can compel Google to hand over all of your data](https://medium.com/@tinfoilpress/newsrooms-lets-talk-about-g-suite-1672a36eb235).
+
+- Store sensitive data in a password-protected cloud or external storage device as much as possible. See the `Lock up sensitive files` section above.
+
+- Remember to permanently erase sensitive files from your laptop/desktop: use [Eraser for Windows](https://eraser.heidi.ie/) and [File Shredder for Mac](https://apps.apple.com/us/app/fileshredder/id418094085?mt=12).
 
 #### For more information
 
