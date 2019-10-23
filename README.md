@@ -15,7 +15,7 @@
 
 ### 🕒 Last updated
 
-- 15 October 2019
+- 23 October 2019
 
 ---
 
@@ -382,7 +382,25 @@ Harassment and doxxing can get very specific and complicated based on the attack
 
 ---
 
-### 👤 Creating an untraceable online persona under a pseudonymn
+### 👤 I don't want to give out my real phone number for online dating/networking/organizing
+
+For messaging apps that use phone numbers as the primary identifier/username (e.g. Signal, WhatsApp), get a secondary number from:
+
+- [Twilio](https://www.burnerapp.com/) (1 USD/month, but complicated setup – see the Twilio section [here](https://medium.com/@geminiimatt/creating-an-online-persona-deb4cd8c7f46) and [this guide](https://source.opennews.org/articles/shields-using-signal-without-your-phone-number/))
+
+- [Burner](https://www.burnerapp.com/) (5 USD/month, but also has prepaid plans for short-term use)
+
+- [Google Voice](https://voice.google.com/about) (free but only available in the US)
+
+- A phone company: get a prepaid or cheap SIM card plan (rates vary)
+
+But keep in mind:
+
+- If you lose/unsubscribe to your secondary phone number, other people can buy it and impersonate you.
+
+- Most companies will still hand over your information to the authorities if the latter files the right paperwork. 
+
+#### For true anonymity – create an untraceable online persona under a pseudonymn
 
 - If you're a public figure, artist or activist, consider working under a persistent pseudonymn or collective identity – this [Tactical Tech manual](https://gendersec.tacticaltech.org/wiki/index.php/Complete_manual#Creating_and_managing_identities_online) has more details on why.
 
@@ -430,6 +448,7 @@ This section is a catch-all for difficult or esoteric practices that do not fall
 - Don't use smart TVs or smart speakers.
 - Search the web anonymously with [DuckDuckGo](http://duckduckgo.com/).
 - If you (or your organization) is really wedded to the Google Suite, consider [Google's Advance Protection program](https://www.wired.com/story/google-advanced-protection/).
+- Put your smart cards/passports/phones in a Faraday bag that blocks signals from going in and out. (See [Micah Lee's guide on them](https://micahflee.com/2015/11/some-thoughts-on-faraday-bags-and-operational-security/).)
 - Fortify your self-hosted Wordpress website with [Cloudflare](https://www.cloudflare.com) + [iThemes Security](https://wordpress.org/plugins/better-wp-security/).
 - Use a more secure operating system: [Tails](https://ssd.eff.org/en/module/keeping-your-data-safe) (works off of a USB stick) or [Qubes OS](https://www.qubes-os.org/).
 - For Android users: Download apps using [F-Droid](https://f-droid.org), an open-source, security-focused app store.

@@ -4,6 +4,11 @@ This is a list of guides we've consulted in coming up with our own. That we've c
 
 ## Since June 2019
 
+- [Burner: 9 Ways to Protect Your Privacy When You’re Dating Online](https://www.burnerapp.com/blog/2017/12/6/9-ways-to-protect-your-privacy-when-youre-dating-online)
+- [Shields Up: Using Signal Without Giving Your Phone Number](https://source.opennews.org/articles/shields-using-signal-without-your-phone-number/)
+- [How to Use Signal Without Giving Out Your Phone Number: A Gendered Security Issue](https://www.vice.com/en_us/article/9kaxge/how-to-use-signal-without-giving-out-your-phone-number-a-gendered-security-issue)
+- [How to Use Signal Without Giving Out Your Phone Number](https://theintercept.com/2017/09/28/signal-tutorial-second-phone-number/)
+- Micah Lee's [Some Thoughts on Faraday Bags and Operational Security](https://micahflee.com/2015/11/some-thoughts-on-faraday-bags-and-operational-security/)
 - Ted Han and Quinn Norton's [Protecting Your Sources When Releasing Sensitive Documents](https://source.opennews.org/articles/how-protect-your-sources-when-releasing-sensitive-/).  
 - Martin Shelton's [Opening Secure Channels for Confidential Tips](https://source.opennews.org/articles/opening-secure-channels-confidential-tips/).
 - [Security for Journalists, Part One: The Basics](https://source.opennews.org/articles/security-journalists-part-one-basics/)
