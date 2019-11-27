@@ -392,7 +392,7 @@
   - 要100%實現端對端加密，關閉聊天記錄備份 (Settings > Chats > Chat backup) 並刪除你之前的備份 ( [iOS](https://www.wikihow.com/Delete-Backups-on-WhatsApp-on-iPhone-or-iPad), [Android](https://faq.whatsapp.com/en/android/30030306)).
   - 在Whatsapp上開啓安全通知 (Settings > Account > Security)
   - 設置一個密碼，防止你的帳號在你不知情的情況下被移動(Settings > Account > Two-Step Verification)
-- 如果你是經常使用Signal的記者，閱讀Martin Sheldon's [Locking Down Signal](https://medium.com/@mshelton/locking-down-signal-d71678f653d3) 指南進一步加強你的安全措施，或者[這篇針對Ｗｈａｔｓａｐｐ](https://medium.com/@mshelton/upgrading-whatsapp-security-386c8ce496d3)的指南。
+- 如果你是經常使用Signal的記者，閱讀Martin Sheldon's [Locking Down Signal](https://medium.com/@mshelton/locking-down-signal-d71678f653d3) 指南進一步加強你的安全措施，或者[這篇針對Whatsapp](https://medium.com/@mshelton/upgrading-whatsapp-security-386c8ce496d3)的指南。
 
 #### 其他
 
@@ -419,10 +419,10 @@
 - [The Motherboard Guide to Not Getting Hacked](https://motherboard.vice.com/en_us/article/d3devm/motherboard-guide-to-not-getting-hacked-online-safety-guide)
 - [The Electronic Frontier Foundation's Surveillance Self-Defense](https://ssd.eff.org/)
 - [Holistic digital security training curriculum for women human rights defenders](https://cyber-women.com/en/)
-- [Matt Mitchell's Twitter stream](https://twitter.com/geminiimatt/)
+- [Matt Mitchell 的 Twitter](https://twitter.com/geminiimatt/)
 - [Rory Peck Trust's Digital Security guide for freelance journalists](https://rorypecktrust.org/freelance-resources/digital-security/)
 
-你可以閱讀 Martin Shelton整理的指南： [Current Digital Security Resources](https://medium.com/@mshelton/current-digital-security-resources-5c88ba40ce5c) guide.
+你可以閱讀 Martin Shelton整理的指南： [Current Digital Security Resources](https://medium.com/@mshelton/current-digital-security-resources-5c88ba40ce5c)。
 
 ---
 
