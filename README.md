@@ -13,9 +13,13 @@
 - Then scan the scenarios to see if any of them apply to you. (They assume that you've done everything in levels 1-3.)
 - This guide is a living document – please feel free to submit a pull request or fork your own version of this guide on GitHub.
 
+### 🗣 This guide in other languages
+
+- [繁體中文 (Traditional Chinese)](README-繁體中文.md)
+
 ### 🕒 Last updated
 
-- 23 October 2019
+- 3 December 2019
 
 ---
 
