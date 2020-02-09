@@ -51,7 +51,7 @@ Per capire che misure di protezione adottare, devi prima capire a che rischi sei
 
 ---
 
-## 💦 Livello 1 - suggerimenti
+## 💦 Livello 1
 
 ### ✅ Cose da fare immediatamente
 
@@ -61,59 +61,60 @@ Per capire che misure di protezione adottare, devi prima capire a che rischi sei
 - Abilita l'autenticazione a due fattori (two-factor authentication) per la tua casella di posta elettronica (e.g. istruzioni per [Gmail](https://support.google.com/accounts/answer/185839?hl=it), [Protonmail](https://protonmail.com/support/knowledge-base/two-factor-authentication/) - in Inglese) **se** il tuo fornitore supporta antenticazione via app (codici via SMS non sono piu' considerati sicuri al giorno d'oggi) (e.g. [Authy](https://authy.com/), [Google Authenticator](https://support.google.com/accounts/answer/1066447?hl=it)).
 - Dopo aver abilitato l'autenticazione a due fattori, controlla se il tuo servizio di posta elettronica supporta codici di ripristino (un codice da usare in caso tu perda il tuo telefono). [Istruzioni per Gmail](https://support.google.com/accounts/answer/1187538?hl=it).
 
-#### Good passwords
+#### Passwords
 
-- Any password less than 10 characters is bad, but it's also okay-to-string-together-non-sequitur-words.
-- Double check the security questions for your key online services (email, bank, Facebook, etc.) and make sure that they're not easy to answer by friends/looking you up on Google.
-- Start using a different password for every service, because password leaks happen all the time. To make this easy, use a password manager ([Lifehacker reviews them here](https://lifehacker.com/5529133/five-best-password-managers)) to store/autofill/generate them. For now, make sure you use a unique password for essential services (email, social media, banking, cloud storage).
-- Use a non-common/obvious unlock code for your phone.
-- On iPhone, turn off USB Accessories in Settings > Face ID & Passcode > Allow Access When Locked.
+- Scegli password 'lunghe' (=non meno di dieci caratteri); un'ottima tecnica per creare password sicure e' concatenare-parole-a-caso-per-formare-lunghe-frasi-senza-senso.
+- Rivedi le 'domande di sicurezza' per i tuo servizi online (email, banca online, Facebook, ecc.) e scegline una che non sia facile da rispondere e.g. che nemmeno i tuoi amici conoscano, che non si possa trovare online googlando il tuo nome/sul tuo account facebook.
+- Usa una password diversa per ciascun sito web/servizio online, perche' incidenti di sicurezza succedono ogni giorno, e non si sa mai qual'e il prossimo sito ad essere compromesso. Usa un password manager ([qui i piu' comuni](https://lifehacker.com/5529133/five-best-password-managers)) per memorizzare/usare/creare password sicure. Se non vuoi installare un password manager adesso, almeno cambia _subito_ le password dei tuoi servizi essenziali (email, social media,banca online, cloud storage) e usa una password unica per ciascun sito.
+- Usa un codice di sblocco per il tuo smartphone che non sia ovvio (e.g. no 0000, 1111, ecc...).
+- Se usi un iPhone, disattiva Accessori USB in Impostazioni > Face ID & Passcode > Allow Access When Locked.
+- Se usi un Android, [disabilita Smart Lock](https://support.google.com/android/answer/9075927?hl=it)
 
-#### Encrypt your devices
+#### Abilita Crittografia per i tuoi dispositivi
 
-- Encrypt your phone storage: [Android](http://www.networkworld.com/article/2689371/opensource-subnet/how-to-encrypt-an-android-device-in-5-steps.html), [iOS](https://ssd.eff.org/en/module/how-encrypt-your-iphone) (many phones now encrypt by default but it's worth double checking).
-- Encrypt your laptop/desktop hard drive: [Windows](https://uit.stanford.edu/service/encryption/wholedisk/bitlocker), [Windows if no BitLocker](https://veracrypt.codeplex.com/), [Mac OSX](https://support.apple.com/en-us/HT204837).
-- Secure your backups too! Encrypt your backup hard drives and/or make sure your online backup storage solution supports end-to-end encryption.
-- N.B. Remember encryption is only fully effective when the device is off!
+- verifica che la memoria del telegono sia crittografata: [Android](http://www.networkworld.com/article/2689371/opensource-subnet/how-to-encrypt-an-android-device-in-5-steps.html) (in Inglese), [iOS](https://ssd.eff.org/en/module/how-encrypt-your-iphone) (in Inglese) (questa e' l'impostazione di default in molti telefoni nuovi, ma val la pena controllare).
+- fai lo stesso per il disco del tuo pc (portatile o fisso): [Windows](https://uit.stanford.edu/service/encryption/wholedisk/bitlocker) (in Inglese), [Windows se non hai BitLocker](https://veracrypt.codeplex.com/) (in Inglese), [Mac OSX](https://support.apple.com/it-it/HT204837).
+- Crittografa anche le copie di backup! Abilita crittografia per il disco esterno (e.g. USB) che usi per le copie di sicurezza, e se usi il cloud, controlla che il tuo provider supporti crittografia end-to-end.
+- N.B. Ricorda che la crittografia protegge i tuoi dati solo quando il computer e' spento!
 
-#### Other
+#### Altro
 
-- Setup up a pin code for your mobile phone SIM card: [iPhone](https://support.apple.com/en-hk/HT201529), [Android](https://www.digitalcitizen.life/how-change-or-remove-sim-pin-android-2-steps). Search your phone provider's website to find out what their default password is (it varies from carrier to carrier).
-- Turn off app-specific passwords that bypass two-factor authentication (e.g. [instructions for Gmail](https://www.lifewire.com/revoke-an-application-password-for-gmail-1171889)).
-- Turn off automatically add invitations on [Google Calendar settings](https://calendar.google.com/calendar/r/settings) ([here's why](https://www.forbes.com/sites/daveywinder/2019/06/11/new-security-warning-issued-for-googles-1-5-billion-gmail-and-calendar-users/#3605ff0565e5)).
-- [Turn on Login Alerts on Facebook](https://www.facebook.com/settings?tab=security).
-- [Disable macros within Microsoft Office](https://support.office.com/en-us/article/enable-or-disable-macros-in-office-files-12b036fd-d140-4e74-b45e-16fed1a7e5c6).
+- Configura il codice PIN per la carta SIM del tuo telefonino: [iPhone](https://support.apple.com/it-it/HT201529), [Android](https://www.digitalcitizen.life/how-change-or-remove-sim-pin-android-2-steps) (in Inglese). Cerca nel sito del tuo operatore mobile per indicazioni sulla password di default (e' diversa da operatore a operatore).
+- Disabilita app che non usano l'autenticazione a due fattori (e.g. [instructions for Gmail](https://www.lifewire.com/revoke-an-application-password-for-gmail-1171889) - in Inglese).
+- Disabilita l'opzione di aggiungere inviti automaticamente al tuo calendario su [Impostazioni di Google Calendar](https://calendar.google.com/calendar/r/settings) ([perche'? leggi qui](https://www.forbes.com/sites/daveywinder/2019/06/11/new-security-warning-issued-for-googles-1-5-billion-gmail-and-calendar-users/#3605ff0565e5)).
+- [Abilita Avvisi di login su Facebook](https://www.facebook.com/settings?tab=security).
+- [Disabilita macro in Microsoft Office](https://support.office.com/en-us/article/enable-or-disable-macros-in-office-files-12b036fd-d140-4e74-b45e-16fed1a7e5c6).
 
-### 💪🏽 Habits to cultivate
+### 💪🏽 Buone abitudini da coltivare
 
 #### Email
 
-- Be on the lookout for phishing scams: where possible double check the _From_ email address and the domains that outbound links go to.
-- Don't open unnecessary email attachments. Where possible, open/preview them first in an online document reader, or have colleagues use a filesharing server or service (Dropbox, Google Drive, SpiderOak, Tresorit), which tend to be a little harder to hack into.
-- You can upload a suspicious attachment to [VirusTotal](http://www.virustotal.com) for a check-up (but keep in mind files submitted to VirusTotal are available to security researchers so don’t submit sensitive information).
+- Stai allerta e assicurati che ogni email che ricevi non sia una _phishing_ email: quando possibile, controlla l'indirizzo del mittente, e tutti i nomi di dominio dei link (senza cliccarli pero'! :) ).
+- Non aprire gli allegati senza essere _certi_ della provenienza. Quando possibile, visualizza anteprima usando un servizio online, o chiedi di spedirli usando un server di condivisione o un servizio online (Dropbox, Google Drive, SpiderOak, Tresorit), che sono tipicamente piu' sicuri.
+- Se non sei sicuro della provenienza di un allegato, puoi mandarlo (senza aprirlo!) a [VirusTotal](http://www.virustotal.com) per un controllo (NOTA: i file mandati a VirusTotal sono messi a disposizione di ricercatori nel campo della sicurezza IT, dunque non mandare documenti personali e/o confidenziali).
 
-#### Update all the things
+#### Installa gli aggiornamenti!
 
-- When you get a notification to update your operating system (on your mobile or computer), do it right away.
-- Same for apps (mobile + computer).
-- Check occasionally for firmware updates for your router (and other Internet-connected devices).
+- Quando ricevi una notifica (genuina!) che chiede di aggiornare il sistema operativo (sul pc o smartphone), fallo immediatamente.
+- Lo stesso per apps (telefonino + computer).
+- Controlla di tanto in tanto sul sito del produttore, se ci sono aggiornamenti del firmware per router (e altri dispositivi connessi a internet e.g. IPcam, smart TV, ecc).
 
-#### Other
+#### Altro
 
-- Change important passwords (e.g. email, computer login, password manager master) every year or two.
-- Wipe your devices properly before donating/giving away: [phone](http://lifehacker.com/5808280/what-should-i-do-with-my-phone-before-i-sell-it), [computer](http://lifehacker.com/5835369/how-do-i-securely-wipe-a-computer-before-donating-it-to-charity).
-- Don't charge your phone at public charging stations/ports – they may steal your data. Consider charging your portable battery instead.
-
----
-
-**👍 Great job! You've covered the basics.  
-👍 What about trying out the next level?**  
+- Cambia le tue password importanti (e.g. email, computer login, password manager master) ogni uno-due anni.
+- Resetta i tuoi dispositivi alle impostazioni di fabbrica prima di rivenderli/donarli: [smartphone](http://lifehacker.com/5808280/what-should-i-do-with-my-phone-before-i-sell-it) (in Inglese), [computer](http://lifehacker.com/5835369/how-do-i-securely-wipe-a-computer-before-donating-it-to-charity) (in Inglese).
+- Evita di ricaricare il tuo telefonino ai punti di ricarica e.g. nei centri comemrciali – potrebbero essere configurati per copiare i tuoi dati. Ricarica invece la tua batteria portatile.
 
 ---
 
-## 💦💦 Level 2 recommendations
+**👍 Ottimo lavoro! Hai preso le precauzioni di base.  
+👍 Vuoi dare un'occhiata al livello piu' avanzato?**  
 
-### ✅ Things to do now
+---
+
+## 💦💦 Livello 2
+
+### ✅ Cose da fare immediatamente
 
 #### Enhance your privacy
 
@@ -131,7 +132,7 @@ Per capire che misure di protezione adottare, devi prima capire a che rischi sei
 - Review the extensions/add-ons/plug-ins that have been installed within your computer web browser – delete any that you haven't used in a while or don't remember installing.
 - Download and run [Stethoscope](https://ragtag.org/stethoscope) for your computer, which make sure your basic security settings (encryption, firewall, screen locks, etc.) are covered.
 
-### 💪🏾 Habits to cultivate
+### 💪🏾 Buone abitudini da coltivare
 
 #### Enhance your privacy
 
