@@ -116,7 +116,7 @@ Per capire che misure di protezione adottare, devi prima capire a che rischi sei
 
 ### ✅ Cose da fare immediatamente
 
-#### Enhance your privacy
+#### Ottimizza la tua privacy
 
 - Review the privacy settings on social networks you frequent: who can see your content, who can comment on it, and who can see your location.
 - Install these protective web browsers add-ons (and make sure they're on even during private/incognito mode):
@@ -125,7 +125,7 @@ Per capire che misure di protezione adottare, devi prima capire a che rischi sei
   - [HTTPS Everywhere](https://www.eff.org/https-everywhere).
 - If you use smart speakers, turn off its recording function: instructions for [Google Home](https://myaccount.google.com/activitycontrols/audio) and for [Amazon Alexa](https://twitter.com/geminiimatt/status/1125611726773334017).
 
-#### Other
+#### Altro
 
 - Set up your devices with third-party applications (e.g. [Prey](https://www.preyproject.com), [Lookout Security](https://www.lookout.com/) so you can remotely track, wipe, and encrypt your devices from a website in the future.
 - Review what's connected to your main email/social media accounts (e.g. what kinds of services have access to Facebook, and what data can they access and/or can they post on your behalf).
@@ -134,13 +134,13 @@ Per capire che misure di protezione adottare, devi prima capire a che rischi sei
 
 ### 💪🏾 Buone abitudini da coltivare
 
-#### Enhance your privacy
+#### Ottimizza la tua privacy
 
 - Post less personal information online – especially information that can be used to identify/track/scam you (addresses, phone numbers, birthday, etc.). Remember almost everything you say online is logged somewhere and that even if your setup is secure, your recipient's setup may not be.
 - Buy a privacy screen (prevents onlookers from seeing your screen, see [this 3M example](https://www.3m.com/3M/en_US/company-us/all-3m-products/~/All-3M-Products/Privacy-Screen-Protectors/Privacy-Products/Black-Privacy/)) for your laptop and/or phone.
 - If you own domains, use WHOIS privacy services and stick with it (they're worth the money). But note that with WHOIS lookup/history tools, if you've ever put in your real address, it's very difficult to remove from the logs.
 
-#### Other
+#### Altro
 
 - Use a paid VPN service when on public networks (e.g. cafe wifi) – free VPN services are bad because operators don't have enough incentive to protect you/your data. See recommendations from [Wirecutter](https://thewirecutter.com/reviews/best-vpn-service/) and [Freedom of the Press](https://freedom.press/training/choosing-a-vpn/).
 - Check what apps you have installed on your phone once in a while, and delete the ones you're not using anymore.
@@ -150,29 +150,29 @@ Per capire che misure di protezione adottare, devi prima capire a che rischi sei
 
 ---
 
-**🎉 Congratulations! You're now reasonably  
-🎉 secure, which is more than most :)**
+**🎉 Congratulazioni! Hai preso ragionevoli precauzioni 
+🎉 per la tua sicurezza online :)**
 
 ---
 
-## 💦💦💦 Level 3 recommendations
+## 💦💦💦 Livello 3
 
-### ✅ To do
+### ✅ Da fare
 
-#### Lock up sensitive files
+#### Proteggi documenti confidenziali
 
 - Identify files that you don't want others to access (e.g. private photos, passport documents).
 - Use [Cryptomator](https://cryptomator.org/) or [Veracrypt](https://www.veracrypt.fr/en/Home.html) to create an encrypted, password-protected vault for them.
 - Set them up on both your desktop/laptop and your phone.
 - Move your files into these secure vaults. Make sure they're not still hanging around on an old folder or on your phone.
 
-#### Revisit old passwords
+#### Cambia le vecchie password
 
 - Store all of your online service passwords in a password manager. (If you have the right browser add-on/plugin installed, it will capture all the relevant details during a login process.)
 
 - Using your password manager's analysis feature, see which accounts/services have weak passwords and update the ones that might have any personal information about you or that you would really hate to lose.
 
-### 💪🏾 Habits to cultivate
+### 💪🏾 Buone abitudini da coltivare
 
 - Start using [Signal](https://whispersystems.org/), an end-to-end encrypted mobile messaging app that's generally agreed to be safe/secure/robust. (Beyond Signal, there is little consensus on what's secure and people tend to get very emotional about their choice of mobile messaging apps.)
 - When making voice or video calls, use an end-to-end encrypted app (e.g. Signal, Jitsi, Wire).
@@ -180,14 +180,14 @@ Per capire che misure di protezione adottare, devi prima capire a che rischi sei
 
 ---
 
-**😲 Wow, you even finished the difficult  
-😲 digital housekeeping tasks. Well done!**
+**😲 Wow, hai completato anche il livello piu' avanzato.  
+😲 Congratulazioni!**
 
 ---
 
-## 💦❗️ Scenario-based recommendations
+## 💦❗️ Raccomandazioni per scenari specifici
 
-### 🛫 Crossing an international border
+### 🛫 Attraversare un confine internazionale
 
 - Turn off your devices because:
   - Storage/hard drives are only encrypted when they're off, **not** when they're just in sleep mode
@@ -203,7 +203,7 @@ Per capire che misure di protezione adottare, devi prima capire a che rischi sei
 
 ---
 
-### 😭 Somebody took my phone/computer!
+### 😭 Qualcuno mi ha rubato il telefono/computer portatile!
 
 - Wipe your phone remotely: see instructions for [Android](https://support.google.com/accounts/answer/6160491?hl=en), [iOS](https://support.apple.com/kb/PH2701?locale=en_US).
 - Log out of all important accounts from another device.
@@ -213,7 +213,7 @@ Per capire che misure di protezione adottare, devi prima capire a che rischi sei
 
 ---
 
-### 👾 I think my computer has been hacked!
+### 👾 Ho il sospetto che il mio computer sia stato hackerato!
 
 - Download an application that will notify you when data is being sent out from your computer. E.g. [Little Snitch for Mac](https://www.obdev.at/products/littlesnitch/index.html).
 - Run Activity Monitor on Mac or Process Explorer on Windows to look at what processes/applications are running. Google any suspicious names.
@@ -222,22 +222,22 @@ Per capire che misure di protezione adottare, devi prima capire a che rischi sei
 
 ---
 
-### 🍆 Sexting & non-consensual image sharing
+### 🍆 Sexting & condivisione di immagini non-consensuale
 
 - See [The Motherboard Guide to Sexting Securely](https://motherboard.vice.com/en_us/article/mb3nd4/how-to-sext-securely-safely-what-apps-to-use-sexting).
 
 ---
 
-### ✊🏾 Attending a protest
+### ✊🏾 Partecipare a una manifestazione
 
-#### In case of emergency
+#### In caso di emergenza
 
 - Draft a message to a trusted friend (not at protest) or legal hotline. Be ready to hit send if you are arrested/there is an emergency.
 - Bring a spare battery for your phone.
 - If you use thumbprint (or facial recognition) unlock, immediately power off your phone if you're ever arrested. In some jurisdictions, [officers can compel you to provide your fingerprint but not your passcode](http://www.theatlantic.com/technology/archive/2016/05/iphone-fingerprint-search-warrant/480861/). Better yet, turn off fingerprint or face ID before going to a protest.
 - If you're attending a high-risk protest: leave your phone at home or use burner phone.
 
-#### Store less share less
+#### Salva il meno possibile, condividi il meno possibile
 
 - Keep as little sensitive personal information or incriminating information as possible – you never know whose hands it might end up in.
 - Turn on disappearing messages if your messaging app supports it.
@@ -251,7 +251,7 @@ Per capire che misure di protezione adottare, devi prima capire a che rischi sei
   - [Android](https://support.google.com/accounts/answer/3118687?hl=en#delete)
   - [Google Maps](https://support.google.com/maps/answer/3137804?hl=en)
 
-#### Other
+#### Altro
 
 - Double check your messaging apps privacy settings.
 - Turn off message previews in your notifications:
@@ -262,17 +262,17 @@ Per capire che misure di protezione adottare, devi prima capire a che rischi sei
 
 ---
 
-### 📰 I'm a journalist working on a sensitive topic
+### 📰 Sono un giornalista e sto lavorando a un articolo delicato/potenzialmente pericoloso
 
 Below are some basics that all journalists should consider. If you're working on/in a particularly sensitive story/region (e.g. a whisteblower story in the US or China), you and your team should get an tailored training session from an expert.
 
-#### Be prepared
+#### Sii preparato!
 
 - To remotely wipe the contents of your devices using a tracking app (e.g. [Find My](https://www.apple.com/icloud/find-my/) on iOS, [Find My Device](https://support.google.com/accounts/answer/6160491?hl=en) on Android, [Prey](https://www.preyproject.com), [Lookout Security](https://www.lookout.com/)).
 
 - To be on the receiving end of an email phishing campaign (as journalist emails are usually more public than others).
 
-#### Protect yourself
+#### Proteggi te stesso
 
 - If you're traveling, review the `Crossing an international border` scenario above.
 
@@ -280,7 +280,7 @@ Below are some basics that all journalists should consider. If you're working on
 
 - Use a VPN if you're browsing the internet at the office (website administrators can usually see that you're coming from, say, the New York Times network)
 
-#### Protect your sources
+#### Proteggi le tue fonti
 
 - Use [Signal](https://www.signal.org/) or [Jitsi](https://jitsi.org/) for end-to-end encrypted voice and video calls.
 
@@ -296,7 +296,7 @@ Below are some basics that all journalists should consider. If you're working on
 
 - See Martin Shelton's [Opening Secure Channels for Confidential Tips](https://source.opennews.org/articles/opening-secure-channels-confidential-tips/).
 
-#### Protect your data
+#### Proteggi i tuoi dati
 
 - Make sure you're using an email/storage provider that's not owned/linked to a state or organization that you're reporting on.
 
@@ -306,7 +306,7 @@ Below are some basics that all journalists should consider. If you're working on
 
 - Remember to permanently erase sensitive files from your laptop/desktop: use [Eraser for Windows](https://eraser.heidi.ie/) and [File Shredder for Mac](https://apps.apple.com/us/app/fileshredder/id418094085?mt=12).
 
-#### For more information
+#### Ulteriori informazioni
 
 - If you're in an unconventional region, jurisdiction or situation, see Grégoire Pouget of Nothing2Hide's [Digital Security for Journalists Requires an Adaptable Toolkit](https://gijn.org/2019/07/16/digital-security-for-journalists-requires-an-adaptable-toolkit/) guide.
 
@@ -314,11 +314,11 @@ Below are some basics that all journalists should consider. If you're working on
 
 ---
 
-### 🕵🏼‍♂️ Online harassment & doxxing
+### 🕵🏼‍♂️ Molestie online & doxxing
 
 Harassment and doxxing can get very specific and complicated based on the attacker, your position, the overall cultural context, etc. While we have some general suggestions below, we implore you to think about whether your situation has escalated sufficiently and whether it's time to find professional, one-on-one help.
 
-#### Recruit a trusted friend
+#### Chiedi l'aiuto di un amico fidato
 
 - Do not force yourself into a corner by going at this alone!
   
@@ -330,13 +330,13 @@ Harassment and doxxing can get very specific and complicated based on the attack
 
 - If no one is available right now, Heartmob has a list of [supportive organizations](https://iheartmob.org/resources/supportive_organizations), some of which have 24/7 hotlines.
 
-#### Monitor updates & collect receipts
+#### Monitora i tuoi mention online, tieni un diario 
 
 - Set up a [Talkwalker](https://www.talkwalker.com/alerts) and/or [Google Alerts](https://www.google.com/alerts) for your name/nickname.
 
 - Start logging (date, time, description, screenshot) incidents in whatever program/app that's easiest for you.
 
-#### Remove your personal information from the internet
+#### Cancella le tue informazioni personali da internet
 
 - Pay [PrivacyDuck](https://www.privacyduck.com/) to scrub your information online. If you are an activist you can contact [Equity Labs](https://medium.com/@EqualityLabs/anti-doxing-guide-for-activists-facing-attacks-from-the-alt-right-ec6c290f543c) for a discounted rate.
 
@@ -344,7 +344,7 @@ Harassment and doxxing can get very specific and complicated based on the attack
 
 - Alternately, both [PrivacyDuck](https://www.privacyduck.com/resources/) and [Motherboard](https://motherboard.vice.com/en_us/article/ne9b3z/how-to-get-off-data-broker-and-people-search-sites-pipl-spokeo) have free online resources to help you remove your information yourself.
 
-#### Obscure your personal information
+#### Cancella le tue informazioni personali da internet - even more
 
 - Use [Burner](http://www.burnerapp.com/) to set up burner phone numbers for calling/texting.
 
@@ -360,7 +360,7 @@ Harassment and doxxing can get very specific and complicated based on the attack
   
   - Use [Semiphemeral](https://micahflee.com/2019/06/semiphemeral-automatically-delete-your-old-tweets-except-for-the-ones-you-want-to-keep/) to delete most of your unwanted posts on Twitter. (Requires use of the command line.)
 
-#### Ignore/reply/report/block your harassers
+#### Ignora/segnala/blocca i tuoi molestatori
 
 - Together with your support person/friend and the log of receipts, decide on your course of action (these aren't mutually exclusive):
   
@@ -376,7 +376,7 @@ Harassment and doxxing can get very specific and complicated based on the attack
   
   - Go public: Can be dangerous, but sometimes shaming them publicly or rallying people to your support will make them go away.
 
-#### For more information
+#### Ulteriori informazioni
 
 - See Feminist Frequency's [Speak Up & Stay Safe(r)](https://onlinesafety.feministfrequency.com/en/).
 
@@ -390,7 +390,7 @@ Harassment and doxxing can get very specific and complicated based on the attack
 
 ---
 
-### 👤 I don't want to give out my real phone number for online dating/networking/organizing
+### 👤 Non voglio usare il mio vero numero di telefono per online dating/networking
 
 For messaging apps that use phone numbers as the primary identifier/username (e.g. Signal, WhatsApp), get a secondary number from:
 
@@ -408,7 +408,7 @@ But keep in mind:
 
 - Most companies will still hand over your information to the authorities if the latter files the right paperwork. 
 
-#### For true anonymity – create an untraceable online persona under a pseudonymn
+#### Per completa anonimita' – come creare un profilo online sotto pseudonimo
 
 - If you're a public figure, artist or activist, consider working under a persistent pseudonymn or collective identity – this [Tactical Tech manual](https://gendersec.tacticaltech.org/wiki/index.php/Complete_manual#Creating_and_managing_identities_online) has more details on why.
 
@@ -416,29 +416,29 @@ But keep in mind:
 
 ---
 
-## 💦❓ Other recommendations
+## 💦❓ Altre raccomandazioni
 
 This section is a catch-all for difficult or esoteric practices that do not fall under any of our scenarios above and might not have any immediate payoff for the casual user.
 
-#### Emails
+#### Email
 
 - Sign up for a [Protonmail](https://protonmail.com/) or [Tutanota](https://tutanota.com/) end-to-end encrypted email account.
 - Approach PGP emails at your own risk ([recently disclosed security vulnerabilities](https://www.eff.org/deeplinks/2018/05/not-so-pretty-what-you-need-know-about-e-fail-and-pgp-flaw-0) means that it's no longer bulletproof).
 
-#### Access
+#### Accesso
 
 - Buy a [YubiKey](http://www.amazon.com/Yubico-Y-072-YubiKey-NEO/dp/B00LX8KZZ8/ref=sr_1_1?ie=UTF8&qid=1421839152&sr=8-1&keywords=yubikey+NEO) USB key to use for two-factor authentication.
 - Use an alphanumeric passcode to unlock your phone.
 - [Generating Diceware passwords](http://world.std.com/~reinhold/diceware.html).
 
-#### File storage & sharing
+#### File storage & condivisione
 
 - Use an end-to-end encrypted cloud storage service (not Dropbox): [Tresorit](https://tresorit.com/), [SpiderOak](https://spideroak.com/).
 - Use encrypted external USB/hard drives from companies like [Apricorn](https://www.apricorn.com/).
 - If you want to send a file anonymously, use a special sharing service like [OnionShare](https://onionshare.org/).
 - Instead of Google Docs or Microsoft Office, use [CryptPad](https://cryptpad.fr) (open-source, end-to-end encrypted).
 
-#### Messaging apps
+#### App di messaggistica
 
 - WhatsApp additional settings:
   
@@ -450,7 +450,7 @@ This section is a catch-all for difficult or esoteric practices that do not fall
 
 - If you're a journalist who uses Signal regularly, step up your safety practices try following Martin Sheldon's [Locking Down Signal](https://medium.com/@mshelton/locking-down-signal-d71678f653d3) guide (or [similarly for WhatsApp](https://medium.com/@mshelton/upgrading-whatsapp-security-386c8ce496d3) if you use that a lot).
 
-#### Other
+#### Altro
 
 - Keep less information/data/photos on your devices – you can't lose what you don't have!
 - Don't use smart TVs or smart speakers.
@@ -464,12 +464,12 @@ This section is a catch-all for difficult or esoteric practices that do not fall
 
 ---
 
-**🏆 Oh my, you made it this far.  
-🏆 You are a true champ!**
+**🏆 Oh, sei arrivato fino in fondo!  
+🏆 Congratulazioni!**
 
 ---
 
-## 🧠 Sources
+## 🧠 Links
 
 We consulted many sources and drew upon our own experiences in creating this resource. ([See our full list of sources.](SourcesConsulted.md)) If you're not finding quite what you want here, we recommend checking out these other resources: 
 
@@ -483,6 +483,6 @@ For a curated selection, check out Martin Shelton's [Current Digital Security Re
 
 ---
 
-## 📝 License
+## 📝 Licenza
 
-This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+Quest'opera è distribuita con [Licenza Creative Commons Attribuzione - Non commerciale - Condividi allo stesso modo 4.0 Internazionale](http://creativecommons.org/licenses/by-nc-sa/4.0/).
