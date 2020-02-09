@@ -24,40 +24,42 @@
 
 ---
 
-## 🧐 Theory & science
+## 🧐 Teoria & pratica
 
 ### 🎯 Threat modeling
 
-- What kind of danger are you in? E.g. corporate espionage, police/state intervention, online harassment/doxxing.
-- What kind of assets are you protecting? E.g. confidential documents, private photos.
-- We're all in a little bit of danger (otherwise we wouldn't bother putting a password on our computer or phone) but it's important to think about what's at stake before dismissing concerns or becoming paranoid.
-- For more info, read [the EFF's introduction to threat modeling](https://ssd.eff.org/en/module/introduction-threat-modeling).
+Per capire che misure di protezione adottare, devi prima capire a che rischi sei esposto:
 
-### 🔗 Weakest link
+- A quali rischi sei esposto? per esempio: spionaggio industriale, sorveglianza da parte di polizia/servizi di sicurezza, molestie online/doxxing.
+- Che tipo di informazioni vuoi proteggere? E.g. documenti confidenziali, foto personali.
+- Siamo tutti a rischio quando usiamo strumenti digitali (altrimenti non ci sarebbe bisogno di password sui nostri pc o telefonini) ma e' importante capire esattamente quali sono i rischi e le possibili conseguenze, cosi da adottare una risposta commisurata al rischio (non sottovalutare il rischio, ma nemmeno sopravvalutarlo) 
+- Per ulteriori informazioni, leggi [come creare il tuo piano di difesa online](https://ssd.eff.org/en/module/introduction-threat-modeling) sul sito della  Electronic Frontier Foundation (in Inglese).
 
-- Remember the weakest link is all that matters! E.g. if password recovery is linked to email, then hackers only need to get access to your email.
+### 🔗 L'anello debole
 
-### 🔡 Encryption levels
+- Ricorda che una catena è forte solo quanto il suo anello più debole! Per esempio, se hai scelto l'opzione di reimpostare la password via email, un hacker che riesca ad avere accesso alla tua email, avra' accesso anche al resto dei tuoi servizi online.
 
-1. Not encrypted: Any third party who intercepts the data can read it as-is.
-2. Regular encryption: Data is encrypted so that third parties cannot read them. But the platform (e.g. Google or Facebook) still has access, and may hand the data over to law enforcement if they are required to do so by the courts/the government.
-3. End-to-end encryption: the data can only be read by the original sender and receiver. This means not even the platform has access. So if law enforcement calls, the service provider can't hand over the messages because they don't have them either.
+### 🔡 Livelli di crittografia
 
-### 🧩 Metadata
+1. Dati non criptati: Chunque intercetti le tue comunicazioni, puo' leggerle.
+2. Livello di criptazione normale: I tuoi dati sono crittografati, chiunque intercetti le tue comunicazioni, non puo' leggerle. Ma la piattaforma usata per comunicare (per esempio Google or Facebook) puo' accedere ai tuoi dati in chiaro, e potrebbe consegnarli alle autorita' in caso venga chiesto loro di farlo, per esempio da un ordine del tribunale.
+3. Crittografia end-to-end: le comunicazioni possono essere lette solo dal mittente e dal destinatario. Questo significa che nemmeno la piattaforma usata per comunicare ha accesso al contenuto della comunicazione. Quindi anche in caso di un ordine del tribunale, la piattaforma puo' solo fornire il contenuto crittografato delle comunicazioni, non in chiaro.
 
-- Data about your data – e.g. what number you called, and for how long (but not the contents of the call). With enough metadata, hackers can piece together a pretty good picture of who you are, who you know, where you're going, etc. Plus legal protections around metadata are generally weaker.
+### 🧩 Metadati
+
+- I metadati sono dati che descrivono le tue comunicazioni – per esempio che numero hai chiamato, e la durata della telefonata (ma non il contenuto della telefonata stessa). I metadati sono importanti perche' permettono di costruire un profilo abbastanza accurato della tua identita', i tuoi contatti, i tuoi spostamenti... In generale, le varie leggi a protezione della privacy forniscono una minore protezione per i metadati.
 
 ---
 
-## 💦 Level 1 recommendations
+## 💦 Livello 1 - suggerimenti
 
-### ✅ Things to do now
+### ✅ Cose da fare immediatamente
 
 #### Email
 
-- If you're on a webmail service, check that you're logging into it using an `https://` URL. And if there isn't one, find a new email provider.
-- Turn on two-factor authentication for your email service (e.g. instructions for [Gmail](https://support.google.com/accounts/answer/185839?hl=en), [Protonmail](https://protonmail.com/support/knowledge-base/two-factor-authentication/)) **if** they support an authenticator app (SMS is no longer considered safe) (e.g. [Authy](https://authy.com/), [Google Authenticator](https://support.google.com/accounts/answer/1066447?hl=en)).
-- After turning on two-factor authentication, see if your email service supports backup codes (a single-use code in case you lose your phone). [See Gmail instructions](https://support.google.com/accounts/answer/1187538?hl=en).
+- Se usi un servizio di posta elettronica via web, assicurati di usare un URl che inizia per `https://`. Se il tuo fornitore non ha questa opzione, cambia fornitore.
+- Abilita l'autenticazione a due fattori (two-factor authentication) per la tua casella di posta elettronica (e.g. istruzioni per [Gmail](https://support.google.com/accounts/answer/185839?hl=it), [Protonmail](https://protonmail.com/support/knowledge-base/two-factor-authentication/) - in Inglese) **se** il tuo fornitore supporta antenticazione via app (codici via SMS non sono piu' considerati sicuri al giorno d'oggi) (e.g. [Authy](https://authy.com/), [Google Authenticator](https://support.google.com/accounts/answer/1066447?hl=it)).
+- Dopo aver abilitato l'autenticazione a due fattori, controlla se il tuo servizio di posta elettronica supporta codici di ripristino (un codice da usare in caso tu perda il tuo telefono). [Istruzioni per Gmail](https://support.google.com/accounts/answer/1187538?hl=it).
 
 #### Good passwords
 
