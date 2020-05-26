@@ -1,16 +1,17 @@
-# TLDR Digital Safety Checklist
+# 🦓 Zebra Crossing: an easy-to-use digital safety checklist
 
 ### 🤔 Who this guide is for
 
 - You use the internet on a day-to-day basis – for work, social media, financial transactions, etc.
-- You feel you could be doing more to ensure your digital safety and privacy, but you're also not in immediate danger. (If you are, seek out an expert for a 1:1 consult.)
+- You feel you could be doing more to ensure your digital safety and privacy, but you're not in immediate danger. (If you are, seek out an expert for a one-on-one consult.)
 - You're comfortable with technology. For example, you're comfortable going into the settings section of your computer/smartphone.
 
-### 🌱 How this guide works
+### 🌱 How to use this guide
 
 - Recommendations have been sorted in ascending levels of difficulty. Start from level one and work your way up!
-- *I recommend doing everything in levels one, two and three.* I did, and I'm only a mildly technically-competent person.
-- Then scan the scenarios to see if any of them apply to you. (They assume that you've done everything in levels 1-3.)
+- *Everyone should follow the recommendations in levels one and two.* They will protect you from the widely-used (yet simple) attacks. Going through them shouldn't take more than 1-2 hours.
+- Level three is a bit more involved in terms of time and money and may not be 100% necessary. But if you're worried at all and can afford to, we recommend going through that list too. Depending on the amount of digital housekeeping you have to do, it may take anywhere from an hour to an afternoon.
+- The scenarios listed after are for higher-stakes situations — scan them to see if any of them apply to you. (Because the stakes are higher, they assume that you've done everything in levels 1-3.)
 - This guide is a living document – please feel free to submit a pull request or fork your own version of this guide on GitHub.
 
 ### 🗣 This guide in other languages
@@ -20,7 +21,7 @@
 
 ### 🕒 Last updated
 
-- 20 February 2020
+- 26 May 2020
 
 ---
 
@@ -55,7 +56,7 @@
 #### Email
 
 - If you're on a webmail service, check that you're logging into it using an `https://` URL. And if there isn't one, find a new email provider.
-- Turn on two-factor authentication for your email service (e.g. instructions for [Gmail](https://support.google.com/accounts/answer/185839?hl=en), [Protonmail](https://protonmail.com/support/knowledge-base/two-factor-authentication/)) **if** they support an authenticator app (SMS is no longer considered safe) (e.g. [Authy](https://authy.com/), [Google Authenticator](https://support.google.com/accounts/answer/1066447?hl=en)).
+- Turn on two-factor authentication for your email service (e.g. instructions for [Gmail](https://support.google.com/accounts/answer/185839?hl=en), [Protonmail](https://protonmail.com/support/knowledge-base/two-factor-authentication/)) through an authenticator app (e.g. [Authy](https://authy.com/), [Google Authenticator](https://support.google.com/accounts/answer/1066447?hl=en)). Do no rely on SMS text messages as they are no longer considered safe.
 - After turning on two-factor authentication, see if your email service supports backup codes (a single-use code in case you lose your phone). [See Gmail instructions](https://support.google.com/accounts/answer/1187538?hl=en).
 
 #### Good passwords
@@ -77,9 +78,9 @@
 
 - Setup up a pin code for your mobile phone SIM card: [iPhone](https://support.apple.com/en-hk/HT201529), [Android](https://www.digitalcitizen.life/how-change-or-remove-sim-pin-android-2-steps). Search your phone provider's website to find out what their default password is (it varies from carrier to carrier).
 - Turn off app-specific passwords that bypass two-factor authentication (e.g. [instructions for Gmail](https://www.lifewire.com/revoke-an-application-password-for-gmail-1171889)).
-- Turn off automatically add invitations on [Google Calendar settings](https://calendar.google.com/calendar/r/settings) ([here's why](https://www.forbes.com/sites/daveywinder/2019/06/11/new-security-warning-issued-for-googles-1-5-billion-gmail-and-calendar-users/#3605ff0565e5)).
+- Turn off automatically add(ed) invitations on [Google Calendar settings](https://calendar.google.com/calendar/r/settings) ([here's why](https://www.forbes.com/sites/daveywinder/2019/06/11/new-security-warning-issued-for-googles-1-5-billion-gmail-and-calendar-users/#3605ff0565e5)).
 - [Turn on Login Alerts on Facebook](https://www.facebook.com/settings?tab=security).
-- [Disable macros within Microsoft Office](https://support.office.com/en-us/article/enable-or-disable-macros-in-office-files-12b036fd-d140-4e74-b45e-16fed1a7e5c6).
+- [Disable macros within Microsoft Office](https://support.office.com/en-us/article/enable-or-disable-macros-in-office-files-12b036fd-d140-4e74-b45e-16fed1a7e5c6).The **School** of **Journalism** and Communication
 
 ### 💪🏽 Habits to cultivate
 
@@ -103,8 +104,9 @@
 
 ---
 
-**👍 Great job! You've covered the basics.  
-👍 What about trying out the next level?**  
+**👍 Great job! You've covered the basics. 
+👍 Treat yourself to a cup of tea and a stretch.
+👍 Now, ready for the next level?**  
 
 ---
 
@@ -116,16 +118,17 @@
 
 - Review the privacy settings on social networks you frequent: who can see your content, who can comment on it, and who can see your location.
   - Limit Facebook tracking by turning off Off-Facebook Activity (follow [these EFF's instructions](https://www.eff.org/deeplinks/2020/01/how-change-your-facebook-activity-settings)).
-- Install these protective web browsers add-ons (and make sure they're on even during private/incognito mode):
+- Install these protective web browsers add-ons on your laptop/desktop computer (and make sure they're on even during private/incognito mode):
   - An ad blocker (e.g. [uBlock Origin](https://github.com/gorhill/uBlock/), [Ghostery](https://www.ghostery.com/)).
   - A tracker blocker ([Privacy Badger](https://www.eff.org/privacybadger)).
   - [HTTPS Everywhere](https://www.eff.org/https-everywhere).
+- Review which apps on your smartphone have access to your location data. Turn off access if the app doesn't need it, and minimize the number of apps that track your location all the time.
 - If you use smart speakers, turn off its recording function: instructions for [Google Home](https://myaccount.google.com/activitycontrols/audio) and for [Amazon Alexa](https://twitter.com/geminiimatt/status/1125611726773334017).
 
 #### Other
 
 - Set up your devices with third-party applications (e.g. [Prey](https://www.preyproject.com), [Lookout Security](https://www.lookout.com/) so you can remotely track, wipe, and encrypt your devices from a website in the future.
-- Review what's connected to your main email/social media accounts (e.g. what kinds of services have access to Facebook, and what data can they access and/or can they post on your behalf).
+- Review the "Third-Party Apps" or "Connected Apps" on your main email/social media accounts. These are services that might have access to, say, your Facebook data and even permission to make posts automatically there. ([Here are the instructions for checking for them on Facebook and Gmail](https://www.online-tech-tips.com/computer-tips/check-google-facebook-connected-apps/).)
 - Review the extensions/add-ons/plug-ins that have been installed within your computer web browser – delete any that you haven't used in a while or don't remember installing.
 - Download and run [Stethoscope](https://ragtag.org/stethoscope) for your computer, which make sure your basic security settings (encryption, firewall, screen locks, etc.) are covered.
 
@@ -134,12 +137,11 @@
 #### Enhance your privacy
 
 - Post less personal information online – especially information that can be used to identify/track/scam you (addresses, phone numbers, birthday, etc.). Remember almost everything you say online is logged somewhere and that even if your setup is secure, your recipient's setup may not be.
-- Buy a privacy screen (prevents onlookers from seeing your screen, see [this 3M example](https://www.3m.com/3M/en_US/company-us/all-3m-products/~/All-3M-Products/Privacy-Screen-Protectors/Privacy-Products/Black-Privacy/)) for your laptop and/or phone.
 - If you own domains, use WHOIS privacy services and stick with it (they're worth the money). But note that with WHOIS lookup/history tools, if you've ever put in your real address, it's very difficult to remove from the logs.
 
 #### Other
 
-- Use a paid VPN service when on public networks (e.g. cafe wifi) – free VPN services are bad because operators don't have enough incentive to protect you/your data. See recommendations from [Wirecutter](https://thewirecutter.com/reviews/best-vpn-service/) and [Freedom of the Press](https://freedom.press/training/choosing-a-vpn/).
+- When you download new mobile apps, double check to make sure it's the right one — there are a lot of fake apps that try to trick people by using a slightly modified name or icon of an existing, popular app.
 - Check what apps you have installed on your phone once in a while, and delete the ones you're not using anymore.
 - If you ever need to send someone a password, split it in half and send via two different channels (e.g. email + voice call).
 - Put a sticker (or webcam cover) over your laptop's front-facing camera.
@@ -149,7 +151,9 @@
 ---
 
 **🎉 Congratulations! You're now reasonably  
-🎉 secure, which is more than most :)**
+🎉 secure, which is more than most :)  
+🎉 Take the rest of the day off, and  
+🎉 come back tomorrow for Level 3.**
 
 ---
 
@@ -163,6 +167,12 @@
 - Use [Cryptomator](https://cryptomator.org/) or [Veracrypt](https://www.veracrypt.fr/en/Home.html) to create an encrypted, password-protected vault for them.
 - Set them up on both your desktop/laptop and your phone.
 - Move your files into these secure vaults. Make sure they're not still hanging around on an old folder or on your phone.
+
+#### Upgrade your gear
+
+- Use a paid VPN service when on public networks (e.g. cafe wifi) and even at home if you don't want your service provider to know where you're going. Free VPN services are bad because operators don't have enough incentive to protect you/your data. See recommendations from [Wirecutter](https://thewirecutter.com/reviews/best-vpn-service/) and [Freedom of the Press](https://freedom.press/training/choosing-a-vpn/).
+
+- Buy a privacy screen (prevents onlookers from seeing your screen, see [this 3M example](https://www.3m.com/3M/en_US/company-us/all-3m-products/~/All-3M-Products/Privacy-Screen-Protectors/Privacy-Products/Black-Privacy/)) for your laptop and/or phone.
 
 #### Revisit old passwords
 
@@ -178,12 +188,23 @@
 
 ---
 
-**😲 Wow, you even finished the difficult  
-😲 digital housekeeping tasks. Well done!**
+**😲 Wow, you completed all three levels!  
+😲 Well done! Now quickly look below
+😲 to see if any apply to you.**
 
 ---
 
 ## 💦❗️ Scenario-based recommendations
+
+### 👩🏿‍💻 Hosting a public event on a video calling platform (e.g. Zoom)
+
+- Set a password to enter the meeting to prevent random people from wandering in via a meeting ID generator. Consider setting up an RSVP system so that you don't have to give out the meeting link and password publicly.
+
+- Familiarize yourself with the platform's settings and minimize the amount of control (e.g. screen sharing) that non-hosts have. (E.g. [settings on Zoom](https://blog.zoom.us/wordpress/2020/03/20/keep-uninvited-guests-out-of-your-zoom-event/))
+
+- Create a plan of action for what you would do if a malicious troll gains access to your call.
+
+- Don't say what you wouldn't say in a public forum. Encourage your attendees to do the same. Most commercial platforms have access to your audio/video data and are mining your metadata to create consumer profiles.
 
 ### 🛫 Crossing an international border
 
@@ -339,7 +360,9 @@ Harassment and doxxing can get very specific and complicated based on the attack
 
 #### Monitor updates & collect receipts
 
-- Set up a [Talkwalker](https://www.talkwalker.com/alerts) and/or [Google Alerts](https://www.google.com/alerts) for your name/nickname.
+- Run keyword searches for your name, nickname, and address to see what's out there. Also run an image search on your most-used profile pictures.
+
+- Set up a [Talkwalker](https://www.talkwalker.com/alerts) and/or [Google Alerts](https://www.google.com/alerts) for your name and nickname.
 
 - Start logging (date, time, description, screenshot) incidents in whatever program/app that's easiest for you.
 
@@ -361,7 +384,7 @@ Harassment and doxxing can get very specific and complicated based on the attack
 
 - Review your social media accounts and delete any posts that reveal too much about where you live/where you go/who you're with.
 
-- Delete unwanted posts on Twitter using [Semiphemeral](https://micahflee.com/2019/06/semiphemeral-automatically-delete-your-old-tweets-except-for-the-ones-you-want-to-keep/) (free but requires use of the command line) or [Twitter Archive Eraser](https://martani.github.io/Twitter-Archive-Eraser) (free + paid plans).
+- Delete unwanted posts on Twitter using [Semiphemeral](https://semiphemeral.com/) (beta web service, if that fails try the [open source, command line edition](https://github.com/micahflee/semiphemeral)) or [Twitter Archive Eraser](https://martani.github.io/Twitter-Archive-Eraser) (free + paid plans).
 
 #### Ignore/reply/report/block your harassers
 
@@ -407,9 +430,11 @@ For messaging apps that use phone numbers as the primary identifier/username (e.
 
 - [Twilio](https://www.burnerapp.com/) (1 USD/month, but complicated setup – see the Twilio section [here](https://medium.com/@geminiimatt/creating-an-online-persona-deb4cd8c7f46) and [this guide](https://source.opennews.org/articles/shields-using-signal-without-your-phone-number/))
 
-- [Burner](https://www.burnerapp.com/) (5 USD/month, but also has prepaid plans for short-term use)
+- [Burner](https://www.burnerapp.com/) (5 USD/month, but also has prepaid plans for short-term use, US numbers only)
 
 - [Google Voice](https://voice.google.com/about) (free but only available in the US)
+
+- [MySudo](https://mysudo.com/) (1 USD/month, supports Canada and US numbers)
 
 - A phone company: get a prepaid or cheap SIM card plan (rates vary)
 
@@ -468,7 +493,7 @@ This section is a catch-all for difficult or esoteric practices that do not fall
 #### Emails
 
 - Sign up for a [Protonmail](https://protonmail.com/) or [Tutanota](https://tutanota.com/) end-to-end encrypted email account.
-- Approach PGP emails at your own risk ([recently disclosed security vulnerabilities](https://www.eff.org/deeplinks/2018/05/not-so-pretty-what-you-need-know-about-e-fail-and-pgp-flaw-0) means that it's no longer bulletproof).
+- Use PGP to secure your emails.
 
 #### File storage & sharing
 
@@ -502,6 +527,8 @@ This section is a catch-all for difficult or esoteric practices that do not fall
   - [iThemes Security plug-in](https://wordpress.org/plugins/better-wp-security/) for Wordpress.
 
 - Consider switching to a more privacy-oriented hosting service like [Greenhost](https://greenhost.net/) or one of these recommendations from [Gecko & Fly](https://www.geckoandfly.com/32144/anonymous-offshore-web-hosting/) and [PrivacyTools](https://www.privacytools.io/providers/hosting/).
+  
+  - Set up a [security.txt](https://securitytxt.org/) so that researchers have a place to disclose security vulnerabilities.
 
 #### Other
 
@@ -514,7 +541,7 @@ This section is a catch-all for difficult or esoteric practices that do not fall
 - Put your smart cards/passports/phones in a Faraday bag that blocks signals from going in and out. (See [Micah Lee's guide on them](https://micahflee.com/2015/11/some-thoughts-on-faraday-bags-and-operational-security/).)
 - Use a more secure operating system: [Tails](https://ssd.eff.org/en/module/keeping-your-data-safe) (works off of a USB stick) or [Qubes OS](https://www.qubes-os.org/).
 - For Android users: Download apps using [F-Droid](https://f-droid.org), an open-source, security-focused app store.
-- For US residents: Freeze your credit to prevent hackers from accessing sensitive data. See Security Checklist's [Freeze Your Credit](https://securitycheckli.st/) section for details.
+- For US residents: Freeze your credit to prevent bad actors from accessing or mis-using your personal information. See IntelTechniques' [Credit Freeze Guide](https://inteltechniques.com/data/workbook.pdf) for details.
 
 ---
 
@@ -536,3 +563,11 @@ We consulted many sources and drew upon our own experiences in creating this res
 ## 📝 License
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+---
+
+## 👋🏾 Special thanks
+
+Special thanks to the students at the School of Journalism and Communication at the Chinese University of Hong Kong, and to [our GitHub contributors](https://github.com/narwhalacademy/zebra-crossing/graphs/contributors).
+
+
