@@ -105,8 +105,8 @@
 ---
 
 **👍 Great job! You've covered the basics. 
-👍 Treat yourself to a cup of tea and a stretch.
-👍 Now, ready for the next level?**  
+👍 Treat yourself to a cup of tea and a stretch.  
+👍 Now, ready for the next level?**
 
 ---
 
@@ -189,7 +189,7 @@
 ---
 
 **😲 Wow, you completed all three levels!  
-😲 Well done! Now quickly look below
+😲 Well done! Now quickly look below  
 😲 to see if any apply to you.**
 
 ---
@@ -199,11 +199,8 @@
 ### 👩🏿‍💻 Hosting a public event on a video calling platform (e.g. Zoom)
 
 - Set a password to enter the meeting to prevent random people from wandering in via a meeting ID generator. Consider setting up an RSVP system so that you don't have to give out the meeting link and password publicly.
-
 - Familiarize yourself with the platform's settings and minimize the amount of control (e.g. screen sharing) that non-hosts have. (E.g. [settings on Zoom](https://blog.zoom.us/wordpress/2020/03/20/keep-uninvited-guests-out-of-your-zoom-event/))
-
 - Create a plan of action for what you would do if a malicious troll gains access to your call.
-
 - Don't say what you wouldn't say in a public forum. Encourage your attendees to do the same. Most commercial platforms have access to your audio/video data and are mining your metadata to create consumer profiles.
 
 ### 🛫 Crossing an international border
@@ -291,53 +288,37 @@ Below are some basics that all journalists should consider. If you're working on
 #### Be prepared
 
 - To remotely wipe the contents of your devices using a tracking app (e.g. [Find My](https://www.apple.com/icloud/find-my/) on iOS, [Find My Device](https://support.google.com/accounts/answer/6160491?hl=en) on Android, [Prey](https://www.preyproject.com), [Lookout Security](https://www.lookout.com/)).
-
 - To be on the receiving end of an email phishing campaign (as journalist emails are usually more public than others).
 
 #### Protect yourself
 
 - If you're traveling, review the `Crossing an international border` scenario above.
-
 - If you're covering a protest, review the `Attending a protest` scenario above and decide which parts apply to you (if you have special journalist rights/protections where you're working).
-
 - Use a VPN if you're browsing the internet at the office (website administrators can usually see that you're coming from, say, the New York Times network)
 
 #### Protect your sources
 
 - Use email less, as [even end-to-end encrypted email leaves a trail of metadata](https://freedom.press/training/blog/how-reporters-emails-get-got-case-studies-legal-request-hacking/).
-
 - To exchange messages, use an end-to-end encrypted messaging app that doesn't store metadata like [Signal](https://www.signal.org/). (Don't use Twitter DMs!)
-
 - Use [Signal](https://www.signal.org/) or [Jitsi](https://jitsi.org/) for end-to-end encrypted voice and video calls.
-
 - Use the security features in Signal and Whatsapp – see Martin Shelton's articles on [Locking Down Signal](https://medium.com/@mshelton/locking-down-signal-d71678f653d3) and [Upgrading WhatsApp security](https://medium.com/@mshelton/upgrading-whatsapp-security-386c8ce496d3).
-
 - Have your organization set up [SecureDrop](https://securedrop.org/). Failing that, encourage people to use [OnionShare](https://onionshare.org/) or [Firefox Send](https://send.firefox.com/).
-
 - Blur faces from photos and videos (e.g. Android [ObscuraCam](https://guardianproject.info/apps/obscuracam/), Youtube [instructions](https://technology.witness.org/2016/02/how-to-use-youtubes-new-blurring-feature-to-protect-identities/)).
-
 - Erase media metadata using [these apps](https://www.maketecheasier.com/best-apps-remove-exif-data-from-images/).
-
 - See Ted Han and Quinn Norton's [Protecting Your Sources When Releasing Sensitive Documents](https://source.opennews.org/articles/how-protect-your-sources-when-releasing-sensitive-/).
-
 - See Martin Shelton's [Opening Secure Channels for Confidential Tips](https://source.opennews.org/articles/opening-secure-channels-confidential-tips/).
 
 #### Protect your data
 
 - Make sure you're using an email/storage provider that's not owned/linked to an organization that you're reporting on.
-
 - Be aware that [courts can compel Google to hand over all of your data](https://medium.com/@tinfoilpress/newsrooms-lets-talk-about-g-suite-1672a36eb235).
-
 - Move all of your work onto end-to-end encrypted platforms. (E.g. [Protonmail]([https://protonmail.com/](https://protonmail.com/) or [Tutanota](https://tutanota.com/) for email, store documents in a [Tresorit](https://tresorit.com/) or [SpiderOak](https://spideroak.com/) cloud.) 
-
 - Store sensitive data in a password-protected cloud or external storage device as much as possible. See the `Lock up sensitive files` section above.
-
 - Remember to permanently erase sensitive files from your laptop/desktop: use [Eraser for Windows](https://eraser.heidi.ie/) and [File Shredder for Mac](https://apps.apple.com/us/app/fileshredder/id418094085?mt=12).
 
 #### For more information
 
 - If you're in an unconventional region, jurisdiction or situation, see Grégoire Pouget of Nothing2Hide's [Digital Security for Journalists Requires an Adaptable Toolkit](https://gijn.org/2019/07/16/digital-security-for-journalists-requires-an-adaptable-toolkit/) guide.
-
 - If you're running a newsroom, see Ontheline Newsrooms' see [Measures for Newsrooms and Journalists to Address Online Harassment](https://newsrooms-ontheline.ipi.media/).
 
 ---
@@ -349,77 +330,51 @@ Harassment and doxxing can get very specific and complicated based on the attack
 #### Recruit a trusted friend
 
 - Do not force yourself into a corner by going at this alone!
-  
   - Baseline: Ask a trusted friend to hold space for your situation and be your sounding board on analyzing how bad the threat is.
-  
   - Preferred: Ask a trusted friend to help you investigate, record, report and block harassers – see Take Back The Tech's [Hey Friend!](https://www.takebackthetech.net/know-more/heyfriend) guide for more details about this. In some cases, it may be healthier to hand over your phone/social media/accounts over to them so that you're not constantly triggered.
-
 - Alternately, reach out to online communities you're an active member of and ask for help. See PEN America's article on [Deploying Your Supportive Cyber Communities](https://onlineharassmentfieldmanual.pen.org/cyber-safety/deploying-your-supportive-cyber-communities/).
-
 - If no one is available right now, Heartmob has a list of [supportive organizations](https://iheartmob.org/resources/supportive_organizations), some of which have 24/7 hotlines.
 
 #### Monitor updates & collect receipts
 
 - Run keyword searches for your name, nickname, and address to see what's out there. Also run an image search on your most-used profile pictures.
-
 - Set up a [Talkwalker](https://www.talkwalker.com/alerts) and/or [Google Alerts](https://www.google.com/alerts) for your name and nickname.
-
 - Start logging (date, time, description, screenshot) incidents in whatever program/app that's easiest for you.
 
 #### Remove your personal information from the internet
 
 - Pay [PrivacyDuck](https://www.privacyduck.com/) to scrub your information online. See if you qualify for one of their [discount programs](https://www.privacyduck.com/discount-programs/).
-
 - Pay [Reputation.com](https://www.reputation.com/) to remove your information from paid sites and monitor them to make sure it stays removed.
-
 - Alternately, both [PrivacyDuck](https://www.privacyduck.com/resources/) and [Motherboard](https://motherboard.vice.com/en_us/article/ne9b3z/how-to-get-off-data-broker-and-people-search-sites-pipl-spokeo) have free online resources to help you remove your information yourself.
 
 #### Obscure your personal information
 
 - Use [Burner](http://www.burnerapp.com/) to set up burner phone numbers for calling/texting.
-
 - Use [Traveling Mailbox](https://travelingmailbox.com/) to obscure your postal address.
-
 - Delete old accounts to eliminate traces of personal information on the Internet. Use [Justdelete.me](http://Justdelete.me) to accelerate this process.
-
 - Review your social media accounts and delete any posts that reveal too much about where you live/where you go/who you're with.
-
 - Delete unwanted posts on Twitter using [Semiphemeral](https://semiphemeral.com/) (beta web service, if that fails try the [open source, command line edition](https://github.com/micahflee/semiphemeral)) or [Twitter Archive Eraser](https://martani.github.io/Twitter-Archive-Eraser) (free + paid plans).
 
 #### Ignore/reply/report/block your harassers
 
 - Together with your support person/friend and the log of receipts, decide on your course of action (these aren't mutually exclusive):
-  
   - Ignore: Sometimes harassers will walk away if they don't get attention.
-  
   - De-escalate: In some contexts, you can defuse the situation with some calm words before it gets worse.
-  
   - Report: Report the harasser to the relevant online platform and/or your local law enforcement.
-  
   - Mute on social media: Allows for peace of mind.
-  
   - Block on social media: Maximizes peace of mind as the harasser won't be able to see your posts. But they will notice and see it as a sign of escalation.
-  
   - Go public: Can be dangerous, but sometimes shaming them publicly or rallying people to your support will make them go away.
-
 - For Twitter users:
-  
   - Ask around in your communities for shared [block lists](https://help.twitter.com/en/using-twitter/advanced-twitter-block-options) of known offenders.   
-  
   - Block troll bots using [Bot Sentinel](https://botsentinel.com).
-  
   - Reduce dogpiling by blocking all followers of a certain profile using [Twitter Block Chain](%5Bhttps://github.com/satsukitv/twitter-block-chain%5D(https://github.com/satsukitv/twitter-block-chain).
 
 #### For more information
 
 - See Feminist Frequency's [Speak Up & Stay Safe(r)](https://onlinesafety.feministfrequency.com/en/).
-
 - See TrollBusters' [What to Do? Where to Go? Infographic](https://yoursosteam.wordpress.com/what-to-do-infographic/).
-
 - See Equity Labs' [Anti-Doxing Guide](https://medium.com/@EqualityLabs/anti-doxing-guide-for-activists-facing-attacks-from-the-alt-right-ec6c290f543c).
-
 - See HeartMob/Hollaback's [Technical Safety Guide](https://iheartmob.org/resources/tech).
-
 - See Crash Override (RIP)'s [So You've Been Doxed](http://www.crashoverridenetwork.com/soyouvebeendoxed.html) and [Preventing Doxing](http://www.crashoverridenetwork.com/preventingdoxing.html).
 
 ---
@@ -429,25 +384,19 @@ Harassment and doxxing can get very specific and complicated based on the attack
 For messaging apps that use phone numbers as the primary identifier/username (e.g. Signal, WhatsApp), get a secondary number from:
 
 - [Twilio](https://www.burnerapp.com/) (1 USD/month, but complicated setup – see the Twilio section [here](https://medium.com/@geminiimatt/creating-an-online-persona-deb4cd8c7f46) and [this guide](https://source.opennews.org/articles/shields-using-signal-without-your-phone-number/))
-
 - [Burner](https://www.burnerapp.com/) (5 USD/month, but also has prepaid plans for short-term use, US numbers only)
-
 - [Google Voice](https://voice.google.com/about) (free but only available in the US)
-
 - [MySudo](https://mysudo.com/) (1 USD/month, supports Canada and US numbers)
-
 - A phone company: get a prepaid or cheap SIM card plan (rates vary)
 
 But keep in mind:
 
 - If you lose/unsubscribe to your secondary phone number, other people can buy it and impersonate you.
-
 - Courts can still compel companies to hand over your information in most cases. 
 
 #### For true anonymity – create an untraceable online persona under a pseudonymn
 
 - If you're a public figure, consider working under a persistent pseudonymn or collective identity – this [Tactical Tech manual](https://gendersec.tacticaltech.org/wiki/index.php/Complete_manual#Creating_and_managing_identities_online) has more details on why.
-
 - To operate online under a truly safe pseudonymn, follow this guide on [creating untraceable online accounts and protecting your real identity](https://medium.com/@geminiimatt/creating-an-online-persona-deb4cd8c7f46).
 
 ---
@@ -455,21 +404,13 @@ But keep in mind:
 ### 🤐 Traveling to a place with weak data protection laws or internet censorship
 
 - Be aware that the phone companies there might share your location data and personal info with others without permission.
-
 - Setup a VPN beforehand so you can a) access services uninterrupted, and b) to minimize the amount of data collected about you. Avoid VPNs that are free or have opaque ownership. See recommendations from [Wirecutter](https://thewirecutter.com/reviews/best-vpn-service/) and [Freedom of the Press](https://freedom.press/training/choosing-a-vpn/).
-
 - Consider traveling with a burner phone while leaving your laptop at home. This will be especially useful if you need to install new/untested software for work that might violate data privacy policies.
-
 - Re-evaluate which online services are safe to use:
-  
   - If available, see how often your favorite service hands over its data by looking up their transparency reports:
-    
     - [Google Transparency Report: Request for user information](https://transparencyreport.google.com/user-data/overview)
-    
     - [Facebook Transparency Report: Government Requests for User Data](https://transparency.facebook.com/)
-    
     - [Apple Transparency Report](https://www.apple.com/legal/transparency/)
-  
   - Look up where the service's headquarters are and think about how that affects its privacy policies.
 
 ---
@@ -479,7 +420,6 @@ But keep in mind:
 If you work as part of a civil society group, you can contact:
 
 - Access Now's [Digital Security Helpline](https://www.accessnow.org/help/)
-
 - Front Line Defender's [Emergency Contact](https://www.frontlinedefenders.org/emergency-contact)
 
 If you have a bit more time, you can also apply for a Digital Defenders Partnership [Incident Emergency Grant](https://www.digitaldefenders.org/sections/about-us/emergency-grants/).
@@ -507,27 +447,18 @@ This section is a catch-all for difficult or esoteric practices that do not fall
 - WhatsApp additional settings:
   
   - To be 100% end-to-end encrypted, turn off chat backups on WhatsApp (Settings > Chats > Chat backup) and delete your previous backups (instructions for [iOS](https://www.wikihow.com/Delete-Backups-on-WhatsApp-on-iPhone-or-iPad), [Android](https://faq.whatsapp.com/en/android/30030306)).
-  
   - Turn on security notifications on WhatsApp (Settings > Account > Security).
-  
   - Set up a pin number to prevent your account from being moved without your permission (Settings > Account > Two-Step Verification).
 
 #### Hosting/running a website
 
 - Read [this EDRi guide on ethical website development and maintenance](https://edri.org/ethical-web-dev/). Pay special attention to its privacy recommendations.
-
 - Protect your website (from DDOS attacks and other things) by using:
-  
   - [Deflect](https://deflect.ca/) (has [free plan]([https://deflect.ca/nonprofit](https://deflect.ca/nonprofit)) for non-profits).
-  
   - [Cloudflare](https://www.cloudflare.com/) (has [free plan]([https://www.cloudflare.com/galileo/](https://www.cloudflare.com/galileo/) for arts, human rights, civil society, journalism, or democracy organizations).
-  
   - [Project Shield](https://projectshield.withgoogle.com) from Google: only available for news, human rights and election monitoring sites. 
-  
   - [iThemes Security plug-in](https://wordpress.org/plugins/better-wp-security/) for Wordpress.
-
 - Consider switching to a more privacy-oriented hosting service like [Greenhost](https://greenhost.net/) or one of these recommendations from [Gecko & Fly](https://www.geckoandfly.com/32144/anonymous-offshore-web-hosting/) and [PrivacyTools](https://www.privacytools.io/providers/hosting/).
-  
   - Set up a [security.txt](https://securitytxt.org/) so that researchers have a place to disclose security vulnerabilities.
 
 #### Other
