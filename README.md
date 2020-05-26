@@ -171,13 +171,11 @@
 #### Upgrade your gear
 
 - Use a paid VPN service when on public networks (e.g. cafe wifi) and even at home if you don't want your service provider to know where you're going. Free VPN services are bad because operators don't have enough incentive to protect you/your data. See recommendations from [Wirecutter](https://thewirecutter.com/reviews/best-vpn-service/) and [Freedom of the Press](https://freedom.press/training/choosing-a-vpn/).
-
 - Buy a privacy screen (prevents onlookers from seeing your screen, see [this 3M example](https://www.3m.com/3M/en_US/company-us/all-3m-products/~/All-3M-Products/Privacy-Screen-Protectors/Privacy-Products/Black-Privacy/)) for your laptop and/or phone.
 
 #### Revisit old passwords
 
 - Store all of your online service passwords in a password manager. (If you have the right browser add-on/plugin installed, it will capture all the relevant details during a login process.)
-
 - Using your password manager's analysis feature, see which accounts/services have weak passwords and update the ones that might have any personal information about you or that you would really hate to lose.
 
 ### 💪🏾 Habits to cultivate
@@ -379,6 +377,31 @@ Harassment and doxxing can get very specific and complicated based on the attack
 
 ---
 
+### 💔 I think my partner is spying on me through my phone (stalkerware)
+
+#### If you're not sure and things between you and your partner aren't that bad yet:
+
+- Keep a hidden, pen-and-paper log of suspicious incidents.
+- Make sure your partner is not getting information from previously shared accounts or because you left the [location share on within Google Maps](https://support.google.com/maps/answer/7326816?co=GENIE.Platform%3DAndroid&hl=en).
+- Review and redo the items in Levels 1-3 of this guide. Reset your passwords, check your privacy/data sharing permissions, and look up any apps you don't recognize on your computer and phone.
+- Keep an eye out for other signs. E.g. your phone battery doesnt' last very long anymore, or your laptop internet connection is slow. Review the Coalition Against Stalkerware's [full of list of indicators](https://stopstalkerware.org/get-help/).
+- **Don't delete suspicious apps immediately** — you may need to keep them as evidence. Plus, deletion may also cause the situation with your partner to escalate.
+
+#### If you're pretty sure they're spying on you and you're scared:
+
+- Seek help. You should not go through this alone:
+  - Find a public or friend's computer/phone to contact the organizations in [this global resource list compiled by the Coalition Against Stalkerware](https://stopstalkerware.org/get-help/resources/). Some of them can even help you collect evidence and remove stalkerware safely.
+  - Reach out to a trusted friend (through a public device/line) and ask them to hold space for your situation and be your sounding board on analyzing how bad the situation is.
+- Keep digital and printed records of relevant texts, emails, calls, etc. See the NNEDV's [guide on documenting/saving evidence](https://www.womenslaw.org/about-abuse/abuse-using-technology/evidence-issues-cases-involving-technology/digital-evidence).
+- When you no longer need evidence anymore, remove the suspicous apps/stalkerware yourself either by deleting them one by one, or by performing a full factory reset on your computer/phone. (Buying brand new device is even safer of course.) Remember to reinstall apps and import data manually, lest you restore a backup with stalkerware in it.
+
+#### For more information
+
+- See Wirecutter's [Protect Your Devices Against Domestic Abusers](https://thewirecutter.com/blog/domestic-abusers-can-control-your-devices-heres-how-to-fight-back/)
+- See Coalition Against Stalkerware's [Safety Toolkit](https://stopstalkerware.org/get-help/)
+
+---
+
 ### 👤 I don't want to give out my real phone number for online dating/networking/organizing
 
 For messaging apps that use phone numbers as the primary identifier/username (e.g. Signal, WhatsApp), get a secondary number from:
@@ -500,5 +523,3 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareA
 ## 👋🏾 Special thanks
 
 Special thanks to the students at the School of Journalism and Communication at the Chinese University of Hong Kong, and to [our GitHub contributors](https://github.com/narwhalacademy/zebra-crossing/graphs/contributors).
-
-
