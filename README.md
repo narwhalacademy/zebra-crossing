@@ -324,7 +324,7 @@ Below are some basics that all journalists should consider. If you're working on
 
 - Make sure you're using an email/storage provider that's not owned/linked to an organization that you're reporting on.
 - Be aware that [courts can compel Google to hand over all of your data](https://medium.com/@tinfoilpress/newsrooms-lets-talk-about-g-suite-1672a36eb235).
-- Move all of your work onto end-to-end encrypted platforms. (E.g. [Protonmail]([https://protonmail.com/](https://protonmail.com/) or [Tutanota](https://tutanota.com/) for email, store documents in a [Tresorit](https://tresorit.com/) or [SpiderOak](https://spideroak.com/) cloud.) 
+- Move all of your work onto end-to-end encrypted platforms. (E.g. [Protonmail](https://protonmail.com/) or [Tutanota](https://tutanota.com/) for email, store documents in a [Tresorit](https://tresorit.com/) or [SpiderOak](https://spideroak.com/) cloud.) 
 - Store sensitive data in a password-protected cloud or external storage device as much as possible. See the `Lock up sensitive files` section above.
 - Remember to permanently erase sensitive files from your laptop/desktop: use [Eraser for Windows](https://eraser.heidi.ie/) and [File Shredder for Mac](https://apps.apple.com/us/app/fileshredder/id418094085?mt=12).
 
