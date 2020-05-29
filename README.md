@@ -148,6 +148,9 @@ Don't say anything you'd regret on in a "private" Slack group, Facebook page, Wh
 - Any one member can leak all of the data.
 - Administrators usually have access to everything within the group, including that private direct message between two people, and sometimes even deleted messages.
 - Even if you're not using your real name or photo, what you say can often be traced back to your phone number or email (that is linked to the account).
+  - To prevent this in Telegram, go into Settings > Privacy and Security > Phone Number, and then set:
+    - `Who can see my phone number` to `Nobody` 
+    - `Who can find me by my number` to `My Contacts` 
 
 #### Other
 
