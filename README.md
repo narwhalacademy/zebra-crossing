@@ -17,11 +17,12 @@
 ### 🗣 This guide in other languages
 
 - [繁體中文 (Traditional Chinese)](README-繁體中文.md)
+- [日本語](README-日本語.md) (Japanese, a work-in-progress)
 - [Italiano](README-Italiano.md) (Italian, a work-in-progress)
 
 ### 🕒 Last updated
 
-- 26 May 2020
+- 29 May 2020
 
 ---
 
@@ -118,6 +119,7 @@
 
 - Review the privacy settings on social networks you frequent: who can see your content, who can comment on it, and who can see your location.
   - Limit Facebook tracking by turning off Off-Facebook Activity (follow [these EFF's instructions](https://www.eff.org/deeplinks/2020/01/how-change-your-facebook-activity-settings)).
+- Review the privacy settings on messaging apps you normally use: read receipts, time stamps for "last seen," and whether your phone number/profile picture are public.
 - Install these protective web browsers add-ons on your laptop/desktop computer (and make sure they're on even during private/incognito mode):
   - An ad blocker (e.g. [uBlock Origin](https://github.com/gorhill/uBlock/), [Ghostery](https://www.ghostery.com/)).
   - A tracker blocker ([Privacy Badger](https://www.eff.org/privacybadger)).
@@ -139,6 +141,14 @@
 - Post less personal information online – especially information that can be used to identify/track/scam you (addresses, phone numbers, birthday, etc.). Remember almost everything you say online is logged somewhere and that even if your setup is secure, your recipient's setup may not be.
 - If you own domains, use WHOIS privacy services and stick with it (they're worth the money). But note that with WHOIS lookup/history tools, if you've ever put in your real address, it's very difficult to remove from the logs.
 
+#### Watch what you say in online groups
+
+Don't say anything you'd regret on in a "private" Slack group, Facebook page, WhatsApp group chat or Telegram channel because:
+
+- Any one member can leak all of the data.
+- Administrators usually have access to everything within the group, including that private direct message between two people, and sometimes even deleted messages.
+- Even if you're not using your real name or photo, what you say can often be traced back to your phone number or email (that is linked to the account).
+
 #### Other
 
 - When you download new mobile apps, double check to make sure it's the right one — there are a lot of fake apps that try to trick people by using a slightly modified name or icon of an existing, popular app.
@@ -146,7 +156,6 @@
 - If you ever need to send someone a password, split it in half and send via two different channels (e.g. email + voice call).
 - Put a sticker (or webcam cover) over your laptop's front-facing camera.
 - Don't use Google/Twitter/Facebook to sign up/login to other services – each service should have its own account.
-- Be careful about what you say in your organizational accounts – administrators usually have access to all data (directly or through workarounds) on email, Dropbox, Slack, etc.
 
 ---
 
@@ -406,7 +415,7 @@ Harassment and doxxing can get very specific and complicated based on the attack
 
 ### 👤 I don't want to give out my real phone number for online dating/networking/organizing
 
-For messaging apps that use phone numbers as the primary identifier/username (e.g. Signal, WhatsApp), get a secondary number from:
+For messaging apps that use phone numbers as the primary identifier/username (e.g. Signal, WhatsApp, Telegram), get a secondary number from:
 
 - [Twilio](https://www.burnerapp.com/) (1 USD/month, but complicated setup – see the Twilio section [here](https://medium.com/@geminiimatt/creating-an-online-persona-deb4cd8c7f46) and [this guide](https://source.opennews.org/articles/shields-using-signal-without-your-phone-number/))
 - [Burner](https://www.burnerapp.com/) (5 USD/month, but also has prepaid plans for short-term use, US numbers only)
