@@ -1,0 +1,29 @@
+@media screen, projection {
+
+// Define variables in _variables.scss
+// Then create classes that refer to them here
+// Then use these class names in your HTML
+
+// Example: create an alternative sans-serif class
+// Define $c-sans-serif in _variables.scss
+// Then create a c-sans-serif class here
+// Like so:
+.c-sans-serif {
+    font-family: $c-sans-serif;
+}
+
+
+// Some empty media queries
+// Use these if you want to make responsive custom classes
+
+@media #{$breakpoint-not-small} {
+}
+
+@media #{$breakpoint-medium} {
+}
+
+@media #{$breakpoint-large} {
+}
+
+
+} // End the enclosing screen/projection media query
