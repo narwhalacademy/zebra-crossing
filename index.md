@@ -1,3 +1,8 @@
+---
+layout: default
+title: Home page
+---
+
 # 🦓 Zebra Crossing: an easy-to-use digital safety checklist
 
 ### 🤔 Who this guide is for
@@ -16,13 +21,13 @@
 
 ### 🗣 This guide in other languages
 
-- [繁體中文 (Traditional Chinese)](README-繁體中文.md)
-- [日本語](README-日本語.md) (Japanese, a work-in-progress)
-- [Italiano](README-Italiano.md) (Italian, a work-in-progress)
+- [繁體中文 (Traditional Chinese)](guide-zh.html)
+- [日本語](guide-jp.html) (Japanese, a work-in-progress)
+- [Italiano](guide-it.html) (Italian, a work-in-progress)
 
 ### 🕒 Last updated
 
-- 1 June 2020
+- 29 May 2020
 
 ---
 
@@ -148,9 +153,6 @@ Don't say anything you'd regret on in a "private" Slack group, Facebook page, Wh
 - Any one member can leak all of the data.
 - Administrators usually have access to everything within the group, including that private direct message between two people, and sometimes even deleted messages.
 - Even if you're not using your real name or photo, what you say can often be traced back to your phone number or email (that is linked to the account).
-  - To prevent this in Telegram, go into Settings > Privacy and Security > Phone Number, and then set:
-    - `Who can see my phone number` to `Nobody` 
-    - `Who can find me by my number` to `My Contacts` 
 
 #### Other
 
@@ -261,43 +263,35 @@ Don't say anything you'd regret on in a "private" Slack group, Facebook page, Wh
 #### In case of emergency
 
 - Draft a message to a trusted friend (not at protest) or legal hotline. Be ready to hit send if you are arrested/there is an emergency.
-- Write the phone number of the trusted friend/hotline on your arm with permanent marker as a backup.
 - Bring a spare battery for your phone.
-- If you use your fingerprint or face to unlock your phone, turn it off for now. In some places, [officers can compel you to provide your fingerprint but not your passcode](http://www.theatlantic.com/technology/archive/2016/05/iphone-fingerprint-search-warrant/480861/).
-- Immediately power off your phone if you think you'll be arrested (disk encryption works better if it's off).
-- Consider using a burner phone with a burner SIM card.
+- If you use thumbprint (or facial recognition) unlock, immediately power off your phone if you're ever arrested. In some jurisdictions, [officers can compel you to provide your fingerprint but not your passcode](http://www.theatlantic.com/technology/archive/2016/05/iphone-fingerprint-search-warrant/480861/). Better yet, turn off fingerprint or face ID before going to a protest.
+- Consider leaving your phone at home and using a burner phone with a burner SIM card. 
 
 #### Store less share less
 
-- Keep as little sensitive personal information on your phone as possible.
-- Use a messaging app that lets you create disappearing messages (e.g. Signal). Turn on the timer when discussing the protest.
-- Don't take any photos or videos where people's faces are clearly visible. Taking a photo of people's backs is okay. (The one exception is if you're filming a video of a conflict or arrest where documentation is key.)
-- Wear a face mask so you are not easily caught on camera.
-- When sharing photos/videos:
-  - Blur the faces of any protesters. (Use Everest Pipkin's [Image Scrubber](https://everestpipkin.github.io/image-scrubber/) for photos, and Youtube's [blur faces tool](https://youtube-eng.googleblog.com/2017/08/blur-select-faces-with-updated-blur.html) for videos.)
-  - If need be, erase the location metadata using [these apps](https://www.maketecheasier.com/best-apps-remove-exif-data-from-images/).
-
-#### Minimize location tracking
-
-- Turn off location history:
-  - iPhone: Settings > Privacy > Location Services > System Services > Significant Locations
-  - Android: Settings > Google > Google Account > Data & personalization > Location History > Manage setting > Your account & all your devices >Use Location History Off
-  - Google Maps: Settings > Maps history > Web & App Activity
-- Delete past location history:
-  - iPhone: Settings > Privacy > Location Services > System Services > Significant Locations > Clear History
-  - [Android](https://support.google.com/accounts/answer/3118687?hl=en#delete)
-  - [Google Maps](https://support.google.com/maps/answer/3137804?hl=en)
-- Consider turning off all location services temporarily:
-  - iPhone: Settings > Privacy > Location Services > Location Services Off
-  - Android: Security & location > Location > Use location Off
+- Keep as little sensitive personal information as possible – you never know whose hands it might end up in.
+- Turn on disappearing messages if your messaging app supports it.
+- If you need to share photos, erase the associated metadata first using [these apps](https://www.maketecheasier.com/best-apps-remove-exif-data-from-images/).
+- Minimize location tracking on your phone:
+  - Turn off location history:
+    - iPhone: Settings > Privacy > Location Services > System Services > Significant Locations
+    - Android: Settings > Google > Google Account > Data & personalization > Location History > Manage setting > Your account & all your devices >Use Location History Off
+    - Google Maps: Settings > Maps history > Web & App Activity
+  - Delete past location history:
+    - iPhone: Settings > Privacy > Location Services > System Services > Significant Locations > Clear History
+    - [Android](https://support.google.com/accounts/answer/3118687?hl=en#delete)
+    - [Google Maps](https://support.google.com/maps/answer/3137804?hl=en)
+  - Consider turning off all location services temporarily:
+    - iPhone: Settings > Privacy > Location Services > Location Services Off
+    - Android: Security & location > Location > Use location Off
 
 #### Other
 
-- Double check your messaging apps' privacy settings.
+- Double check your messaging apps privacy settings.
 - Turn off message previews in your notifications:
   - iOS: Settings > Notifications > Show Previews: When Unlocked
   - Android: Settings > Apps & notifications > Notifications > On lock screen: Hide sensitive content
-- Remember to make voice calls through end-to-end encrypted apps like Signal.
+- Remember to make voice calls through end-to-end encrypted apps like Signal or Whatsapp.
 
 ---
 
@@ -332,7 +326,7 @@ Below are some basics that all journalists should consider. If you're working on
 
 - Make sure you're using an email/storage provider that's not owned/linked to an organization that you're reporting on.
 - Be aware that [courts can compel Google to hand over all of your data](https://medium.com/@tinfoilpress/newsrooms-lets-talk-about-g-suite-1672a36eb235).
-- Move all of your work onto end-to-end encrypted platforms. (E.g. [Protonmail](https://protonmail.com/) or [Tutanota](https://tutanota.com/) for email, store documents in a [Tresorit](https://tresorit.com/) or [SpiderOak](https://spideroak.com/) cloud.) 
+- Move all of your work onto end-to-end encrypted platforms. (E.g. [Protonmail]([https://protonmail.com/](https://protonmail.com/) or [Tutanota](https://tutanota.com/) for email, store documents in a [Tresorit](https://tresorit.com/) or [SpiderOak](https://spideroak.com/) cloud.) 
 - Store sensitive data in a password-protected cloud or external storage device as much as possible. See the `Lock up sensitive files` section above.
 - Remember to permanently erase sensitive files from your laptop/desktop: use [Eraser for Windows](https://eraser.heidi.ie/) and [File Shredder for Mac](https://apps.apple.com/us/app/fileshredder/id418094085?mt=12).
 
