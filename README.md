@@ -22,7 +22,7 @@
 
 ### 🕒 Last updated
 
-- 1 June 2020
+- 5 June 2020
 
 ---
 
@@ -65,8 +65,8 @@
 - Any password less than 10 characters is bad, but it's also okay-to-string-together-non-sequitur-words.
 - Double check the security questions for your key online services (email, bank, Facebook, etc.) and make sure that they're not easy to answer by friends/looking you up on Google.
 - Start using a different password for every service, because password leaks happen all the time. To make this easy, use a password manager ([Lifehacker reviews them here](https://lifehacker.com/5529133/five-best-password-managers)) to store/autofill/generate them. For now, make sure you use a unique password for essential services (email, social media, banking, cloud storage).
-- Use a non-common/obvious unlock code for your phone: at least 7 digits, and preferably a mix of letters and numbers.
-- On iPhone, turn off USB Accessories in Settings > Face ID & Passcode > Allow Access When Locked.
+- Use a non-common/obvious unlock code for your phone with at least 8 digits.
+- On iPhone, turn off USB Accessories in Settings → Face ID & Passcode → Allow Access When Locked.
 
 #### Encrypt your devices
 
@@ -125,6 +125,8 @@
   - A tracker blocker ([Privacy Badger](https://www.eff.org/privacybadger)).
   - [HTTPS Everywhere](https://www.eff.org/https-everywhere).
 - Review which apps on your smartphone have access to your location data. Turn off access if the app doesn't need it, and minimize the number of apps that track your location all the time.
+  - iOS: Settings → Privacy → Location Services
+  - Android: Settings → Apps & notifications → App permissions
 - If you use smart speakers, turn off its recording function: instructions for [Google Home](https://myaccount.google.com/activitycontrols/audio) and for [Amazon Alexa](https://twitter.com/geminiimatt/status/1125611726773334017).
 
 #### Other
@@ -192,7 +194,7 @@ Don't say anything you'd regret on in a "private" Slack group, Facebook page, Wh
 
 ### 💪🏾 Habits to cultivate
 
-- Start using [Signal](https://whispersystems.org/), an end-to-end encrypted mobile messaging app that's generally agreed to be safe/secure/robust. (Beyond Signal, there is little consensus on what's secure and people tend to get very emotional about their choice of mobile messaging apps.)
+- Start using [Signal](https://signal.org/), an end-to-end encrypted mobile messaging app that's generally agreed to be safe/secure/robust. (Beyond Signal, there is little consensus on what's secure and people tend to get very emotional about their choice of mobile messaging apps.)
 - When making voice or video calls, use an end-to-end encrypted app (e.g. Signal, Jitsi, Wire).
 - Buy a harder-to-hack mobile phone ($$$). Typically, this is an iPhone or Android phone that implements a "pure" Google version of Android.
 
@@ -269,35 +271,35 @@ Don't say anything you'd regret on in a "private" Slack group, Facebook page, Wh
 
 #### Store less share less
 
-- Keep as little sensitive personal information on your phone as possible.
-- Use a messaging app that lets you create disappearing messages (e.g. Signal). Turn on the timer when discussing the protest.
+- Keep as little sensitive personal information on your phone as possible. Delete any photos, chat logs and notes that can be used against you.
+- Use a messaging app that lets you create disappearing messages (e.g. [Signal](https://signal.org/)). Turn on the timer when discussing the protest.
 - Don't take any photos or videos where people's faces are clearly visible. Taking a photo of people's backs is okay. (The one exception is if you're filming a video of a conflict or arrest where documentation is key.)
 - Wear a face mask so you are not easily caught on camera.
 - When sharing photos/videos:
-  - Blur the faces of any protesters. (Use Everest Pipkin's [Image Scrubber](https://everestpipkin.github.io/image-scrubber/) for photos, and Youtube's [blur faces tool](https://youtube-eng.googleblog.com/2017/08/blur-select-faces-with-updated-blur.html) for videos.)
+  - Blur the faces of any protesters. (Use Everest Pipkin's [Image Scrubber](https://everestpipkin.github.io/image-scrubber/) or [Signal's blur tool](https://signal.org/blog/blur-tools/) for photos, and Youtube's [blur faces tool](https://youtube-eng.googleblog.com/2017/08/blur-select-faces-with-updated-blur.html) for videos.)
   - If need be, erase the location metadata using [these apps](https://www.maketecheasier.com/best-apps-remove-exif-data-from-images/).
 
 #### Minimize location tracking
 
 - Turn off location history:
-  - iPhone: Settings > Privacy > Location Services > System Services > Significant Locations
-  - Android: Settings > Google > Google Account > Data & personalization > Location History > Manage setting > Your account & all your devices >Use Location History Off
-  - Google Maps: Settings > Maps history > Web & App Activity
+  - iPhone: Settings → Privacy → Location Services → System Services → Significant Locations
+  - Android: Settings → Google → Google Account → Data & personalization → Location History → Manage setting → Your account & all your devices → Use Location History Off
+  - Google Maps: Settings → Maps history → Web & App Activity
 - Delete past location history:
-  - iPhone: Settings > Privacy > Location Services > System Services > Significant Locations > Clear History
+  - iPhone: Settings → Privacy → Location Services → System Services → Significant Locations → Clear History
   - [Android](https://support.google.com/accounts/answer/3118687?hl=en#delete)
   - [Google Maps](https://support.google.com/maps/answer/3137804?hl=en)
 - Consider turning off all location services temporarily:
-  - iPhone: Settings > Privacy > Location Services > Location Services Off
-  - Android: Security & location > Location > Use location Off
+  - iPhone: Settings → Privacy → Location Services → Location Services Off
+  - Android: Security & location → Location → Use location Off
 
 #### Other
 
 - Double check your messaging apps' privacy settings.
 - Turn off message previews in your notifications:
-  - iOS: Settings > Notifications > Show Previews: When Unlocked
-  - Android: Settings > Apps & notifications > Notifications > On lock screen: Hide sensitive content
-- Remember to make voice calls through end-to-end encrypted apps like Signal.
+  - iOS: Settings → Notifications → Show Previews: When Unlocked
+  - Android: Settings → Apps & notifications → Notifications → On lock screen: Hide sensitive content
+- Remember to make voice calls through end-to-end encrypted apps like [Signal](https://signal.org/).
 
 ---
 
@@ -351,7 +353,7 @@ Harassment and doxxing can get very specific and complicated based on the attack
 
 - Do not force yourself into a corner by going at this alone!
   - Baseline: Ask a trusted friend to hold space for your situation and be your sounding board on analyzing how bad the threat is.
-  - Preferred: Ask a trusted friend to help you investigate, record, report and block harassers – see Take Back The Tech's [Hey Friend!](https://www.takebackthetech.net/know-more/heyfriend) guide for more details about this. In some cases, it may be healthier to hand over your phone/social media/accounts over to them so that you're not constantly triggered.
+  - Preferred: Ask a trusted friend to help you investigate, record, report and block harassers — see Take Back The Tech's [Hey Friend!](https://www.takebackthetech.net/know-more/heyfriend) guide for more details about this. In some cases, it may be healthier to hand over your phone/social media/accounts over to them so that you're not constantly triggered.
 - Alternately, reach out to online communities you're an active member of and ask for help. See PEN America's article on [Deploying Your Supportive Cyber Communities](https://onlineharassmentfieldmanual.pen.org/cyber-safety/deploying-your-supportive-cyber-communities/).
 - If no one is available right now, Heartmob has a list of [supportive organizations](https://iheartmob.org/resources/supportive_organizations), some of which have 24/7 hotlines.
 
@@ -428,10 +430,9 @@ Harassment and doxxing can get very specific and complicated based on the attack
 
 For messaging apps that use phone numbers as the primary identifier/username (e.g. Signal, WhatsApp, Telegram), get a secondary number from:
 
-- [Twilio](https://www.burnerapp.com/) (1 USD/month, but complicated setup – see the Twilio section [here](https://medium.com/@geminiimatt/creating-an-online-persona-deb4cd8c7f46) and [this guide](https://source.opennews.org/articles/shields-using-signal-without-your-phone-number/))
-- [Burner](https://www.burnerapp.com/) (5 USD/month, but also has prepaid plans for short-term use, US numbers only)
+- [Twilio](https://www.twilio.com) (1 USD/month, but complicated setup – see the Twilio section [here](https://medium.com/@geminiimatt/creating-an-online-persona-deb4cd8c7f46) and [this guide](https://source.opennews.org/articles/shields-using-signal-without-your-phone-number/))
 - [Google Voice](https://voice.google.com/about) (free but only available in the US)
-- [MySudo](https://mysudo.com/) (1 USD/month, supports Canada and US numbers)
+- [Burner](https://www.burnerapp.com/) or [Hushed](https://hushed.com) (5 and 4 USD/month respectively + other prepaid plans for short-term use, US/Canada numbers)
 - A phone company: get a prepaid or cheap SIM card plan (rates vary)
 
 But keep in mind:
@@ -491,9 +492,9 @@ This section is a catch-all for difficult or esoteric practices that do not fall
 
 - WhatsApp additional settings:
   
-  - To be 100% end-to-end encrypted, turn off chat backups on WhatsApp (Settings > Chats > Chat backup) and delete your previous backups (instructions for [iOS](https://www.wikihow.com/Delete-Backups-on-WhatsApp-on-iPhone-or-iPad), [Android](https://faq.whatsapp.com/en/android/30030306)).
-  - Turn on security notifications on WhatsApp (Settings > Account > Security).
-  - Set up a pin number to prevent your account from being moved without your permission (Settings > Account > Two-Step Verification).
+  - To be 100% end-to-end encrypted, turn off chat backups on WhatsApp (Settings → Chats → Chat backup) and delete your previous backups (instructions for [iOS](https://www.wikihow.com/Delete-Backups-on-WhatsApp-on-iPhone-or-iPad), [Android](https://faq.whatsapp.com/en/android/30030306)).
+  - Turn on security notifications on WhatsApp (Settings → Account → Security).
+  - Set up a pin number to prevent your account from being moved without your permission (Settings → Account → Two-Step Verification).
 
 #### Hosting/running a website
 
