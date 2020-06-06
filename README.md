@@ -22,7 +22,7 @@
 
 ### 🕒 Last updated
 
-- 5 June 2020
+- 6 June 2020
 
 ---
 
@@ -435,7 +435,9 @@ For messaging apps that use phone numbers as the primary identifier/username (e.
 - [Burner](https://www.burnerapp.com/) or [Hushed](https://hushed.com) (5 and 4 USD/month respectively + other prepaid plans for short-term use, US/Canada numbers)
 - A phone company: get a prepaid or cheap SIM card plan (rates vary)
 
-But keep in mind:
+For sites and services that use email as the primary identifier/username, get a separate, new email address.
+
+Keep in mind:
 
 - If you lose/unsubscribe to your secondary phone number, other people can buy it and impersonate you.
 - Courts can still compel companies to hand over your information in most cases. 
