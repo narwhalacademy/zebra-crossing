@@ -81,7 +81,7 @@
 - Turn off app-specific passwords that bypass two-factor authentication (e.g. [instructions for Gmail](https://www.lifewire.com/revoke-an-application-password-for-gmail-1171889)).
 - Turn off automatically add(ed) invitations on [Google Calendar settings](https://calendar.google.com/calendar/r/settings) ([here's why](https://www.forbes.com/sites/daveywinder/2019/06/11/new-security-warning-issued-for-googles-1-5-billion-gmail-and-calendar-users/#3605ff0565e5)).
 - [Turn on Login Alerts on Facebook](https://www.facebook.com/settings?tab=security).
-- [Disable macros within Microsoft Office](https://support.office.com/en-us/article/enable-or-disable-macros-in-office-files-12b036fd-d140-4e74-b45e-16fed1a7e5c6).The **School** of **Journalism** and Communication
+- [Disable macros within Microsoft Office](https://support.office.com/en-us/article/enable-or-disable-macros-in-office-files-12b036fd-d140-4e74-b45e-16fed1a7e5c6).
 
 ### 💪🏽 Habits to cultivate
 
@@ -402,7 +402,7 @@ You might not need to delete your entire account, but consider deleting (or maki
 
 - Facebook:
   - See what your public profile looks and remove/restrict things as you see fit.
-    - On desktop, go to your profile and click the 👁button next to the right of the Edit Profile button.
+    - On desktop, go to your profile and click the 👁 button next to the right of the Edit Profile button.
     - On mobile, go to your proflie, tap the three dots on the right of Add Story and tap View As.
   - Make it so only friends can see your past posts.
     - On desktop, go to Settings → Privacy → Limit Past Posts.
