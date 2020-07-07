@@ -22,7 +22,7 @@
 
 ### 🕒 Last updated
 
-- 6 June 2020
+- 7 July 2020
 
 ---
 
@@ -150,7 +150,7 @@ Don't say anything you'd regret on in a "private" Slack group, Facebook page, Wh
 - Any one member can leak all of the data.
 - Administrators usually have access to everything within the group, including that private direct message between two people, and sometimes even deleted messages.
 - Even if you're not using your real name or photo, what you say can often be traced back to your phone number or email (that is linked to the account).
-  - To prevent this in Telegram, go into Settings > Privacy and Security > Phone Number, and then set:
+  - To prevent this in Telegram, go into Settings → Privacy and Security → Phone Number, and then set:
     - `Who can see my phone number` to `Nobody` 
     - `Who can find me by my number` to `My Contacts` 
 
@@ -363,19 +363,9 @@ Harassment and doxxing can get very specific and complicated based on the attack
 - Set up a [Talkwalker](https://www.talkwalker.com/alerts) and/or [Google Alerts](https://www.google.com/alerts) for your name and nickname.
 - Start logging (date, time, description, screenshot) incidents in whatever program/app that's easiest for you.
 
-#### Remove your personal information from the internet
+#### Remove information about you off of the internet
 
-- Pay [PrivacyDuck](https://www.privacyduck.com/) to scrub your information online. See if you qualify for one of their [discount programs](https://www.privacyduck.com/discount-programs/).
-- Pay [Reputation.com](https://www.reputation.com/) to remove your information from paid sites and monitor them to make sure it stays removed.
-- Alternately, both [PrivacyDuck](https://www.privacyduck.com/resources/) and [Motherboard](https://motherboard.vice.com/en_us/article/ne9b3z/how-to-get-off-data-broker-and-people-search-sites-pipl-spokeo) have free online resources to help you remove your information yourself.
-
-#### Obscure your personal information
-
-- Use [Burner](http://www.burnerapp.com/) to set up burner phone numbers for calling/texting.
-- Use [Traveling Mailbox](https://travelingmailbox.com/) to obscure your postal address.
-- Delete old accounts to eliminate traces of personal information on the Internet. Use [Justdelete.me](http://Justdelete.me) to accelerate this process.
-- Review your social media accounts and delete any posts that reveal too much about where you live/where you go/who you're with.
-- Delete unwanted posts on Twitter using [Semiphemeral](https://semiphemeral.com/) (beta web service, if that fails try the [open source, command line edition](https://github.com/micahflee/semiphemeral)) or [Twitter Archive Eraser](https://martani.github.io/Twitter-Archive-Eraser) (free + paid plans).
+- Follow the instructions in the section/scenario that follows this one.
 
 #### Ignore/reply/report/block your harassers
 
@@ -390,6 +380,7 @@ Harassment and doxxing can get very specific and complicated based on the attack
   - Ask around in your communities for shared [block lists](https://help.twitter.com/en/using-twitter/advanced-twitter-block-options) of known offenders.   
   - Block troll bots using [Bot Sentinel](https://botsentinel.com).
   - Reduce dogpiling by blocking all followers of a certain profile using [Twitter Block Chain](%5Bhttps://github.com/satsukitv/twitter-block-chain%5D(https://github.com/satsukitv/twitter-block-chain).
+  - See what lists you've been added to by going to Profile → Lists → ··· → Lists you're on. If you see a suspicious list or list owner, tap the three dots on the top right to report the list and leave the list by blocking the creator.
 
 #### For more information
 
@@ -398,6 +389,48 @@ Harassment and doxxing can get very specific and complicated based on the attack
 - See Equity Labs' [Anti-Doxing Guide](https://medium.com/@EqualityLabs/anti-doxing-guide-for-activists-facing-attacks-from-the-alt-right-ec6c290f543c).
 - See HeartMob/Hollaback's [Technical Safety Guide](https://iheartmob.org/resources/tech).
 - See Crash Override (RIP)'s [So You've Been Doxed](http://www.crashoverridenetwork.com/soyouvebeendoxed.html) and [Preventing Doxing](http://www.crashoverridenetwork.com/preventingdoxing.html).
+
+---
+
+### 👀 Remove information about you off of the internet
+
+If you're about to become a public figure or are experiencing harassment, consider some of the suggestions below.
+
+#### Clean up your social media presences
+
+You might not need to delete your entire account, but consider deleting (or making private) posts that are old and/or reveal too much about where you live, where you go, and who you're with.
+
+- Facebook:
+  - See what your public profile looks and remove/restrict things as you see fit.
+    - On desktop, go to your profile and click the 👁button next to the right of the Edit Profile button.
+    - On mobile, go to your proflie, tap the three dots on the right of Add Story and tap View As.
+  - Make it so only friends can see your past posts.
+    - On desktop, go to Settings → Privacy → Limit Past Posts.
+    - On mobile, go to Settings & Privacy → Settings → Privacy Settings → Limit who can see past posts.
+  - To bulk delete past posts, [see this article in PC Magazine](https://www.pcmag.com/how-to/how-to-quickly-delete-old-facebook-posts).
+- Whatsapp:
+  - Swipe to delete individual conversations.
+  - Delete chat content but keep the chat groups: Settings → Chats →  Clear All Chats.
+  - Delete all chats including the chat groups: Settings → Chats → Delete All Chats.
+  - Turn off chat backups on WhatsApp (Settings → Chats → Chat backup) and delete your previous backups (instructions for [iOS](https://www.wikihow.com/Delete-Backups-on-WhatsApp-on-iPhone-or-iPad), [Android](https://faq.whatsapp.com/en/android/30030306)).
+- Instagram:
+  - Look through your profile and manually delete posts (tap the three dots above upper-right corner of a photo).
+  - If need be, bulk delete using [third-party tools](https://upleap.com/blog/how-to-delete-an-instagram-post/).
+- Twitter:
+  - Use a third-party service to filter for tweets you want to save, and bulk delete the rest. We recommend [Semiphemeral](https://semiphemeral.com) (free + open source, but beta), [TweetDelete](https://tweetdelete.net/) (free + paid options), or [Twitter Archive Eraser](https://martani.github.io/Twitter-Archive-Eraser/) (free + paid options)
+- Reddit and other forums:
+  - There's often no easy solution. Sometimes you have to delete your entire account, or in the case of Reddit, you have to [use third-party scripts](https://social.techjunkie.com/how-to-delete-all-reddit-posts/) because deleting your account still leaves your posts up.
+
+#### Remove your information from other people's websites
+
+- Pay [PrivacyDuck](https://www.privacyduck.com/) or [Reputation Defender](https://www.reputationdefender.com/) to remove your information from English-language public and paywalled sites. See if you qualify for one of their [PrivacyDuck's discount programs](https://www.privacyduck.com/discount-programs/).
+- If you want to do it yourself, check out [PrivacyDuck's guides](https://www.privacyduck.com/resources/) and Yael Grauer's [Big Ass Data Broker Opt-Out List](https://docs.google.com/document/d/1ElB7VXmr5JEkFaLJpO7YLGrAuasedmq-rZC-8TUMxTM/). (To be 100% thorough, use the latter on top of paid services.)
+
+#### Obscure your personal information
+
+- Use [Burner](http://www.burnerapp.com/) or [Hushed](https://hushed.com) to set up burner phone numbers for calling/texting.
+- Get a PO box at a post office or use [Traveling Mailbox](https://travelingmailbox.com/) (USA only) to hide your home address.
+- Delete old accounts to eliminate traces of personal information on the Internet. Use [JustDeleteMe](https://justdeleteme.xyz/) to accelerate this process.
 
 ---
 
@@ -533,7 +566,6 @@ This section is a catch-all for difficult or esoteric practices that do not fall
 
 We consulted many sources and drew upon our own experiences in creating this resource. If you're not finding quite what you want here, we recommend checking out these other resources: 
 
-- [The Motherboard Guide to Not Getting Hacked](https://motherboard.vice.com/en_us/article/d3devm/motherboard-guide-to-not-getting-hacked-online-safety-guide)
 - [The Electronic Frontier Foundation's Surveillance Self-Defense](https://ssd.eff.org/)
 - [Citizen Lab's Security Planner](https://securityplanner.org)
 
