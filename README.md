@@ -195,8 +195,9 @@ Don't say anything you'd regret on in a "private" Slack group, Facebook page, Wh
 ### 💪🏾 Habits to cultivate
 
 - Start using [Signal](https://signal.org/), an end-to-end encrypted mobile messaging app that's generally agreed to be safe/secure/robust. (Beyond Signal, there is little consensus on what's secure and people tend to get very emotional about their choice of mobile messaging apps.)
+- Check this list of [Secure Messaging Apps](https://www.securemessagingapps.com/) to learn more about security considerations beyond end-to-end encryption and what trade-offs you may be OK with.
 - When making voice or video calls, use an end-to-end encrypted app (e.g. Signal, Jitsi, Wire).
-- Buy a harder-to-hack mobile phone ($$$). Typically, this is an iPhone or Android phone that implements a "pure" Google version of Android.
+- Buy a harder-to-hack mobile phone `($$$)`. Typically, this is an iPhone or Android phone that implements a "pure" Google version of Android.
 
 ---
 
@@ -530,6 +531,14 @@ This section is a catch-all for difficult or esoteric practices that do not fall
   - To be 100% end-to-end encrypted, turn off chat backups on WhatsApp (Settings → Chats → Chat backup) and delete your previous backups (instructions for [iOS](https://www.wikihow.com/Delete-Backups-on-WhatsApp-on-iPhone-or-iPad), [Android](https://faq.whatsapp.com/en/android/30030306)).
   - Turn on security notifications on WhatsApp (Settings → Account → Security).
   - Set up a pin number to prevent your account from being moved without your permission (Settings → Account → Two-Step Verification).
+
+- Telegram :
+  
+  - Use only the "Secret Chat" function for secure chats (note that this means your messages will not show up in your desktop or web app)
+  - Only allow your contacts to add / find your account
+  - Turn on self-destruct timers for your Secret Chats
+
+- Check this list of [Secure Messaging Apps](https://www.securemessagingapps.com/) to learn more about security considerations beyond end-to-end encryption and what trade-offs you may be OK with.
 
 #### Hosting/running a website
 
