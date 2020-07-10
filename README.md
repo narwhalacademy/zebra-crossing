@@ -22,7 +22,7 @@
 
 ### 🕒 Last updated
 
-- 7 July 2020
+- 10 July 2020
 
 ---
 
@@ -195,7 +195,6 @@ Don't say anything you'd regret on in a "private" Slack group, Facebook page, Wh
 ### 💪🏾 Habits to cultivate
 
 - Start using [Signal](https://signal.org/), an end-to-end encrypted mobile messaging app that's generally agreed to be safe/secure/robust. (Beyond Signal, there is little consensus on what's secure and people tend to get very emotional about their choice of mobile messaging apps.)
-- Check this list of [Secure Messaging Apps](https://www.securemessagingapps.com/) to learn more about security considerations beyond end-to-end encryption and what trade-offs you may be OK with.
 - When making voice or video calls, use an end-to-end encrypted app (e.g. Signal, Jitsi, Wire).
 - Buy a harder-to-hack mobile phone `($$$)`. Typically, this is an iPhone or Android phone that implements a "pure" Google version of Android.
 
