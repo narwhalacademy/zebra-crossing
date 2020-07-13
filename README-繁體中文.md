@@ -187,6 +187,17 @@
 
 ## 💦❗️ 基於特定情境的安全建議
 
+---
+
+### 在視訊平台（如Zoom）上組織公開活動
+
+- 為你遠程會議設置會議密碼，防止不相關人員通過工具通過隨機尋找會議ID加入你的回憶。考慮提前設立活動註冊系統，這樣一來你就不需要公開你的會議鏈接或密碼。
+- 熟悉你要使用的平台，最大限度減少非會議主持人所需要的控制權限（如屏幕共享等，比如[在Zoom上的設置](https://blog.zoom.us/zh-tw/%e5%a6%82%e4%bd%95%e9%98%b2%e6%ad%a2%e4%b8%8d%e9%80%9f%e4%b9%8b%e5%ae%a2%e5%b9%b2%e6%93%be%e6%82%a8%e7%9a%84-zoom-%e6%b4%bb%e5%8b%95/)）。
+- 創建一套方案來應對干擾你活動的不速之客。
+- 不要在平台上說那些你不會在公共場合說的話，並且建議參與會議人員謹言。大部分商業平台都有權限讀取你的音視頻數據，並且會通過挖掘你的元數據來創建消費者檔案。
+
+---
+
 ### 🛫 當你需要跨境
 
 - 關閉你的設備，因為：
@@ -203,68 +214,48 @@
 
 ---
 
-### 😭 有人拿走了我的手機/電腦！
-
-- 遠程清除你手機上的所有信息：[Android](https://support.google.com/accounts/answer/6160491?hl=en), [iOS](https://support.apple.com/kb/PH2701?locale=en_US)的教程。
-- 用其他設備登出你所有的重要賬號。
-- 如果這發生在跨過邊境：要求對方提供扣留收據（僅在某些國家有效，如[加拿大](https://bccla.org/wp-content/uploads/2018/10/Electronic-Devices-Privacy-Handbook-BCCLA_2.0.pdf)）。
-- 獲取新的電話卡。
-- 如果你重新獲得你的設備，恢復出廠設置。使用反病毒和反間諜軟件確保你的設備沒有可疑軟件。
-
----
-
-### 👾 我覺得我的電腦被入侵了！
-
-- 下載一個能在你的數據被發送到其他設備時提示你的軟件，如 [Little Snitch for Mac](https://www.obdev.at/products/littlesnitch/index.html).
-- 蘋果電腦上運行 “活動監視器“（Activity Monitor）或者Windows系統上的 ”進程瀏覽“ （Process Explorer），查看有那些進程正在運行。搜索那些看起來可以的名字。
-- 登陸重要的網絡賬號，查看是有其他可疑登陸，詳細教程在這裡閱讀：[Motherboard:  How to Tell if Your Account Has Been Hacked](https://motherboard.vice.com/en_us/article/bjeznz/how-do-you-know-when-youve-been-hacked-gmail-facebook)。
-- 使用一部閒置的智能手機運行[Haven](https://guardianproject.github.io/haven/) ，這個軟件可以幫助你偵測入室行為。
-
----
-
-### 🍆 性短信及無共識的照片分享
-
-- 查看 [The Motherboard Guide to Sexting Securely](https://motherboard.vice.com/en_us/article/mb3nd4/how-to-sext-securely-safely-what-apps-to-use-sexting).
-
----
-
-### ✊🏾 如果你要參與遊行
-
 #### 如果出現緊急狀況
 
 - 前把求助信息和收件人放在草稿箱，收件人應該是你信賴的並且不再遊行現場的朋友或者是法律熱線。在你被捕或者有緊急情況時及時發出。
+- 以防萬一，在你的手臂上用不易擦去的油性筆寫上可信好友或求助熱線的電話。
 - 隨身攜帶你手機的後備電池。
-- 如果你使用指紋或者面部解鎖，你被捕後要馬上關閉你的手機。在某些國家和地區，[執法人員可以強制你提供你的指紋但不能強制你提供密碼](https://www.theatlantic.com/technology/archive/2016/05/iphone-fingerprint-search-warrant/480861/)。事實上，最好在你參與遊行之前就把面部識別功能關閉。
-- 如果你參與的是高風險示威活動：把你的設備留在家中，或者使用一次性手機。
+- 如果你使用指紋或者面部解鎖，請暫時關閉這項功能。在某些國家和地區，[執法人員可以強制你提供你的指紋但不能強制你提供密碼](https://www.theatlantic.com/technology/archive/2016/05/iphone-fingerprint-search-warrant/480861/)。
+- 被捕後要馬上關閉你的手機（硬盤加密功能在手機關閉狀態下更安全）。
+- 考慮使用一次性手機。
 
 #### 分享少之又少的信息
 
 - 存儲盡可能少的個人信息或者對你不利的信息，你永遠不知道你的設備會落在誰的手上。
 - 如果你的聊天軟件支持閱後即焚，請開啓這個設置。
 - 如果你需要分享照片，用[這些軟件](https://www.maketecheasier.com/best-apps-remove-exif-data-from-images/)清除所有元數據。
+
+#### 最少化地理位置追蹤
+
 - 關閉定位歷史：
-- - iPhone: Settings > Privacy > Location Services > System Services > Significant Locations
-  - Android: Settings > Google > Google Account > Data & personalization > Location History > Manage setting > Your account & all your devices > turn off Use Location History
+  - iPhone: Settings > Privacy > Location Services > System Services > Significant Locations
+  - Android: Settings > Google > Google Account > Data & personalization > Location History > Manage setting > Your account & all your devices > turn off Use Location History Off
   - Google 地圖: Settings > Maps history > Web & App Activity
 - 刪除過去的定位歷史：
   - iPhone: Settings > Privacy > Location Services > System Services > Significant Locations > Clear History
   - [Android](https://support.google.com/accounts/answer/3118687?hl=en#delete)
   - [Google 地圖](https://support.google.com/maps/answer/3137804?hl=en)
-
+- 考慮臨時關閉所有地理位置追蹤功能：
+  - iPhone: Setting > Privacy > Location Services > Location Services Off
+  - Android: Setting & location > Location > Use location Off
+  
 #### 其他
 
 - 再三確認你的聊天軟件的隱私設置。
 - 關閉信息預覽功能：
   - iOS: Settings > Notifications > Show Previews: When Unlocked
   - Android: Settings > Apps & notifications > Notifications > On lock screen: Hide sensitive content
-- 記得使用如Signal和Whatsapp等端對端加密軟件進行語音通話。
-- 更多關於[在美國](https://ssd.eff.org/en/module/attending-protests-united-states)和[其他地方](https://ssd.eff.org/en/module/attending-protests-international)遊行的信息可以看EFF網站（英文）。
-
+- 記得使用如[Signal](https://signal.org/)和Whatsapp等端對端加密軟件進行語音通話。
+  
 ---
 
 ### 📰 我是報道敏感議題的記者
 
-以下是一些所有記者都要考慮實踐的基本安全設置。如果你報道的是特別敏感的議題或地區（如在美國報道「吹哨人」故事或做與中國相關的報道），你和你的團隊需要按需向專家咨詢。
+以下是一些所有記者都要考慮實踐的基本安全設置。如果你報道的是特別敏感的議題或地區（如「吹哨人」報道），你和你的團隊需要按需向專家咨詢。
 
 #### 時刻做好以下準備
 
@@ -280,7 +271,6 @@
 #### 保護你的信源
 
 - 用 [Signal](https://www.signal.org/) 或 [Jitsi](https://jitsi.org/) 進行端對端加密的視頻和音頻通話。
-- 如果你的聊天軟件支持閱後即焚功能，開啓這個功能。如果沒有開啓，記得定期清空聊天記錄和歷史。
 - 讓你的機構設置 [SecureDrop](https://securedrop.org/)。如果沒有設置或無法設置的話，鼓勵人們使用OnionShare](https://onionshare.org/)或 [Firefox Send](https://send.firefox.com/)。
 - 模糊處理照片和視頻中的人臉 (如Android [ObscuraCam](https://guardianproject.info/apps/obscuracam/), Youtube [教程](https://technology.witness.org/2016/02/how-to-use-youtubes-new-blurring-feature-to-protect-identities/))。
 - 用[這些軟件](https://www.maketecheasier.com/best-apps-remove-exif-data-from-images/)刪除多媒體的元數據。
@@ -290,7 +280,6 @@
 #### 保護你的數據
 
 - 確保你正在使用的郵件和存儲空間服務商的所有人不是你正在報道的國家或者機構，也不存在與這些國家和機構的任何聯繫。
-- 最好把你所有與你工作相關的內容移到端對端加密平台，比如電子郵件[Protonmail]([https://protonmail.com/](https://protonmail.com/) 或者 [Tutanota](https://tutanota.com/), 雲儲存 [Tresorit](https://tresorit.com/) 或 [SpiderOak](https://spideroak.com/)。注意[法院能夠強制谷歌交出你的所有數據](https://medium.com/@tinfoilpress/newsrooms-lets-talk-about-g-suite-1672a36eb235)。
 - 盡可能把所有敏感數據存放在帶密碼的雲盤或者移動設備上。有關如何加密敏感文件的教程可以看上文`為敏感文件上鎖`。
 - 不要忘記從你的電腦上永久刪除敏感文件，可以選擇使用 [Eraser for Windows](https://eraser.heidi.ie/) 或 [File Shredder for Mac](https://apps.apple.com/us/app/fileshredder/id418094085?mt=12)。
 
@@ -300,10 +289,6 @@
 - 如果你運營一個新聞編輯團隊，閱讀 Ontheline Newsrooms 的 [Measures for Newsrooms and Journalists to Address Online Harassment](https://newsrooms-ontheline.ipi.media/).
 
 ---
-
-### 🕵🏼‍♂️ 人肉搜索/起底和網絡暴力
-
-根據你的攻擊者，人肉搜索/起底和網絡暴力可以是非常具體和複雜，它可以包含你的工作等與你相關的所有信息。雖然我們提供了以下這些一般建議，但我們強烈建議你判定你的情況有沒有升級到需要與專家進行一對一咨詢。
 
 #### 找一個你信任的朋友
 
@@ -318,13 +303,13 @@
 - 設置 [Talkwalker](https://www.talkwalker.com/alerts) 和 [Google Alerts](https://www.google.com/alerts)追蹤你的名字和暱稱。
 - 用你認為最簡單的軟件清楚記錄每一起網絡暴力（日期，時間，描述，截屏）。
 
-#### 從互聯網上移除你的個人信息
+#### 從互聯網上移除關於你的信息
 
 - 给[PrivacyDuck](https://www.privacyduck.com/) 付費，清除你在網上的信息。如果你是運動家，你可以聯繫[Equity Labs](https://medium.com/@EqualityLabs/anti-doxing-guide-for-activists-facing-attacks-from-the-alt-right-ec6c290f543c)，獲取折扣價。
 - 给[Reputation.com](https://www.reputation.com/) 付費， 從付費網站上移除你的信息，並後續跟蹤這些網站，確保信息保持移除。
 - 你也可以用 [PrivacyDuck](https://www.privacyduck.com/resources/) 和 [Motherboard](https://motherboard.vice.com/en_us/article/ne9b3z/how-to-get-off-data-broker-and-people-search-sites-pipl-spokeo) 的免費資源幫助你移除相關信息。
 
-#### Obscure your personal information
+#### 隱藏你的個人信息
 
 - 使用 [Burner](http://www.burnerapp.com/)獲取一次性號碼來打電話或發短信。
 - 用[Traveling Mailbox](https://travelingmailbox.com/) 隱藏你的真實郵編。
@@ -333,6 +318,7 @@
 - 如果你是Twitter用戶：
   - 求助於你的社區，建立一個[屏蔽清單](https://help.twitter.com/en/using-twitter/advanced-twitter-block-options)，屏蔽那些為人熟知的攻擊者。
   - 用[Semiphemeral](https://micahflee.com/2019/06/semiphemeral-automatically-delete-your-old-tweets-except-for-the-ones-you-want-to-keep/) 刪除你不想要的推文（需要使用命令列介面）。
+- 閱讀接下來的安全建議。
 
 #### 忽視/回應/舉報/屏蔽對你網絡暴力的攻擊者
 
@@ -343,6 +329,12 @@
   - 在社交媒體靜音（mute）你的攻擊者：讓你自己可以有個清淨。
   - 在社交媒體封鎖/屏蔽（block）你的攻擊者：你的攻擊者將無法看到你的帖子。但注意，你的攻擊者可以知道你封鎖/屏蔽了它們，並認為這是在升級事件。
   - 公開事件：有可能帶來危險，但有時候公開譴責他們的行為並獲取公眾支持能使他們停止暴力。
+
+- 推特Twitter用戶：
+  - 求助於你的社區，建立一個[屏蔽清單](https://help.twitter.com/en/using-twitter/advanced-twitter-block-options)，屏蔽那些為人熟知的攻擊者。
+  - 用[Bot Sentinel](https://botsentinel.com/)屏蔽機器人水軍。
+  - 大批屏蔽某類型的追蹤者以減少水軍攻擊，你可以使用[Twitter Block Chain](https://github.com/satsukitv/twitter-block-chain)。
+  - 查看你的帳號被添加到了哪些追蹤列表中（Profile > Lists > ... > Lists you're one）。如果你覺得這些列表中有可疑的列表或者列表創建者，點擊右上角的三個點可以舉報該列表，以及屏蔽列表創建者並退出列表。
 
 #### 更多信息
 
