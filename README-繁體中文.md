@@ -17,7 +17,7 @@
 ### 🕒 最後一次更新時間
 
 - 2019年11月27日， 基於2019年10月23日的英文原文。
-- 2020年7月13日，基於2020年7月7日的英文原文。
+- 2020年7月16日，基於2020年7月7日的英文原文。
 
 ---
 
@@ -388,14 +388,29 @@
 
 ---
 
-### 👾 我覺得我的電腦被入侵了！
+### 我感覺我的伴侶在監視我的手機（跟蹤監視軟件 Stalkerware）
 
-- 下載一個能在你的數據被發送到其他設備時提示你的軟件，如 [Little Snitch for Mac](https://www.obdev.at/products/littlesnitch/index.html).
-- 蘋果電腦上運行 “活動監視器“（Activity Monitor）或者Windows系統上的 ”進程瀏覽“ （Process Explorer），查看有那些進程正在運行。搜索那些看起來可以的名字。
-- 登陸重要的網絡賬號，查看是有其他可疑登陸，詳細教程在這裡閱讀：[Motherboard:  How to Tell if Your Account Has Been Hacked](https://motherboard.vice.com/en_us/article/bjeznz/how-do-you-know-when-youve-been-hacked-gmail-facebook)。
-- 使用一部閒置的智能手機運行[Haven](https://guardianproject.github.io/haven/) ，這個軟件可以幫助你偵測入室行為。
+**如果你對此不確定，且你與伴侶的關系還不算太糟糕：**
 
----
+- 用紙筆記錄可疑事件，把這份記錄藏起來。
+- 確保你的伴侶沒有通過此前共享的帳號或者你的[谷歌地圖上的共享位置功能](https://support.google.com/maps/answer/7326816?co=GENIE.Platform%3DAndroid&hl=en)等得知你的信息。
+- 查閱並重復級別1-3中的所有步驟。重置密碼，查看你的隱私/數據共享許可，看看你的電腦和手機上有沒有你無法識別的軟件。
+- 留意其他信號，比如你的手機電池不像比以前續航時間短，手提電腦的網絡慢。你可以閱讀Coalition Against Stalkerware的文章看看有沒有遇上[其他信號](https://stopstalkerware.org/get-help/)。
+- **不要馬上刪除可疑軟件** -- 你或許需要保留它們作爲證據。此外，刪除可能會導致情況惡化。
+
+**如果你比較確定你的伴侶正在監視你，且感到害怕：**
+
+- 尋求幫助。你不應該自己一個人面對：
+  - 找一臺公共或者朋友的手機/電腦聯系Coalition Against Stalkerware收集的[這份列表上的機構](https://stopstalkerware.org/get-help/resources/)，其中有些可以幫助你搜集證據，安全地移除跟蹤監視軟件。
+  - 通過公共設備或者電話聯系可信好友，讓他們幫你分析情況到底有多糟糕。
+- 保留所有數字和紙質證據，比如相關的短訊，郵件，來電等。你可以閱讀NNEDV的這篇[記錄保存證據的指南](https://www.womenslaw.org/about-abuse/abuse-using-technology/evidence-issues-cases-involving-technology/digital-evidence)。
+- 當你不再需要這些證據，逐一在你的設備上刪除可疑軟件和跟蹤監視軟件，或者重置出廠設置。（買一部新的設備會更加安全）。務必手動重裝軟件和導入數據，免得你在恢復備份的時候把跟蹤監視軟件一並恢復。
+
+**更多其他信息**
+
+- 閱讀Wirecutter這篇教你[防範家暴者](https://thewirecutter.com/blog/domestic-abusers-can-control-your-devices-heres-how-to-fight-back/)的文章
+- 閱讀Coalition Against Stalkerware的[安全工具指南](https://stopstalkerware.org/get-help/)
+
 
 ### 👤 我不想給在線約會/交友/組織提供我的真實手機號碼
 
@@ -418,6 +433,28 @@
 
 ---
 
+## 出行目的地沒有很好的數據保護條例，或者有網絡審查
+
+- 注意手機運營商可能會在未經你同意下與第三方共享你的地理位置信息和個人信息。
+- 在你出行前設置VPN以便 a）不受影響地接入服務，b）最少化對你的數據收集。避免免費的VPN或者擁有者不明的VPN服務。閱讀[Wirecutter](https://thewirecutter.com/reviews/best-vpn-service/)和[Freedom of the Press](https://freedom.press/training/choosing-a-vpn/)的建議。
+- 考慮帶一次性電話出行，並把你的個人電腦留在家。如果你有工作需要，需要安裝新的和未經檢測的，有可能侵犯你的數據隱私的軟件在你的設備上，這一條尤其有用。
+- 重新評估哪些在線服務是安全的：
+  - 如果可以，閱讀你最常用的服務的透明度報告，看他們多常與執法部門等恭喜那個數據：
+    - [Google Transparency Report: Request for user information](https://transparencyreport.google.com/user-data/overview)
+    - [Facebook Transparency Report: Government Requests for User Data](https://transparency.facebook.com/)
+    - [Apple Transparency Report](https://www.apple.com/legal/transparency/)
+  - 查看這些服務商的總部在哪裏，以及這會如何影響它們的隱私政策。
+
+## 我需要幫助，我的系統正在遭受攻擊
+
+如果你爲公民組織工作，你可以聯系：
+- Access Now's [Digital Security Helpline](https://www.accessnow.org/help/)
+- 人權捍衛者（Front Line Defender）的 [Emergecy Contact](https://www.frontlinedefenders.org/zh-hant/node/2814)
+
+如果你時間充裕，你可以申請Digital Defenders Partnership [Incident Emergency Grant](https://www.digitaldefenders.org/sections/about-us/emergency-grants/).
+
+---
+
 ## 💦❓ 其他建議
 
 這部分內容提供相對萬用的安全建議，適用於不面臨以上幾種情境的普通用戶。
@@ -425,7 +462,7 @@
 #### 電子郵件
 
 - 設置 [Protonmail](https://protonmail.com/) 或 [Tutanota](https://tutanota.com/) 進行端對端加密郵件。
-- 瞭解你的風險，使用PGP郵件（[近期有發現PGP郵件的安全漏洞](https://www.eff.org/deeplinks/2018/05/not-so-pretty-what-you-need-know-about-e-fail-and-pgp-flaw-0)，說明這一選項不再是完全安全）。
+- 使用PGP加密郵件。
 
 #### 設備權限
 
@@ -446,7 +483,23 @@
   - 要100%實現端對端加密，關閉聊天記錄備份 (Settings > Chats > Chat backup) 並刪除你之前的備份 ( [iOS](https://www.wikihow.com/Delete-Backups-on-WhatsApp-on-iPhone-or-iPad), [Android](https://faq.whatsapp.com/en/android/30030306)).
   - 在Whatsapp上開啓安全通知 (Settings > Account > Security)
   - 設置一個密碼，防止你的帳號在你不知情的情況下被移動(Settings > Account > Two-Step Verification)
-- 如果你是經常使用Signal的記者，閱讀Martin Sheldon's [Locking Down Signal](https://medium.com/@mshelton/locking-down-signal-d71678f653d3) 指南進一步加強你的安全措施，或者[這篇針對Whatsapp](https://medium.com/@mshelton/upgrading-whatsapp-security-386c8ce496d3)的指南。
+- Telegram：
+  - 使用"Secret Chat"來確保安全對話（注意，這個功能呢個意味着你的對話內容不會出現在電腦版或網頁版的Telegram）
+  - 僅允許你的聯系人添加/尋找你
+  - 開啓Secret Chats中的自我刪除倒計時功能（self-destruct timers）
+- 閱讀這份關於[安全聊天軟件](https://www.securemessagingapps.com/)的列表，了解更多除端對端加密以外的其他安全和便利性考量。
+
+#### 搭建/運營網站
+
+- 閱讀[EDRI關於網站運營的倫理考量](https://edri.org/ethical-web-dev/)。特別留意對隱私的討論和建議。
+- 保護你的網站免受阻斷服務攻擊等其他攻擊：
+  - [Deflect](https://deflect.ca/)（有免費版本提供給非盈利組織）
+  - Cloudflare (有 [有提供給藝術、人權、公民社會、記者、捍衛民主等組織的免費版本](https://www.cloudflare.com/galileo/)
+  - 谷歌[Project Shield](https://projectshield.withgoogle.com/):僅對新聞、人權、選舉監察想光的網站開放。
+  - [Themes Security Wordpress 插件](https://wordpress.org/plugins/better-wp-security/)
+- 考慮使用更加注重隱私的網站搭建服務，如[Greenhost](https://greenhost.net/)，或者 [Gecko & Fly](https://www.geckoandfly.com/32144/anonymous-offshore-web-hosting/) 和 [PrivacyTools](https://www.privacytools.io/providers/hosting/)推薦的。
+  - 建立一個[安全文檔](https://securitytxt.org/) 以便研究人員可以發布安全隱患。
+
 
 #### 其他
 
@@ -455,26 +508,18 @@
 - 用[DuckDuckGo](http://duckduckgo.com/)匿名搜索。
 - 如果你或者你的機構深度使用Google Suite，考慮Google的[Advance Protection program](https://www.wired.com/story/google-advanced-protection/)。
 - 把你的信用卡，護照，設備等放在法拉第籠（Faraday Bag）里，它可以屏蔽任何信號傳輸。 ([Micah Lee 的指南](https://micahflee.com/2015/11/some-thoughts-on-faraday-bags-and-operational-security/).)
-- 為你自己的Wordpress網站增強保護： [Cloudflare](https://www.cloudflare.com) + [iThemes Security](https://wordpress.org/plugins/better-wp-security/).
 - 使用更安全的操作系統： [Tails](https://ssd.eff.org/en/module/keeping-your-data-safe) (可以通過ＵＳＢ盤使用) 或者 [Qubes OS](https://www.qubes-os.org/).
 - Android用戶可以通過[F-Droid](https://f-droid.org)下載軟件，[F-Droid](https://f-droid.org)是一個開源的注重安全的應用軟件市場。
 - 對於美國居民，凍結你的信用信息，防止黑客獲取敏感數據。閱讀更多信息： Security Checklist's [Freeze Your Credit](https://securitycheckli.st/)。
 
 ---
 
-**🏆 你閱讀了整份文檔！太棒了！**
-
----
-
 ## 🧠 來源
 
-我們咨詢了許多專家，並總結了自己的經驗來建立這份清單（你可以在這裡查看我們的[所有信息來源](https://github.com/hongkonggong/tldr-digital-security/blob/master/SourcesConsulted.md)）。如果你還是沒有獲得你希望獲得信息，我們建議你閱讀以下這些文章：
+我們咨詢了許多專家，並總結了自己的經驗來建立這份清單。如果你還是沒有獲得你希望獲得信息，我們建議你閱讀以下這些文章：
 
-- [The Motherboard Guide to Not Getting Hacked](https://motherboard.vice.com/en_us/article/d3devm/motherboard-guide-to-not-getting-hacked-online-safety-guide)
 - [The Electronic Frontier Foundation's Surveillance Self-Defense](https://ssd.eff.org/)
-- [Holistic digital security training curriculum for women human rights defenders](https://cyber-women.com/en/)
-- [Matt Mitchell 的 Twitter](https://twitter.com/geminiimatt/)
-- [Rory Peck Trust's Digital Security guide for freelance journalists](https://rorypecktrust.org/freelance-resources/digital-security/)
+- [itizen Lab's Security Planner](https://securityplanner.org/)
 
 你可以閱讀 Martin Shelton整理的指南： [Current Digital Security Resources](https://medium.com/@mshelton/current-digital-security-resources-5c88ba40ce5c)。
 
