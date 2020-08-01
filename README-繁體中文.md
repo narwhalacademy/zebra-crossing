@@ -2,7 +2,7 @@
 
 ### 🤔 誰適合使用這份指南
 
-- 你每天都上网——为了工作，刷社交媒体，使用网上银行等等。
+- 你每天都上網——為了工作，刷社交媒體，使用網上銀行等等。
 - 你覺得你需要更注重保護自己的網絡安全和隱私，但你不面臨立刻的危險（如果你認為你現在就面臨危險，請尋找一對一的專家咨詢）。
 - 你認為自己對科技有一定的熟悉程度。例如，在你自己的手機或電腦上修改設定你覺得沒有難度。
 
@@ -160,7 +160,7 @@
 
 ---
 
-**🎉 恭喜！你对网络安全的掌握已经到一定程度了！休息一下吧，明天再回來進行級別三的安全檢查。**
+**🎉 恭喜！你对網絡安全的掌握已经到一定程度了！休息一下吧，明天再回來進行級別三的安全檢查。**
 
 ---
 
@@ -226,9 +226,36 @@
 
 ---
 
+### 😭 有人拿走了我的手機/電腦！
+
+- 遠程清除你手機上的所有信息：[Android](https://support.google.com/accounts/answer/6160491?hl=en), [iOS](https://support.apple.com/kb/PH2701?locale=en_US)的教程。
+- 用其他設備登出你所有的重要賬號。
+- 如果這發生在跨過邊境：要求對方提供扣留收據（僅在某些國家有效，如[加拿大](https://bccla.org/wp-content/uploads/2018/10/Electronic-Devices-Privacy-Handbook-BCCLA_2.0.pdf)）。
+- 獲取新的電話卡。
+- 如果你重新獲得你的設備，恢復出廠設置。使用反病毒和反間諜軟件確保你的設備沒有可疑軟件。
+
+---
+
+### 👾 我覺得我的電腦被入侵了！
+
+- 下載一個能在你的數據被發送到其他設備時提示你的軟件，如 [Little Snitch for Mac](https://www.obdev.at/products/littlesnitch/index.html).
+- 蘋果電腦上運行 “活動監視器“（Activity Monitor）或者Windows系統上的 ”進程瀏覽“ （Process Explorer），查看有那些進程正在運行。搜索那些看起來可以的名字。
+- 登陸重要的網絡賬號，查看是有其他可疑登陸，詳細教程在這裡閱讀：[Motherboard:  How to Tell if Your Account Has Been Hacked](https://motherboard.vice.com/en_us/article/bjeznz/how-do-you-know-when-youve-been-hacked-gmail-facebook)。
+- 使用一部閒置的智能手機運行[Haven](https://guardianproject.github.io/haven/) ，這個軟件可以幫助你偵測入室行為。
+
+---
+
+### 🍆 性短信及無共識的照片分享
+
+- 查看 [The Motherboard Guide to Sexting Securely](https://motherboard.vice.com/en_us/article/mb3nd4/how-to-sext-securely-safely-what-apps-to-use-sexting).
+
+---
+
+### ✊🏾 如果你要參與遊行
+
 #### 如果出現緊急狀況
 
-- 把求助信息和收件人放在草稿箱，收件人應該是你信賴的並且不在遊行現場的朋友或者是法律熱線。在你被捕或者有緊急情況時及時發出。
+- 前把求助信息和收件人放在草稿箱，收件人應該是你信賴的並且不再遊行現場的朋友或者是法律熱線。在你被捕或者有緊急情況時及時發出。
 - 以防萬一，在你的手臂上用不易擦去的油性筆寫上可信好友或求助熱線的電話。
 - 隨身攜帶你手機的後備電池。
 - 如果你使用指紋或者面部解鎖，請暫時關閉這項功能。在某些國家和地區，[執法人員可以強制你提供你的指紋但不能強制你提供密碼](https://www.theatlantic.com/technology/archive/2016/05/iphone-fingerprint-search-warrant/480861/)。
@@ -283,7 +310,7 @@
 #### 保護你的信源
 
 - 用 [Signal](https://www.signal.org/) 或 [Jitsi](https://jitsi.org/) 進行端對端加密的視頻和音頻通話。
-- 讓你的機構設置 [SecureDrop](https://securedrop.org/)。如果沒有設置或無法設置的話，鼓勵人們使用OnionShare](https://onionshare.org/)或 [Firefox Send](https://send.firefox.com/)。
+- 讓你的機構設置 [SecureDrop](https://securedrop.org/)。如果沒有設置或無法設置的話，鼓勵人們使用[OnionShare](https://onionshare.org/)或 [Firefox Send](https://send.firefox.com/)。
 - 模糊處理照片和視頻中的人臉 (如Android [ObscuraCam](https://guardianproject.info/apps/obscuracam/), Youtube [教程](https://technology.witness.org/2016/02/how-to-use-youtubes-new-blurring-feature-to-protect-identities/))。
 - 用[這些軟件](https://www.maketecheasier.com/best-apps-remove-exif-data-from-images/)刪除多媒體的元數據。
 - 閱讀Ted Han 和 Quinn Norton的 [Protecting Your Sources When Releasing Sensitive Documents](https://source.opennews.org/articles/how-protect-your-sources-when-releasing-sensitive-/).
@@ -301,6 +328,10 @@
 - 如果你運營一個新聞編輯團隊，閱讀 Ontheline Newsrooms 的 [Measures for Newsrooms and Journalists to Address Online Harassment](https://newsrooms-ontheline.ipi.media/).
 
 ---
+
+### 🕵🏼‍♂️ 人肉搜索/起底和網絡暴力
+
+根據你的攻擊者，人肉搜索/起底和網絡暴力可以是非常具體和複雜，它可以包含你的工作等與你相關的所有信息。雖然我們提供了以下這些一般建議，但我們強烈建議你判定你的情況有沒有升級到需要與專家進行一對一咨詢。
 
 #### 找一個你信任的朋友
 
@@ -385,7 +416,7 @@
  - Twitter：
   - 使用第三方服務選擇你希望保留的推文，並刪除剩下的推文。我們推薦[Semipheral](https://semiphemeral.com/)（免費且開源，但僅有測試版），[TweetDelete](https://tweetdelete.net/)（有免費或付費的選擇），或者[Twitter Archive Eraser](https://martani.github.io/Twitter-Archive-Eraser/)（有免費或付費的選擇）。
  - Reddit或其他論壇：
-  - 通常沒有一步到位的簡單方法。有些時候你需要完全刪除你的帳號。對於Reddit，你需要使用[第三方腳本]（https://social.techjunkie.com/how-to-delete-all-reddit-posts/)，因為即使你刪除了你的帳號你的貼文也都還在。
+  - 通常沒有一步到位的簡單方法。有些時候你需要完全刪除你的帳號。對於Reddit，你需要使用[第三方腳本](https://social.techjunkie.com/how-to-delete-all-reddit-posts/)，因為即使你刪除了你的帳號你的貼文也都還在。
 
 ### 從別人網站上刪除你的信息
 
@@ -400,7 +431,7 @@
 
 ---
 
-### 我感覺我的伴侶在監視我的手機（跟蹤監視軟件 Stalkerware）
+### 💔 我感覺我的伴侶在監視我的手機（跟蹤監視軟件 Stalkerware）
 
 **如果你對此不確定，且你與伴侶的關系還不算太糟糕：**
 
@@ -423,12 +454,13 @@
 - 閱讀Wirecutter這篇教你[防範家暴者](https://thewirecutter.com/blog/domestic-abusers-can-control-your-devices-heres-how-to-fight-back/)的文章
 - 閱讀Coalition Against Stalkerware的[安全工具指南](https://stopstalkerware.org/get-help/)
 
+---
 
 ### 👤 我不想給在線約會/交友/組織提供我的真實手機號碼
 
 有些軟件需要用你的手機號碼註冊（如Signal和Whatsapp），你可以通過以下這些渠道獲得第二個手機號碼：
 
-- [Twilio](https://www.burnerapp.com/) (1 USD/月, 設置過程相對複雜，可以閱讀[這裡](https://medium.com/@geminiimatt/creating-an-online-persona-deb4cd8c7f46) 以及 [這個指南](https://source.opennews.org/articles/shields-using-signal-without-your-phone-number/))
+- [Twilio](https://www.twilio.com/) (1 USD/月, 設置過程相對複雜，可以閱讀[這裡](https://medium.com/@geminiimatt/creating-an-online-persona-deb4cd8c7f46) 以及 [這個指南](https://source.opennews.org/articles/shields-using-signal-without-your-phone-number/))
 - [Burner](https://www.burnerapp.com/) (5 USD/月, 但支持短期預付)
 - [Google Voice](https://voice.google.com/about) (免費，但僅在美國有效)
 - 手機運營商：買一個預付卡，費用不同
@@ -445,7 +477,7 @@
 
 ---
 
-## 出行目的地沒有很好的數據保護條例，或者有網絡審查
+## 🤐 出行目的地沒有很好的數據保護條例，或者有網絡審查
 
 - 注意手機運營商可能會在未經你同意下與第三方共享你的地理位置信息和個人信息。
 - 在你出行前設置VPN以便 a）不受影響地接入服務，b）最少化對你的數據收集。避免免費的VPN或者擁有者不明的VPN服務。閱讀[Wirecutter](https://thewirecutter.com/reviews/best-vpn-service/)和[Freedom of the Press](https://freedom.press/training/choosing-a-vpn/)的建議。
@@ -457,7 +489,7 @@
     - [Apple Transparency Report](https://www.apple.com/legal/transparency/)
   - 查看這些服務商的總部在哪裏，以及這會如何影響它們的隱私政策。
 
-## 我需要幫助，我的系統正在遭受攻擊
+## 😣 我需要幫助，我的系統正在遭受攻擊
 
 如果你爲公民組織工作，你可以聯系：
 - Access Now's [Digital Security Helpline](https://www.accessnow.org/help/)
@@ -511,7 +543,6 @@
   - [Themes Security Wordpress 插件](https://wordpress.org/plugins/better-wp-security/)
 - 考慮使用更加注重隱私的網站搭建服務，如[Greenhost](https://greenhost.net/)，或者 [Gecko & Fly](https://www.geckoandfly.com/32144/anonymous-offshore-web-hosting/) 和 [PrivacyTools](https://www.privacytools.io/providers/hosting/)推薦的。
   - 建立一個[安全文檔](https://securitytxt.org/) 以便研究人員可以發布安全隱患。
-
 
 #### 其他
 
