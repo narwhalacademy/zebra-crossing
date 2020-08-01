@@ -16,7 +16,6 @@
 
 ### 🕒 最後一次更新時間
 
-- 2019年11月27日， 基於2019年10月23日的英文原文。
 - 2020年7月16日，基於2020年7月7日的英文原文。
 
 ---
@@ -27,7 +26,7 @@
 
 - 你正在面臨哪種威脅？一些比較常見的威脅：信用卡被盜，商業間諜，網絡暴力等。
 - 你需要保護哪些文件？常見的例子包括機密文件，私人圖片等。
-- 我們每一個人都面臨一定的風險（不然的話我們也不會給我們的電腦和手機設置密碼），但我們需要瞭解清楚自己的風險，以免疏忽或者造成多疑恐慌。
+- 我們每一個人都面臨一定的風險（不然的話我們也不會給我們的電腦和手機設置密碼），但我們需要瞭解清楚自己的風險，以免疏忽或者多疑恐慌。
 
 ### 🔗 最薄弱的環節/短板
 
@@ -37,7 +36,7 @@
 
 1. 不加密：任何入侵帳號的第三方都可以閱讀數據。
 2. 一般加密：第三方無法閱讀加密了的數據。但你所使用的平台（如Google和Facebook）仍然擁有閱讀數據的權限，它們有可能會根據法院或政府要求把你的屬於與執法人員共享。
-3. 點對點加密：數據只可以被發送方和接收方閱讀。這意味著就算是平台公司也沒有閱讀數據的權限。即使法院要求查看數據，服務商也沒有辦法提供任何信息。
+3. 端對端加密：數據只可以被發送方和接收方閱讀。這意味著就算是平台公司也沒有閱讀數據的權限。即使法院要求查看數據，服務商也沒有辦法提供任何信息。
 
 ### 🧩 元數據
 
@@ -127,7 +126,7 @@
 #### 其他
 
 - 給你的設備設置可以讓你遠程跟蹤，清除和加密設備的第三方應用（如 [Prey](https://www.preyproject.com), [Lookout Security](https://www.lookout.com/)）。
-- 查閱你主要的電子郵件和社交媒體賬號上的“第三方應用”或者“綁定應用”。這些應用有可能可以獲取你的Facebook數據，甚至主動為你發佈信息。（[這篇文章介紹了如何在Facebook和谷歌郵箱中查看授權信息]（https://www.online-tech-tips.com/computer-tips/check-google-facebook-connected-apps/））
+- 查閱你主要的電子郵件和社交媒體賬號上的“第三方應用”或者“綁定應用”。這些應用有可能可以獲取你的Facebook數據，甚至主動為你發佈信息。（[這篇文章介紹了如何在Facebook和谷歌郵箱中查看授權信息](https://www.online-tech-tips.com/computer-tips/check-google-facebook-connected-apps/)）
 - 查閱你電腦的瀏覽器都由哪些擴展應用，刪除那些你在一段時間內沒有使用過或者不記得安裝過的應用。
 - 下載 [Stethoscope](https://ragtag.org/stethoscope) 並在你的電腦上運行，它可以幫助實現你的基本安全設置（比如加密，防火牆，屏幕鎖等）。
 
@@ -137,6 +136,19 @@
 
 - 少在網上發佈個人信息，特別是那些可以被用於驗證，跟蹤你或者實現釣魚的信息（地址，手機號碼，生日等）。
 - 如果你擁有域名，開啓WHOIS隱私服務並持續使用它，這個服務的花費是值得的。但要注意的是WHOIS有歷史查詢工具，如果你曾經提供過你的真實地址，你很難完全清除那些記錄。
+
+#### 在線上群組中謹言慎行
+
+不要在“私人”Slack群組，Facebook頁面，WhatApp群组，或Telegram上發表任何你之後會後悔的言論，因為：
+
+- 群組裡的任何人都可以洩漏所有數據
+- 群組管理員通常有權限查看群裡的所有內容，包括群裡成員之間的私人對話，甚至可以刪除私人聊天信息。
+- 即使你沒有使用你的真實姓名或者照片，你所說的話通常能夠追溯到你用於註冊該帳號的手機號碼或郵箱。
+  - 防止在Telegram上洩露你的信息，在 Settings → Privacy and Security → Phone Number，更改一下設置：
+    Who can see my phone number 改為 Nobody
+    Who can find me by my number 改為 My Contacts
+
+
 
 #### 其他
 
@@ -216,7 +228,7 @@
 
 #### 如果出現緊急狀況
 
-- 前把求助信息和收件人放在草稿箱，收件人應該是你信賴的並且不再遊行現場的朋友或者是法律熱線。在你被捕或者有緊急情況時及時發出。
+- 把求助信息和收件人放在草稿箱，收件人應該是你信賴的並且不在遊行現場的朋友或者是法律熱線。在你被捕或者有緊急情況時及時發出。
 - 以防萬一，在你的手臂上用不易擦去的油性筆寫上可信好友或求助熱線的電話。
 - 隨身攜帶你手機的後備電池。
 - 如果你使用指紋或者面部解鎖，請暫時關閉這項功能。在某些國家和地區，[執法人員可以強制你提供你的指紋但不能強制你提供密碼](https://www.theatlantic.com/technology/archive/2016/05/iphone-fingerprint-search-warrant/480861/)。
@@ -503,6 +515,7 @@
 
 #### 其他
 
+- 購買[YubiKey](http://www.amazon.com/Yubico-Y-072-YubiKey-NEO/dp/B00LX8KZZ8/ref=sr_1_1?ie=UTF8&qid=1421839152&sr=8-1&keywords=yubikey+NEO)用以進行二步驗證。
 - 確保你的設備上有盡可能少的信息，數據，或照片。
 - 不要使用智能电视或者智能音箱。
 - 用[DuckDuckGo](http://duckduckgo.com/)匿名搜索。
@@ -514,12 +527,12 @@
 
 ---
 
-## 🧠 來源
+## 🧠 資訊來源
 
 我們咨詢了許多專家，並總結了自己的經驗來建立這份清單。如果你還是沒有獲得你希望獲得信息，我們建議你閱讀以下這些文章：
 
 - [The Electronic Frontier Foundation's Surveillance Self-Defense](https://ssd.eff.org/)
-- [itizen Lab's Security Planner](https://securityplanner.org/)
+- [Citizen Lab's Security Planner](https://securityplanner.org/)
 
 你可以閱讀 Martin Shelton整理的指南： [Current Digital Security Resources](https://medium.com/@mshelton/current-digital-security-resources-5c88ba40ce5c)。
 
