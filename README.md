@@ -22,7 +22,7 @@
 
 ### 🕒 Last updated
 
-- 10 July 2020
+- 26 September 2020
 
 ---
 
@@ -128,6 +128,17 @@
   - iOS: Settings → Privacy → Location Services
   - Android: Settings → Apps & notifications → App permissions
 - If you use smart speakers, turn off its recording function: instructions for [Google Home](https://myaccount.google.com/activitycontrols/audio) and for [Amazon Alexa](https://twitter.com/geminiimatt/status/1125611726773334017).
+
+#### Set up your home wifi router
+
+- Login to the administration and settings dashboard (check your router's instructions but it's often at http://192.168.0.1)
+
+- If the password to login to this dashboard is really simple, then update it.
+- Look through what devices are connected to the network right now (click around until you find the `access control`) and make sure you know what every device on the list is.
+- If you see these options, turn them off. Look for them under `advanced settings` or `gateway functions`:
+  - UPnP (universal plug and play)
+  - WPS (wi-fi protected setup)
+  - Remote management 
 
 #### Other
 
@@ -267,7 +278,7 @@ Don't say anything you'd regret on in a "private" Slack group, Facebook page, Wh
 - Bring a spare battery for your phone.
 - If you use your fingerprint or face to unlock your phone, turn it off for now. In some places, [officers can compel you to provide your fingerprint but not your passcode](http://www.theatlantic.com/technology/archive/2016/05/iphone-fingerprint-search-warrant/480861/).
 - Immediately power off your phone if you think you'll be arrested (disk encryption works better if it's off).
-- Consider using a burner phone with a burner SIM card.
+- Consider using a burner phone ([instructions for the US](https://theintercept.com/2020/06/15/protest-tech-safety-burner-phone/)) with a burner SIM card.
 
 #### Store less share less
 
@@ -354,7 +365,7 @@ Harassment and doxxing can get very specific and complicated based on the attack
 - Do not force yourself into a corner by going at this alone!
   - Baseline: Ask a trusted friend to hold space for your situation and be your sounding board on analyzing how bad the threat is.
   - Preferred: Ask a trusted friend to help you investigate, record, report and block harassers — see Take Back The Tech's [Hey Friend!](https://www.takebackthetech.net/know-more/heyfriend) guide for more details about this. In some cases, it may be healthier to hand over your phone/social media/accounts over to them so that you're not constantly triggered.
-- Alternately, reach out to online communities you're an active member of and ask for help. See PEN America's article on [Deploying Your Supportive Cyber Communities](https://onlineharassmentfieldmanual.pen.org/cyber-safety/deploying-your-supportive-cyber-communities/).
+- Alternately, reach out to online communities you're an active member of and ask for help. See PEN America's article on [Deploying Your Supportive Cyber Communities](https://onlineharassmentfieldmanual.pen.org/deploying-supportive-cyber-communities/).
 - If no one is available right now, Heartmob has a list of [supportive organizations](https://iheartmob.org/resources/supportive_organizations), some of which have 24/7 hotlines.
 
 #### Monitor updates & collect receipts
@@ -362,6 +373,8 @@ Harassment and doxxing can get very specific and complicated based on the attack
 - Run keyword searches for your name, nickname, and address to see what's out there. Also run an image search on your most-used profile pictures.
 - Set up a [Talkwalker](https://www.talkwalker.com/alerts) and/or [Google Alerts](https://www.google.com/alerts) for your name and nickname.
 - Start logging (date, time, description, screenshot) incidents in whatever program/app that's easiest for you.
+- If future legal action is likely, pay [Page Vault](https://www.page-vault.com) to capture a snapshot of a website and ask a lawyer to file an [evidence preservation request](https://onlinesos.org/blog/evidence-preservation-i-e-litigation-hold-request) with the relevant online platform. 
+- Remember to take care of yourself as much as you can — eat, sleep, exercise. Call in friends to help share a meal, take a break or watch your cats for a few days.
 
 #### Remove information about you off of the internet
 
@@ -379,16 +392,20 @@ Harassment and doxxing can get very specific and complicated based on the attack
 - For Twitter users:
   - Ask around in your communities for shared [block lists](https://help.twitter.com/en/using-twitter/advanced-twitter-block-options) of known offenders.   
   - Block troll bots using [Bot Sentinel](https://botsentinel.com).
-  - Reduce dogpiling by blocking all followers of a certain profile using [Twitter Block Chain](%5Bhttps://github.com/satsukitv/twitter-block-chain%5D(https://github.com/satsukitv/twitter-block-chain).
+  - Reduce dogpiling by blocking all followers of a certain profile using [Twitter Block Chain](https://github.com/satsukitv/twitter-block-chain).
   - See what lists you've been added to by going to Profile → Lists → ··· → Lists you're on. If you see a suspicious list or list owner, tap the three dots on the top right to report the list and leave the list by blocking the creator.
+
+#### Notify other parties
+
+- If your physical safety is under threat, notify law enforcement or someone in your community with crisis experience for protection.
+- If the situation escalates, consider informing your employer, communities and family about what is going on, in case you might need their help at some point or so that they are not caught off-guard.
 
 #### For more information
 
+- See OnlineSOS' [Action Center](https://onlinesos.org/action-center/category:identify).
+- See PEN America's [Online Harassment Field Manual](https://onlineharassmentfieldmanual.pen.org/).
 - See Feminist Frequency's [Speak Up & Stay Safe(r)](https://onlinesafety.feministfrequency.com/en/).
 - See TrollBusters' [What to Do? Where to Go? Infographic](https://yoursosteam.wordpress.com/what-to-do-infographic/).
-- See Equity Labs' [Anti-Doxing Guide](https://medium.com/@EqualityLabs/anti-doxing-guide-for-activists-facing-attacks-from-the-alt-right-ec6c290f543c).
-- See HeartMob/Hollaback's [Technical Safety Guide](https://iheartmob.org/resources/tech).
-- See Crash Override (RIP)'s [So You've Been Doxed](http://www.crashoverridenetwork.com/soyouvebeendoxed.html) and [Preventing Doxing](http://www.crashoverridenetwork.com/preventingdoxing.html).
 
 ---
 
@@ -417,14 +434,18 @@ You might not need to delete your entire account, but consider deleting (or maki
   - Look through your profile and manually delete posts (tap the three dots above upper-right corner of a photo).
   - If need be, bulk delete using [third-party tools](https://upleap.com/blog/how-to-delete-an-instagram-post/).
 - Twitter:
-  - Use a third-party service to filter for tweets you want to save, and bulk delete the rest. We recommend [Semiphemeral](https://semiphemeral.com) (free + open source, but beta), [TweetDelete](https://tweetdelete.net/) (free + paid options), or [Twitter Archive Eraser](https://martani.github.io/Twitter-Archive-Eraser/) (free + paid options)
+  - Use a third-party service to filter for tweets you want to save, and bulk delete the rest. We recommend [Semiphemeral](https://semiphemeral.com) (free + open source, but beta), [TweetDelete](https://tweetdelete.net/) (free + paid options), or [Twitter Archive Eraser](https://martani.github.io/Twitter-Archive-Eraser/) (free + paid options).
+  - Alternately, manually locate and delete individual posts using [Twitter's Advanced search](https://twitter.com/search-advanced). 
 - Reddit and other forums:
   - There's often no easy solution. Sometimes you have to delete your entire account, or in the case of Reddit, you have to [use third-party scripts](https://social.techjunkie.com/how-to-delete-all-reddit-posts/) because deleting your account still leaves your posts up.
 
-#### Remove your information from other people's websites
+#### Remove your information from other people's accounts or websites
 
+- [Ask Google](https://support.google.com/websearch/answer/9554939?hl=en) and [Bing](https://www.microsoft.com/en-ca/concern/bing) to remove search results pointing to pages with your personal information on them.
+- Follow the Cyber Civil Rights Initiative's [guide to get policy-violating posts/media removed from social networks](https://www.cybercivilrights.org/online-removal).
 - Pay [PrivacyDuck](https://www.privacyduck.com/) or [Reputation Defender](https://www.reputationdefender.com/) to remove your information from English-language public and paywalled sites. See if you qualify for one of their [PrivacyDuck's discount programs](https://www.privacyduck.com/discount-programs/).
-- If you want to do it yourself, check out [PrivacyDuck's guides](https://www.privacyduck.com/resources/) and Yael Grauer's [Big Ass Data Broker Opt-Out List](https://docs.google.com/document/d/1ElB7VXmr5JEkFaLJpO7YLGrAuasedmq-rZC-8TUMxTM/). (To be 100% thorough, use the latter on top of paid services.)
+- If you want to do it yourself, check out Yael Grauer's [Big Ass Data Broker Opt-Out List](https://github.com/yaelwrites/Big-Ass-Data-Broker-Opt-Out-List) and [PrivacyDuck's guides](https://www.privacyduck.com/resources/)). (To be 100% thorough, use these on top of paid services.)
+- Remember that information removal requests takes time to process and often require repeated attempts.
 
 #### Obscure your personal information
 
@@ -498,12 +519,22 @@ Keep in mind:
 
 ### 😣 I need help now, my systems are under attack!
 
-If you work as part of a civil society group, you can contact:
+If you work as part of a civil society group, contact:
 
 - Access Now's [Digital Security Helpline](https://www.accessnow.org/help/)
 - Front Line Defender's [Emergency Contact](https://www.frontlinedefenders.org/emergency-contact)
+- If you have a bit more time, apply for a Digital Defenders Partnership [Incident Emergency Grant](https://www.digitaldefenders.org/funding/incident-emergency-funding/).
 
-If you have a bit more time, you can also apply for a Digital Defenders Partnership [Incident Emergency Grant](https://www.digitaldefenders.org/sections/about-us/emergency-grants/).
+If you are being harassed online, contact:
+
+- The [Games and Online Harassment Hotline](https://gameshotline.org/), a US-based, text message-based, confidential emotional support hotline for members of the gaming community.
+- The Digital Rights Foundation's Pakistan-based [Cyber Harassment Hotline](https://digitalrightsfoundation.pk/contact/).
+
+Alternately, hotlines that don't focus on digital/online safety may still be able to help:
+
+- [The Coalition Against Stalkerware](https://stopstalkerware.org/) has three hotlines (one in Germany, two in the US) listed at the bottom of their website.
+- The [Cyber Civil Rights Initiative has a crisis helpline](https://www.cybercivilrights.org/contact-us/) for victims of nonconsensual pornography or other forms of online abuse.
+- Freemuse offers [artist assistance](https://freemuse.org/artist-assistance/) to artists at risk of threats, attacks, imprisonments, or exile.
 
 ---
 
@@ -544,15 +575,15 @@ This section is a catch-all for difficult or esoteric practices that do not fall
 - Read [this EDRi guide on ethical website development and maintenance](https://edri.org/ethical-web-dev/). Pay special attention to its privacy recommendations.
 - Protect your website (from DDOS attacks and other things) by using:
   - [Deflect](https://deflect.ca/) (has [free plan]([https://deflect.ca/nonprofit](https://deflect.ca/nonprofit)) for non-profits).
-  - [Cloudflare](https://www.cloudflare.com/) (has [free plan]([https://www.cloudflare.com/galileo/](https://www.cloudflare.com/galileo/) for arts, human rights, civil society, journalism, or democracy organizations).
+  - [Cloudflare](https://www.cloudflare.com/) (has [free plan](https://www.cloudflare.com/galileo/) for arts, human rights, civil society, journalism, or democracy organizations).
   - [Project Shield](https://projectshield.withgoogle.com) from Google: only available for news, human rights and election monitoring sites. 
-  - [iThemes Security plug-in](https://wordpress.org/plugins/better-wp-security/) for Wordpress.
+  - [Wordfence](https://wordpress.org/plugins/wordfence/) and [iThemes Security](https://wordpress.org/plugins/better-wp-security/) plug-ins for Wordpress.
 - Consider switching to a more privacy-oriented hosting service like [Greenhost](https://greenhost.net/) or one of these recommendations from [Gecko & Fly](https://www.geckoandfly.com/32144/anonymous-offshore-web-hosting/) and [PrivacyTools](https://www.privacytools.io/providers/hosting/).
-  - Set up a [security.txt](https://securitytxt.org/) so that researchers have a place to disclose security vulnerabilities.
+- Set up a [security.txt](https://securitytxt.org/) so that researchers have a place to disclose security vulnerabilities.
 
 #### Other
 
-- Buy a [YubiKey](http://www.amazon.com/Yubico-Y-072-YubiKey-NEO/dp/B00LX8KZZ8/ref=sr_1_1?ie=UTF8&qid=1421839152&sr=8-1&keywords=yubikey+NEO) USB key to use for two-factor authentication.
+- Buy a [YubiKey](https://www.yubico.com/products/) USB key to use for two-factor authentication. If you work in free speech/press/internet, you may qualify for a free [Yubico for Free Speech](https://www.yubico.com/about/about-us/free-speech-program/).
 - Keep less information/data/photos on your devices – you can't lose what you don't have.
 - Don't use smart TVs or smart speakers.
 - Search the web anonymously with [DuckDuckGo](http://duckduckgo.com/).
