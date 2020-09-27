@@ -132,7 +132,6 @@
 #### Set up your home wifi router
 
 - Login to the administration and settings dashboard (check your router's instructions but it's often at http://192.168.0.1)
-
 - If the password to login to this dashboard is really simple, then update it.
 - Look through what devices are connected to the network right now (click around until you find the `access control`) and make sure you know what every device on the list is.
 - If you see these options, turn them off. Look for them under `advanced settings` or `gateway functions`:
