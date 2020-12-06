@@ -79,7 +79,7 @@ Use two-factor authentication (also known as 2FA and two-step verification) to a
 
 #### Encrypt your devices
 
-- Encrypt your laptop/desktop hard drive:
+- Encrypt your computer hard drive:
   - Mac: [See Apple's instructions](https://support.apple.com/en-us/HT204837).
   - Windows: [See Microsoft's instructions](https://support.microsoft.com/en-us/windows/device-encryption-in-windows-10-ad5dcf4b-dbe0-2331-228f-7925c2a3012d) (we recommend BitLocker if it's available)
 - Encrypt your phone storage:
@@ -98,12 +98,15 @@ Use two-factor authentication (also known as 2FA and two-step verification) to a
   - [See iPhone instructions](https://support.apple.com/en-hk/HT201529).
   - [See Android instructions](https://www.maketecheasier.com/change-sim-pin-android/).
   - Search your phone provider's website to find out what their default password is (it varies from carrier to carrier).
-- Turn on the firewall on your laptop/desktop:
+- Turn on the firewall on your computer:
   - Mac: `System Preferences → Security & Privacy → Firewall`.
   - Windows: `Control Panel → System and Security → Windows Firewall`.
-- Turn off remote access on your laptop/desktop:
+- Turn off remote access on your computer:
   - Mac: `System Preferences → Sharing → Remote Login, Remote Management1`.
   - Windows: `Control Panel → System and Security → System: Allow remote access → Don't Allow Remote connections to this computer`.
+- Set up basic anti-virus software on your computer:
+  - Mac: None required. ([Read Wirecutter's explanation](https://www.nytimes.com/wirecutter/blog/best-antivirus/.))
+  - Windows: Make sure Microsoft Defender Antivirus is on [see Microsoft's instructions here](https://support.microsoft.com/en-us/windows/stay-protected-with-windows-security-2ae0363d-0ada-c064-8b56-6a39afb6a963)) and [turn on the extra `ransomware protection` feature](https://lifehacker.com/why-you-should-use-windows-defenders-ransomware-prevent-1837311176).
 - Turn off app-specific passwords that bypass two-factor authentication (e.g. [instructions for Gmail](https://www.lifewire.com/revoke-an-application-password-for-gmail-1171889)).
 - Turn off automatically add(ed) invitations on [Google Calendar settings](https://calendar.google.com/calendar/r/settings) ([here's why](https://www.forbes.com/sites/daveywinder/2019/06/11/new-security-warning-issued-for-googles-1-5-billion-gmail-and-calendar-users/#3605ff0565e5)).
 - [Turn on Login Alerts on Facebook](https://www.facebook.com/settings?tab=security).
@@ -148,7 +151,7 @@ Use two-factor authentication (also known as 2FA and two-step verification) to a
 - Review the privacy settings on social networks you frequent: who can see your content, who can comment on it, and who can see your location.
   - Limit Facebook tracking by turning off Off-Facebook Activity (follow [these EFF's instructions](https://www.eff.org/deeplinks/2020/01/how-change-your-facebook-activity-settings)).
 - Review the privacy settings on messaging apps you normally use: read receipts, time stamps for "last seen," and whether your phone number/profile picture are public.
-- Install these protective web browsers add-ons on your laptop/desktop computer (and make sure they're on even during private/incognito mode):
+- Install these protective web browsers add-ons on your computer (and make sure they're on even during private/incognito mode):
   - An ad blocker (e.g. [uBlock Origin](https://github.com/gorhill/uBlock/), [Ghostery](https://www.ghostery.com/)).
   - A tracker blocker ([Privacy Badger](https://www.eff.org/privacybadger)).
   - [HTTPS Everywhere](https://www.eff.org/https-everywhere).
@@ -221,7 +224,7 @@ Don't say anything you'd regret on in a "private" Slack group, Facebook page, Wh
 
 - Identify files that you don't want others to access (e.g. private photos, passport documents).
 - Use [Cryptomator](https://cryptomator.org/) or [Veracrypt](https://www.veracrypt.fr/en/Home.html) to create an encrypted, password-protected vault for them.
-- Set them up on both your desktop/laptop and your phone.
+- Set them up on both your computer and your phone.
 - Move your files into these secure vaults. Make sure they're not still hanging around on an old folder or on your phone.
 
 #### Upgrade your gear
@@ -381,7 +384,7 @@ Below are some basics that all journalists should consider. If you're working on
 - Be aware that [courts can compel Google to hand over all of your data](https://medium.com/@tinfoilpress/newsrooms-lets-talk-about-g-suite-1672a36eb235).
 - Move all of your work onto end-to-end encrypted platforms. (E.g. [Protonmail](https://protonmail.com/) or [Tutanota](https://tutanota.com/) for email, store documents in a [Tresorit](https://tresorit.com/) or [SpiderOak](https://spideroak.com/) cloud.) 
 - Store sensitive data in a password-protected cloud or external storage device as much as possible. See the `Lock up sensitive files` section above.
-- Remember to permanently erase sensitive files from your laptop/desktop: use [Eraser for Windows](https://eraser.heidi.ie/) and [File Shredder for Mac](https://apps.apple.com/us/app/fileshredder/id418094085?mt=12).
+- Remember to permanently erase sensitive files from your computer: use [Eraser for Windows](https://eraser.heidi.ie/) and [File Shredder for Mac](https://apps.apple.com/us/app/fileshredder/id418094085?mt=12).
 
 #### For more information
 
