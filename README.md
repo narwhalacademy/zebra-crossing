@@ -22,7 +22,7 @@
 
 ### 🕒 Last updated
 
-- 26 September 2020
+- 5 December 2020
 
 ---
 
@@ -40,7 +40,7 @@
 
 ### 🔡 Encryption levels
 
-1. Not encrypted: Any third party who intercepts the data can read it as-is.
+1. No encryption: Any third party who intercepts the data can read it as-is.
 2. Regular encryption: Data is encrypted so that third parties cannot read them. But the platform (e.g. Google or Facebook) still has access, and may hand the data over to law enforcement if they are required to do so by the courts.
 3. End-to-end encryption: the data can only be read by the original sender and receiver. This means not even the platform has access. So if the courts call, the service provider can't hand over the messages because they don't have them either.
 
@@ -54,53 +54,81 @@
 
 ### ✅ Things to do now
 
+#### Strengthen passwords
+
+- Any password less than 10 characters is bad, but it's also okay-to-string-together-non-sequitur-words.
+- Double check the security questions for your key online services (email, bank, Facebook, etc.) and make sure that they're not easy to answer by friends or by anyone looking you up on Google.
+- Start using a different password for every service, because password leaks happen all the time. To make this easy, use a password manager ([see Wirecutter's picks here](https://www.nytimes.com/wirecutter/reviews/best-password-managers/)) to store/autofill/generate them. For now, make sure you use a unique password for essential services (email, social media, banking, cloud storage).
+- Use a non-common/obvious unlock code for your phone with at least 9 digits.
+
+#### Double lock important accounts
+
+Use two-factor authentication (also known as 2FA and two-step verification) to add an extra lock on top of a typed password. Usually this takes the form of a short code that's sent to your phone via a specialized app or SMS.
+
+- Download an authenticator app like [Authy](https://authy.com/) or [Duo Mobile](https://duo.com/product/multi-factor-authentication-mfa/duo-mobile-app). Apps are far more secure than SMS so use one if it's available.
+- Turn on 2FA on your:
+  - Email service. See instructions for [Gmail](https://support.google.com/accounts/answer/185839?hl=en), [Protonmail](https://protonmail.com/support/knowledge-base/two-factor-authentication/), or find instructions for your email provider [here](https://twofactorauth.org/#email).
+  - Frequently used social media accounts. See instructions for [Twitter](https://help.twitter.com/en/managing-your-account/two-factor-authentication), [Facebook](https://www.facebook.com/help/148233965247823/), [Instagram](https://help.instagram.com/566810106808145), and [other services](https://twofactorauth.org/#social).
+  - Consider turning on 2FA on any other online accounts where losing access would be catastrophic. Look up instructions on [Two Factor Auth](https://twofactorauth.org/).
+- Turn on cloud backup for your authenticator app in case you ever lose your phone. See instructions for [Authy](https://authy.com/features/backup/) and [Duo Mobile](https://guide.duo.com/duo-restore).
+
 #### Email
 
 - If you're on a webmail service, check that you're logging into it using an `https://` URL. And if there isn't one, find a new email provider.
-- Turn on two-factor authentication for your email service (e.g. instructions for [Gmail](https://support.google.com/accounts/answer/185839?hl=en), [Protonmail](https://protonmail.com/support/knowledge-base/two-factor-authentication/)) through an authenticator app (e.g. [Authy](https://authy.com/), [Google Authenticator](https://support.google.com/accounts/answer/1066447?hl=en)). Do no rely on SMS text messages as they are no longer considered safe.
 - After turning on two-factor authentication, see if your email service supports backup codes (a single-use code in case you lose your phone). [See Gmail instructions](https://support.google.com/accounts/answer/1187538?hl=en).
-
-#### Good passwords
-
-- Any password less than 10 characters is bad, but it's also okay-to-string-together-non-sequitur-words.
-- Double check the security questions for your key online services (email, bank, Facebook, etc.) and make sure that they're not easy to answer by friends/looking you up on Google.
-- Start using a different password for every service, because password leaks happen all the time. To make this easy, use a password manager ([Lifehacker reviews them here](https://lifehacker.com/5529133/five-best-password-managers)) to store/autofill/generate them. For now, make sure you use a unique password for essential services (email, social media, banking, cloud storage).
-- Use a non-common/obvious unlock code for your phone with at least 8 digits.
-- On iPhone, turn off USB Accessories in Settings → Face ID & Passcode → Allow Access When Locked.
 
 #### Encrypt your devices
 
-- Encrypt your phone storage: [Android](http://www.networkworld.com/article/2689371/opensource-subnet/how-to-encrypt-an-android-device-in-5-steps.html), [iOS](https://ssd.eff.org/en/module/how-encrypt-your-iphone) (many phones now encrypt by default but it's worth double checking).
-- Encrypt your laptop/desktop hard drive: [Windows](https://uit.stanford.edu/service/encryption/wholedisk/bitlocker), [Windows if no BitLocker](https://veracrypt.codeplex.com/), [Mac OSX](https://support.apple.com/en-us/HT204837).
-- Secure your backups too! Encrypt your backup hard drives and/or make sure your online backup storage solution offers end-to-end encryption (which neither iCloud or Google Drive support).
+- Encrypt your laptop/desktop hard drive:
+  - Mac: [See Apple's instructions](https://support.apple.com/en-us/HT204837).
+  - Windows: [See Microsoft's instructions](https://support.microsoft.com/en-us/windows/device-encryption-in-windows-10-ad5dcf4b-dbe0-2331-228f-7925c2a3012d) (we recommend BitLocker if it's available)
+- Encrypt your phone storage:
+  - iOS: Automatically encrypt.
+  - Android: Recent versions automatically encrypt. Double check by going to `Settings → Security → Encryption`.
+- Secure your backups too!
+  - Encrypt your backup hard drives:
+    - Mac: If you use Time Machine, [see Apple's instructions here](https://support.apple.com/en-ca/guide/mac-help/mh21241/mac).
+    - Windows: [See instructions here](https://techjury.net/blog/how-to-encrypt-your-hard-drive/).
+  - Pick an online backup storage solution that offers end-to-end encryption (which neither iCloud or Google Drive support) like [Tresorit](https://tresorit.com/) or [Spideroak One](https://spideroak.com/one/).
 - N.B. Remember encryption is only fully effective when the device is off!
 
 #### Other
 
-- Setup up a pin code for your mobile phone SIM card: [iPhone](https://support.apple.com/en-hk/HT201529), [Android](https://www.digitalcitizen.life/how-change-or-remove-sim-pin-android-2-steps). Search your phone provider's website to find out what their default password is (it varies from carrier to carrier).
+- Setup up a pin code for your mobile phone SIM card:
+  - [See iPhone instructions](https://support.apple.com/en-hk/HT201529).
+  - [See Android instructions](https://www.maketecheasier.com/change-sim-pin-android/).
+  - Search your phone provider's website to find out what their default password is (it varies from carrier to carrier).
+- Turn on the firewall on your laptop/desktop:
+  - Mac: `System Preferences → Security & Privacy → Firewall`.
+  - Windows: `Control Panel → System and Security → Windows Firewall`.
+- Turn off remote access on your laptop/desktop:
+  - Mac: `System Preferences → Sharing → Remote Login, Remote Management1`.
+  - Windows: `Control Panel → System and Security → System: Allow remote access → Don't Allow Remote connections to this computer`.
 - Turn off app-specific passwords that bypass two-factor authentication (e.g. [instructions for Gmail](https://www.lifewire.com/revoke-an-application-password-for-gmail-1171889)).
 - Turn off automatically add(ed) invitations on [Google Calendar settings](https://calendar.google.com/calendar/r/settings) ([here's why](https://www.forbes.com/sites/daveywinder/2019/06/11/new-security-warning-issued-for-googles-1-5-billion-gmail-and-calendar-users/#3605ff0565e5)).
 - [Turn on Login Alerts on Facebook](https://www.facebook.com/settings?tab=security).
 - [Disable macros within Microsoft Office](https://support.office.com/en-us/article/enable-or-disable-macros-in-office-files-12b036fd-d140-4e74-b45e-16fed1a7e5c6).
+- iOS: Don't allow USB accessories to control a locked device. Turn off `Settings → Face ID & Passcode → Allow Access When Locked: USB Accessories`.
 
 ### 💪🏽 Habits to cultivate
 
 #### Email
 
 - Be on the lookout for phishing scams: where possible double check the _From_ email address and the domains that outbound links go to.
-- Don't open unnecessary email attachments. Where possible, open/preview them first in an online document reader, or have colleagues use a filesharing server or service (Dropbox, Google Drive, SpiderOak, Tresorit), which tend to be a little harder to hack into.
+- Don't open unnecessary email attachments. Where possible, open or preview them first in an online document reader. Ask colleagues to use a filesharing service (Dropbox, Google Drive, Tresorit, SpiderOak), which tend to be a little harder to hack into.
 - You can upload a suspicious attachment to [VirusTotal](http://www.virustotal.com) for a check-up (but keep in mind files submitted to VirusTotal are available to security researchers so don’t submit sensitive information).
 
 #### Update all the things
 
 - When you get a notification to update your operating system (on your mobile or computer), do it as soon as you can.
-- Same for apps (mobile + computer).
+- Update your apps (on mobile or computer) similarly.
 - Check occasionally for firmware updates for your router (and other Internet-connected devices).
 
 #### Other
 
 - Change important passwords (e.g. email, computer login, password manager master) every year or two.
-- Wipe your devices properly before donating/giving away: [phone](http://lifehacker.com/5808280/what-should-i-do-with-my-phone-before-i-sell-it), [computer](http://lifehacker.com/5835369/how-do-i-securely-wipe-a-computer-before-donating-it-to-charity).
+- Wipe your devices properly before donating/giving away. If you've encrypted all of your phones and computers (as suggested above), a normal factory reset will do the job for almost all use cases. If you want an extra layer of security for your computer hard drives, see [Wired's guide on this topic](https://www.wired.co.uk/article/securely-wipe-android-iphone-hard-disk).
+- [phone](http://lifehacker.com/5808280/what-should-i-do-with-my-phone-before-i-sell-it), [computer](http://lifehacker.com/5835369/how-do-i-securely-wipe-a-computer-before-donating-it-to-charity).
 - Don't charge your phone at public charging stations/ports – they may steal your data. Consider charging your portable battery instead.
 
 ---
@@ -125,13 +153,15 @@
   - A tracker blocker ([Privacy Badger](https://www.eff.org/privacybadger)).
   - [HTTPS Everywhere](https://www.eff.org/https-everywhere).
 - Review which apps on your smartphone have access to your location data. Turn off access if the app doesn't need it, and minimize the number of apps that track your location all the time.
-  - iOS: Settings → Privacy → Location Services
-  - Android: Settings → Apps & notifications → App permissions
-- If you use smart speakers, turn off its recording function: instructions for [Google Home](https://myaccount.google.com/activitycontrols/audio) and for [Amazon Alexa](https://twitter.com/geminiimatt/status/1125611726773334017).
+  - iOS: `Settings → Privacy → Location Services`.
+  - Android: `Settings → Apps & notifications → App permissions`.
+- If you use smart speakers, turn off its recording function:
+  - Google Home: go to [Activity Controls](https://myaccount.google.com/activitycontrols/audio) and uncheck `Include audio recordings`.
+  - Amazon Alexa: [Follow these instructions](https://www.digitaltrends.com/home/how-to-stop-amazon-from-listening-to-your-alexa-recordings/).
 
 #### Set up your home wifi router
 
-- Login to the administration and settings dashboard (check your router's instructions but it's often at http://192.168.0.1)
+- Login to the administration and settings dashboard (check your router's instructions but it's often at `http://192.168.0.1`)
 - If the password to login to this dashboard is really simple, then update it.
 - Look through what devices are connected to the network right now (click around until you find the `access control`) and make sure you know what every device on the list is.
 - If you see these options, turn them off. Look for them under `advanced settings` or `gateway functions`:
@@ -141,10 +171,12 @@
 
 #### Other
 
-- Set up your devices with third-party applications (e.g. [Prey](https://www.preyproject.com), [Lookout Security](https://www.lookout.com/) so you can remotely track, wipe, and encrypt your devices from a website in the future.
-- Review the "Third-Party Apps" or "Connected Apps" on your main email/social media accounts. These are services that might have access to, say, your Facebook data and even permission to make posts automatically there. ([Here are the instructions for checking for them on Facebook and Gmail](https://www.online-tech-tips.com/computer-tips/check-google-facebook-connected-apps/).)
+- Set up tracking apps for your devices so you can remotely find and wipe your devices from a website if you ever lose them:
+  - iOS & Mac: [Instructions for setting up Find My](https://support.apple.com/en-us/HT210400).
+  - Android: [Instructions for setting up Find My Device](https://support.google.com/android/answer/6160491?hl=en).
+  - Multi-platform (including iOS, Mac, Android if you want everything under one umbrella): [Download and install Prey](https://www.preyproject.com).
+- Review the `Third-Party Apps` or `Connected Apps` on your main email/social media accounts. These are services that might have access to, say, your Facebook data and even permission to make posts automatically there. ([Here are the instructions for checking for them on Facebook and Gmail](https://www.online-tech-tips.com/computer-tips/check-google-facebook-connected-apps/).)
 - Review the extensions/add-ons/plug-ins that have been installed within your computer web browser – delete any that you haven't used in a while or don't remember installing.
-- Download and run [Stethoscope](https://ragtag.org/stethoscope) for your computer, which make sure your basic security settings (encryption, firewall, screen locks, etc.) are covered.
 
 ### 💪🏾 Habits to cultivate
 
@@ -160,9 +192,9 @@ Don't say anything you'd regret on in a "private" Slack group, Facebook page, Wh
 - Any one member can leak all of the data.
 - Administrators usually have access to everything within the group, including that private direct message between two people, and sometimes even deleted messages.
 - Even if you're not using your real name or photo, what you say can often be traced back to your phone number or email (that is linked to the account).
-  - To prevent this in Telegram, go into Settings → Privacy and Security → Phone Number, and then set:
-    - `Who can see my phone number` to `Nobody` 
-    - `Who can find me by my number` to `My Contacts` 
+  - To prevent this in Telegram, go into `Settings → Privacy and Security → Phone Number`, and then set:
+    - `Who can see my phone number` to `Nobody`.
+    - `Who can find me by my number` to `My Contacts`. 
 
 #### Other
 
@@ -206,7 +238,7 @@ Don't say anything you'd regret on in a "private" Slack group, Facebook page, Wh
 
 - Start using [Signal](https://signal.org/), an end-to-end encrypted mobile messaging app that's generally agreed to be safe/secure/robust. (Beyond Signal, there is little consensus on what's secure and people tend to get very emotional about their choice of mobile messaging apps.)
 - When making voice or video calls, use an end-to-end encrypted app (e.g. Signal, Jitsi, Wire).
-- Buy a harder-to-hack mobile phone `($$$)`. Typically, this is an iPhone or Android phone that implements a "pure" Google version of Android.
+- Buy a harder-to-hack mobile phone 💰. Typically, this is an iPhone or Android phone that implements a "pure" Google version of Android.
 
 ---
 
@@ -245,7 +277,10 @@ Don't say anything you'd regret on in a "private" Slack group, Facebook page, Wh
 
 ### 😭 Somebody took my phone/computer!
 
-- Wipe your phone remotely: see instructions for [Android](https://support.google.com/accounts/answer/6160491?hl=en), [iOS](https://support.apple.com/kb/PH2701?locale=en_US).
+- Wipe your phone remotely:
+  - iOS, Mac: Instructions for using [Find My](https://support.apple.com/en-us/HT210515#erasedevice). 
+  - Android: Instruction for [Find My Device](https://support.google.com/accounts/answer/6160491?hl=en).
+  - If you installed Prey: [Login to the dashboard](https://panel.preyproject.com), select a device and then `remote wipe`.
 - Log out of all important accounts from another device.
 - If this happened at an international border: Ask for a seizure receipt (available in some jurisdictions, e.g. [Canada](https://bccla.org/wp-content/uploads/2018/10/Electronic-Devices-Privacy-Handbook-BCCLA_2.0.pdf))
 - Get a new SIM card.
@@ -292,23 +327,23 @@ Don't say anything you'd regret on in a "private" Slack group, Facebook page, Wh
 #### Minimize location tracking
 
 - Turn off location history:
-  - iPhone: Settings → Privacy → Location Services → System Services → Significant Locations
-  - Android: Settings → Google → Google Account → Data & personalization → Location History → Manage setting → Your account & all your devices → Use Location History Off
-  - Google Maps: Settings → Maps history → Web & App Activity
+  - iOS: `Settings → Privacy → Location Services → System Services → Significant Locations`.
+  - Android: `Settings → Google → Google Account → Data & personalization → Location History → Manage setting → Your account & all your devices → Use Location History Off`.
+  - Google Maps: `Settings → Maps history → Web & App Activity`.
 - Delete past location history:
-  - iPhone: Settings → Privacy → Location Services → System Services → Significant Locations → Clear History
+  - iOS: `Settings → Privacy → Location Services → System Services → Significant Locations → Clear History`.
   - [Android](https://support.google.com/accounts/answer/3118687?hl=en#delete)
   - [Google Maps](https://support.google.com/maps/answer/3137804?hl=en)
 - Consider turning off all location services temporarily:
-  - iPhone: Settings → Privacy → Location Services → Location Services Off
-  - Android: Security & location → Location → Use location Off
+  - iPhone: `Settings → Privacy → Location Services → Location Services Off`.
+  - Android: `Security & location → Location → Use location Off`.
 
 #### Other
 
 - Double check your messaging apps' privacy settings.
 - Turn off message previews in your notifications:
-  - iOS: Settings → Notifications → Show Previews: When Unlocked
-  - Android: Settings → Apps & notifications → Notifications → On lock screen: Hide sensitive content
+  - iOS: `Settings → Notifications → Show Previews: When Unlocked`.
+  - Android: `Settings → Apps & notifications → Notifications → On lock screen: Hide sensitive content`.
 - Remember to make voice calls through end-to-end encrypted apps like [Signal](https://signal.org/).
 
 ---
@@ -334,7 +369,7 @@ Below are some basics that all journalists should consider. If you're working on
 - To exchange messages, use an end-to-end encrypted messaging app that doesn't store metadata like [Signal](https://www.signal.org/). (Don't use Twitter DMs!)
 - Use [Signal](https://www.signal.org/) or [Jitsi](https://jitsi.org/) for end-to-end encrypted voice and video calls.
 - Use the security features in Signal and Whatsapp – see Martin Shelton's articles on [Locking Down Signal](https://medium.com/@mshelton/locking-down-signal-d71678f653d3) and [Upgrading WhatsApp security](https://medium.com/@mshelton/upgrading-whatsapp-security-386c8ce496d3).
-- Have your organization set up [SecureDrop](https://securedrop.org/). Failing that, encourage people to use [OnionShare](https://onionshare.org/) or [Firefox Send](https://send.firefox.com/).
+- Have your organization set up [SecureDrop](https://securedrop.org/). Failing that, encourage people to use [OnionShare](https://onionshare.org/).
 - Blur faces from photos and videos (e.g. Android [ObscuraCam](https://guardianproject.info/apps/obscuracam/), Youtube [instructions](https://technology.witness.org/2016/02/how-to-use-youtubes-new-blurring-feature-to-protect-identities/)).
 - Erase media metadata using [these apps](https://www.maketecheasier.com/best-apps-remove-exif-data-from-images/).
 - See Ted Han and Quinn Norton's [Protecting Your Sources When Releasing Sensitive Documents](https://source.opennews.org/articles/how-protect-your-sources-when-releasing-sensitive-/).
@@ -370,7 +405,8 @@ Harassment and doxxing can get very specific and complicated based on the attack
 #### Monitor updates & collect receipts
 
 - Run keyword searches for your name, nickname, and address to see what's out there. Also run an image search on your most-used profile pictures.
-- Set up a [Talkwalker](https://www.talkwalker.com/alerts) and/or [Google Alerts](https://www.google.com/alerts) for your name and nickname.
+- Monitor your name/username using these services: [Talkwalker](https://www.talkwalker.com/alerts), [Google Alerts](https://www.google.com/alerts) and/or [Mention](https://mention.com) 💰.
+- Monitor and archive webpages that mention you using [ChangeTower](https://changetower.com/).
 - Start logging (date, time, description, screenshot) incidents in whatever program/app that's easiest for you.
 - If future legal action is likely, pay [Page Vault](https://www.page-vault.com) to capture a snapshot of a website and ask a lawyer to file an [evidence preservation request](https://onlinesos.org/blog/evidence-preservation-i-e-litigation-hold-request) with the relevant online platform. 
 - Remember to take care of yourself as much as you can — eat, sleep, exercise. Call in friends to help share a meal, take a break or watch your cats for a few days.
@@ -389,10 +425,10 @@ Harassment and doxxing can get very specific and complicated based on the attack
   - Block on social media: Maximizes peace of mind as the harasser won't be able to see your posts. But they will notice and see it as a sign of escalation.
   - Go public: Can be dangerous, but sometimes shaming them publicly or rallying people to your support will make them go away.
 - For Twitter users:
-  - Ask around in your communities for shared [block lists](https://help.twitter.com/en/using-twitter/advanced-twitter-block-options) of known offenders.   
+  - Block previously-identified offenders using [Block Together](https://theblockbot.com/) — ask around in your communities for shared block lists.   
   - Block troll bots using [Bot Sentinel](https://botsentinel.com).
-  - Reduce dogpiling by blocking all followers of a certain profile using [Twitter Block Chain](https://github.com/satsukitv/twitter-block-chain).
-  - See what lists you've been added to by going to Profile → Lists → ··· → Lists you're on. If you see a suspicious list or list owner, tap the three dots on the top right to report the list and leave the list by blocking the creator.
+  - Reduce dogpiling by blocking all followers of a certain profile using [Red Block](https://github.com/gaeulbyul/RedBlock) or [Twitter Block Chain](https://github.com/satsukitv/twitter-block-chain) (only available on Chrome).
+  - See what lists you've been added to by going to `Profile → Lists → ··· → Lists` you're on. If you see a suspicious list or list owner, tap the three dots on the top right to report the list and leave the list by blocking the creator.
 
 #### Notify other parties
 
@@ -421,14 +457,14 @@ You might not need to delete your entire account, but consider deleting (or maki
     - On desktop, go to your profile and click the 👁 button next to the right of the Edit Profile button.
     - On mobile, go to your proflie, tap the three dots on the right of Add Story and tap View As.
   - Make it so only friends can see your past posts.
-    - On desktop, go to Settings → Privacy → Limit Past Posts.
-    - On mobile, go to Settings & Privacy → Settings → Privacy Settings → Limit who can see past posts.
+    - On desktop, go to `Settings → Privacy → Limit Past Posts`.
+    - On mobile, go to `Settings & Privacy → Settings → Privacy Settings → Limit who can see past posts`.
   - To bulk delete past posts, [see this article in PC Magazine](https://www.pcmag.com/how-to/how-to-quickly-delete-old-facebook-posts).
 - Whatsapp:
   - Swipe to delete individual conversations.
-  - Delete chat content but keep the chat groups: Settings → Chats →  Clear All Chats.
-  - Delete all chats including the chat groups: Settings → Chats → Delete All Chats.
-  - Turn off chat backups on WhatsApp (Settings → Chats → Chat backup) and delete your previous backups (instructions for [iOS](https://www.wikihow.com/Delete-Backups-on-WhatsApp-on-iPhone-or-iPad), [Android](https://faq.whatsapp.com/en/android/30030306)).
+  - Delete chat content but keep the chat groups: `Settings → Chats →  Clear All Chats`.
+  - Delete all chats including the chat groups: `Settings → Chats → Delete All Chats`.
+  - Turn off chat backups on WhatsApp (`Settings → Chats → Chat backup`) and delete your previous backups (instructions for [iOS](https://www.wikihow.com/Delete-Backups-on-WhatsApp-on-iPhone-or-iPad), [Android](https://faq.whatsapp.com/en/android/30030306)).
 - Instagram:
   - Look through your profile and manually delete posts (tap the three dots above upper-right corner of a photo).
   - If need be, bulk delete using [third-party tools](https://upleap.com/blog/how-to-delete-an-instagram-post/).
@@ -442,7 +478,7 @@ You might not need to delete your entire account, but consider deleting (or maki
 
 - [Ask Google](https://support.google.com/websearch/answer/9554939?hl=en) and [Bing](https://www.microsoft.com/en-ca/concern/bing) to remove search results pointing to pages with your personal information on them.
 - Follow the Cyber Civil Rights Initiative's [guide to get policy-violating posts/media removed from social networks](https://www.cybercivilrights.org/online-removal).
-- Pay [PrivacyDuck](https://www.privacyduck.com/) or [Reputation Defender](https://www.reputationdefender.com/) to remove your information from English-language public and paywalled sites. See if you qualify for one of their [PrivacyDuck's discount programs](https://www.privacyduck.com/discount-programs/).
+- Pay 💰 [DeleteMe](https://joindeleteme.com/), [PrivacyDuck](https://www.privacyduck.com/) or [Reputation Defender](https://www.reputationdefender.com/) to remove your information from English-language public and paywalled sites. See if you qualify for one of their [PrivacyDuck's discount programs](https://www.privacyduck.com/discount-programs/).
 - If you want to do it yourself, check out Yael Grauer's [Big Ass Data Broker Opt-Out List](https://github.com/yaelwrites/Big-Ass-Data-Broker-Opt-Out-List) and [PrivacyDuck's guides](https://www.privacyduck.com/resources/)). (To be 100% thorough, use these on top of paid services.)
 - Remember that information removal requests takes time to process and often require repeated attempts.
 
@@ -461,7 +497,7 @@ You might not need to delete your entire account, but consider deleting (or maki
 - Keep a hidden, pen-and-paper log of suspicious incidents.
 - Make sure your partner is not getting information from previously shared accounts or because you left the [location share on within Google Maps](https://support.google.com/maps/answer/7326816?co=GENIE.Platform%3DAndroid&hl=en).
 - Review and redo the items in Levels 1-3 of this guide. Reset your passwords, check your privacy/data sharing permissions, and look up any apps you don't recognize on your computer and phone.
-- Keep an eye out for other signs. E.g. your phone battery doesnt' last very long anymore, or your laptop internet connection is slow. Review the Coalition Against Stalkerware's [full of list of indicators](https://stopstalkerware.org/get-help/).
+- Keep an eye out for other signs. E.g. your phone battery doesn't last very long anymore, or your laptop internet connection is slow. Review the Coalition Against Stalkerware's [full of list of indicators](https://stopstalkerware.org/get-help/).
 - **Don't delete suspicious apps immediately** — you may need to keep them as evidence. Plus, deletion may also cause the situation with your partner to escalate.
 
 #### If you're pretty sure they're spying on you and you're scared:
@@ -535,6 +571,10 @@ Alternately, hotlines that don't focus on digital/online safety may still be abl
 - The [Cyber Civil Rights Initiative has a crisis helpline](https://www.cybercivilrights.org/contact-us/) for victims of nonconsensual pornography or other forms of online abuse.
 - Freemuse offers [artist assistance](https://freemuse.org/artist-assistance/) to artists at risk of threats, attacks, imprisonments, or exile.
 
+If someone else has taken control of your accounts:
+
+- See Consumer Reports Security Planners' [list of instructions on regaining access](https://securityplanner.consumerreports.org/tool/regain-control-of-hacked-accounts).
+
 ---
 
 ## 💦❓ Other recommendations
@@ -557,17 +597,21 @@ This section is a catch-all for difficult or esoteric practices that do not fall
 
 - WhatsApp additional settings:
   
-  - To be 100% end-to-end encrypted, turn off chat backups on WhatsApp (Settings → Chats → Chat backup) and delete your previous backups (instructions for [iOS](https://www.wikihow.com/Delete-Backups-on-WhatsApp-on-iPhone-or-iPad), [Android](https://faq.whatsapp.com/en/android/30030306)).
-  - Turn on security notifications on WhatsApp (Settings → Account → Security).
-  - Set up a pin number to prevent your account from being moved without your permission (Settings → Account → Two-Step Verification).
+  - To be 100% end-to-end encrypted, turn off chat backups on WhatsApp (`Settings → Chats → Chat backup`) and delete your previous backups (instructions for [iOS](https://www.wikihow.com/Delete-Backups-on-WhatsApp-on-iPhone-or-iPad), [Android](https://faq.whatsapp.com/en/android/30030306)).
+  - Turn on security notifications on WhatsApp (`Settings → Account → Security`).
+  - Set up a pin number (`Settings → Account → Two-Step Verification`) and email address (`Account → Two-step verification → tap Add Email Address`) to prevent your account from being moved without your permission.
 
-- Telegram :
+- Telegram:
   
-  - Use only the "Secret Chat" function for secure chats (note that this means your messages will not show up in your desktop or web app)
+  - Use only the `Secret Chat` function for secure chats (note that this means your messages will not show up in your desktop or web app)
   - Only allow your contacts to add / find your account
   - Turn on self-destruct timers for your Secret Chats
 
-- Check this list of [Secure Messaging Apps](https://www.securemessagingapps.com/) to learn more about security considerations beyond end-to-end encryption and what trade-offs you may be OK with.
+- Apple Messages:
+  
+  - Auto-delete messages after a year: `Settings → Messages → Keep Messages → 1 Year`
+
+- Check these two lists of secure messaging apps ([Secure Messaging Apps Comparison](https://www.securemessagingapps.com/) and [IntelTechnique's Messaging](https://inteltechniques.com/messaging.html)) to learn more about security considerations beyond end-to-end encryption and what trade-offs you may be OK with.
 
 #### Hosting/running a website
 
@@ -585,6 +629,7 @@ This section is a catch-all for difficult or esoteric practices that do not fall
 - Buy a [YubiKey](https://www.yubico.com/products/) USB key to use for two-factor authentication. If you work in free speech/press/internet, you may qualify for a free [Yubico for Free Speech](https://www.yubico.com/about/about-us/free-speech-program/).
 - Keep less information/data/photos on your devices – you can't lose what you don't have.
 - Don't use smart TVs or smart speakers.
+- Turn suspicious PDFs into safe ones using [Dangerzone](https://dangerzone.rocks/).
 - Search the web anonymously with [DuckDuckGo](http://duckduckgo.com/).
 - Access Facebook with more anonymity and/or bypass internet filtering by using [its onion service](https://en.wikipedia.org/wiki/Facebookcorewwwi.onion). 
 - If you (or your organization) is really wedded to the Google Suite, consider [Google's Advance Protection program](https://www.wired.com/story/google-advanced-protection/).
@@ -600,12 +645,12 @@ This section is a catch-all for difficult or esoteric practices that do not fall
 
 ---
 
-## 🧠 Sources
+## 🧠 Other resources
 
 We consulted many sources and drew upon our own experiences in creating this resource. If you're not finding quite what you want here, we recommend checking out these other resources: 
 
+- [Consumer Report's Security Planner](https://securityplanner.consumerreports.org/)
 - [The Electronic Frontier Foundation's Surveillance Self-Defense](https://ssd.eff.org/)
-- [Citizen Lab's Security Planner](https://securityplanner.org)
 
 ---
 
