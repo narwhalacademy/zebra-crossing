@@ -22,7 +22,7 @@
 
 ### 🕒 Last updated
 
-- 5 December 2020
+- 19 January 2021
 
 ---
 
@@ -158,6 +158,7 @@ Use two-factor authentication (also known as 2FA and two-step verification) to a
 - Review which apps on your smartphone have access to your location data. Turn off access if the app doesn't need it, and minimize the number of apps that track your location all the time.
   - iOS: `Settings → Privacy → Location Services`.
   - Android: `Settings → Apps & notifications → App permissions`.
+- On your smartphone, delete any third-party keyboards you might have installed ( they often share what you type with the software maker). On both iOS and Android, they are installed as apps so just delete that. If you really need to use a third-party keyboard, make sure that it is an open source project where others have verified that it does not share your data with third parties.
 - If you use smart speakers, turn off its recording function:
   - Google Home: go to [Activity Controls](https://myaccount.google.com/activitycontrols/audio) and uncheck `Include audio recordings`.
   - Amazon Alexa: [Follow these instructions](https://www.digitaltrends.com/home/how-to-stop-amazon-from-listening-to-your-alexa-recordings/).
@@ -428,10 +429,11 @@ Harassment and doxxing can get very specific and complicated based on the attack
   - Block on social media: Maximizes peace of mind as the harasser won't be able to see your posts. But they will notice and see it as a sign of escalation.
   - Go public: Can be dangerous, but sometimes shaming them publicly or rallying people to your support will make them go away.
 - For Twitter users:
-  - Block previously-identified offenders using [Block Together](https://theblockbot.com/) — ask around in your communities for shared block lists.   
+  - Block previously-identified offenders using [Block Together](https://theblockbot.com/) — ask around in your communities for shared block lists.
   - Block troll bots using [Bot Sentinel](https://botsentinel.com).
   - Reduce dogpiling by blocking all followers of a certain profile using [Red Block](https://github.com/gaeulbyul/RedBlock) or [Twitter Block Chain](https://github.com/satsukitv/twitter-block-chain) (only available on Chrome).
   - See what lists you've been added to by going to `Profile → Lists → ··· → Lists` you're on. If you see a suspicious list or list owner, tap the three dots on the top right to report the list and leave the list by blocking the creator.
+  - Filter unwanted mentions and replies using [Block Party](https://www.blockpartyapp.com/).
 
 #### Notify other parties
 
@@ -440,6 +442,7 @@ Harassment and doxxing can get very specific and complicated based on the attack
 
 #### For more information
 
+- See Kat Fukui's [Guide for handling online harassment](https://www.tinykat.cafe/guide-for-handling-online-harassment).
 - See OnlineSOS' [Action Center](https://onlinesos.org/action-center/category:identify).
 - See PEN America's [Online Harassment Field Manual](https://onlineharassmentfieldmanual.pen.org/).
 - See Feminist Frequency's [Speak Up & Stay Safe(r)](https://onlinesafety.feministfrequency.com/en/).
@@ -481,7 +484,7 @@ You might not need to delete your entire account, but consider deleting (or maki
 
 - [Ask Google](https://support.google.com/websearch/answer/9554939?hl=en) and [Bing](https://www.microsoft.com/en-ca/concern/bing) to remove search results pointing to pages with your personal information on them.
 - Follow the Cyber Civil Rights Initiative's [guide to get policy-violating posts/media removed from social networks](https://www.cybercivilrights.org/online-removal).
-- Pay 💰 [DeleteMe](https://joindeleteme.com/), [PrivacyDuck](https://www.privacyduck.com/) or [Reputation Defender](https://www.reputationdefender.com/) to remove your information from English-language public and paywalled sites. See if you qualify for one of their [PrivacyDuck's discount programs](https://www.privacyduck.com/discount-programs/).
+- If you're willing to pay 💰, [Yael Grauer](https://github.com/yaelwrites/Big-Ass-Data-Broker-Opt-Out-List#paid-options) recommends using [DeleteMe](https://joindeleteme.com/) and [Kanary](https://www.thekanary.com/) to remove your information from English-language public and paywalled sites.
 - If you want to do it yourself, check out Yael Grauer's [Big Ass Data Broker Opt-Out List](https://github.com/yaelwrites/Big-Ass-Data-Broker-Opt-Out-List) and [PrivacyDuck's guides](https://www.privacyduck.com/resources/)). (To be 100% thorough, use these on top of paid services.)
 - Remember that information removal requests takes time to process and often require repeated attempts.
 
@@ -578,6 +581,10 @@ If someone else has taken control of your accounts:
 
 - See Consumer Reports Security Planners' [list of instructions on regaining access](https://securityplanner.consumerreports.org/tool/regain-control-of-hacked-accounts).
 
+If you've been a victim of an online scam, fraud or ransomware:
+
+- See Microsoft's [list of government fraud and scam reporting websites](https://support.microsoft.com/en-us/windows/protect-your-pc-from-ransomware-08ed68a7-939f-726c-7e84-a72ba92c01c3) (scroll down to "What to do if you already paid").
+
 ---
 
 ## 💦❓ Other recommendations
@@ -594,26 +601,20 @@ This section is a catch-all for difficult or esoteric practices that do not fall
 - Use an end-to-end encrypted cloud storage service (not Dropbox): [Tresorit](https://tresorit.com/), [SpiderOak](https://spideroak.com/).
 - Use encrypted external USB/hard drives from companies like [Apricorn](https://www.apricorn.com/).
 - If you want to send a file anonymously, use a special sharing service like [OnionShare](https://onionshare.org/).
-- Instead of Google Docs or Microsoft Office, use [CryptPad](https://cryptpad.fr) (open-source, end-to-end encrypted).
+- Instead of Google Docs or Microsoft Office, use [CryptPad](https://cryptpad.fr) or [Standard Notes](https://standardnotes.org/) (both are open-source and end-to-end encrypted).
 
 #### Messaging apps
 
 - WhatsApp additional settings:
-  
   - To be 100% end-to-end encrypted, turn off chat backups on WhatsApp (`Settings → Chats → Chat backup`) and delete your previous backups (instructions for [iOS](https://www.wikihow.com/Delete-Backups-on-WhatsApp-on-iPhone-or-iPad), [Android](https://faq.whatsapp.com/en/android/30030306)).
   - Turn on security notifications on WhatsApp (`Settings → Account → Security`).
   - Set up a pin number (`Settings → Account → Two-Step Verification`) and email address (`Account → Two-step verification → tap Add Email Address`) to prevent your account from being moved without your permission.
-
 - Telegram:
-  
   - Use only the `Secret Chat` function for secure chats (note that this means your messages will not show up in your desktop or web app)
   - Only allow your contacts to add / find your account
-  - Turn on self-destruct timers for your Secret Chats
-
+  - Turn on self-destruct timers for your Secret Chat.
 - Apple Messages:
-  
-  - Auto-delete messages after a year: `Settings → Messages → Keep Messages → 1 Year`
-
+  - Auto-delete messages after a year: `Settings → Messages → Keep Messages → 1 Year.
 - Check these two lists of secure messaging apps ([Secure Messaging Apps Comparison](https://www.securemessagingapps.com/) and [IntelTechnique's Messaging](https://inteltechniques.com/messaging.html)) to learn more about security considerations beyond end-to-end encryption and what trade-offs you may be OK with.
 
 #### Hosting/running a website
@@ -637,6 +638,7 @@ This section is a catch-all for difficult or esoteric practices that do not fall
 - Access Facebook with more anonymity and/or bypass internet filtering by using [its onion service](https://en.wikipedia.org/wiki/Facebookcorewwwi.onion). 
 - If you (or your organization) is really wedded to the Google Suite, consider [Google's Advance Protection program](https://www.wired.com/story/google-advanced-protection/).
 - Put your smart cards/passports/phones in a Faraday bag that blocks signals from going in and out. (See [Micah Lee's guide on them](https://micahflee.com/2015/11/some-thoughts-on-faraday-bags-and-operational-security/).)
+- Use [One Time](https://onetimesecret.com/) to send a password-protected, self-destructing message.
 - Use a more secure operating system: [Tails](https://ssd.eff.org/en/module/keeping-your-data-safe) (works off of a USB stick) or [Qubes OS](https://www.qubes-os.org/).
 - For Android users: Download apps using [F-Droid](https://f-droid.org), an open-source, security-focused app store.
 - For US residents: Freeze your credit to prevent bad actors from accessing or mis-using your personal information. See IntelTechniques' [Credit Freeze Guide](https://inteltechniques.com/data/workbook.pdf) for details.
