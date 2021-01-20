@@ -22,7 +22,7 @@
 
 ### 🕒 Last updated
 
-- 19 January 2021
+- 20 January 2021
 
 ---
 
@@ -131,7 +131,6 @@ Use two-factor authentication (also known as 2FA and two-step verification) to a
 
 - Change important passwords (e.g. email, computer login, password manager master) every year or two.
 - Wipe your devices properly before donating/giving away. If you've encrypted all of your phones and computers (as suggested above), a normal factory reset will do the job for almost all use cases. If you want an extra layer of security for your computer hard drives, see [Wired's guide on this topic](https://www.wired.co.uk/article/securely-wipe-android-iphone-hard-disk).
-- [phone](http://lifehacker.com/5808280/what-should-i-do-with-my-phone-before-i-sell-it), [computer](http://lifehacker.com/5835369/how-do-i-securely-wipe-a-computer-before-donating-it-to-charity).
 - Don't charge your phone at public charging stations/ports – they may steal your data. Consider charging your portable battery instead.
 
 ---
