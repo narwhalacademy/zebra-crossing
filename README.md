@@ -6,6 +6,10 @@
 - You feel you could be doing more to ensure your digital safety and privacy, but you're not in immediate danger. (If you are, seek out an expert for a one-on-one consult.)
 - You're comfortable with technology. For example, you're comfortable going into the settings section of your computer/smartphone.
 
+### 🗺 Where this guide is from
+
+- This advice here draws from our experiences living and working in the US, Canada and Hong Kong. Much of what we write applies in other places, but if you see any gaps in our coverage, [please let us know](mailto:contact@narwhalacademy.org).
+
 ### 🌱 How to use this guide
 
 - Recommendations have been sorted in ascending levels of difficulty. Start from level one and work your way up!
@@ -20,9 +24,13 @@
 - [日本語](README-日本語.md) (Japanese, a work-in-progress)
 - [Italiano](README-Italiano.md) (Italian, a work-in-progress)
 
+### ☕️ Support this guide
+
+- [Buy us a virtual coffee](https://ko-fi.com/narwhalacademy)
+
 ### 🕒 Last updated
 
-- 20 January 2021
+- 8 April 2021
 
 ---
 
@@ -69,7 +77,7 @@ Use two-factor authentication (also known as 2FA and two-step verification) to a
 - Turn on 2FA on your:
   - Email service. See instructions for [Gmail](https://support.google.com/accounts/answer/185839?hl=en), [Protonmail](https://protonmail.com/support/knowledge-base/two-factor-authentication/), or find instructions for your email provider [here](https://twofactorauth.org/#email).
   - Frequently used social media accounts. See instructions for [Twitter](https://help.twitter.com/en/managing-your-account/two-factor-authentication), [Facebook](https://www.facebook.com/help/148233965247823/), [Instagram](https://help.instagram.com/566810106808145), and [other services](https://twofactorauth.org/#social).
-  - Consider turning on 2FA on any other online accounts where losing access would be catastrophic. Look up instructions on [Two Factor Auth](https://twofactorauth.org/).
+  - Consider turning on 2FA on any other online accounts where losing access would be catastrophic. Look up instructions on [Two Factor Auth](https://2fa.directory/).
 - Turn on cloud backup for your authenticator app in case you ever lose your phone. See instructions for [Authy](https://authy.com/features/backup/) and [Duo Mobile](https://guide.duo.com/duo-restore).
 
 #### Email
@@ -150,6 +158,8 @@ Use two-factor authentication (also known as 2FA and two-step verification) to a
 - Review the privacy settings on social networks you frequent: who can see your content, who can comment on it, and who can see your location.
   - Limit Facebook tracking by turning off Off-Facebook Activity (follow [these EFF's instructions](https://www.eff.org/deeplinks/2020/01/how-change-your-facebook-activity-settings)).
 - Review the privacy settings on messaging apps you normally use: read receipts, time stamps for "last seen," and whether your phone number/profile picture are public.
+- Review what data these big tech companies have on you and clear out anything you don't need: [Google - My Activity](https://myactivity.google.com), [Alexa Privacy Settings](https://www.amazon.com/b/?node=19149164011), [Microsoft account: Privacy](https://account.microsoft.com/privacy ).
+- Install [Firefox](https://www.mozilla.org/en-US/firefox/) and set it as the default web browser on your computer.
 - Install these protective web browsers add-ons on your computer (and make sure they're on even during private/incognito mode):
   - An ad blocker (e.g. [uBlock Origin](https://github.com/gorhill/uBlock/), [Ghostery](https://www.ghostery.com/)).
   - A tracker blocker ([Privacy Badger](https://www.eff.org/privacybadger)).
@@ -186,6 +196,7 @@ Use two-factor authentication (also known as 2FA and two-step verification) to a
 #### Enhance your privacy
 
 - Post less personal information online – especially information that can be used to identify/track/scam you (addresses, phone numbers, birthday, etc.). Remember almost everything you say online is logged somewhere and that even if your setup is secure, your recipient's setup may not be.
+- If you enjoy leaving local business reviews on Google Maps, Yelp, etc., set up a new account under a pen name. This is especially important for Google Maps, where they show the profile picture and full name you use on Gmail.
 - If you own domains, use WHOIS privacy services and stick with it (they're worth the money). But note that with WHOIS lookup/history tools, if you've ever put in your real address, it's very difficult to remove from the logs.
 
 #### Watch what you say in online groups
@@ -410,34 +421,45 @@ Harassment and doxxing can get very specific and complicated based on the attack
 - Run keyword searches for your name, nickname, and address to see what's out there. Also run an image search on your most-used profile pictures.
 - Monitor your name/username using these services: [Talkwalker](https://www.talkwalker.com/alerts), [Google Alerts](https://www.google.com/alerts) and/or [Mention](https://mention.com) 💰.
 - Monitor and archive webpages that mention you using [ChangeTower](https://changetower.com/).
-- Start logging (date, time, description, screenshot) incidents in whatever program/app that's easiest for you.
+- Start logging (date, time, description, screenshot, URL) incidents in whatever program/app that's easiest for you.
 - If future legal action is likely, pay [Page Vault](https://www.page-vault.com) to capture a snapshot of a website and ask a lawyer to file an [evidence preservation request](https://onlinesos.org/blog/evidence-preservation-i-e-litigation-hold-request) with the relevant online platform. 
 - Remember to take care of yourself as much as you can — eat, sleep, exercise. Call in friends to help share a meal, take a break or watch your cats for a few days.
 
-#### Remove information about you off of the internet
+#### Delete online information about you
 
-- Follow the instructions in the section/scenario that follows this one.
+- See scenario below titled: `Remove information about you off of the internet`.
 
 #### Ignore/reply/report/block your harassers
 
-- Together with your support person/friend and the log of receipts, decide on your course of action (these aren't mutually exclusive):
+- Together with your support person and the log of receipts, decide on your course of action (these aren't mutually exclusive):
   - Ignore: Sometimes harassers will walk away if they don't get attention.
   - De-escalate: In some contexts, you can defuse the situation with some calm words before it gets worse.
   - Report: Report the harasser to the relevant online platform and/or your local law enforcement.
   - Mute on social media: Allows for peace of mind.
   - Block on social media: Maximizes peace of mind as the harasser won't be able to see your posts. But they will notice and see it as a sign of escalation.
   - Go public: Can be dangerous, but sometimes shaming them publicly or rallying people to your support will make them go away.
+- If you decide to report:
+  - If you file a report with a social media company, ask at least 10 friends to do it as well. If it makes sense, have 1-2 people file a copyright infringement claim.
+  - If you contact law enforcement, tell them you fear becoming a target of swatting (where people prank call the cops on you). Send them an article about swatting in case it's a new idea to them.
 - For Twitter users:
+  - Filter unwanted mentions and replies, and/or archive them to process later with the help of a friend using [Block Party](https://www.blockpartyapp.com/).
   - Block previously-identified offenders using [Block Together](https://theblockbot.com/) — ask around in your communities for shared block lists.
   - Block troll bots using [Bot Sentinel](https://botsentinel.com).
-  - Reduce dogpiling by blocking all followers of a certain profile using [Red Block](https://github.com/gaeulbyul/RedBlock) or [Twitter Block Chain](https://github.com/satsukitv/twitter-block-chain) (only available on Chrome).
+  - Reduce dogpiling by blocking all followers of a certain profile using [Red Block](https://github.com/gaeulbyul/RedBlock).
   - See what lists you've been added to by going to `Profile → Lists → ··· → Lists` you're on. If you see a suspicious list or list owner, tap the three dots on the top right to report the list and leave the list by blocking the creator.
-  - Filter unwanted mentions and replies using [Block Party](https://www.blockpartyapp.com/).
 
 #### Notify other parties
 
-- If your physical safety is under threat, notify law enforcement or someone in your community with crisis experience for protection.
-- If the situation escalates, consider informing your employer, communities and family about what is going on, in case you might need their help at some point or so that they are not caught off-guard.
+- Tell your close contacts, family and employer about what is going on. Get ahead of the situation by making talking points together so that they know how to respond if internet strangers or the press contacts them. 
+- If the situation escalates, find and notify someone in your community nearby with crisis experience for protection and assistance.
+
+#### Bonus tips for journalists and researchers
+
+- Make yourself a harder target. Consider making all of your social media accounts private (or temporarily deleting them) for 48 hours surrounding a major, new release.
+- Remember you did nothing wrong. Some ignorant employers or colleagues may not be supportive and even start seeing you as a liability. They are wrong.
+- Don't make more noise about yourself. Don't livetweet your situation, don't quit your job suddenly, and don't talk to media outlets who will twist your words. If need be, prepare a formal written statement or reply with the help of people who have experience dealing with the media.
+- But if the noise won't stop, flood the airwaves with positive stories about yourself. Ask people within your professional community to write positive articles or social media post about you and your work.
+- Read [Lyz Lenz's conversation with Talia Lavin](https://lyz.substack.com/p/when-the-mob-comes) about their experiences.
 
 #### For more information
 
@@ -474,7 +496,7 @@ You might not need to delete your entire account, but consider deleting (or maki
   - Look through your profile and manually delete posts (tap the three dots above upper-right corner of a photo).
   - If need be, bulk delete using [third-party tools](https://upleap.com/blog/how-to-delete-an-instagram-post/).
 - Twitter:
-  - Use a third-party service to filter for tweets you want to save, and bulk delete the rest. We recommend [Semiphemeral](https://semiphemeral.com) (free + open source, but beta), [TweetDelete](https://tweetdelete.net/) (free + paid options), or [Twitter Archive Eraser](https://martani.github.io/Twitter-Archive-Eraser/) (free + paid options).
+  - Use a third-party service to filter for tweets you want to save, and bulk delete the rest. We recommend [Semiphemeral](https://semiphemeral.com) (free + open source, but beta), [TweetDelete](https://tweetdelete.net/) (free + paid 💰 options), or [Twitter Archive Eraser](https://martani.github.io/Twitter-Archive-Eraser/) (free + paid 💰 options).
   - Alternately, manually locate and delete individual posts using [Twitter's Advanced search](https://twitter.com/search-advanced). 
 - Reddit and other forums:
   - There's often no easy solution. Sometimes you have to delete your entire account, or in the case of Reddit, you have to [use third-party scripts](https://social.techjunkie.com/how-to-delete-all-reddit-posts/) because deleting your account still leaves your posts up.
@@ -482,14 +504,15 @@ You might not need to delete your entire account, but consider deleting (or maki
 #### Remove your information from other people's accounts or websites
 
 - [Ask Google](https://support.google.com/websearch/answer/9554939?hl=en) and [Bing](https://www.microsoft.com/en-ca/concern/bing) to remove search results pointing to pages with your personal information on them.
+- Remove any local business reviews you have might left on Google Maps, Yelp, etc. that might point to your home or frequently visited places.
 - Follow the Cyber Civil Rights Initiative's [guide to get policy-violating posts/media removed from social networks](https://www.cybercivilrights.org/online-removal).
 - If you're willing to pay 💰, [Yael Grauer](https://github.com/yaelwrites/Big-Ass-Data-Broker-Opt-Out-List#paid-options) recommends using [DeleteMe](https://joindeleteme.com/) and [Kanary](https://www.thekanary.com/) to remove your information from English-language public and paywalled sites.
-- If you want to do it yourself, check out Yael Grauer's [Big Ass Data Broker Opt-Out List](https://github.com/yaelwrites/Big-Ass-Data-Broker-Opt-Out-List) and [PrivacyDuck's guides](https://www.privacyduck.com/resources/)). (To be 100% thorough, use these on top of paid services.)
+- If you want to do it yourself, check out Yael Grauer's [Big Ass Data Broker Opt-Out List](https://github.com/yaelwrites/Big-Ass-Data-Broker-Opt-Out-List). (To be 100% thorough, use this on top of paid services.)
 - Remember that information removal requests takes time to process and often require repeated attempts.
 
 #### Obscure your personal information
 
-- Use [Burner](http://www.burnerapp.com/) or [Hushed](https://hushed.com) to set up burner phone numbers for calling/texting.
+- See scenario below titled: `I don't want to give out my real phone number for online dating/networking/organizing`.
 - Get a PO box at a post office or use [Traveling Mailbox](https://travelingmailbox.com/) (USA only) to hide your home address.
 - Delete old accounts to eliminate traces of personal information on the Internet. Use [JustDeleteMe](https://justdeleteme.xyz/) to accelerate this process.
 
@@ -500,7 +523,7 @@ You might not need to delete your entire account, but consider deleting (or maki
 #### If you're not sure and things between you and your partner aren't that bad yet:
 
 - Keep a hidden, pen-and-paper log of suspicious incidents.
-- Make sure your partner is not getting information from previously shared accounts or because you left the [location share on within Google Maps](https://support.google.com/maps/answer/7326816?co=GENIE.Platform%3DAndroid&hl=en).
+- Make sure your partner is not getting information from previously shared accounts (e.g. calendars) or because you left the [location share on within Google Maps](https://support.google.com/maps/answer/7326816?co=GENIE.Platform%3DAndroid&hl=en).
 - Review and redo the items in Levels 1-3 of this guide. Reset your passwords, check your privacy/data sharing permissions, and look up any apps you don't recognize on your computer and phone.
 - Keep an eye out for other signs. E.g. your phone battery doesn't last very long anymore, or your laptop internet connection is slow. Review the Coalition Against Stalkerware's [full of list of indicators](https://stopstalkerware.org/get-help/).
 - **Don't delete suspicious apps immediately** — you may need to keep them as evidence. Plus, deletion may also cause the situation with your partner to escalate.
@@ -511,10 +534,11 @@ You might not need to delete your entire account, but consider deleting (or maki
   - Find a public or friend's computer/phone to contact the organizations in [this global resource list compiled by the Coalition Against Stalkerware](https://stopstalkerware.org/get-help/resources/). Some of them can even help you collect evidence and remove stalkerware safely.
   - Reach out to a trusted friend (through a public device/line) and ask them to hold space for your situation and be your sounding board on analyzing how bad the situation is.
 - Keep digital and printed records of relevant texts, emails, calls, etc. See the NNEDV's [guide on documenting/saving evidence](https://www.womenslaw.org/about-abuse/abuse-using-technology/evidence-issues-cases-involving-technology/digital-evidence).
-- When you no longer need evidence anymore, remove the suspicous apps/stalkerware yourself either by deleting them one by one, or by performing a full factory reset on your computer/phone. (Buying brand new device is even safer of course.) Remember to reinstall apps and import data manually, lest you restore a backup with stalkerware in it.
+- When you no longer need evidence anymore, remove the suspicous apps/stalkerware yourself either by performing a full factory reset on your computer/phone. (Buying a brand new device is even safer of course.) Remember to reinstall apps and import data manually, lest you restore a backup with stalkerware in it.
 
 #### For more information
 
+- See Consumer Reports' [Shut Stalkers Out of Your Tech](https://www.consumerreports.org/digital-security/shut-stalkers-out-of-your-tech/)
 - See Wirecutter's [Protect Your Devices Against Domestic Abusers](https://thewirecutter.com/blog/domestic-abusers-can-control-your-devices-heres-how-to-fight-back/)
 - See Coalition Against Stalkerware's [Safety Toolkit](https://stopstalkerware.org/get-help/)
 
@@ -524,10 +548,9 @@ You might not need to delete your entire account, but consider deleting (or maki
 
 For messaging apps that use phone numbers as the primary identifier/username (e.g. Signal, WhatsApp, Telegram), get a secondary number from:
 
-- [Twilio](https://www.twilio.com) (1 USD/month, but complicated setup – see the Twilio section [here](https://medium.com/@geminiimatt/creating-an-online-persona-deb4cd8c7f46) and [this guide](https://source.opennews.org/articles/shields-using-signal-without-your-phone-number/))
-- [Google Voice](https://voice.google.com/about) (free but only available in the US)
-- [Burner](https://www.burnerapp.com/) or [Hushed](https://hushed.com) (5 and 4 USD/month respectively + other prepaid plans for short-term use, US/Canada numbers)
-- A phone company: get a prepaid or cheap SIM card plan (rates vary)
+- 💰 [Hushed]([The Best Second Number App, Fake Temporary Numbers | Hushed](https://hushed.com)) (US, Canada, UK numbers),  [Burner](https://www.burnerapp.com/) (US, Canada numbers) or [Skype](https://secure.skype.com/en/skype-number) (lots of countries)
+- 🆓 TextNow (ad-supported US/Canada number)  [Google Voice](https://voice.google.com/about) (free number only available in the US)
+- 💰 A local phone company: get a prepaid or cheap SIM card plan
 
 For sites and services that use email as the primary identifier/username, get a separate, new email address.
 
@@ -561,16 +584,22 @@ Keep in mind:
 
 If you work as part of a civil society group, contact:
 
-- Access Now's [Digital Security Helpline](https://www.accessnow.org/help/)
-- Front Line Defender's [Emergency Contact](https://www.frontlinedefenders.org/emergency-contact)
+- Access Now's [Digital Security Helpline](https://www.accessnow.org/help/).
+- Front Line Defender's [Emergency Contact](https://www.frontlinedefenders.org/emergency-contact).
+- SMEX's [Digital Safety Helpdesk](https://smex.org/helpdesk/) for people in Lebanon and other Arabic-speaking countries.
+- [Vita Activa](https://vita-activa.org/) for Spanish speakers.
 - If you have a bit more time, apply for a Digital Defenders Partnership [Incident Emergency Grant](https://www.digitaldefenders.org/funding/incident-emergency-funding/).
+
+Or try these regional hotlines:
+
+- Jordan: [JOSA Emergency Response](https://er.jordanopensource.org/)
 
 If you are being harassed online, contact:
 
 - The [Games and Online Harassment Hotline](https://gameshotline.org/), a US-based, text message-based, confidential emotional support hotline for members of the gaming community.
 - The Digital Rights Foundation's Pakistan-based [Cyber Harassment Hotline](https://digitalrightsfoundation.pk/contact/).
 
-Alternately, hotlines that don't focus on digital/online safety may still be able to help:
+Alternately, hotlines that don't focus on digital safety may still be able to help:
 
 - [The Coalition Against Stalkerware](https://stopstalkerware.org/) has three hotlines (one in Germany, two in the US) listed at the bottom of their website.
 - The [Cyber Civil Rights Initiative has a crisis helpline](https://www.cybercivilrights.org/contact-us/) for victims of nonconsensual pornography or other forms of online abuse.
@@ -633,13 +662,13 @@ This section is a catch-all for difficult or esoteric practices that do not fall
 - Keep less information/data/photos on your devices – you can't lose what you don't have.
 - Don't use smart TVs or smart speakers.
 - Turn suspicious PDFs into safe ones using [Dangerzone](https://dangerzone.rocks/).
-- Search the web anonymously with [DuckDuckGo](http://duckduckgo.com/).
 - Access Facebook with more anonymity and/or bypass internet filtering by using [its onion service](https://en.wikipedia.org/wiki/Facebookcorewwwi.onion). 
 - If you (or your organization) is really wedded to the Google Suite, consider [Google's Advance Protection program](https://www.wired.com/story/google-advanced-protection/).
 - Put your smart cards/passports/phones in a Faraday bag that blocks signals from going in and out. (See [Micah Lee's guide on them](https://micahflee.com/2015/11/some-thoughts-on-faraday-bags-and-operational-security/).)
 - Use [One Time](https://onetimesecret.com/) to send a password-protected, self-destructing message.
-- Use a more secure operating system: [Tails](https://ssd.eff.org/en/module/keeping-your-data-safe) (works off of a USB stick) or [Qubes OS](https://www.qubes-os.org/).
 - For Android users: Download apps using [F-Droid](https://f-droid.org), an open-source, security-focused app store.
+- Use a more secure operating system on desktop ([Tails](https://tails.boum.org/), [Qubes OS](https://www.qubes-os.org/)) and mobile ([CalyxOS](https://calyxos.org/)). 
+- Start using more secure devices: [PINE64](https://www.pine64.org/), [Purism](https://puri.sm/). 
 - For US residents: Freeze your credit to prevent bad actors from accessing or mis-using your personal information. See IntelTechniques' [Credit Freeze Guide](https://inteltechniques.com/data/workbook.pdf) for details.
 
 ---
@@ -666,4 +695,4 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareA
 
 ## 👋🏾 Special thanks
 
-Special thanks to the students at the School of Journalism and Communication at the Chinese University of Hong Kong, and to [our GitHub contributors](https://github.com/narwhalacademy/zebra-crossing/graphs/contributors).
+Special thanks to the [CryptoHarlem](https://twitter.com/cryptoharlem) community, to the students at the School of Journalism and Communication at the Chinese University of Hong Kong, and to [our GitHub contributors](https://github.com/narwhalacademy/zebra-crossing/graphs/contributors).
