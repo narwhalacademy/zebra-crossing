@@ -682,7 +682,7 @@ This section is a catch-all for difficult or esoteric practices that do not fall
 
 We consulted many sources and drew upon our own experiences in creating this resource. If you're not finding quite what you want here, we recommend checking out these other resources: 
 
-- [Consumer Report's Security Planner](https://securityplanner.consumerreports.org/)
+- [Consumer Reports' Security Planner](https://securityplanner.consumerreports.org/)
 - [The Electronic Frontier Foundation's Surveillance Self-Defense](https://ssd.eff.org/)
 
 ---
