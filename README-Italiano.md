@@ -15,8 +15,8 @@
 
 ### 🗣 Questa guida in altre lingue
 
-- [Inglese](README.md)
-- [繁體中文 (Traditional Chinese)](README-繁體中文.md)
+- [Inglese](https://github.com/narwhalacademy/zebra-crossing/blob/master/README.md)
+- [繁體中文 (Traditional Chinese)](https://github.com/narwhalacademy/zebra-crossing/blob/master/README-繁體中文.md)
 
 ### 🕒 Data di ultima modifica
 

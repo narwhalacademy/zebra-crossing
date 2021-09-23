@@ -16,13 +16,13 @@
 - *Everyone should follow the recommendations in levels one and two.* They will protect you from the widely-used (yet simple) attacks. Going through them shouldn't take more than 1-2 hours.
 - Level three is a bit more involved in terms of time and money and may not be 100% necessary. But if you're worried at all and can afford to, we recommend going through that list too. Depending on the amount of digital housekeeping you have to do, it may take anywhere from an hour to an afternoon.
 - The scenarios listed after are for higher-stakes situations — scan them to see if any of them apply to you. (Because the stakes are higher, they assume that you've done everything in levels 1-3.)
-- This guide is a living document – please feel free to submit a pull request or fork your own version of this guide on GitHub.
+- This guide is a living document – please feel free to submit a pull request or fork your own version of this guide [on GitHub](https://github.com/narwhalacademy/zebra-crossing).
 
 ### 🗣 This guide in other languages
 
-- [繁體中文 (Traditional Chinese)](README-繁體中文.md)
-- [日本語](README-日本語.md) (Japanese, a work-in-progress)
-- [Italiano](README-Italiano.md) (Italian, a work-in-progress)
+- [繁體中文 (Traditional Chinese)](https://github.com/narwhalacademy/zebra-crossing/blob/master/README-繁體中文.md)
+- [日本語](https://github.com/narwhalacademy/zebra-crossing/blob/master/README-日本語.md) (Japanese, a work-in-progress)
+- [Italiano](https://github.com/narwhalacademy/zebra-crossing/blob/master/README-Italiano.md) (Italian, a work-in-progress)
 
 ### ☕️ Support this guide
 
@@ -30,7 +30,7 @@
 
 ### 🕒 Last updated
 
-- 8 April 2021
+- 23 September 2021
 
 ---
 
@@ -143,7 +143,7 @@ Use two-factor authentication (also known as 2FA and two-step verification) to a
 
 ---
 
-**👍 Great job! You've covered the basics. 
+**👍 Great job! You've covered the basics.  
 👍 Treat yourself to a cup of tea and a stretch.  
 👍 Now, ready for the next level?**
 
@@ -167,10 +167,14 @@ Use two-factor authentication (also known as 2FA and two-step verification) to a
 - Review which apps on your smartphone have access to your location data. Turn off access if the app doesn't need it, and minimize the number of apps that track your location all the time.
   - iOS: `Settings → Privacy → Location Services`.
   - Android: `Settings → Apps & notifications → App permissions`.
+- On Anrdoid, turn off passive Wifi and Bluetooth scanning:
+	- Settings → Location → Wi-Fi and Bluetooh scanning
 - On your smartphone, delete any third-party keyboards you might have installed ( they often share what you type with the software maker). On both iOS and Android, they are installed as apps so just delete that. If you really need to use a third-party keyboard, make sure that it is an open source project where others have verified that it does not share your data with third parties.
 - If you use smart speakers, turn off its recording function:
   - Google Home: go to [Activity Controls](https://myaccount.google.com/activitycontrols/audio) and uncheck `Include audio recordings`.
   - Amazon Alexa: [Follow these instructions](https://www.digitaltrends.com/home/how-to-stop-amazon-from-listening-to-your-alexa-recordings/).
+- If you own an Amazon Ring or Echo, turn off its feature that shares your internet with strangers:
+	- In the Alexa app: Settings → Account Settings → Amazon Sidewalk
 
 #### Set up your home wifi router
 
@@ -302,9 +306,13 @@ Don't say anything you'd regret on in a "private" Slack group, Facebook page, Wh
 
 ---
 
-### 👾 I think my computer has been hacked!
+### 👾 I think my computer has been hacked?
 
-- Download an application that will notify you when data is being sent out from your computer. E.g. [Little Snitch for Mac](https://www.obdev.at/products/littlesnitch/index.html).
+- Download an application that help you analyze the data streams going in and out of your devices. Try:
+	- [Little Snitch](https://www.obdev.at/products/littlesnitch/index.html) for Mac.
+	- [Charles Proxy](https://www.charlesproxy.com/) for Windows,Mac, Linux.
+	- [Glasswire](https://www.glasswire.com/) for Windows/Android.
+	- [Guardian Firewall](https://guardianapp.com) for iOS.
 - Run Activity Monitor on Mac or Process Explorer on Windows to look at what processes/applications are running. Google any suspicious names.
 - Login to important online accounts to see if there have been any suspicious logins – see [this Motherboard guide for details](https://motherboard.vice.com/en_us/article/bjeznz/how-do-you-know-when-youve-been-hacked-gmail-facebook).
 - Setup a spare smartphone using [Haven](https://guardianproject.github.io/haven/) as a room monitor to detect unwanted intrusions.
@@ -416,12 +424,21 @@ Harassment and doxxing can get very specific and complicated based on the attack
 - Alternately, reach out to online communities you're an active member of and ask for help. See PEN America's article on [Deploying Your Supportive Cyber Communities](https://onlineharassmentfieldmanual.pen.org/deploying-supportive-cyber-communities/).
 - If no one is available right now, Heartmob has a list of [supportive organizations](https://iheartmob.org/resources/supportive_organizations), some of which have 24/7 hotlines.
 
+#### Search for public information about yourself (dox yourself)
+
+Ask your trusted friend to:
+
+- Search for your name, nicknames, usernames, and address on Google, Bing and any other popular search engines. Try adding `filetype:pdf` to your search query to catch any CVs or documents you might have missed.
+- Run an image search on your most-used profile pictures on the same search engines as well.
+- Search for your name, nicknames and usernames on any social media platforms you regular use, as well as any social media platforms that are popular where you are.
+
+For more information, see Access Now Digital Security Helpline's [Self-Doxing Guide](https://guides.accessnow.org/self-doxing.html).
+
 #### Monitor updates & collect receipts
 
-- Run keyword searches for your name, nickname, and address to see what's out there. Also run an image search on your most-used profile pictures.
 - Monitor your name/username using these services: [Talkwalker](https://www.talkwalker.com/alerts), [Google Alerts](https://www.google.com/alerts) and/or [Mention](https://mention.com) 💰.
 - Monitor and archive webpages that mention you using [ChangeTower](https://changetower.com/).
-- Start logging (date, time, description, screenshot, URL) incidents in whatever program/app that's easiest for you.
+- Start logging (date, time, description, screenshot, URL) incidents in whatever program/app that's easiest for you. If there's a lot of phone-only content, use the [Hunchly](https://hunch.ly/) mobile app.
 - If future legal action is likely, pay [Page Vault](https://www.page-vault.com) to capture a snapshot of a website and ask a lawyer to file an [evidence preservation request](https://onlinesos.org/blog/evidence-preservation-i-e-litigation-hold-request) with the relevant online platform. 
 - Remember to take care of yourself as much as you can — eat, sleep, exercise. Call in friends to help share a meal, take a break or watch your cats for a few days.
 
@@ -439,19 +456,44 @@ Harassment and doxxing can get very specific and complicated based on the attack
   - Block on social media: Maximizes peace of mind as the harasser won't be able to see your posts. But they will notice and see it as a sign of escalation.
   - Go public: Can be dangerous, but sometimes shaming them publicly or rallying people to your support will make them go away.
 - If you decide to report:
-  - If you file a report with a social media company, ask at least 10 friends to do it as well. If it makes sense, have 1-2 people file a copyright infringement claim.
+  - If you file a report with a social media company, ask at least 10 friends to do it as well. If it makes sense, have 1-2 people file a copyright infringement claim. Relevant links for [Facebook](https://www.facebook.com/help/www/181495968648557), [Instagram](https://help.instagram.com/192435014247952), [Twitter](https://help.twitter.com/en/forms/safety-and-sensitive-content), [Snapchat](https://support.snapchat.com/en-US/a/report-abuse-in-app).
+  - If there is harassment material on a website, you can file a report with the website's webhosting service and domain registrar. You might be able to find out who they are by performing a [WHOIS lookup](https://lookup.icann.org/) on the website domain.
   - If you contact law enforcement, tell them you fear becoming a target of swatting (where people prank call the cops on you). Send them an article about swatting in case it's a new idea to them.
-- For Twitter users:
-  - Filter unwanted mentions and replies, and/or archive them to process later with the help of a friend using [Block Party](https://www.blockpartyapp.com/).
-  - Block previously-identified offenders using [Block Together](https://theblockbot.com/) — ask around in your communities for shared block lists.
-  - Block troll bots using [Bot Sentinel](https://botsentinel.com).
-  - Reduce dogpiling by blocking all followers of a certain profile using [Red Block](https://github.com/gaeulbyul/RedBlock).
-  - See what lists you've been added to by going to `Profile → Lists → ··· → Lists` you're on. If you see a suspicious list or list owner, tap the three dots on the top right to report the list and leave the list by blocking the creator.
+
+#### Social media platform tools and features  
+
+**Facebook** has a few features to control your interactions, but ultimately relies on you setting limits on who can see and comment on your posts and profile:
+
+- [`Ignore Messages`](https://www.facebook.com/help/messenger-app/1245152242249842) within Facebook Messenger to move the current and future messages to the `Message Requests` section
+- [`Privacy Checkup`](https://www.facebook.com/privacy/checkup) within Facebook includes a section on `Who can see what you share` that walks you the visibiity of your profile and posts.
+
+**Instagram** has a set of nuanced features within its mobile app to filter and fine tune social interactions on its platform:
+
+- [`Restrict`](https://help.instagram.com/2638385956221960/) an account, which means the other person can't see when you're online, whether you've read their messages, and hides their comments.
+- [`Hide`](https://help.instagram.com/1177797265575168/) your stories from a specific account.
+- [`Hidden Words`](https://help.instagram.com/700284123459336) filters out messages and comments with words that Instagram deems offensive. You can also set up a custom words list.
+- [`Limit`](https://help.instagram.com/4106887762741654) comments and messages from accounts that aren't following you or from recent followers.
+
+**Twitter** works with some pretty handy third-party tools and has a few features of its own:
+
+- Filter unwanted mentions and replies, and/or archive them to process later with the help of a friend using [Block Party](https://www.blockpartyapp.com/).
+- Block previously-identified offenders using [Block Together](https://theblockbot.com/) — ask around in your communities for shared block lists.
+- Block troll bots using [Bot Sentinel](https://botsentinel.com).
+- Reduce dogpiling by blocking all followers of a certain profile using [Red Block](https://github.com/gaeulbyul/RedBlock).
+- See what lists you've been added to by going to `Profile → Lists → ··· → Lists` you're on. If you see a suspicious list or list owner, tap the three dots on the top right to report the list and leave the list by blocking the creator.
+- Control who can reply to your tweets by tapping `Everyone can reply` and restricting it to `People you follow` or `Only people you mention`.
 
 #### Notify other parties
 
 - Tell your close contacts, family and employer about what is going on. Get ahead of the situation by making talking points together so that they know how to respond if internet strangers or the press contacts them. 
 - If the situation escalates, find and notify someone in your community nearby with crisis experience for protection and assistance.
+
+### Be extra kind to yourself
+
+- Don't worry if you're not able to keep up with your regular work day routine.
+- Remember to eat and shower regularly.
+- If possible, prepare a box of comforts beforehand. Include things that you like to see, touch, taste, and listen to.
+- If the incident is traumatizing, it helps to use a nickname to refer to what's happening or what's happened.
 
 #### Bonus tips for journalists and researchers
 
@@ -500,15 +542,34 @@ You might not need to delete your entire account, but consider deleting (or maki
   - Alternately, manually locate and delete individual posts using [Twitter's Advanced search](https://twitter.com/search-advanced). 
 - Reddit and other forums:
   - There's often no easy solution. Sometimes you have to delete your entire account, or in the case of Reddit, you have to [use third-party scripts](https://social.techjunkie.com/how-to-delete-all-reddit-posts/) because deleting your account still leaves your posts up.
+- LinkedIn:
+	- Modify the [visibility settings](https://www.linkedin.com/psettings/data-visibility) of your profile.
+
+#### Delete your social media accounts... temporarily
+
+Many social media companies let you restore your full account after deleting it if you restore after a specific period of time. This can be useful if you want to just hide for a while and wait for an event to pass.
+
+- Facebook has [instructions](https://www.facebook.com/help/224562897555674) for temporarily deactivating your account, or for deleting it (which can be reversed within a 30-day period)
+- Instagram has [instructions](https://help.instagram.com/370452623149242/) for temporarily disabling your account, but deleting it seems to be permanent.
+- Twitter has [instructions](https://help.twitter.com/en/managing-your-account/how-to-deactivate-twitter-account) for deactivating your account, and if you don't restore it (login) after 30 days it is permanently deleted.
+- Snapchat has [instructions](https://support.snapchat.com/en-US/a/delete-my-account1) for deleting your account, and if you don't reactivate it (login) after 30 days it is permanently deleted.
 
 #### Remove your information from other people's accounts or websites
 
-- [Ask Google](https://support.google.com/websearch/answer/9554939?hl=en) and [Bing](https://www.microsoft.com/en-ca/concern/bing) to remove search results pointing to pages with your personal information on them.
+- [Ask Google](https://support.google.com/websearch/troubleshooter/3111061?hl=en) and [Bing](https://www.microsoft.com/en-ca/concern/bing) to remove search results pointing to pages with your personal information on them.
 - Remove any local business reviews you have might left on Google Maps, Yelp, etc. that might point to your home or frequently visited places.
 - Follow the Cyber Civil Rights Initiative's [guide to get policy-violating posts/media removed from social networks](https://www.cybercivilrights.org/online-removal).
 - If you're willing to pay 💰, [Yael Grauer](https://github.com/yaelwrites/Big-Ass-Data-Broker-Opt-Out-List#paid-options) recommends using [DeleteMe](https://joindeleteme.com/) and [Kanary](https://www.thekanary.com/) to remove your information from English-language public and paywalled sites.
 - If you want to do it yourself, check out Yael Grauer's [Big Ass Data Broker Opt-Out List](https://github.com/yaelwrites/Big-Ass-Data-Broker-Opt-Out-List). (To be 100% thorough, use this on top of paid services.)
 - Remember that information removal requests takes time to process and often require repeated attempts.
+
+### Removing articles and press about you online
+
+- Think of this as risk reduction, not total elimination, as it will be impossible to have everything removed.
+- Contact the editor or your previous contact. Explain your situation honestly and hope for a sympathetic editor/writer.
+- If you think the editor/writer will not respond well, then it may be better to not reach out in case it draws more attention to your situation.
+- For older articles, it may help to remind them that the article is still easily accessible on search engines.
+- As a general rule — the larger the publication, the harder it is to persuade them.
 
 #### Obscure your personal information
 
@@ -525,7 +586,7 @@ You might not need to delete your entire account, but consider deleting (or maki
 - Keep a hidden, pen-and-paper log of suspicious incidents.
 - Make sure your partner is not getting information from previously shared accounts (e.g. calendars) or because you left the [location share on within Google Maps](https://support.google.com/maps/answer/7326816?co=GENIE.Platform%3DAndroid&hl=en).
 - Review and redo the items in Levels 1-3 of this guide. Reset your passwords, check your privacy/data sharing permissions, and look up any apps you don't recognize on your computer and phone.
-- Keep an eye out for other signs. E.g. your phone battery doesn't last very long anymore, or your laptop internet connection is slow. Review the Coalition Against Stalkerware's [full of list of indicators](https://stopstalkerware.org/get-help/).
+- Keep an eye out for other signs. E.g. your phone battery doesn't last very long, your laptop internet connection is slow, you get emails/prompts about someone else logging into an account, or your partner suddenly borrowed your phone for a long time the other day.
 - **Don't delete suspicious apps immediately** — you may need to keep them as evidence. Plus, deletion may also cause the situation with your partner to escalate.
 
 #### If you're pretty sure they're spying on you and you're scared:
@@ -540,11 +601,11 @@ You might not need to delete your entire account, but consider deleting (or maki
 
 - See Consumer Reports' [Shut Stalkers Out of Your Tech](https://www.consumerreports.org/digital-security/shut-stalkers-out-of-your-tech/)
 - See Wirecutter's [Protect Your Devices Against Domestic Abusers](https://thewirecutter.com/blog/domestic-abusers-can-control-your-devices-heres-how-to-fight-back/)
-- See Coalition Against Stalkerware's [Safety Toolkit](https://stopstalkerware.org/get-help/)
+- If you're an iOS user, see [Apple's checklist](https://support.apple.com/en-us/HT212021) and download the document at the bottom called `Device and Data Access when Personal Safety is At Risk`.
 
 ---
 
-### 👤 I don't want to give out my real phone number for online dating/networking/organizing
+### 👤 I don't want to give out my personal information for online dating/networking/organizing
 
 For messaging apps that use phone numbers as the primary identifier/username (e.g. Signal, WhatsApp, Telegram), get a secondary number from:
 
@@ -552,7 +613,12 @@ For messaging apps that use phone numbers as the primary identifier/username (e.
 - 🆓 TextNow (ad-supported US/Canada number)  [Google Voice](https://voice.google.com/about) (free number only available in the US)
 - 💰 A local phone company: get a prepaid or cheap SIM card plan
 
-For sites and services that use email as the primary identifier/username, get a separate, new email address.
+For sites and services that use email as the primary identifier/username, either get a new email account or get an email alias that forwards to your main account from:
+
+- 🆓 [SimpleLogin](https://simplelogin.io) (based in EU) 
+- 🆓 [AnonAddy](https://anonaddy.com) (based in UK/EU)
+
+To mask what you've bought from your bank, get a virtual credit card from [Privacy](https://privacy.com/) (US-only, feature only available for Pro accounts 💰). 
 
 Keep in mind:
 
@@ -601,7 +667,7 @@ If you are being harassed online, contact:
 
 Alternately, hotlines that don't focus on digital safety may still be able to help:
 
-- [The Coalition Against Stalkerware](https://stopstalkerware.org/) has three hotlines (one in Germany, two in the US) listed at the bottom of their website.
+- The Coalition Against Stalkerware links to hotlines and organizations in 13 countries on [their resources page](https://stopstalkerware.org/resources/).
 - The [Cyber Civil Rights Initiative has a crisis helpline](https://www.cybercivilrights.org/contact-us/) for victims of nonconsensual pornography or other forms of online abuse.
 - Freemuse offers [artist assistance](https://freemuse.org/artist-assistance/) to artists at risk of threats, attacks, imprisonments, or exile.
 
@@ -628,7 +694,7 @@ This section is a catch-all for difficult or esoteric practices that do not fall
 
 - Use an end-to-end encrypted cloud storage service (not Dropbox): [Tresorit](https://tresorit.com/), [SpiderOak](https://spideroak.com/).
 - Use encrypted external USB/hard drives from companies like [Apricorn](https://www.apricorn.com/).
-- If you want to send a file anonymously, use a special sharing service like [OnionShare](https://onionshare.org/).
+- If you want to send a file anonymously, use a special sharing service like [Tresorit Send](https://send.tresorit.com/) or [OnionShare](https://onionshare.org/).
 - Instead of Google Docs or Microsoft Office, use [CryptPad](https://cryptpad.fr) or [Standard Notes](https://standardnotes.org/) (both are open-source and end-to-end encrypted).
 
 #### Messaging apps
@@ -652,22 +718,24 @@ This section is a catch-all for difficult or esoteric practices that do not fall
   - [Deflect](https://deflect.ca/) (has [free plan]([https://deflect.ca/nonprofit](https://deflect.ca/nonprofit)) for non-profits).
   - [Cloudflare](https://www.cloudflare.com/) (has [free plan](https://www.cloudflare.com/galileo/) for arts, human rights, civil society, journalism, or democracy organizations).
   - [Project Shield](https://projectshield.withgoogle.com) from Google: only available for news, human rights and election monitoring sites. 
-  - [Wordfence](https://wordpress.org/plugins/wordfence/) and [iThemes Security](https://wordpress.org/plugins/better-wp-security/) plug-ins for Wordpress.
+  - [Wordfence](https://wordpress.org/plugins/wordfence/), [Sucuri Security](https://wordpress.org/plugins/sucuri-scanner/) and [iThemes Security](https://wordpress.org/plugins/better-wp-security/) plug-ins for Wordpress.
 - Consider switching to a more privacy-oriented hosting service like [Greenhost](https://greenhost.net/) or one of these recommendations from [Gecko & Fly](https://www.geckoandfly.com/32144/anonymous-offshore-web-hosting/) and [PrivacyTools](https://www.privacytools.io/providers/hosting/).
 - Set up a [security.txt](https://securitytxt.org/) so that researchers have a place to disclose security vulnerabilities.
 
 #### Other
 
+- Sign up to be notified by [Have I Been Pwned](https://haveibeenpwned.com/) when an account tied to your email is compromised.
 - Buy a [YubiKey](https://www.yubico.com/products/) USB key to use for two-factor authentication. If you work in free speech/press/internet, you may qualify for a free [Yubico for Free Speech](https://www.yubico.com/about/about-us/free-speech-program/).
 - Keep less information/data/photos on your devices – you can't lose what you don't have.
 - Don't use smart TVs or smart speakers.
 - Turn suspicious PDFs into safe ones using [Dangerzone](https://dangerzone.rocks/).
 - Access Facebook with more anonymity and/or bypass internet filtering by using [its onion service](https://en.wikipedia.org/wiki/Facebookcorewwwi.onion). 
-- If you (or your organization) is really wedded to the Google Suite, consider [Google's Advance Protection program](https://www.wired.com/story/google-advanced-protection/).
+- If you (or your organization) is really wedded to Google Suite/Workspace, consider [Google's Advance Protection program](https://www.wired.com/story/google-advanced-protection/).
 - Put your smart cards/passports/phones in a Faraday bag that blocks signals from going in and out. (See [Micah Lee's guide on them](https://micahflee.com/2015/11/some-thoughts-on-faraday-bags-and-operational-security/).)
 - Use [One Time](https://onetimesecret.com/) to send a password-protected, self-destructing message.
+- For iOS users: Download [iVerify](https://www.iverify.io/individuals) to scan your device.
 - For Android users: Download apps using [F-Droid](https://f-droid.org), an open-source, security-focused app store.
-- Use a more secure operating system on desktop ([Tails](https://tails.boum.org/), [Qubes OS](https://www.qubes-os.org/)) and mobile ([CalyxOS](https://calyxos.org/)). 
+- Use a more secure operating system on desktop ([Tails](https://tails.boum.org/), [Qubes OS](https://www.qubes-os.org/)) and mobile ([CalyxOS](https://calyxos.org/), [GrapheneOS](https://grapheneos.org/)). 
 - Start using more secure devices: [PINE64](https://www.pine64.org/), [Purism](https://puri.sm/). 
 - For US residents: Freeze your credit to prevent bad actors from accessing or mis-using your personal information. See IntelTechniques' [Credit Freeze Guide](https://inteltechniques.com/data/workbook.pdf) for details.
 
