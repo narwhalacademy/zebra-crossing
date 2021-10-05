@@ -3,7 +3,7 @@
 ### 🤔 Who this guide is for
 
 - You use the internet on a day-to-day basis – for work, social media, financial transactions, etc.
-- You feel you could be doing more to ensure your digital safety and privacy, but you're not in immediate danger. (If you are, seek out an expert for a one-on-one consult.)
+- You want to do more to ensure your digital safety and privacy, but you're not in immediate danger. (If you are, seek out an expert for a one-on-one consult.)
 - You're comfortable with technology. For example, you're comfortable going into the settings section of your computer/smartphone.
 
 ### 🗺 Where this guide is from
@@ -13,7 +13,7 @@
 ### 🌱 How to use this guide
 
 - Recommendations have been sorted in ascending levels of difficulty. Start from level one and work your way up!
-- *Everyone should follow the recommendations in levels one and two.* They will protect you from the widely-used (yet simple) attacks. Going through them shouldn't take more than 1-2 hours.
+- *Everyone should follow the recommendations in levels one and two.* They will protect you from the most widely-used (yet simple) attacks. Going through them shouldn't take more than 1-2 hours.
 - Level three is a bit more involved in terms of time and money and may not be 100% necessary. But if you're worried at all and can afford to, we recommend going through that list too. Depending on the amount of digital housekeeping you have to do, it may take anywhere from an hour to an afternoon.
 - The scenarios listed after are for higher-stakes situations — scan them to see if any of them apply to you. (Because the stakes are higher, they assume that you've done everything in levels 1-3.)
 - This guide is a living document – please feel free to submit a pull request or fork your own version of this guide [on GitHub](https://github.com/narwhalacademy/zebra-crossing).
@@ -30,7 +30,7 @@
 
 ### 🕒 Last updated
 
-- 23 September 2021
+- 4 October 2021
 
 ---
 
@@ -49,12 +49,12 @@
 ### 🔡 Encryption levels
 
 1. No encryption: Any third party who intercepts the data can read it as-is.
-2. Regular encryption: Data is encrypted so that third parties cannot read them. But the platform (e.g. Google or Facebook) still has access, and may hand the data over to law enforcement if they are required to do so by the courts.
+2. Regular encryption: Data is encrypted so that third parties cannot read them. But the platform (e.g. Google or Facebook) still has access, and may hand the data over if they are required to do so by the courts.
 3. End-to-end encryption: the data can only be read by the original sender and receiver. This means not even the platform has access. So if the courts call, the service provider can't hand over the messages because they don't have them either.
 
 ### 🧩 Metadata
 
-- Data about your data – e.g. what number you called, and for how long (but not the contents of the call). With enough metadata, hackers can piece together a pretty good picture of who you are, who you know, where you're going, etc. Plus legal protections around metadata are generally weaker.
+- Data about your data – e.g. what number you called, and for how long (but not the contents of the call). With enough metadata, hackers can piece together a pretty good picture of who you are, who you know and where you're going. Note that legal protections around metadata are generally weaker as well.
 
 ---
 
@@ -66,19 +66,19 @@
 
 - Any password less than 10 characters is bad, but it's also okay-to-string-together-non-sequitur-words.
 - Double check the security questions for your key online services (email, bank, Facebook, etc.) and make sure that they're not easy to answer by friends or by anyone looking you up on Google.
-- Start using a different password for every service, because password leaks happen all the time. To make this easy, use a password manager ([see Wirecutter's picks here](https://www.nytimes.com/wirecutter/reviews/best-password-managers/)) to store/autofill/generate them. For now, make sure you use a unique password for essential services (email, social media, banking, cloud storage).
+- Start using a different password for every service, because password leaks happen fairly often. To make this easy, use a password manager ([Wirecutter](https://www.nytimes.com/wirecutter/reviews/best-password-managers/) recommends 💰 [1Password](https://1password.com/) or [BitWarden](https://bitwarden.com/).) to store/autofill/generate them. For now, make sure you use a unique password for essential services (email, social media, banking, cloud storage).
 - Use a non-common/obvious unlock code for your phone with at least 9 digits.
 
 #### Double lock important accounts
 
 Use two-factor authentication (also known as 2FA and two-step verification) to add an extra lock on top of a typed password. Usually this takes the form of a short code that's sent to your phone via a specialized app or SMS.
 
-- Download an authenticator app like [Authy](https://authy.com/) or [Duo Mobile](https://duo.com/product/multi-factor-authentication-mfa/duo-mobile-app). Apps are far more secure than SMS so use one if it's available.
+- Download an authenticator app ([Wirecutter](https://www.nytimes.com/wirecutter/reviews/best-two-factor-authentication-app/) recommends [Authy](https://authy.com/)). Apps are far more secure than SMS so use one if it's available.
 - Turn on 2FA on your:
   - Email service. See instructions for [Gmail](https://support.google.com/accounts/answer/185839?hl=en), [Protonmail](https://protonmail.com/support/knowledge-base/two-factor-authentication/), or find instructions for your email provider [here](https://twofactorauth.org/#email).
-  - Frequently used social media accounts. See instructions for [Twitter](https://help.twitter.com/en/managing-your-account/two-factor-authentication), [Facebook](https://www.facebook.com/help/148233965247823/), [Instagram](https://help.instagram.com/566810106808145), and [other services](https://twofactorauth.org/#social).
+  - Frequently used social media accounts. See instructions for [Twitter](https://help.twitter.com/en/managing-your-account/two-factor-authentication), [Facebook](https://www.facebook.com/help/148233965247823/), [Instagram](https://help.instagram.com/566810106808145), and [other services](https://2fa.directory/#social).
   - Consider turning on 2FA on any other online accounts where losing access would be catastrophic. Look up instructions on [Two Factor Auth](https://2fa.directory/).
-- Turn on cloud backup for your authenticator app in case you ever lose your phone. See instructions for [Authy](https://authy.com/features/backup/) and [Duo Mobile](https://guide.duo.com/duo-restore).
+- Turn on cloud backup for your authenticator app in case you ever lose your phone. See instructions for [Authy](https://authy.com/features/backup/).
 
 #### Email
 
@@ -89,15 +89,14 @@ Use two-factor authentication (also known as 2FA and two-step verification) to a
 
 - Encrypt your computer hard drive:
   - Mac: [See Apple's instructions](https://support.apple.com/en-us/HT204837).
-  - Windows: [See Microsoft's instructions](https://support.microsoft.com/en-us/windows/device-encryption-in-windows-10-ad5dcf4b-dbe0-2331-228f-7925c2a3012d) (we recommend BitLocker if it's available)
+  - Windows: [See Microsoft's instructions](https://support.microsoft.com/en-us/windows/device-encryption-in-windows-10-ad5dcf4b-dbe0-2331-228f-7925c2a3012d) (use BitLocker if it's available).
 - Encrypt your phone storage:
-  - iOS: Automatically encrypt.
+  - iOS: Automatically encrypts.
   - Android: Recent versions automatically encrypt. Double check by going to `Settings → Security → Encryption`.
 - Secure your backups too!
   - Encrypt your backup hard drives:
     - Mac: If you use Time Machine, [see Apple's instructions here](https://support.apple.com/en-ca/guide/mac-help/mh21241/mac).
     - Windows: [See instructions here](https://techjury.net/blog/how-to-encrypt-your-hard-drive/).
-  - Pick an online backup storage solution that offers end-to-end encryption (which neither iCloud or Google Drive support) like [Tresorit](https://tresorit.com/) or [Spideroak One](https://spideroak.com/one/).
 - N.B. Remember encryption is only fully effective when the device is off!
 
 #### Other
@@ -105,12 +104,12 @@ Use two-factor authentication (also known as 2FA and two-step verification) to a
 - Setup up a pin code for your mobile phone SIM card:
   - [See iPhone instructions](https://support.apple.com/en-hk/HT201529).
   - [See Android instructions](https://www.maketecheasier.com/change-sim-pin-android/).
-  - Search your phone provider's website to find out what their default password is (it varies from carrier to carrier).
+  - If necessary, search your phone provider's website to find out what their default password is (it varies from carrier to carrier).
 - Turn on the firewall on your computer:
   - Mac: `System Preferences → Security & Privacy → Firewall`.
   - Windows: `Control Panel → System and Security → Windows Firewall`.
 - Turn off remote access on your computer:
-  - Mac: `System Preferences → Sharing → Remote Login, Remote Management1`.
+  - Mac: `System Preferences → Sharing → Remote Login, Remote Management`.
   - Windows: `Control Panel → System and Security → System: Allow remote access → Don't Allow Remote connections to this computer`.
 - Set up basic anti-virus software on your computer:
   - Mac: None required. ([Read Wirecutter's explanation](https://www.nytimes.com/wirecutter/blog/best-antivirus/.))
@@ -119,25 +118,28 @@ Use two-factor authentication (also known as 2FA and two-step verification) to a
 - Turn off automatically add(ed) invitations on [Google Calendar settings](https://calendar.google.com/calendar/r/settings) ([here's why](https://www.forbes.com/sites/daveywinder/2019/06/11/new-security-warning-issued-for-googles-1-5-billion-gmail-and-calendar-users/#3605ff0565e5)).
 - [Turn on Login Alerts on Facebook](https://www.facebook.com/settings?tab=security).
 - [Disable macros within Microsoft Office](https://support.office.com/en-us/article/enable-or-disable-macros-in-office-files-12b036fd-d140-4e74-b45e-16fed1a7e5c6).
-- iOS: Don't allow USB accessories to control a locked device. Turn off `Settings → Face ID & Passcode → Allow Access When Locked: USB Accessories`.
+- Don't allow USB accessories to control a locked device:
+  - iOS: Turn off `Settings → Face ID & Passcode → Allow Access When Locked: USB Accessories`.
+  - Android: Off by default, only available if `Developer Options` settings are turned on.
 
 ### 💪🏽 Habits to cultivate
 
 #### Email
 
-- Be on the lookout for phishing scams: where possible double check the _From_ email address and the domains that outbound links go to.
+- Be on the lookout for phishing scams. Always double check:
+  - The `From` email address.
+  - The domain that outbound links go to.
 - Don't open unnecessary email attachments. Where possible, open or preview them first in an online document reader. Ask colleagues to use a filesharing service (Dropbox, Google Drive, Tresorit, SpiderOak), which tend to be a little harder to hack into.
-- You can upload a suspicious attachment to [VirusTotal](http://www.virustotal.com) for a check-up (but keep in mind files submitted to VirusTotal are available to security researchers so don’t submit sensitive information).
+- You can upload a suspicious attachment to [VirusTotal](http://www.virustotal.com) for a check-up. (Keep in mind files submitted to VirusTotal are available to security researchers so don’t submit sensitive information).
 
 #### Update all the things
 
-- When you get a notification to update your operating system (on your mobile or computer), do it as soon as you can.
-- Update your apps (on mobile or computer) similarly.
-- Check occasionally for firmware updates for your router (and other Internet-connected devices).
+- When you get a notification on your devices to update the operating system, do it as soon as you can.
+- Turn on auto update for your apps if the feature is available. If there's an update prompt when you open them, do so.
+- Check occasionally for firmware updates for your router and other internet-connected devices.
 
 #### Other
 
-- Change important passwords (e.g. email, computer login, password manager master) every year or two.
 - Wipe your devices properly before donating/giving away. If you've encrypted all of your phones and computers (as suggested above), a normal factory reset will do the job for almost all use cases. If you want an extra layer of security for your computer hard drives, see [Wired's guide on this topic](https://www.wired.co.uk/article/securely-wipe-android-iphone-hard-disk).
 - Don't charge your phone at public charging stations/ports – they may steal your data. Consider charging your portable battery instead.
 
@@ -161,15 +163,15 @@ Use two-factor authentication (also known as 2FA and two-step verification) to a
 - Review what data these big tech companies have on you and clear out anything you don't need: [Google - My Activity](https://myactivity.google.com), [Alexa Privacy Settings](https://www.amazon.com/b/?node=19149164011), [Microsoft account: Privacy](https://account.microsoft.com/privacy ).
 - Install [Firefox](https://www.mozilla.org/en-US/firefox/) and set it as the default web browser on your computer.
 - Install these protective web browsers add-ons on your computer (and make sure they're on even during private/incognito mode):
-  - An ad blocker (e.g. [uBlock Origin](https://github.com/gorhill/uBlock/), [Ghostery](https://www.ghostery.com/)).
+  - An ad blocker (e.g. [uBlock Origin](https://ublockorigin.com/)).
   - A tracker blocker ([Privacy Badger](https://www.eff.org/privacybadger)).
   - [HTTPS Everywhere](https://www.eff.org/https-everywhere).
 - Review which apps on your smartphone have access to your location data. Turn off access if the app doesn't need it, and minimize the number of apps that track your location all the time.
   - iOS: `Settings → Privacy → Location Services`.
-  - Android: `Settings → Apps & notifications → App permissions`.
+  - Android: `Settings → Location → App access to location`.
 - On Anrdoid, turn off passive Wifi and Bluetooth scanning:
 	- Settings → Location → Wi-Fi and Bluetooh scanning
-- On your smartphone, delete any third-party keyboards you might have installed ( they often share what you type with the software maker). On both iOS and Android, they are installed as apps so just delete that. If you really need to use a third-party keyboard, make sure that it is an open source project where others have verified that it does not share your data with third parties.
+- On your smartphone, delete any third-party keyboards you might have installed (they often share what you type with the software maker). On both iOS and Android, they are installed as apps so take time to find and delete them. If you really need to use a third-party keyboard, make sure that it is an open source project where others have verified that it does not share your data with third parties.
 - If you use smart speakers, turn off its recording function:
   - Google Home: go to [Activity Controls](https://myaccount.google.com/activitycontrols/audio) and uncheck `Include audio recordings`.
   - Amazon Alexa: [Follow these instructions](https://www.digitaltrends.com/home/how-to-stop-amazon-from-listening-to-your-alexa-recordings/).
@@ -178,7 +180,7 @@ Use two-factor authentication (also known as 2FA and two-step verification) to a
 
 #### Set up your home wifi router
 
-- Login to the administration and settings dashboard (check your router's instructions but it's often at `http://192.168.0.1`)
+- Login to the administration and settings dashboard (check your router's instructions, though it's usually accessible by going to `http://192.168.0.1` on your web browser).
 - If the password to login to this dashboard is really simple, then update it.
 - Look through what devices are connected to the network right now (click around until you find the `access control`) and make sure you know what every device on the list is.
 - If you see these options, turn them off. Look for them under `advanced settings` or `gateway functions`:
@@ -188,10 +190,10 @@ Use two-factor authentication (also known as 2FA and two-step verification) to a
 
 #### Other
 
-- Set up tracking apps for your devices so you can remotely find and wipe your devices from a website if you ever lose them:
+- Set up tracking apps for your devices so you can remotely find and wipe your devices by logging into a website if you ever lose them:
   - iOS & Mac: [Instructions for setting up Find My](https://support.apple.com/en-us/HT210400).
   - Android: [Instructions for setting up Find My Device](https://support.google.com/android/answer/6160491?hl=en).
-  - Multi-platform (including iOS, Mac, Android if you want everything under one umbrella): [Download and install Prey](https://www.preyproject.com).
+  - Windows: [Instructions for setting up Find My Device](https://support.microsoft.com/en-us/account-billing/find-and-lock-a-lost-windows-device-890bf25e-b8ba-d3fe-8253-e98a12f26316).
 - Review the `Third-Party Apps` or `Connected Apps` on your main email/social media accounts. These are services that might have access to, say, your Facebook data and even permission to make posts automatically there. ([Here are the instructions for checking for them on Facebook and Gmail](https://www.online-tech-tips.com/computer-tips/check-google-facebook-connected-apps/).)
 - Review the extensions/add-ons/plug-ins that have been installed within your computer web browser – delete any that you haven't used in a while or don't remember installing.
 
@@ -242,21 +244,26 @@ Don't say anything you'd regret on in a "private" Slack group, Facebook page, Wh
 - Set them up on both your computer and your phone.
 - Move your files into these secure vaults. Make sure they're not still hanging around on an old folder or on your phone.
 
-#### Upgrade your gear
+#### Upgrade your gear 💰
 
-- Use a paid VPN service when on public networks (e.g. cafe wifi) and even at home if you don't want your service provider to know where you're going. Free VPN services are bad because operators don't have enough incentive to protect you/your data. See recommendations from [Wirecutter](https://thewirecutter.com/reviews/best-vpn-service/) and [Freedom of the Press](https://freedom.press/training/choosing-a-vpn/).
+- Use a paid VPN service when on public networks (e.g. cafe wifi) and even at home if you don't want your service provider to know where you're going. Free VPN services are bad because operators don't have enough incentive to protect you/your data. [Wirecutter](https://thewirecutter.com/reviews/best-vpn-service/) and [Freedom of the Press](https://freedom.press/training/choosing-a-vpn/) both recommend [Mullvad](https://mullvad.net) and [IVPN](https://www.ivpn.net/).
 - Buy a privacy screen (prevents onlookers from seeing your screen, see [this 3M example](https://www.3m.com/3M/en_US/company-us/all-3m-products/~/All-3M-Products/Privacy-Screen-Protectors/Privacy-Products/Black-Privacy/)) for your laptop and phone.
+- Buy a harder-to-hack mobile phone — an iPhone or Android phone that implements a "pure" Google version of Android.
 
 #### Revisit old passwords
 
 - Store all of your online service passwords in a password manager. (If you have the right browser add-on/plugin installed, it will capture all the relevant details during a login process.)
 - Using your password manager's analysis feature, see which accounts/services have weak passwords and update the ones that might have any personal information about you or that you would really hate to lose.
 
-### 💪🏾 Habits to cultivate
+#### Use end-to-end encrypted apps
 
-- Start using [Signal](https://signal.org/), an end-to-end encrypted mobile messaging app that's generally agreed to be safe/secure/robust. (Beyond Signal, there is little consensus on what's secure and people tend to get very emotional about their choice of mobile messaging apps.)
-- When making voice or video calls, use an end-to-end encrypted app (e.g. Signal, Jitsi, Wire).
-- Buy a harder-to-hack mobile phone 💰. Typically, this is an iPhone or Android phone that implements a "pure" Google version of Android.
+- Mobile messaging app: [Signal](https://signal.org/) (sign up with phone number), [Wire (Personal)](https://wire.com/en/products/personal-secure-messenger/) (sign up with email).
+  - Consider letting messages expire after 1 week.
+    - Signal: Go to `Settings → Privacy →  Disappearing Messages → Default Timer for New Chats`.
+    - Wire: No app-wide setting exists. You have to set it up for each conversation by tapping/clicking the timer icon ⏱.
+- One-on-one or small group voice/video calls: Continue using [Signal](https://signal.org/), [Wire](https://wire.com/en/products/personal-secure-messenger/)
+- Large group video calls: Privacy is hard to maintain with lots of people, particularly as large group calls often become quasi-public events. If you have a particular need for privacy, see Freedom of the Press' chart: [Which video conferencing tool is right for the job?](https://freedom.press/training/blog/videoconferencing-tools/)
+- Online file sharing/backup: [Tresorit](https://tresorit.com/), [Spideroak One](https://spideroak.com/one/). (Remember, files on Google Drive and iCloud are not end-to-end encrypted).
 
 ---
 
@@ -289,20 +296,20 @@ Don't say anything you'd regret on in a "private" Slack group, Facebook page, Wh
   - Set up alternate photo albums, email addresses and social media accounts full of harmless content.
   - "Forget" half of your password: Password lock your device/account so that only a trusted friend has the second half of the password.
   - Log out of all important accounts (or simply leave your devices at home).
-- For more information, see Wired's [Guide to Getting Past Customs With Your Digital Privacy Intact](https://www.wired.com/2017/02/guide-getting-past-customs-digital-privacy-intact/) and [BoingBoing's addendum](http://boingboing.net/2017/02/12/how-to-cross-a-us-or-other-b.html) about filing for attorney privileges at the US border.
+  - US travel: See [BoingBoing's note](http://boingboing.net/2017/02/12/how-to-cross-a-us-or-other-b.html) about filing for attorney privileges at the US border.
 
 ---
 
 ### 😭 Somebody took my phone/computer!
 
-- Wipe your phone remotely:
+- Wipe or lock your phone remotely:
   - iOS, Mac: Instructions for using [Find My](https://support.apple.com/en-us/HT210515#erasedevice). 
   - Android: Instruction for [Find My Device](https://support.google.com/accounts/answer/6160491?hl=en).
-  - If you installed Prey: [Login to the dashboard](https://panel.preyproject.com), select a device and then `remote wipe`.
+  - Windows: Instructions for [Find My Device](https://support.microsoft.com/en-us/account-billing/find-and-lock-a-lost-windows-device-890bf25e-b8ba-d3fe-8253-e98a12f26316)
 - Log out of all important accounts from another device.
 - If this happened at an international border: Ask for a seizure receipt (available in some jurisdictions, e.g. [Canada](https://bccla.org/wp-content/uploads/2018/10/Electronic-Devices-Privacy-Handbook-BCCLA_2.0.pdf))
 - Get a new SIM card.
-- If you get it back, reset your phone/computer back to its factory settings. Then run some anti-virus and anti-spyware programs just in case.
+- If you get your device back, reset it back to its factory settings and restore from your last backup.
 
 ---
 
@@ -315,7 +322,7 @@ Don't say anything you'd regret on in a "private" Slack group, Facebook page, Wh
 	- [Guardian Firewall](https://guardianapp.com) for iOS.
 - Run Activity Monitor on Mac or Process Explorer on Windows to look at what processes/applications are running. Google any suspicious names.
 - Login to important online accounts to see if there have been any suspicious logins – see [this Motherboard guide for details](https://motherboard.vice.com/en_us/article/bjeznz/how-do-you-know-when-youve-been-hacked-gmail-facebook).
-- Setup a spare smartphone using [Haven](https://guardianproject.github.io/haven/) as a room monitor to detect unwanted intrusions.
+- Setup a spare Android phone using [Haven](https://guardianproject.github.io/haven/) as a room monitor to detect unwanted intrusions.
 
 ---
 
@@ -332,7 +339,7 @@ Don't say anything you'd regret on in a "private" Slack group, Facebook page, Wh
 - Draft a message to a trusted friend (not at protest) or legal hotline. Be ready to hit send if you are arrested/there is an emergency.
 - Write the phone number of the trusted friend/hotline on your arm with permanent marker as a backup.
 - Bring a spare battery for your phone.
-- If you use your fingerprint or face to unlock your phone, turn it off for now. In some places, [officers can compel you to provide your fingerprint but not your passcode](http://www.theatlantic.com/technology/archive/2016/05/iphone-fingerprint-search-warrant/480861/).
+- If you use your fingerprint or face to unlock your phone, turn it off for now. In some jurisdictions, [officers can compel you to provide your fingerprint but not your passcode](http://www.theatlantic.com/technology/archive/2016/05/iphone-fingerprint-search-warrant/480861/).
 - Immediately power off your phone if you think you'll be arrested (disk encryption works better if it's off).
 - Consider using a burner phone ([instructions for the US](https://theintercept.com/2020/06/15/protest-tech-safety-burner-phone/)) with a burner SIM card.
 
@@ -342,30 +349,34 @@ Don't say anything you'd regret on in a "private" Slack group, Facebook page, Wh
 - Use a messaging app that lets you create disappearing messages (e.g. [Signal](https://signal.org/)). Turn on the timer when discussing the protest.
 - Don't take any photos or videos where people's faces are clearly visible. Taking a photo of people's backs is okay. (The one exception is if you're filming a video of a conflict or arrest where documentation is key.)
 - Wear a face mask so you are not easily caught on camera.
-- When sharing photos/videos:
-  - Blur the faces of any protesters. (Use Everest Pipkin's [Image Scrubber](https://everestpipkin.github.io/image-scrubber/) or [Signal's blur tool](https://signal.org/blog/blur-tools/) for photos, and Youtube's [blur faces tool](https://youtube-eng.googleblog.com/2017/08/blur-select-faces-with-updated-blur.html) for videos.)
-  - If need be, erase the location metadata using [these apps](https://www.maketecheasier.com/best-apps-remove-exif-data-from-images/).
+- When sharing photos/videos, blur the faces of any protesters using these apps/features:
+  - Phone:
+    - [Signal's blur tool](https://signal.org/blog/blur-tools/) for photos.
+  - Computer:
+    - Everest Pipkin's [Image Scrubber](https://everestpipkin.github.io/image-scrubber/) for photos.
+    - Youtube's [blur faces tool](https://youtube-eng.googleblog.com/2017/08/blur-select-faces-with-updated-blur.html) for videos.
+- If need be, erase the location metadata on any photos/videos before posting using [these apps](https://www.maketecheasier.com/best-apps-remove-exif-data-from-images/).
 
 #### Minimize location tracking
 
 - Turn off location history:
   - iOS: `Settings → Privacy → Location Services → System Services → Significant Locations`.
-  - Android: `Settings → Google → Google Account → Data & personalization → Location History → Manage setting → Your account & all your devices → Use Location History Off`.
+  - Android: `Settings → Privacy → Advanced → Google Location History →  Activity Controls: Location History.
   - Google Maps: `Settings → Maps history → Web & App Activity`.
 - Delete past location history:
   - iOS: `Settings → Privacy → Location Services → System Services → Significant Locations → Clear History`.
   - [Android](https://support.google.com/accounts/answer/3118687?hl=en#delete)
   - [Google Maps](https://support.google.com/maps/answer/3137804?hl=en)
 - Consider turning off all location services temporarily:
-  - iPhone: `Settings → Privacy → Location Services → Location Services Off`.
-  - Android: `Security & location → Location → Use location Off`.
+  - iPhone: `Settings → Privacy → Location Services → Location Services: Off`.
+  - Android: `Settings → Location → Use location: Off`.
 
 #### Other
 
 - Double check your messaging apps' privacy settings.
 - Turn off message previews in your notifications:
   - iOS: `Settings → Notifications → Show Previews: When Unlocked`.
-  - Android: `Settings → Apps & notifications → Notifications → On lock screen: Hide sensitive content`.
+  - Android: `Settings → Apps & notifications → Notifications → Notifications on lock screen → Sensitive notifications: Off`.
 - Remember to make voice calls through end-to-end encrypted apps like [Signal](https://signal.org/).
 
 ---
@@ -376,32 +387,32 @@ Below are some basics that all journalists should consider. If you're working on
 
 #### Be prepared
 
-- To remotely wipe the contents of your devices using a tracking app (e.g. [Find My](https://www.apple.com/icloud/find-my/) on iOS, [Find My Device](https://support.google.com/accounts/answer/6160491?hl=en) on Android, [Prey](https://www.preyproject.com), [Lookout Security](https://www.lookout.com/)).
+- To remotely wipe the contents of your devices. See scenario above titled `Somebody took my phone/computer!`
 - To be on the receiving end of an email phishing campaign (as journalist emails are usually more public than others).
-
-#### Protect yourself
-
-- If you're traveling, review the `Crossing an international border` scenario above.
-- If you're covering a protest, review the `Attending a protest` scenario above and decide which parts apply to you (if you have special journalist rights/protections where you're working).
-- Use a VPN if you're browsing the internet at the office (website administrators can usually see that you're coming from, say, the New York Times network)
 
 #### Protect your sources
 
-- Use email less, as [even end-to-end encrypted email leaves a trail of metadata](https://freedom.press/training/blog/how-reporters-emails-get-got-case-studies-legal-request-hacking/).
+- Use email as little as possible as [even end-to-end encrypted email leaves a trail of metadata](https://freedom.press/training/blog/how-reporters-emails-get-got-case-studies-legal-request-hacking/).
 - To exchange messages, use an end-to-end encrypted messaging app that doesn't store metadata like [Signal](https://www.signal.org/). (Don't use Twitter DMs!)
-- Use [Signal](https://www.signal.org/) or [Jitsi](https://jitsi.org/) for end-to-end encrypted voice and video calls.
+- For voice/video calls, also use an end-to-end encrypted app like [Signal](https://www.signal.org/) or [Wire](https://wire.com/en/products/personal-secure-messenger/).
 - Use the security features in Signal and Whatsapp – see Martin Shelton's articles on [Locking Down Signal](https://medium.com/@mshelton/locking-down-signal-d71678f653d3) and [Upgrading WhatsApp security](https://medium.com/@mshelton/upgrading-whatsapp-security-386c8ce496d3).
-- Have your organization set up [SecureDrop](https://securedrop.org/). Failing that, encourage people to use [OnionShare](https://onionshare.org/).
-- Blur faces from photos and videos (e.g. Android [ObscuraCam](https://guardianproject.info/apps/obscuracam/), Youtube [instructions](https://technology.witness.org/2016/02/how-to-use-youtubes-new-blurring-feature-to-protect-identities/)).
-- Erase media metadata using [these apps](https://www.maketecheasier.com/best-apps-remove-exif-data-from-images/).
+- For document transfers, have your organization set up [SecureDrop](https://securedrop.org/). Failing that, encourage people to use [OnionShare](https://onionshare.org/).
+- Blur faces from photos and videos. See the `Store less share less` section in the `Attending a protest` scenario above.
 - See Ted Han and Quinn Norton's [Protecting Your Sources When Releasing Sensitive Documents](https://source.opennews.org/articles/how-protect-your-sources-when-releasing-sensitive-/).
 - See Martin Shelton's [Opening Secure Channels for Confidential Tips](https://source.opennews.org/articles/opening-secure-channels-confidential-tips/).
+
+#### Protect yourself
+
+- Use a secondary phone number on Signal to talk to your sources, and to create a public tip line. Follow Yael Grauer's guide on [How To Use Signal Without Giving Out Your Phone Number Using a Chromebook and an Old Phone](https://blog.yaelwrites.com/how-to-use-signal-without-giving-out-your-phone-number-using-a-chromebook-and-an-old-phone/).
+- If you're traveling, review the `Crossing an international border` scenario above.
+- If you're covering a protest, review the `Attending a protest` scenario above and decide which parts apply to you (if you have special journalist rights/protections where you're working).
+- Use a VPN if you're browsing the internet at the office (website administrators can usually see that you're coming from, say, the New York Times network).
 
 #### Protect your data
 
 - Make sure you're using an email/storage provider that's not owned/linked to an organization that you're reporting on.
 - Be aware that [courts can compel Google to hand over all of your data](https://medium.com/@tinfoilpress/newsrooms-lets-talk-about-g-suite-1672a36eb235).
-- Move all of your work onto end-to-end encrypted platforms. (E.g. [Protonmail](https://protonmail.com/) or [Tutanota](https://tutanota.com/) for email, store documents in a [Tresorit](https://tresorit.com/) or [SpiderOak](https://spideroak.com/) cloud.) 
+- Move all of your work onto end-to-end encrypted platforms. (E.g. [Protonmail](https://protonmail.com/) or [Tutanota](https://tutanota.com/) for email, [CryptPad](cryptpad.fr/) for docs/spreadsheets.
 - Store sensitive data in a password-protected cloud or external storage device as much as possible. See the `Lock up sensitive files` section above.
 - Remember to permanently erase sensitive files from your computer: use [Eraser for Windows](https://eraser.heidi.ie/) and [File Shredder for Mac](https://apps.apple.com/us/app/fileshredder/id418094085?mt=12).
 
@@ -440,7 +451,6 @@ For more information, see Access Now Digital Security Helpline's [Self-Doxing Gu
 - Monitor and archive webpages that mention you using [ChangeTower](https://changetower.com/).
 - Start logging (date, time, description, screenshot, URL) incidents in whatever program/app that's easiest for you. If there's a lot of phone-only content, use the [Hunchly](https://hunch.ly/) mobile app.
 - If future legal action is likely, pay [Page Vault](https://www.page-vault.com) to capture a snapshot of a website and ask a lawyer to file an [evidence preservation request](https://onlinesos.org/blog/evidence-preservation-i-e-litigation-hold-request) with the relevant online platform. 
-- Remember to take care of yourself as much as you can — eat, sleep, exercise. Call in friends to help share a meal, take a break or watch your cats for a few days.
 
 #### Delete online information about you
 
@@ -448,19 +458,21 @@ For more information, see Access Now Digital Security Helpline's [Self-Doxing Gu
 
 #### Ignore/reply/report/block your harassers
 
-- Together with your support person and the log of receipts, decide on your course of action (these aren't mutually exclusive):
-  - Ignore: Sometimes harassers will walk away if they don't get attention.
-  - De-escalate: In some contexts, you can defuse the situation with some calm words before it gets worse.
-  - Report: Report the harasser to the relevant online platform and/or your local law enforcement.
-  - Mute on social media: Allows for peace of mind.
-  - Block on social media: Maximizes peace of mind as the harasser won't be able to see your posts. But they will notice and see it as a sign of escalation.
-  - Go public: Can be dangerous, but sometimes shaming them publicly or rallying people to your support will make them go away.
+- Together with your trusted friend and the log of receipts, decide on your course of action (these aren't mutually exclusive):
+  - **Ignore:** Sometimes harassers will become bored and walk away if they don't get attention.
+  - **De-escalate:** In some contexts, you can defuse the situation with some calm words before it gets worse.
+  - **Report:** Report the harasser to the relevant online platform to have their account frozen or deleted. If it makes sense, you may also report the incident to your local law enforcement.
+  - **Mute on social media:** This allows you to have peace of mind, and not have your harasser's updates suddenly pop up on social media. (You might still want to proactively check what they're saying though.)
+  - **Block on social media:** Sends a strong signal to your harasser. They won't be able to see your posts or message you. They will however see clearly that you blocked them and might interpret it as a sign of escalation.
+  - **Go public:** Sometimes shaming a harasser publicly or rallying people to your support will make them go away. This has a high risk of escalating the situation and drawing more attention to it though.
 - If you decide to report:
   - If you file a report with a social media company, ask at least 10 friends to do it as well. If it makes sense, have 1-2 people file a copyright infringement claim. Relevant links for [Facebook](https://www.facebook.com/help/www/181495968648557), [Instagram](https://help.instagram.com/192435014247952), [Twitter](https://help.twitter.com/en/forms/safety-and-sensitive-content), [Snapchat](https://support.snapchat.com/en-US/a/report-abuse-in-app).
-  - If there is harassment material on a website, you can file a report with the website's webhosting service and domain registrar. You might be able to find out who they are by performing a [WHOIS lookup](https://lookup.icann.org/) on the website domain.
-  - If you contact law enforcement, tell them you fear becoming a target of swatting (where people prank call the cops on you). Send them an article about swatting in case it's a new idea to them.
+  - If there is harassment material on a website, you can file a report with the website's webhosting service and domain registrar. You might be able to find out who these companies are by performing a [WHOIS lookup](https://lookup.icann.org/) on the website domain.
+  - If you contact law enforcement:
+    - Beware that not all officers are used to dealing with online harassment threats.
+    - If you believe you might become a target of swatting (where people prank call the cops on you), let them know. Send them an article about swatting in case it's a new idea to them.
 
-#### Social media platform tools and features  
+#### Social media platform tools and features
 
 **Facebook** has a few features to control your interactions, but ultimately relies on you setting limits on who can see and comment on your posts and profile:
 
@@ -486,12 +498,14 @@ For more information, see Access Now Digital Security Helpline's [Self-Doxing Gu
 #### Notify other parties
 
 - Tell your close contacts, family and employer about what is going on. Get ahead of the situation by making talking points together so that they know how to respond if internet strangers or the press contacts them. 
-- If the situation escalates, find and notify someone in your community nearby with crisis experience for protection and assistance.
+- If the situation escalates, find and notify someone in your community nearby with crisis experience for protection and support.
 
 ### Be extra kind to yourself
 
 - Don't worry if you're not able to keep up with your regular work day routine.
+- Call in friends to help share a meal, take a break or watch your cats for a few days.
 - Remember to eat and shower regularly.
+- Go for a walk. Do some sort of exercise, no matter how small.
 - If possible, prepare a box of comforts beforehand. Include things that you like to see, touch, taste, and listen to.
 - If the incident is traumatizing, it helps to use a nickname to refer to what's happening or what's happened.
 
@@ -521,38 +535,49 @@ If you're about to become a public figure or are experiencing harassment, consid
 
 You might not need to delete your entire account, but consider deleting (or making private) posts that are old and/or reveal too much about where you live, where you go, and who you're with.
 
-- Facebook:
-  - See what your public profile looks and remove/restrict things as you see fit.
-    - On desktop, go to your profile and click the 👁 button next to the right of the Edit Profile button.
-    - On mobile, go to your proflie, tap the three dots on the right of Add Story and tap View As.
-  - Make it so only friends can see your past posts.
-    - On desktop, go to `Settings → Privacy → Limit Past Posts`.
-    - On mobile, go to `Settings & Privacy → Settings → Privacy Settings → Limit who can see past posts`.
-  - To bulk delete past posts, [see this article in PC Magazine](https://www.pcmag.com/how-to/how-to-quickly-delete-old-facebook-posts).
-- Whatsapp:
-  - Swipe to delete individual conversations.
-  - Delete chat content but keep the chat groups: `Settings → Chats →  Clear All Chats`.
-  - Delete all chats including the chat groups: `Settings → Chats → Delete All Chats`.
-  - Turn off chat backups on WhatsApp (`Settings → Chats → Chat backup`) and delete your previous backups (instructions for [iOS](https://www.wikihow.com/Delete-Backups-on-WhatsApp-on-iPhone-or-iPad), [Android](https://faq.whatsapp.com/en/android/30030306)).
-- Instagram:
-  - Look through your profile and manually delete posts (tap the three dots above upper-right corner of a photo).
-  - If need be, bulk delete using [third-party tools](https://upleap.com/blog/how-to-delete-an-instagram-post/).
-- Twitter:
-  - Use a third-party service to filter for tweets you want to save, and bulk delete the rest. We recommend [Semiphemeral](https://semiphemeral.com) (free + open source, but beta), [TweetDelete](https://tweetdelete.net/) (free + paid 💰 options), or [Twitter Archive Eraser](https://martani.github.io/Twitter-Archive-Eraser/) (free + paid 💰 options).
-  - Alternately, manually locate and delete individual posts using [Twitter's Advanced search](https://twitter.com/search-advanced). 
-- Reddit and other forums:
-  - There's often no easy solution. Sometimes you have to delete your entire account, or in the case of Reddit, you have to [use third-party scripts](https://social.techjunkie.com/how-to-delete-all-reddit-posts/) because deleting your account still leaves your posts up.
-- LinkedIn:
-	- Modify the [visibility settings](https://www.linkedin.com/psettings/data-visibility) of your profile.
+##### Facebook
+
+- See what your public profile looks and remove/restrict things as you see fit.
+  - On desktop, go to your profile and click the 👁 button next to the right of the Edit Profile button.
+  - On mobile, go to your proflie, tap the three dots on the right of Add Story and tap View As.
+- Make it so only friends can see your past posts.
+  - On desktop, go to `Settings → Privacy → Limit Past Posts`.
+  - On mobile, go to `Settings & Privacy → Settings → Privacy Settings → Limit who can see past posts`.
+- To bulk delete past posts, [see this article in PC Magazine](https://www.pcmag.com/how-to/how-to-quickly-delete-old-facebook-posts).
+
+##### Whatsapp
+
+- Swipe to delete individual conversations.
+- Delete chat content but keep the chat groups: `Settings → Chats →  Clear All Chats`.
+- Delete all chats including the chat groups: `Settings → Chats → Delete All Chats`.
+- Turn off chat backups on WhatsApp (`Settings → Chats → Chat backup`) and delete your previous backups (instructions for [iOS](https://www.wikihow.com/Delete-Backups-on-WhatsApp-on-iPhone-or-iPad), [Android](https://faq.whatsapp.com/en/android/30030306)).
+
+##### Instagram
+
+- Look through your profile and manually delete posts (tap the three dots above upper-right corner of a photo).
+- If need be, bulk delete using [third-party tools](https://upleap.com/blog/how-to-delete-an-instagram-post/).
+
+##### Twitter
+
+- Use a third-party service to filter for tweets you want to save, and bulk delete the rest. We recommend [Semiphemeral](https://semiphemeral.com) (free + open source, but beta), [TweetDelete](https://tweetdelete.net/) (free + paid 💰 options), or [Twitter Archive Eraser](https://martani.github.io/Twitter-Archive-Eraser/) (free + paid 💰 options).
+- Alternately, manually locate and delete individual posts using [Twitter's Advanced search](https://twitter.com/search-advanced). 
+
+##### Reddit and other forums
+
+- There's often no easy solution. Sometimes you have to delete your entire account, or in the case of Reddit, you have to [use third-party scripts](https://social.techjunkie.com/how-to-delete-all-reddit-posts/) because deleting your account still leaves your posts up.
+
+##### LinkedIn
+
+- Modify the [visibility settings](https://www.linkedin.com/psettings/data-visibility) of your profile.
 
 #### Delete your social media accounts... temporarily
 
 Many social media companies let you restore your full account after deleting it if you restore after a specific period of time. This can be useful if you want to just hide for a while and wait for an event to pass.
 
-- Facebook has [instructions](https://www.facebook.com/help/224562897555674) for temporarily deactivating your account, or for deleting it (which can be reversed within a 30-day period)
-- Instagram has [instructions](https://help.instagram.com/370452623149242/) for temporarily disabling your account, but deleting it seems to be permanent.
-- Twitter has [instructions](https://help.twitter.com/en/managing-your-account/how-to-deactivate-twitter-account) for deactivating your account, and if you don't restore it (login) after 30 days it is permanently deleted.
-- Snapchat has [instructions](https://support.snapchat.com/en-US/a/delete-my-account1) for deleting your account, and if you don't reactivate it (login) after 30 days it is permanently deleted.
+- **Facebook** has [instructions](https://www.facebook.com/help/224562897555674) for temporarily deactivating your account, or for deleting it (which can be reversed within a 30-day period)
+- **Instagram** has [instructions](https://help.instagram.com/370452623149242/) for temporarily disabling your account, but deleting it seems to be permanent.
+- **Twitter** has [instructions](https://help.twitter.com/en/managing-your-account/how-to-deactivate-twitter-account) for deactivating your account, and if you don't restore it (login) after 30 days it is permanently deleted.
+- **Snapchat** has [instructions](https://support.snapchat.com/en-US/a/delete-my-account1) for deleting your account, and if you don't reactivate it (login) after 30 days it is permanently deleted.
 
 #### Remove your information from other people's accounts or websites
 
@@ -618,7 +643,7 @@ For sites and services that use email as the primary identifier/username, either
 - 🆓 [SimpleLogin](https://simplelogin.io) (based in EU) 
 - 🆓 [AnonAddy](https://anonaddy.com) (based in UK/EU)
 
-To mask what you've bought from your bank, get a virtual credit card from [Privacy](https://privacy.com/) (US-only, feature only available for Pro accounts 💰). 
+To mask what you've bought from your bank, get a virtual credit card from [Privacy](https://privacy.com/) (US-only, feature only available for Pro accounts 💰).
 
 Keep in mind:
 
@@ -635,12 +660,13 @@ Keep in mind:
 ### 🤐 Traveling to a place with weak data protection laws or internet censorship
 
 - Be aware that the phone companies there might share your location data and personal info with others without permission.
-- Setup a VPN beforehand so you can a) access services uninterrupted, and b) to minimize the amount of data collected about you. Avoid VPNs that are free or have opaque ownership. See recommendations from [Wirecutter](https://thewirecutter.com/reviews/best-vpn-service/) and [Freedom of the Press](https://freedom.press/training/choosing-a-vpn/).
+- Setup a VPN beforehand so you can a) access services uninterrupted, and b) to minimize the amount of data collected about you. Avoid VPNs that are free or have opaque ownership. [Wirecutter](https://thewirecutter.com/reviews/best-vpn-service/) and [Freedom of the Press](https://freedom.press/training/choosing-a-vpn/) both recommend 💰 [Mullvad](https://mullvad.net) and 💰 [IVPN](https://www.ivpn.net/).
 - Consider traveling with a burner phone while leaving your laptop at home. This will be especially useful if you need to install new/untested software for work that might violate data privacy policies.
 - Re-evaluate which online services are safe to use:
   - If available, see how often your favorite service hands over its data by looking up their transparency reports:
     - [Google Transparency Report: Request for user information](https://transparencyreport.google.com/user-data/overview)
     - [Facebook Transparency Report: Government Requests for User Data](https://transparency.facebook.com/)
+    - [Twitter Transparency Center: Information Requests](https://transparency.twitter.com/en/reports/information-requests.html)
     - [Apple Transparency Report](https://www.apple.com/legal/transparency/)
   - Look up where the service's headquarters are and think about how that affects its privacy policies.
 
@@ -669,7 +695,7 @@ Alternately, hotlines that don't focus on digital safety may still be able to he
 
 - The Coalition Against Stalkerware links to hotlines and organizations in 13 countries on [their resources page](https://stopstalkerware.org/resources/).
 - The [Cyber Civil Rights Initiative has a crisis helpline](https://www.cybercivilrights.org/contact-us/) for victims of nonconsensual pornography or other forms of online abuse.
-- Freemuse offers [artist assistance](https://freemuse.org/artist-assistance/) to artists at risk of threats, attacks, imprisonments, or exile.
+- Freemuse offers [assistance to artists](https://freemuse.org/artist-assistance/) at risk of threats, attacks, imprisonments, or exile.
 
 If someone else has taken control of your accounts:
 
@@ -692,7 +718,6 @@ This section is a catch-all for difficult or esoteric practices that do not fall
 
 #### File storage & sharing
 
-- Use an end-to-end encrypted cloud storage service (not Dropbox): [Tresorit](https://tresorit.com/), [SpiderOak](https://spideroak.com/).
 - Use encrypted external USB/hard drives from companies like [Apricorn](https://www.apricorn.com/).
 - If you want to send a file anonymously, use a special sharing service like [Tresorit Send](https://send.tresorit.com/) or [OnionShare](https://onionshare.org/).
 - Instead of Google Docs or Microsoft Office, use [CryptPad](https://cryptpad.fr) or [Standard Notes](https://standardnotes.org/) (both are open-source and end-to-end encrypted).
@@ -727,7 +752,6 @@ This section is a catch-all for difficult or esoteric practices that do not fall
 - Sign up to be notified by [Have I Been Pwned](https://haveibeenpwned.com/) when an account tied to your email is compromised.
 - Buy a [YubiKey](https://www.yubico.com/products/) USB key to use for two-factor authentication. If you work in free speech/press/internet, you may qualify for a free [Yubico for Free Speech](https://www.yubico.com/about/about-us/free-speech-program/).
 - Keep less information/data/photos on your devices – you can't lose what you don't have.
-- Don't use smart TVs or smart speakers.
 - Turn suspicious PDFs into safe ones using [Dangerzone](https://dangerzone.rocks/).
 - Access Facebook with more anonymity and/or bypass internet filtering by using [its onion service](https://en.wikipedia.org/wiki/Facebookcorewwwi.onion). 
 - If you (or your organization) is really wedded to Google Suite/Workspace, consider [Google's Advance Protection program](https://www.wired.com/story/google-advanced-protection/).
