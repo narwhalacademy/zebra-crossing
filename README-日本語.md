@@ -1,7 +1,7 @@
 ### 🗣 This guide in other languages
-- [English](https://github.com/narwhalacademy/zebra-crossing/edit/master/README.md)
-- [繁體中文 (Traditional Chinese)](https://github.com/narwhalacademy/zebra-crossing/blob/master/README-%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87.md)
-- [Italiano](README-Italiano.md) (Italian, a work-in-progress)
+- [English](https://github.com/narwhalacademy/zebra-crossing/edit/main/README.md)
+- [繁體中文 (Traditional Chinese)](https://github.com/narwhalacademy/zebra-crossing/blob/main/README-%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87.md)
+- [Italiano](https://github.com/narwhalacademy/zebra-crossing/blob/main/README-Italiano.md) (Italian, a work-in-progress)
 
 ### 🕒 Last updated
 

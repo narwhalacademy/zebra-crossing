@@ -20,9 +20,9 @@
 
 ### 🗣 This guide in other languages
 
-- [繁體中文 (Traditional Chinese)](https://github.com/narwhalacademy/zebra-crossing/blob/master/README-繁體中文.md)
-- [日本語](https://github.com/narwhalacademy/zebra-crossing/blob/master/README-日本語.md) (Japanese, a work-in-progress)
-- [Italiano](https://github.com/narwhalacademy/zebra-crossing/blob/master/README-Italiano.md) (Italian, a work-in-progress)
+- [繁體中文 (Traditional Chinese)](https://github.com/narwhalacademy/zebra-crossing/blob/main/README-繁體中文.md)
+- [日本語](https://github.com/narwhalacademy/zebra-crossing/blob/main/README-日本語.md) (Japanese, a work-in-progress)
+- [Italiano](https://github.com/narwhalacademy/zebra-crossing/blob/main/README-Italiano.md) (Italian, a work-in-progress)
 
 ### ☕️ Support this guide
 
