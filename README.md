@@ -1,24 +1,32 @@
 # 🦓 Zebra Crossing: an easy-to-use digital safety checklist
 
-### 🤔 Who this guide is for
+## 🎯 Start here!
 
-- You use the internet on a day-to-day basis – for work, social media, financial transactions, etc.
-- You want to do more to ensure your digital safety and privacy, but you're not in immediate danger. (If you are, seek out an expert for a one-on-one consult.)
-- You're comfortable with technology. For example, you're comfortable going into the settings section of your computer/smartphone.
+### 🤔 Read this guide if you:
+
+- Use the internet daily—for work, social media, financial transactions, and anything else.
+- Want to secure your digital safety and privacy proactively but aren’t in immediate danger. (If you are, reach out to an expert for a one-on-one consultation.)
+- Feel comfortable with technology. For example, you’re confident going into your computer’s or smartphone’s settings section.
 
 ### 🗺 Where this guide is from
 
-- This advice here draws from our experiences living and working in the US, Canada and Hong Kong. Much of what we write applies in other places, but if you see any gaps in our coverage, [please let us know](mailto:contact@narwhalacademy.org).
+The advice here draws from our experiences living and working in the United States, Canada, and Hong Kong.
+
+Much of what we write applies in other places, but [please let us know](mailto:contact@narwhalacademy.org) if you see any gaps in our coverage.
 
 ### 🌱 How to use this guide
 
-- Recommendations have been sorted in ascending levels of difficulty. Start from level one and work your way up!
-- *Everyone should follow the recommendations in levels one and two.* They will protect you from the most widely-used (yet simple) attacks. Going through them shouldn't take more than 1-2 hours.
-- Level three is a bit more involved in terms of time and money and may not be 100% necessary. But if you're worried at all and can afford to, we recommend going through that list too. Depending on the amount of digital housekeeping you have to do, it may take anywhere from an hour to an afternoon.
-- The scenarios listed after are for higher-stakes situations — scan them to see if any of them apply to you. (Because the stakes are higher, they assume that you've done everything in levels 1-3.)
-- This guide is a living document – please feel free to submit a pull request or fork your own version of this guide [on GitHub](https://github.com/narwhalacademy/zebra-crossing).
+- **Recommendations are sorted by increasing levels of difficulty.**
+Start from Level 1 and work your way up!
+- **At a minimum, we recommend following Level 1 and Level 2.**
+They will protect you from the most widely-used (yet simple) attacks. Going through them won’t take more than 1–2 hours.
+- **Level 3 is a bit more involved and requires dedicated time and money.**
+It may not be 100% necessary, but if you’re worried at all and can afford to, we recommend going through that list, too. Depending on the amount of digital housekeeping you have to do, it may take anywhere from 1–4 hours.
+- **The scenarios shared after Level 3 are for higher-stakes situations.**
+Scan them to see if any of them apply to you. (Because the stakes are higher, they assume you’ve done everything in Levels 1–3.)
+- This guide is a living document—please feel free to submit a pull request or fork your version of this guide [on GitHub](https://github.com/narwhalacademy/zebra-crossing).
 
-### 🗣 This guide in other languages
+### 🗣 Read this guide in other languages
 
 - [繁體中文 (Traditional Chinese)](https://github.com/narwhalacademy/zebra-crossing/blob/master/README-繁體中文.md)
 - [日本語](https://github.com/narwhalacademy/zebra-crossing/blob/master/README-日本語.md) (Japanese, a work-in-progress)
@@ -30,7 +38,7 @@
 
 ### 🕒 Last updated
 
-- 4 October 2021
+- 4 December 2021
 
 ---
 
