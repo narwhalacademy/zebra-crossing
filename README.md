@@ -34,27 +34,40 @@
 
 ---
 
-## 🧐 Theory & science
+## 🧐 Definitions, Background, and Theory
 
 ### 🎯 Threat modeling
 
-- What kind of danger are you in? E.g. credit card hack, corporate espionage, online harassment/doxxing.
-- What kind of assets are you protecting? E.g. confidential documents, private photos.
-- We're all in a little bit of danger (otherwise we wouldn't bother putting a password on our computer or phone) but it's important to think about what's at stake before dismissing concerns or becoming paranoid.
+**Threat modeling** is a process that allows us to identify potential threats to safeguard against them.
+
+When putting together your threat model, ask yourself the following questions:
+
+- **“What kind of danger am I in?”** E.g., credit card hack, corporate espionage, online harassment/doxxing.
+- **“What kind of assets am I protecting?”** E.g., confidential documents, private photos.
+
+We’re all in a little bit of danger—otherwise, we wouldn’t bother putting a password on our computer or phone.
+
+Still, it’s necessary to think about what’s at stake before dismissing concerns or becoming paranoid.
 
 ### 🔗 Weakest link
 
-- Remember the weakest link is all that matters! E.g. if password recovery is linked to email, then hackers only need to get access to your email.
+Remember, the **weakest link** is all that matters! For example, if an account’s password recovery links to your email, hackers only need to access your email to get to your account.
 
 ### 🔡 Encryption levels
 
-1. No encryption: Any third party who intercepts the data can read it as-is.
-2. Regular encryption: Data is encrypted so that third parties cannot read them. But the platform (e.g. Google or Facebook) still has access, and may hand the data over if they are required to do so by the courts.
-3. End-to-end encryption: the data can only be read by the original sender and receiver. This means not even the platform has access. So if the courts call, the service provider can't hand over the messages because they don't have them either.
+**Encryption** is the process of converting information to prevent unauthorized access. You’ll want to be aware of three types of **encryption levels:**
+
+1. **No encryption:** Any third-party who intercepts the data can read it as-is.
+2. **Regular encryption:** Data is encrypted so that third parties cannot read them. But the platform (Google or Facebook, for example) still has access and may hand the data over if required by the courts or government agencies.
+3. **End-to-end encryption:** Only the original sender and receiver can read the data. This means not even the platform has access. So if courts or other government agencies call, the service provider can’t hand over the messages because they don’t have them either.
 
 ### 🧩 Metadata
 
-- Data about your data – e.g. what number you called, and for how long (but not the contents of the call). With enough metadata, hackers can piece together a pretty good picture of who you are, who you know and where you're going. Note that legal protections around metadata are generally weaker as well.
+**Metadata** is data about your data. For example, the metadata for a phone call might be the number you called and for how long (but not the call’s contents).
+
+With enough metadata, hackers can piece together a relatively reliable picture of who you are, who you know, and where you’re going.
+
+It's worth noting that legal protections around metadata tend to be weak.
 
 ---
 
