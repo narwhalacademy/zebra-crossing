@@ -79,96 +79,102 @@ It's worth noting that legal protections around metadata tend to be weak.
 
 ---
 
-## 💦 Level 1 recommendations
+## 💦 Level 1 Recommendations
 
 ### ✅ Things to do now
 
 #### Strengthen passwords
 
-- Any password less than 10 characters is bad, but it's also okay-to-string-together-non-sequitur-words.
-- Double check the security questions for your key online services (email, bank, Facebook, etc.) and make sure that they're not easy to answer by friends or by anyone looking you up on Google.
-- Start using a different password for every service, because password leaks happen fairly often. To make this easy, use a password manager ([Wirecutter](https://www.nytimes.com/wirecutter/reviews/best-password-managers/) recommends 💰 [1Password](https://1password.com/) or [BitWarden](https://bitwarden.com/).) to store/autofill/generate them. For now, make sure you use a unique password for essential services (email, social media, banking, cloud storage).
+- Create passwords with more than 10 characters. It’s okay to string together non-related words (for example, `plant-truck-nose-frame-lace`—but don’t use this one since it’s public! 😅)
+- Double-check the security questions for your most critical online services (email, banking, social, etc.) and make sure that they’re not easy to answer by friends or anyone looking you up on Google or other search engines.
+- Use a different password for every service because password leaks often happen. To make this easy, use a password manager ([Wirecutter](https://www.nytimes.com/wirecutter/reviews/best-password-managers/) recommends 💰 [1Password](https://1password.com/) or [BitWarden](https://bitwarden.com/).) to generate, autofill, and store them. For now, make sure to use a unique password for your critical online services (email, banking, social, cloud storage, etc.).
 - Use a non-common/obvious unlock code for your phone with at least 9 digits.
 
-#### Double lock important accounts
+#### Double-lock important accounts
 
-Use two-factor authentication (also known as 2FA and two-step verification) to add an extra lock on top of a typed password. Usually this takes the form of a short code that's sent to your phone via a specialized app or SMS.
+Use two-factor authentication (also known as 2FA and two-step verification) to add a second layer of protection on top of a typed password.
 
-- Download an authenticator app ([Wirecutter](https://www.nytimes.com/wirecutter/reviews/best-two-factor-authentication-app/) recommends [Authy](https://authy.com/)). Apps are far more secure than SMS so use one if it's available.
-- Turn on 2FA on your:
-  - Email service. See instructions for [Gmail](https://support.google.com/accounts/answer/185839?hl=en), [Protonmail](https://protonmail.com/support/knowledge-base/two-factor-authentication/), or find instructions for your email provider [here](https://twofactorauth.org/#email).
-  - Frequently used social media accounts. See instructions for [Twitter](https://help.twitter.com/en/managing-your-account/two-factor-authentication), [Facebook](https://www.facebook.com/help/148233965247823/), [Instagram](https://help.instagram.com/566810106808145), and [other services](https://2fa.directory/#social).
-  - Consider turning on 2FA on any other online accounts where losing access would be catastrophic. Look up instructions on [Two Factor Auth](https://2fa.directory/).
-- Turn on cloud backup for your authenticator app in case you ever lose your phone. See instructions for [Authy](https://authy.com/features/backup/).
+Usually, this takes the form of a short code sent to your phone via a specialized authenticator app or text message (SMS).
+
+Authenticator apps are far more secure than SMS, so use one if available. ([Wirecutter](https://www.nytimes.com/wirecutter/reviews/best-two-factor-authentication-app/) recommends [Authy](https://authy.com/)).
+
+Now that you know what 2FA is, where should you use it? Turn on 2FA for your:
+
+- **Email service.** See instructions for [Gmail](https://support.google.com/accounts/answer/185839?hl=en), [Protonmail](https://protonmail.com/support/knowledge-base/two-factor-authentication/), or find instructions for your email provider [here](https://twofactorauth.org/#email).
+- **Frequently used social media accounts.** See instructions for [Twitter](https://help.twitter.com/en/managing-your-account/two-factor-authentication), [Facebook](https://www.facebook.com/help/148233965247823/), [Instagram](https://help.instagram.com/566810106808145), and [other services](https://2fa.directory/#social).
+- **Any other online accounts where losing access would be catastrophic.** Look up instructions on [Two Factor Auth](https://2fa.directory/).
+
+Finally, turn on cloud-backup for your authenticator app in case you ever lose your phone. See instructions for [Authy](https://authy.com/features/backup/).
 
 #### Email
 
-- If you're on a webmail service, check that you're logging into it using an `https://` URL. And if there isn't one, find a new email provider.
-- After turning on two-factor authentication, see if your email service supports backup codes (a single-use code in case you lose your phone). [See Gmail instructions](https://support.google.com/accounts/answer/1187538?hl=en).
+- If using a webmail service, check that you're logging into it using an `https://` URL. If there isn't one available, find a new email provider.
+- After turning on 2FA, find out if your email service supports **backup codes.** Backup codes are single-use codes in case you lose your phone). [See Gmail instructions](https://support.google.com/accounts/answer/1187538?hl=en).
 
 #### Encrypt your devices
 
-- Encrypt your computer hard drive:
-  - Mac: [See Apple's instructions](https://support.apple.com/en-us/HT204837).
-  - Windows: [See Microsoft's instructions](https://support.microsoft.com/en-us/windows/device-encryption-in-windows-10-ad5dcf4b-dbe0-2331-228f-7925c2a3012d) (use BitLocker if it's available).
-- Encrypt your phone storage:
+- **Encrypt your computer hard drive:**
+  - Mac: [See Apple’s instructions](https://support.apple.com/en-us/HT204837).
+  - Windows: [See Microsoft’s instructions](https://support.microsoft.com/en-us/windows/device-encryption-in-windows-10-ad5dcf4b-dbe0-2331-228f-7925c2a3012d) (use BitLocker if it’s available).
+- **Encrypt your phone storage:**
   - iOS: Automatically encrypts.
-  - Android: Recent versions automatically encrypt. Double check by going to `Settings → Security → Encryption`.
-- Secure your backups too!
+  - Android: Recent versions automatically encrypt. Double-check by going to `Settings → Security → Encryption`.
+- **Secure your backups too!**
   - Encrypt your backup hard drives:
-    - Mac: If you use Time Machine, [see Apple's instructions here](https://support.apple.com/en-ca/guide/mac-help/mh21241/mac).
+    - Mac: If you use Time Machine, [see Apple‘s instructions here](https://support.apple.com/en-ca/guide/mac-help/mh21241/mac).
     - Windows: [See instructions here](https://techjury.net/blog/how-to-encrypt-your-hard-drive/).
-- N.B. Remember encryption is only fully effective when the device is off!
+
+**💡 Remember:** encryption is only fully effective when the device is off!
 
 #### Other
 
-- Setup up a pin code for your mobile phone SIM card:
+- **Setup up a pin code for your mobile phone SIM card:**
   - [See iPhone instructions](https://support.apple.com/en-hk/HT201529).
   - [See Android instructions](https://www.maketecheasier.com/change-sim-pin-android/).
-  - If necessary, search your phone provider's website to find out what their default password is (it varies from carrier to carrier).
-- Turn on the firewall on your computer:
-  - Mac: `System Preferences → Security & Privacy → Firewall`.
-  - Windows: `Control Panel → System and Security → Windows Firewall`.
-- Turn off remote access on your computer:
-  - Mac: `System Preferences → Sharing → Remote Login, Remote Management`.
-  - Windows: `Control Panel → System and Security → System: Allow remote access → Don't Allow Remote connections to this computer`.
-- Set up basic anti-virus software on your computer:
-  - Mac: None required. ([Read Wirecutter's explanation](https://www.nytimes.com/wirecutter/blog/best-antivirus/.))
-  - Windows: Make sure Microsoft Defender Antivirus is on [see Microsoft's instructions here](https://support.microsoft.com/en-us/windows/stay-protected-with-windows-security-2ae0363d-0ada-c064-8b56-6a39afb6a963)) and [turn on the extra `ransomware protection` feature](https://lifehacker.com/why-you-should-use-windows-defenders-ransomware-prevent-1837311176).
-- Turn off app-specific passwords that bypass two-factor authentication (e.g. [instructions for Gmail](https://www.lifewire.com/revoke-an-application-password-for-gmail-1171889)).
-- Turn off automatically add(ed) invitations on [Google Calendar settings](https://calendar.google.com/calendar/r/settings) ([here's why](https://www.forbes.com/sites/daveywinder/2019/06/11/new-security-warning-issued-for-googles-1-5-billion-gmail-and-calendar-users/#3605ff0565e5)).
-- [Turn on Login Alerts on Facebook](https://www.facebook.com/settings?tab=security).
-- [Disable macros within Microsoft Office](https://support.office.com/en-us/article/enable-or-disable-macros-in-office-files-12b036fd-d140-4e74-b45e-16fed1a7e5c6).
-- Don't allow USB accessories to control a locked device:
-  - iOS: Turn off `Settings → Face ID & Passcode → Allow Access When Locked: USB Accessories`.
-  - Android: Off by default, only available if `Developer Options` settings are turned on.
+  - If necessary, search your phone provider’s website to find out what their default password is (it varies from carrier to carrier).
+- **Turn on the firewall on your computer:**
+  - *Mac:* `System Preferences → Security & Privacy → Firewall`.
+  - *Windows:* `Control Panel → System and Security → Windows Firewall`.
+- **Turn off remote access on your computer:**
+  - *Mac:* `System Preferences → Sharing → Remote Login, Remote Management`.
+  - *Windows:* `Control Panel → System and Security → System: Allow remote access → Don’t Allow Remote connections to this computer`.
+- **Set up basic anti-virus software on your computer:**
+  - *Mac:* None required. ([Read Wirecutter’s explanation](https://www.nytimes.com/wirecutter/blog/best-antivirus/.))
+  - *Windows:* Make sure Microsoft Defender Antivirus is on ([see Microsoft’s instructions here](https://support.microsoft.com/en-us/windows/stay-protected-with-windows-security-2ae0363d-0ada-c064-8b56-6a39afb6a963)) and [turn on the extra `ransomware protection` feature](https://lifehacker.com/why-you-should-use-windows-defenders-ransomware-prevent-1837311176).
+- **Turn off app-specific passwords that bypass two-factor authentication** (e.g. [instructions for Gmail](https://www.lifewire.com/revoke-an-application-password-for-gmail-1171889)).
+- **Turn off automatically add(ed) invitations on [Google Calendar settings](https://calendar.google.com/calendar/r/settings)** ([here's why](https://www.forbes.com/sites/daveywinder/2019/06/11/new-security-warning-issued-for-googles-1-5-billion-gmail-and-calendar-users/#3605ff0565e5)).
+- **Turn on Login Alerts on Facebook** ([instructions here](https://www.facebook.com/settings?tab=security)).
+- **Disable macros within Microsoft Office** ([instructions here](https://support.office.com/en-us/article/enable-or-disable-macros-in-office-files-12b036fd-d140-4e74-b45e-16fed1a7e5c6)).
+- **Don’t allow USB accessories to control a locked device:**
+  - *iOS:* Turn off `Settings → Face ID & Passcode → Allow Access When Locked: USB Accessories`.
+  - *Android:* Off by default, only available if `Developer Options` settings are turned on.
 
 ### 💪🏽 Habits to cultivate
 
 #### Email
 
-- Be on the lookout for phishing scams. Always double check:
+- **Be on the lookout for phishing scams.** Always double-check:
   - The `From` email address.
   - The domain that outbound links go to.
-- Don't open unnecessary email attachments. Where possible, open or preview them first in an online document reader. Ask colleagues to use a filesharing service (Dropbox, Google Drive, Tresorit, SpiderOak), which tend to be a little harder to hack into.
-- You can upload a suspicious attachment to [VirusTotal](http://www.virustotal.com) for a check-up. (Keep in mind files submitted to VirusTotal are available to security researchers so don’t submit sensitive information).
+- **Don’t open unnecessary email attachments.** Where possible, open or preview them first in an online document reader. Ask colleagues to use a filesharing service (Dropbox, Google Drive, Tresorit, SpiderOak), which tends to be harder to hack.
+- **Upload suspicious attachments to [VirusTotal](http://www.virustotal.com) for a check-up.** (Keep in mind files submitted to VirusTotal are available to security researchers, so don’t submit sensitive information).
 
 #### Update all the things
 
 - When you get a notification on your devices to update the operating system, do it as soon as you can.
-- Turn on auto update for your apps if the feature is available. If there's an update prompt when you open them, do so.
+- Turn on auto-update for your apps if the feature is available. If asked to update your app, do so as soon as possible.
 - Check occasionally for firmware updates for your router and other internet-connected devices.
 
 #### Other
 
-- Wipe your devices properly before donating/giving away. If you've encrypted all of your phones and computers (as suggested above), a normal factory reset will do the job for almost all use cases. If you want an extra layer of security for your computer hard drives, see [Wired's guide on this topic](https://www.wired.co.uk/article/securely-wipe-android-iphone-hard-disk).
-- Don't charge your phone at public charging stations/ports – they may steal your data. Consider charging your portable battery instead.
+- Wipe your devices properly before donating or giving them away. If you’ve encrypted your phones and computers (as suggested earlier), a standard factory reset will do the job for almost all use cases. If you want an extra layer of security for your computer hard drives, see [Wired’s guide on this topic](https://www.wired.co.uk/article/securely-wipe-android-iphone-hard-disk).
+- Don’t charge your phone at public charging stations/ports, as they may steal your data. Consider charging your portable battery instead.
 
 ---
 
-**👍 Great job! You've covered the basics.  
-👍 Treat yourself to a cup of tea and a stretch.  
-👍 Now, ready for the next level?**
+**👍 Great job! You’ve covered the basics.**
+**👍 Treat yourself to a cup of tea and a stretch.**
+**👍 Ready for Level 2?**
 
 ---
 
