@@ -183,80 +183,101 @@ Finally, turn on cloud-backup for your authenticator app in case you ever lose y
 ### ✅ Things to do now
 
 #### Enhance your privacy
+##### On social media
 
 - Review the privacy settings on social networks you frequent: who can see your content, who can comment on it, and who can see your location.
-  - Limit Facebook tracking by turning off Off-Facebook Activity (follow [these EFF's instructions](https://www.eff.org/deeplinks/2020/01/how-change-your-facebook-activity-settings)).
+  - Limit Facebook tracking by turning off “Off-Facebook Activity” (follow [these Electronic Frontier Foundation instructions](https://www.eff.org/deeplinks/2020/01/how-change-your-facebook-activity-settings)).
+
+##### On messaging apps
+
+- Review the privacy settings on messaging apps you usually use: read receipts, time stamps for “last seen,” and whether your phone number and profile picture are public.
+- Review what data these big tech companies have on you and clear out anything you don’t need: [Google - My Activity](https://myactivity.google.com), [Alexa Privacy Settings](https://www.amazon.com/b/?node=19149164011), [Microsoft account: Privacy](https://account.microsoft.com/privacy).
 - Review the privacy settings on messaging apps you normally use: read receipts, time stamps for "last seen," and whether your phone number/profile picture are public.
-- Review what data these big tech companies have on you and clear out anything you don't need: [Google - My Activity](https://myactivity.google.com), [Alexa Privacy Settings](https://www.amazon.com/b/?node=19149164011), [Microsoft account: Privacy](https://account.microsoft.com/privacy ).
+- Review what data these big tech companies have on you and clear out anything you don’t need:
+  - [Google - My Activity](https://myactivity.google.com)
+  - [Alexa Privacy Settings](https://www.amazon.com/b/?node=19149164011)
+  - [Microsoft account: Privacy](https://account.microsoft.com/privacy).
+
+##### On browsers
+
 - Install [Firefox](https://www.mozilla.org/en-US/firefox/) and set it as the default web browser on your computer.
 - Install these protective web browsers add-ons on your computer (and make sure they're on even during private/incognito mode):
   - An ad blocker (e.g. [uBlock Origin](https://ublockorigin.com/)).
   - A tracker blocker ([Privacy Badger](https://www.eff.org/privacybadger)).
   - [HTTPS Everywhere](https://www.eff.org/https-everywhere).
-- Review which apps on your smartphone have access to your location data. Turn off access if the app doesn't need it, and minimize the number of apps that track your location all the time.
-  - iOS: `Settings → Privacy → Location Services`.
-  - Android: `Settings → Location → App access to location`.
-- On Anrdoid, turn off passive Wifi and Bluetooth scanning:
-	- Settings → Location → Wi-Fi and Bluetooh scanning
-- On your smartphone, delete any third-party keyboards you might have installed (they often share what you type with the software maker). On both iOS and Android, they are installed as apps so take time to find and delete them. If you really need to use a third-party keyboard, make sure that it is an open source project where others have verified that it does not share your data with third parties.
+
+##### On your phone
+
+- Review which apps on your smartphone have access to your location data. Turn off access if the app doesn’t need it, and minimize the number of apps that track your location all the time.
+  - **iOS:** `Settings → Privacy → Location Services`.
+  - **Android:** `Settings → Location → App access to location`.
+- On Android, turn off passive Wi-Fi and Bluetooth scanning:
+  - `Settings → Location → Wi-Fi and Bluetooth scanning`
+- On your smartphone, delete any third-party keyboards you might have installed as they often share what you type with the software maker.
+  - On iOS and Android, these are installed apps, so it may take some time to find and delete them. If you need to use a third-party keyboard, make sure that it is an open-source project where others have verified that it does not share your data with third parties.
+
+##### On your internet-connected physical devices
+
 - If you use smart speakers, turn off its recording function:
   - Google Home: go to [Activity Controls](https://myaccount.google.com/activitycontrols/audio) and uncheck `Include audio recordings`.
   - Amazon Alexa: [Follow these instructions](https://www.digitaltrends.com/home/how-to-stop-amazon-from-listening-to-your-alexa-recordings/).
 - If you own an Amazon Ring or Echo, turn off its feature that shares your internet with strangers:
-	- In the Alexa app: Settings → Account Settings → Amazon Sidewalk
+  - In the Alexa app: `Settings → Account Settings → Amazon Sidewalk`
 
 #### Set up your home wifi router
 
 - Login to the administration and settings dashboard (check your router's instructions, though it's usually accessible by going to `http://192.168.0.1` on your web browser).
-- If the password to login to this dashboard is really simple, then update it.
+- If the password to log into this dashboard is simple (for example, `123456789`), then update it.
 - Look through what devices are connected to the network right now (click around until you find the `access control`) and make sure you know what every device on the list is.
-- If you see these options, turn them off. Look for them under `advanced settings` or `gateway functions`:
+- Make sure the following options are turned off (look for them under `advanced settings` or `gateway functions`):
   - UPnP (universal plug and play)
   - WPS (wi-fi protected setup)
-  - Remote management 
+  - Remote management
 
 #### Other
 
 - Set up tracking apps for your devices so you can remotely find and wipe your devices by logging into a website if you ever lose them:
-  - iOS & Mac: [Instructions for setting up Find My](https://support.apple.com/en-us/HT210400).
-  - Android: [Instructions for setting up Find My Device](https://support.google.com/android/answer/6160491?hl=en).
-  - Windows: [Instructions for setting up Find My Device](https://support.microsoft.com/en-us/account-billing/find-and-lock-a-lost-windows-device-890bf25e-b8ba-d3fe-8253-e98a12f26316).
-- Review the `Third-Party Apps` or `Connected Apps` on your main email/social media accounts. These are services that might have access to, say, your Facebook data and even permission to make posts automatically there. ([Here are the instructions for checking for them on Facebook and Gmail](https://www.online-tech-tips.com/computer-tips/check-google-facebook-connected-apps/).)
-- Review the extensions/add-ons/plug-ins that have been installed within your computer web browser – delete any that you haven't used in a while or don't remember installing.
+  - **iOS & Mac:** [Instructions for setting up Find My](https://support.apple.com/en-us/HT210400).
+  - **Android:** [Instructions for setting up Find My Device](https://support.google.com/android/answer/6160491?hl=en).
+  - **Windows:** [Instructions for setting up Find My Device](https://support.microsoft.com/en-us/account-billing/find-and-lock-a-lost-windows-device-890bf25e-b8ba-d3fe-8253-e98a12f26316).
+- Review the `Third-Party Apps` or `Connected Apps` on your primary email/social media accounts. These are services that might have access to your Facebook data and even permission to make posts automatically there. ([Here are the instructions for checking for them on Facebook and Gmail](https://www.online-tech-tips.com/computer-tips/check-google-facebook-connected-apps/).)
+- Review the extensions/add-ons/plug-ins installed on your computer web browser—delete any that you haven’t used in a while or don’t remember installing.
+
 
 ### 💪🏾 Habits to cultivate
 
 #### Enhance your privacy
 
-- Post less personal information online – especially information that can be used to identify/track/scam you (addresses, phone numbers, birthday, etc.). Remember almost everything you say online is logged somewhere and that even if your setup is secure, your recipient's setup may not be.
-- If you enjoy leaving local business reviews on Google Maps, Yelp, etc., set up a new account under a pen name. This is especially important for Google Maps, where they show the profile picture and full name you use on Gmail.
-- If you own domains, use WHOIS privacy services and stick with it (they're worth the money). But note that with WHOIS lookup/history tools, if you've ever put in your real address, it's very difficult to remove from the logs.
+- Post very little, if any, personal information online—mainly information that others can use to identify/track/scam you (addresses, phone numbers, birthday, etc.).
+- Remember almost everything you say online is logged somewhere and that even if your setup is secure, your recipient’s setup may not be.
+  - If you enjoy leaving local business reviews on Google Maps, Yelp, etc., set up a new account under a pen name. This is especially important for Google Maps, where they show the profile picture and full name you use on Gmail.
+- If you own domains, use WHOIS privacy services and stick with them (they’re worth the money, and some providers will add WHOIS service for free). But note that with WHOIS lookup/history tools, if you’ve ever put in your actual address, it’s challenging to remove from the logs.
 
 #### Watch what you say in online groups
 
-Don't say anything you'd regret on in a "private" Slack group, Facebook page, WhatsApp group chat or Telegram channel because:
+Don’t say anything you’d regret on in a “private” Slack group, Facebook page, WhatsApp group chat, or Telegram channel because:
 
-- Any one member can leak all of the data.
-- Administrators usually have access to everything within the group, including that private direct message between two people, and sometimes even deleted messages.
-- Even if you're not using your real name or photo, what you say can often be traced back to your phone number or email (that is linked to the account).
+- Any member can leak everyone’s data.
+- Administrators usually have access to everything within the group, including private, direct messages between two people, and sometimes even deleted messages.
+- Even if you’re not using your real name or photo, what you say can often be traced back to your phone number or email linked to your account.
   - To prevent this in Telegram, go into `Settings → Privacy and Security → Phone Number`, and then set:
     - `Who can see my phone number` to `Nobody`.
-    - `Who can find me by my number` to `My Contacts`. 
+    - `Who can find me by my number` to `My Contacts`.
 
 #### Other
 
-- When you download new mobile apps, double check to make sure it's the right one — there are a lot of fake apps that try to trick people by using a slightly modified name or icon of an existing, popular app.
-- Check what apps you have installed on your phone once in a while, and delete the ones you're not using anymore.
-- If you ever need to send someone a password, split it in half and send via two different channels (e.g. email + voice call).
-- Put a sticker (or webcam cover) over your laptop's front-facing camera.
-- Don't use Google/Twitter/Facebook to sign up/login to other services – each service should have its own account.
+- When you download new mobile apps, double-check to make sure it’s the right one — there are a lot of fake apps that try to trick people by using a slightly modified name or icon of an existing, popular app.
+- Regularly check the apps installed on your phone and delete the ones you’re not using anymore.
+- If you ever need to send someone a password, split it in half and send each half using two different channels (e.g., email + voice call).
+- Put a sticker (or webcam cover) over your laptop’s front-facing camera.
+- Don’t use Google/Twitter/Facebook to sign up/login to other services—each service should have its own account.
 
 ---
 
-**🎉 Congratulations! You're now reasonably  
-🎉 secure, which is more than most :)  
-🎉 Take the rest of the day off, and  
-🎉 come back tomorrow for Level 3.**
+**🎉 Congratulations! You're now reasonably secure!**  
+**🎉 (Which is more than most) :)**  
+**🎉 Take the rest of the day off, and...**  
+**🎉 Come back tomorrow (or another day) for Level 3!**
 
 ---
 
