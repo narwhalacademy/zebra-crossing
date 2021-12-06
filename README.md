@@ -172,8 +172,8 @@ Finally, turn on cloud-backup for your authenticator app in case you ever lose y
 
 ---
 
-**👍 Great job! You’ve covered the basics.**
-**👍 Treat yourself to a cup of tea and a stretch.**
+**👍 Great job! You’ve covered the basics.**  
+**👍 Treat yourself to a cup of tea and a stretch.**  
 **👍 Ready for Level 2?**
 
 ---
