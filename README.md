@@ -266,37 +266,53 @@ Don't say anything you'd regret on in a "private" Slack group, Facebook page, Wh
 
 #### Lock up sensitive files
 
-- Identify files that you don't want others to access (e.g. private photos, passport documents).
+- Identify files you don't want others to access (e.g., private photos, passport documents).
 - Use [Cryptomator](https://cryptomator.org/) or [Veracrypt](https://www.veracrypt.fr/en/Home.html) to create an encrypted, password-protected vault for them.
 - Set them up on both your computer and your phone.
-- Move your files into these secure vaults. Make sure they're not still hanging around on an old folder or on your phone.
+- Move your files into these secure vaults. Make sure they're not still hanging around on an old folder or your phone.
 
 #### Upgrade your gear 💰
 
-- Use a paid VPN service when on public networks (e.g. cafe wifi) and even at home if you don't want your service provider to know where you're going. Free VPN services are bad because operators don't have enough incentive to protect you/your data. [Wirecutter](https://thewirecutter.com/reviews/best-vpn-service/) and [Freedom of the Press](https://freedom.press/training/choosing-a-vpn/) both recommend [Mullvad](https://mullvad.net) and [IVPN](https://www.ivpn.net/).
-- Buy a privacy screen (prevents onlookers from seeing your screen, see [this 3M example](https://www.3m.com/3M/en_US/company-us/all-3m-products/~/All-3M-Products/Privacy-Screen-Protectors/Privacy-Products/Black-Privacy/)) for your laptop and phone.
-- Buy a harder-to-hack mobile phone — an iPhone or Android phone that implements a "pure" Google version of Android.
+
+- Use a paid VPN service when on public networks (e.g., cafe wifi) and even at home if you don't want your service provider to know where you're going.
+  - Free VPN services are inadequate because operators don't have enough incentive to protect you/your data.
+  - [Wirecutter](https://thewirecutter.com/reviews/best-vpn-service/) and [Freedom of the Press](https://freedom.press/training/choosing-a-vpn/) both recommend [Mullvad](https://mullvad.net) and [IVPN](https://www.ivpn.net/)
+- Buy a privacy screen for your laptop and phone. It prevents onlookers from seeing your screen—see [this 3M example](https://www.3m.com/3M/en_US/company-us/all-3m-products/~/All-3M-Products/Privacy-Screen-Protectors/Privacy-Products/Black-Privacy/).
+- Buy a harder-to-hack mobile phone — an iPhone or an Android phone that implements a "pure" Google version of Android.
 
 #### Revisit old passwords
 
 - Store all of your online service passwords in a password manager. (If you have the right browser add-on/plugin installed, it will capture all the relevant details during a login process.)
-- Using your password manager's analysis feature, see which accounts/services have weak passwords and update the ones that might have any personal information about you or that you would really hate to lose.
+- Using your password manager's analysis feature, see which accounts/services have weak passwords and update the ones that might have any personal information about you or that you would hate to lose.
 
 #### Use end-to-end encrypted apps
 
-- Mobile messaging app: [Signal](https://signal.org/) (sign up with phone number), [Wire (Personal)](https://wire.com/en/products/personal-secure-messenger/) (sign up with email).
-  - Consider letting messages expire after 1 week.
-    - Signal: Go to `Settings → Privacy →  Disappearing Messages → Default Timer for New Chats`.
-    - Wire: No app-wide setting exists. You have to set it up for each conversation by tapping/clicking the timer icon ⏱.
-- One-on-one or small group voice/video calls: Continue using [Signal](https://signal.org/), [Wire](https://wire.com/en/products/personal-secure-messenger/)
-- Large group video calls: Privacy is hard to maintain with lots of people, particularly as large group calls often become quasi-public events. If you have a particular need for privacy, see Freedom of the Press' chart: [Which video conferencing tool is right for the job?](https://freedom.press/training/blog/videoconferencing-tools/)
-- Online file sharing/backup: [Tresorit](https://tresorit.com/), [Spideroak One](https://spideroak.com/one/). (Remember, files on Google Drive and iCloud are not end-to-end encrypted).
+##### Mobile messaging apps
+
+- [Signal](https://signal.org/) (sign up with phone number)
+- [Wire (Personal)](https://wire.com/en/products/personal-secure-messenger/) (sign up with email)
+- Consider letting messages expire after 1 week.
+  - Signal: `Go to Settings → Privacy → Disappearing Messages → Default Timer for New Chats`.
+  - Wire: No app-wide setting exists. You have to set it up for each conversation by tapping/clicking the timer icon ⏱.
+
+##### One-on-one or small group voice/video calls
+
+- Continue using [Signal](https://signal.org/), [Wire](https://wire.com/en/products/personal-secure-messenger/)
+
+
+##### Large group video calls
+
+- Privacy is hard to maintain with many people, particularly as large group calls often become quasi-public events.
+- If you have a particular need for privacy, see Freedom of the Press' chart: [Which video conferencing tool is right for the job?](https://freedom.press/training/blog/videoconferencing-tools/)
+##### Online file sharing/backup
+- [Tresorit](https://tresorit.com/), [Spideroak One](https://spideroak.com/one/).
+- Remember, files on Google Drive and iCloud are not end-to-end encrypted.
 
 ---
 
-**😲 Wow, you completed all three levels!  
-😲 Well done! Now quickly look below  
-😲 to see if any apply to you.**
+**😲 Wow, you completed all three levels!**  
+**😲 Well done! Now quickly look below**  
+**😲 to see if any apply to you.**  
 
 ---
 
