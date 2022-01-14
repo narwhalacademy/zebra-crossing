@@ -1,6 +1,6 @@
 # 🦓 Zebra Crossing: an easy-to-use digital safety checklist
 
-## 🎯 Start here!
+## 👋🏽 Start here!
 
 ### 🤔 Read this guide if you:
 
@@ -29,6 +29,7 @@ Scan them to see if any of them apply to you. (Because the stakes are higher, th
 ### 🗣 Read this guide in other languages
 
 - [繁體中文 (Traditional Chinese)](https://github.com/narwhalacademy/zebra-crossing/blob/main/README-繁體中文.md)
+- [Deutsch (German)](https://github.com/narwhalacademy/zebra-crossing/blob/main/README-Deutsch.md)
 - [日本語](https://github.com/narwhalacademy/zebra-crossing/blob/main/README-日本語.md) (Japanese, a work-in-progress)
 - [Italiano](https://github.com/narwhalacademy/zebra-crossing/blob/main/README-Italiano.md) (Italian, a work-in-progress)
 
@@ -390,7 +391,7 @@ Don’t say anything you’d regret on in a “private” Slack group, Facebook 
 
 ---
 
-### 🍆 Sexting & non-consensual image sharing
+### 🍆 Sexting & consensual image sharing
 
 - See [The Motherboard Guide to Sexting Securely](https://motherboard.vice.com/en_us/article/mb3nd4/how-to-sext-securely-safely-what-apps-to-use-sexting).
 
@@ -698,8 +699,8 @@ Many social media companies let you restore your full account after deleting it 
 
 For messaging apps that use phone numbers as the primary identifier/username (e.g. Signal, WhatsApp, Telegram), get a secondary number from:
 
-- 💰 [Hushed]([The Best Second Number App, Fake Temporary Numbers | Hushed](https://hushed.com)) (US, Canada, UK numbers),  [Burner](https://www.burnerapp.com/) (US, Canada numbers) or [Skype](https://secure.skype.com/en/skype-number) (lots of countries)
-- 🆓 TextNow (ad-supported US/Canada number)  [Google Voice](https://voice.google.com/about) (free number only available in the US)
+- 💰 [Hushed](https://hushed.com) (US, Canada, UK numbers),  [Burner](https://www.burnerapp.com/) (US, Canada numbers) or [Skype](https://secure.skype.com/en/skype-number) (lots of countries)
+- 🆓 [TextNow](https://www.textnow.com/) (ad-supported US/Canada number)  [Google Voice](https://voice.google.com/about) (free number only available in the US)
 - 💰 A local phone company: get a prepaid or cheap SIM card plan
 
 For sites and services that use email as the primary identifier/username, either get a new email account or get an email alias that forwards to your main account from:
@@ -804,7 +805,7 @@ This section is a catch-all for difficult or esoteric practices that do not fall
 
 - Read [this EDRi guide on ethical website development and maintenance](https://edri.org/ethical-web-dev/). Pay special attention to its privacy recommendations.
 - Protect your website (from DDOS attacks and other things) by using:
-  - [Deflect](https://deflect.ca/) (has [free plan]([https://deflect.ca/nonprofit](https://deflect.ca/nonprofit)) for non-profits).
+  - [Deflect](https://deflect.ca/) (has [free plan](https://deflect.ca/nonprofit)) for non-profits).
   - [Cloudflare](https://www.cloudflare.com/) (has [free plan](https://www.cloudflare.com/galileo/) for arts, human rights, civil society, journalism, or democracy organizations).
   - [Project Shield](https://projectshield.withgoogle.com) from Google: only available for news, human rights and election monitoring sites. 
   - [Wordfence](https://wordpress.org/plugins/wordfence/), [Sucuri Security](https://wordpress.org/plugins/sucuri-scanner/) and [iThemes Security](https://wordpress.org/plugins/better-wp-security/) plug-ins for Wordpress.
