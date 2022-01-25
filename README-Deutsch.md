@@ -1,4 +1,4 @@
-# 🦓 Zebra Crossing: an easy-to-use digital safety checklist
+# 🦓 Zebrastreifen - eine einfache Checkliste für digitale Sicherheit
 
 ### 🤔 Für wen dieser Leitfaden gedacht ist
 
