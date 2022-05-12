@@ -1,6 +1,6 @@
 # 🦓 Zebra Crossing: an easy-to-use digital safety checklist #
 
-## 🎯 Start here! ##
+## 🎯 Start here!
 
 ### 🤔 Read this guide if you: ###
 
@@ -25,6 +25,7 @@ Much of what we write applies in other places, but [please let us know](mailto:c
 ### 🗣 Read this guide in other languages ###
 
 - [繁體中文 (Traditional Chinese)](https://github.com/narwhalacademy/zebra-crossing/blob/main/README-繁體中文.md)
+- [Deutsch (German)](https://github.com/narwhalacademy/zebra-crossing/blob/main/README-Deutsch.md)
 - [日本語](https://github.com/narwhalacademy/zebra-crossing/blob/main/README-日本語.md) (Japanese, a work-in-progress)
 - [Italiano](https://github.com/narwhalacademy/zebra-crossing/blob/main/README-Italiano.md) (Italian, a work-in-progress)
 - Looking to contribute another language? [Send us a message](mailto:contact@narwhalacademy.org) to collaborate.
@@ -195,8 +196,8 @@ With enough metadata, hackers can piece together a relatively reliable picture o
 
 ---
 
-**👍 Great job! You’ve covered the basics.**
-**👍 Treat yourself to a cup of tea and a stretch.**
+**👍 Great job! You’ve covered the basics.**  
+**👍 Treat yourself to a cup of tea and a stretch.**  
 **👍 Ready for Level 2?**
 
 ---
@@ -390,9 +391,9 @@ Here’s why:
 
 ---
 
-**😲 Wow, you completed all three levels!  
-😲 Well done! Now quickly look below  
-😲 to see if any apply to you.**
+**😲 Wow, you completed all three levels!**  
+**😲 Well done! Now quickly look below**  
+**😲 to see if any apply to you.**  
 
 ---
 
@@ -948,7 +949,7 @@ This section is a catch-all for complex or esoteric practices that don’t fall 
 - **Turn on self-destruct timers for your Secret Chat.**
 
 #### Apple Messages ####
-  - Auto-delete messages after a year: `Settings → Messages → Keep Messages → 1 Year.
+- Auto-delete messages after a year: `Settings → Messages → Keep Messages → 1 Year.
 - Check these two lists of secure messaging apps ([Secure Messaging Apps Comparison](https://www.securemessagingapps.com/) and [IntelTechnique’s Messaging](https://inteltechniques.com/messaging.html)) to learn more about security considerations beyond end-to-end encryption and what trade-offs you may be OK with.
 
 ### Hosting/running a website ###
