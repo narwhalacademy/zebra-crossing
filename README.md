@@ -1102,8 +1102,8 @@ This section contains additional tips and tools that we encountered during our r
 
 We consulted many sources and drew upon our experiences in creating this guide. If you’re not finding quite what you want here, we recommend checking out the following resources:
 
-- [Consumer Reports’ Security Planner](https://securityplanner.consumerreports.org/)
-- [The Electronic Frontier Foundation’s Surveillance Self-Defense](https://ssd.eff.org/)
+- Consumer Reports: [Security Planner](https://securityplanner.consumerreports.org/)
+- Electronic Frontier Foundation: [Surveillance Self-Defense](https://ssd.eff.org/)
 
 ---
 
