@@ -2,7 +2,7 @@
 
 ## 🎯 Start here!
 
-### 🤔 Read this guide if you...
+### 🤔 Read this guide if you
 
 - Use the internet daily — for work, social media, and financial transactions.
 - Want to secure your digital safety and privacy proactively but aren’t in immediate danger. (If you are, reach out to someone in your community for a one-on-one consultation.)
@@ -10,9 +10,8 @@
 
 ### 🗺 Where this guide is from
 
-The advice here draws from our experiences living and working in the United States, Canada, and Hong Kong.
-
-Much of what we write applies in other places, but [please let us know](mailto:contact@narwhalacademy.org) if you see any gaps in our coverage.
+- This guide draws from our work helping individuals and groups upgrade their digital safety practices, and from our experiences living and working in the United States, Canada, and Hong Kong.
+- Wherever possible, we chose apps and tools that are accessible and easy to use over ones that are technically sophisticated but difficult to use. Our decision is based on our observation that people become clumsier in stressful situations, so it is important to keep procedures as simple as possible.
 
 ### 🌱 How to use this guide
 
@@ -40,7 +39,7 @@ Much of what we write applies in other places, but [please let us know](mailto:c
 
 ### 🕒 Last updated ###
 
-- 13 May 2022
+- 2 June 2022
 
 ---
 
@@ -263,6 +262,7 @@ The best way to counteract this problem is to install and use a password manager
 ##### On social media & messaging apps
 
 - **Review the privacy settings on social media platforms and messaging apps you frequently use.** Check who can see your content, what information about you is being made public, and what you are sharing with third-party apps/advertisers.
+- **Wherever possible, turn off read receipts for messaging apps.** It may seem inconvenient at first, but in the long run you will have more privacy and freedom when people *don't* know if you've read their messages or not. 
 - Here are links to and instructions for the most commonly-used platforms/apps:
   - **Platforms/apps with privacy settings available through a desktop browser:**
     - Facebook: [Privacy checkup](https://www.facebook.com/privacy/checkup/)
@@ -290,8 +290,12 @@ The best way to counteract this problem is to install and use a password manager
 ##### On your phone
 
 - **Review which apps on your smartphone have access to your location data.** Turn off access for the apps that don’t need it, and minimize the number of apps tracking your location.
-  - **iOS:** `Settings → Privacy → Location Services`
-  - **Android:** `Settings → Location → App access to location`
+  - iOS: `Settings → Privacy → Location Services`
+  - Android: `Settings → Location → App access to location`
+- **Turn off your unique advertising ID number** so that advertisers can't pinpoint you as easily:
+  - iOS: `Settings → Privacy → Tracking → Allow Apps to Request to Track: Off`
+  - iOS: `Settings → Privacy → Apple Advertising → Personalized Ads: Off`
+  - Android: `Settings → Privacy → Ads → Delete advertising ID`
 - **On Android, turn off passive Wi-Fi and Bluetooth scanning.**
   - `Settings → Location → Wi-Fi and Bluetooth scanning`
 - **Delete third-party keyboards on your phone.** They often share what you type with the software maker.
@@ -303,7 +307,7 @@ The best way to counteract this problem is to install and use a password manager
 - **Review your web browser's privacy settings**
   - On your mobile:
     - iOS Safari: `[iOS] Settings → Safari → Privacy & Security`， turn on all of them except `Block All Cookies`
-    - Android Chrome: `[Chrome] Settings → Privacy and security`, turn on `Safe Browsing` (either option), `Always use secure connections`, `Do Not Track`\
+    - Android Chrome: `[Chrome] Settings → Privacy and security`, turn on `Safe Browsing` (either option), `Always use secure connections`, `Do Not Track`
     - Android Firefox: `[Firefox] Settings → Privacy and security`, turn on `HTTPS-Only Mode`, `Enhanced Tracking Protection`
   - On your computer:
     - macOS Safari: `Preferences → Privacy`, turn on `Website tracking` and `Hide IP address`
@@ -323,6 +327,8 @@ The best way to counteract this problem is to install and use a password manager
   - **Amazon Alexa:** [Follow these instructions](https://www.digitaltrends.com/home/how-to-stop-amazon-from-listening-to-your-alexa-recordings/).
 - **For an Amazon Ring or Echo, turn off the feature that shares your internet with strangers.**
   - **In the Alexa app:** `Settings → Account Settings → Amazon Sidewalk`
+- **For smart TVs, make sure to turn off the manufacturer's data tracking functionality,** also known as automatic content recognition (ACR).
+  - Instructions from: [Consumer Reports](https://www.consumerreports.org/privacy/how-to-turn-off-smart-tv-snooping-features-a4840102036/) 
 
 ##### Other considerations
 
@@ -356,7 +362,6 @@ The best way to counteract this problem is to install and use a password manager
 - **When downloading a new mobile app, double-check to confirm it’s the right one.** Many fake apps trick people by using a slightly modified name or icon of an existing, popular app.
 - **Regularly check the installed apps on your phone.** Delete the ones you’re no longer using.
 - **Need to send someone a password? Split it in half and send it via two different channels.** For example, send half of the password through email and the other half via a voice call.
-- **Place a sticker (or webcam cover) over your laptop’s front-facing camera.**
 - **Don’t use Google/Twitter/Facebook to sign up or log into other services,** which gives these platforms unnecessary data about you. Each service should have its account, and it should be easy to do this with a password manager.
 
 ---
@@ -392,12 +397,15 @@ The best way to counteract this problem is to install and use a password manager
 - **Buy a privacy screen for your laptop and phone.** These stick-on sheets prevent onlookers from seeing what's on your screen. Examples for:
   - Laptops: [3M Privacy Filters](https://www.3m.com/3M/en_US/p/c/office-supplies/workstation-accessories/screen-filters-protectors/laptop-filters/)
   - iPhone: [Spigen EZ FIT GLAS.tR Privacy](https://www.spigen.com/collections/iphone-13-pro/products/iphone-13-pro-screen-protector-ez-fit-glas-tr-privacy)
+- **Place a sticker (or webcam cover) over your laptop’s front-facing camera.**
+  - If you buy a webcam cover for a laptop, make sure it is less than 0.1mm thick so that it doesn't affect how the laptop closes.
+- **Don't use devices your workplace gives you for personal things.** Either have separate devices for your work and personal lives, or, if it's too troublesome to have multiple devices, use your personal device for everything. Devices set up by workplaces often have monitoring systems that can turn malevolent during disputes.
 - **Buy a mobile phone that always gets the latest software updates.** Recommended phones:
   - Apple iPhone
   - Google Pixel Android
 - **Use a paid VPN service** both when you're on a public network (library or café) and when you're at home (to decrease data shared with your internet/phone company).
   - Avoid free VPN services because free services often make their money back by selling your data.
-  - Recommended VPN: [Mullvad](https://mullvad.net)
+  - Recommended VPNs: [Mullvad](https://mullvad.net), [TunnelBear](https://www.tunnelbear.com/)
 
 #### Use end-to-end encrypted apps
 
@@ -450,9 +458,52 @@ The best way to counteract this problem is to install and use a password manager
 
 ---
 
+### 👤 Masking your identity for online dating, events, or organizing
+
+#### Don't use your full name
+
+- **Consider using a nickname** or just your first name. This is especially important if your full name is very unique, which makes it very easy to search for online.
+- **Consider using a persistent pseudonym or collective identity,** especially if you’re a public figure. For more information on how and why, see:
+	- Tactical Tech: [Zen and the art of making tech work for you](https://gendersec.tacticaltech.org/wiki/index.php/Complete_manual#Creating_and_managing_identities_online)
+
+#### Get a secondary phone number
+
+For messaging apps using phone numbers as the primary identifier or username (e.g., Signal, WhatsApp, Telegram), get a secondary number from:
+
+- **Paid online services 💰** (more reliable)
+  - [Hushed:](https://hushed.com): Offers US, Canada, and UK numbers
+  - [Burner:](https://www.burnerapp.com/): Offers US and Canada numbers
+  - [Skype:](https://secure.skype.com/en/skype-number): Offers numbers from many countries
+- **Free online services 🆓**
+  - [TextNow:](https://www.textnow.com/): Offers ad-supported US and Canada numbers
+  - [Google Voice:](https://voice.google.com/about): Offers a free US number, but is only available in the US
+- **Your local phone companies 💰**
+  - Get a prepaid or cheap SIM card plan
+
+*Note: If you lose/unsubscribe to your secondary phone number, other people can buy it and impersonate you.*
+
+#### Get an email alias
+
+For sites and services that use email as the primary identifier/username, get a new 🆓 email account or an email alias that forwards to your main account from:
+
+- [SimpleLogin:](https://simplelogin.io): Based in the EU
+- [AnonAddy:](https://anonaddy.com): Based in the UK and EU
+
+#### Buy things online anonymously
+
+- **Sign up for a privacy-focused virtual credit card 💰** (only available in the US). Both of these services a) mask who you are to the seller, and b) mask what you've bought from the bank.
+  - [Privacy](https://privacy.com/)
+  - [Blur](https://abine.com/) by Abine
+
+#### Create an untraceable online alias
+
+Even with all the third-party services above, courts can still compel companies to hand over information about you. So if you are really in a high-risk situation, you may need to do all of the above and more. For one example of this, see Matt Mitchell's [PRIVACY RECIPE: Creating an online persona](https://geminiimatt.medium.com/creating-an-online-persona-deb4cd8c7f46).
+
+---
+
 ### ✊🏾 Attending a protest
 
-When it comes to attending a protest, there are many, many considerations depending on where you are and who you are. In this guide, we are only going to make recommendations related to potential uses of technology.
+When it comes to attending a protest, there are many, many considerations depending on where you are and who you are. In this guide, we are only going to make recommendations related to uses of technology.
 
 #### Things to do before you go
 
@@ -489,10 +540,10 @@ When it comes to attending a protest, there are many, many considerations depend
 
 ##### Get a burner phone only if you really need it
 
-- **A burner phone is a single-use, disposable phone and SIM card** that's supposed to keep you anonymous to the phone company and online services, and not reveal information about you if someone takes or steals your phone.
+- **A burner phone is a single-use, disposable phone and SIM card that you buy with cash.** Ideally, it makes you anonymous to the phone company and online services, and not reveal information about you if someone takes or steals your phone.
 - **Burner phones require extra time and money to set up.** For example, see [Micah Lee's guide](https://theintercept.com/2020/06/15/protest-tech-safety-burner-phone/) on setting one up in the US.
-- **Decide what you want to use a burner phone for, and what that use might reveal about you.** Every action you perform with your phone creates a clue about who you are. E.g. if you turn it on for the first time at home, it will give away your home address.
-- **Do you need a burner phone and SIM card *or* do you just need a burner virtual phone number?** For the latter, see our recommendations for the scenario: `Avoid giving out personal information for online dating, networking, or organizing`.
+- **Decide what you want to use a burner phone for, and what that use might reveal about you.** Every action you perform with your phone creates a clue about who you are. E.g. if you activate it at home, it will give away your home address.
+- **Do you need a burner phone and SIM card *or* do you just need a burner virtual phone number?** For the latter, see the scenario above: `Masking your identity for online dating, events, or organizing`.
 
 #### Remember when you're out
 
@@ -511,13 +562,52 @@ When it comes to attending a protest, there are many, many considerations depend
 
 ---
 
+### 🩸 Accessing reproductive health services privately
+
+Getting an abortion can be a controversial and fraught endeavor in many parts of the world. Here are some recommendations that may apply if you live in one of those places.
+
+#### Researching and talking to friends
+
+- **Follow the privacy-enhancing recommendations in `Level 2`.**
+- **Use a VPN** to minimize what your internet provider can see.
+  - Recommended VPNs: [Mullvad](https://mullvad.net), [TunnelBear](https://www.tunnelbear.com)
+- **Open a new private window on your web browser** to minimize tracking and makes sure your browsing history isn't saved. Alternately, use a different browser in private mode only for health research to further compartmentalize data.
+- **Think twice before sharing information,** and when you do, use an end-to-end encrypted messaging app with disappearing messages on. (Avoid email if possible.)
+
+#### Tracking your period
+
+- **Use an app that stores your data locally.**
+  - Recommended app: [Euki](https://eukiapp.com/)
+
+#### Interacting with a clinic
+
+- **Consider using a nickname.**
+- **Use a secondary phone number.** Either buy a SIM card with cash or get a virtual number (run by a company in a place that favors reproductive rights).
+  - For our list of virtual number services, see the scenario above: `Masking your identity for online dating, events, or organizing`.
+- **Use an end-to-end encrypted email address.** Consider setting up a new one just for this purpose.
+  - Recommended services: [Protonmail](https://protonmail.com/), [Tutanota](https://tutanota.com/)
+- **Hide your transactions** by paying with:
+  - Cash
+  - A prepaid credit card you bought with cash
+  - A virtual credit card with privacy features (only available in the US). Recommended services:
+    - [Privacy](https://privacy.com/)
+    - [Blur](https://abine.com/) by Abine
+
+#### Traveling to a clinic
+ 
+- If you are physically going to a clinic and think it will be a risky situation, **follow the recommendations in the above scenario: `Attending a protest`.** Seriously consider leaving your phone at home or setting up a burner phone so you don't leave a trail of evidence.
+
+---
+
 ### 🛫 Crossing an international border
 
 - **Turn off your devices.**
   - Storage/hard drives are only encrypted when off, *not* when they’re just in sleep mode.
   - This will also ensure that your mobile devices can only be unlocked using a pin code, which is protected by freedom of speech laws in some jurisdictions.
+- **Backup before you depart and keep a copy at home** in case your devices are lost in transit.
 - **Store less information on your devices.** They can’t take what you don’t have if your devices are seized.
 - **Be mindful of what stickers you put on your devices.** A border agent could mistake them for something suspicious.
+- **Decide beforehand what you will do if you are asked to unlock your devices.** Searches sometimes happen as a routine part of border crossing.
 - **Notify your people about your flight number and arrival time.** Regularly check in with one of them at points in your journey. Have them contact a lawyer/relevant organization if you do not show up.
 
 #### For extreme situations ####
@@ -537,9 +627,12 @@ When it comes to attending a protest, there are many, many considerations depend
 - **Setup a VPN beforehand to:**
   - Access services uninterrupted.
   - Minimize the amount of data collected about you.
-  - See our `Level 3` recommendations above for more information about which VPN to choose.
-- **Download an offline messaging app** to send text messages to people nearby if the internet goes down by using Bluetooth.
-  - Recommended app: [Bridgefy](https://bridgefy.me/)
+  - Recommended apps: [Mullvad](https://mullvad.net/), [TunnelBear](https://www.tunnelbear.com/)
+- **Download these offline apps in case there are connectivity issues:**
+  - **An offline messaging app** to send text messages to people nearby if the internet goes down by using Bluetooth.
+    - Recommended: [Bridgefy](https://bridgefy.me/)
+  - **An offline maps app**
+    - Recommended: [Organic Maps](https://organicmaps.app/)
 - **Consider traveling with a burner phone while leaving your laptop at home.** This will be especially useful if you need to install new/untested software for work that might violate data privacy policies.
 - **Re-evaluate which online platforms are safe to use.**  
   - See how often a platform hands over its data by looking up their transparency reports.
@@ -661,6 +754,21 @@ Twitter works with some pretty handy third-party tools and has a few features of
 - **See what lists you’ve been added to by going to `Profile → Lists → ··· → Lists` you’re on.** If you see a suspicious list or list owner, tap the three dots on the top right to report the list and leave the list by blocking the creator.
 - **Control who can reply to your tweets** by tapping `Everyone can reply` and restricting it to `People you follow` or `Only people you mention`.
 
+##### Discord
+
+Discord is centered around separate communities/servers, which affects the way blocking works.
+
+- **When you block someone:**
+  - They are unable to direct message you, call you, or tag you in a post.
+  - Their messages to you disappear. 
+  - Messages that they write on shared channels are hidden. *But* messages that you write on shared channels are still visible to them.
+  - They appear `offline` to you at all times, but they can still see your online/offline status.
+- **[Privacy settings](https://support.discord.com/hc/en-us/articles/217916488-Blocking-Privacy-Settings-)** allow you to adjust whether community/server members can direct message you, and who's allowed to send you friend requests.
+
+##### Choosing between muting or blocking an account
+
+- **Some platforms tell the other person you've blocked them, while others hide the action completely.** Read this [Consumer Reports guide](https://www.consumerreports.org/digital-security/can-people-tell-when-blocked-texting-social-messaging-apps-a9942470743/) for details on what blocking looks like to the other party.
+
 #### Show yourself some kindness
 
 - **Don’t worry if you’re not able to keep up with your regular workday routine.**
@@ -679,7 +787,8 @@ Twitter works with some pretty handy third-party tools and has a few features of
 - **If the noise doesn’t stop, flood the airwaves with positive stories about yourself.** Ask people within your professional community to write positive articles or social media posts about you and your work.
 - **Remember, you did nothing wrong.** Ignorant employers or colleagues may not be supportive and start seeing you as a liability — they’re wrong.
 - **Read [Lyz Lenz’s conversation with Talia Lavin](https://lyz.substack.com/p/when-the-mob-comes)** about their experiences.
-- **Send this resource to your newsroom:**
+- **Send these resources to your newsroom:**
+  - Media Manipulation Casebook: [Tips for Newsrooms to Support Journalists Targeted by Online Harassment](https://mediamanipulation.org/tip-sheets/tips-newsrooms-support-journalists-targeted-online-harassment)
   - Ontheline Newsrooms: [Measures for Newsrooms and Journalists to Address Online Harassment](https://newsrooms-ontheline.ipi.media/).
 
 #### Check out these additional resources
@@ -776,7 +885,7 @@ Many social media companies let you restore your deleted account after a specifi
 
 #### Obscure your personal information
 
-- **See the scenario:** `Avoid giving out personal information for online dating, networking, or organizing`.
+- **See the scenario:** `Masking your identity for online dating, events, or organizing`.
 - **Get a P.O. box** at a post office or use [Traveling Mailbox](https://travelingmailbox.com/) (U.S. only) to hide your home address.
 - **Delete old accounts to eliminate traces of personal information on the internet.** Use the [JustDeleteMe](https://justdeleteme.xyz/) directory to accelerate this process.
 
@@ -821,6 +930,7 @@ Below are some general recommendations that all journalists and researchers shou
 - **Create a public tip line using your secondary phone number.** Follow Yael Grauer’s guide: [How To Use Signal Without Giving Out Your Phone Number Using a Chromebook and an Old Phone](https://blog.yaelwrites.com/how-to-use-signal-without-giving-out-your-phone-number-using-a-chromebook-and-an-old-phone/).
 - **If you're traveling,** review the scenario titled `Crossing an international border`.
 - **If you’re covering a protest,** review the scenario titled `Attending a protest` and decide which parts apply to you (if you have special journalist rights/protections where you’re working).
+- **If you're doing research on social media,** do so under a separate account that uses an alias (not your real name). Set up this account using a disposable email address. (Not all newsrooms/employers allow this, but push the allowed boundaries as much as possible.)
 - **Use a VPN if you’re browsing the internet at the office.** For example, website administrators can see that you’re visiting from the *New York Times* network.
 
 #### Protect your data
@@ -828,52 +938,13 @@ Below are some general recommendations that all journalists and researchers shou
 *Note: [Courts can compel companies like Google to hand over all of your data](https://medium.com/@tinfoilpress/newsrooms-lets-talk-about-g-suite-1672a36eb235).*
 
 - **Use an email and storage provider not owned by an organization you’re reporting on.**
-- **Move all of your work onto end-to-end encrypted platforms.** Use [Protonmail](https://protonmail.com/) or [Tutanota](https://tutanota.com/) for email and [CryptPad](cryptpad.fr/) for documents and spreadsheets.
+- **Move all of your work onto end-to-end encrypted platforms.** 
+  - Recommended email platforms: [Protonmail](https://protonmail.com/), [Tutanota](https://tutanota.com/)
+  - Recommended document/spreadsheet platform: [CryptPad](cryptpad.fr/)
 - **Store sensitive data in a password-protected cloud or external storage device as much as possible.** Read the relevant recommendations in our `Level 3` section above.
 - **Permanently erase sensitive files from your computer.** Recommended apps:
   - macOS: [CleanMyMac X](https://macpaw.com/cleanmymac) (its file shredder feature is included in the free trial)
   - Windows: [Eraser for Windows](https://sourceforge.net/projects/eraser/)
-
----
-
-### 👤 Avoid giving out personal information for online dating, networking, or organizing
-
-#### Don't use your full name
-
-- **Consider using a nickname** or just your first name. This is especially important if your full name is very unique, which makes it very easy to search for online.
-- **Consider using a persistent pseudonym or collective identity,** especially if you’re a public figure. For more information on how and why, see:
-	- Tactical Tech: [Zen and the art of making tech work for you](https://gendersec.tacticaltech.org/wiki/index.php/Complete_manual#Creating_and_managing_identities_online)
-
-#### Get a secondary phone number
-
-For messaging apps using phone numbers as the primary identifier or username (e.g., Signal, WhatsApp, Telegram), get a secondary number from:
-
-- **Paid online services 💰** (most reliable)
-  - [Hushed:](https://hushed.com): Offers US, Canada, and UK numbers
-  - [Burner:](https://www.burnerapp.com/): Offers US and Canada numbers
-  - [Skype:](https://secure.skype.com/en/skype-number): Offers numbers from many countries
-- **Free online services 🆓**
-  - [TextNow:](https://www.textnow.com/): Offers ad-supported US and Canada numbers
-  - [Google Voice:](https://voice.google.com/about): Offers a free US number, but is only available in the US
-- **Your local phone companies 💰**
-  - Get a prepaid or cheap SIM card plan
-
-*Note: If you lose/unsubscribe to your secondary phone number, other people can buy it and impersonate you.*
-
-#### Get an email alias
-
-For sites and services that use email as the primary identifier/username, get a new 🆓 email account or an email alias that forwards to your main account from:
-
-- [SimpleLogin:](https://simplelogin.io): Based in the EU
-- [AnonAddy:](https://anonaddy.com): Based in the UK and EU
-
-#### Hide purchases from the bank
-
-**Mask what you’ve bought from your bank using a virtual credit card** from [Privacy](https://privacy.com/). Only available in the US for paid accounts 💰.
-
-#### Create an untraceable online alias
-
-Even with all the third-party services above, courts can still compel companies to hand over information about you. So if you are really in a high-risk situation, you may need to do all of the above and more. For one example of this, see Matt Mitchell's [PRIVACY RECIPE: Creating an online persona](https://geminiimatt.medium.com/creating-an-online-persona-deb4cd8c7f46).
 
 ---
 
@@ -916,6 +987,8 @@ Even with all the third-party services above, courts can still compel companies 
     - Android: `Settings → Network and interent → Internet → Non-operator data usage` 
 - **Download third-party apps to help you analyze the data streams going in and out of your device:**
   - macOS:
+    - [Radio Silence](https://radiosilenceapp.com/)
+    - [Loading](https://bonzaiapps.com/loading/)
     - [Little Snitch](https://www.obdev.at/products/littlesnitch/index.html)
     - [Charles Proxy](https://www.charlesproxy.com/)
   - Windows:
@@ -927,7 +1000,9 @@ Even with all the third-party services above, courts can still compel companies 
     - [Guardian Firewall](https://guardianapp.com)
   - Android:
     - [Glasswire](https://www.glasswire.com/)
-- **Set up a spare Android phone as a room monitor** using [Haven](https://guardianproject.github.io/haven/) to detect unwanted physical intrusion.
+- **Set up a spare phone as a room monitor** to detect unwanted physical intrusion. Example apps:
+  - iOS & Android: [Alfred](https://alfred.camera/) 
+  - Android: [Haven](https://guardianproject.info/apps/org.havenapp.main/)
 
 ---
 
@@ -952,6 +1027,10 @@ When someone close to you (usually a romantic partner) spies on  you using a hid
   - Your computer internet connection is slower than usual.
   - You get emails/prompts about someone else logging into an account.
   - Your partner suddenly asks to borrow your phone.
+- **Check to see if someone is using a tracking tile/tag to follow you.** Luckily, the two most popular tracking tile/tags have anti-stalking features.
+  - Instructions for scanning:
+    - Apple Airtags: [iOS](https://support.apple.com/HT212227), [Android](https://support.apple.com/HT212227#trackerdetect)
+    - [Tiles](https://tileteam.zendesk.com/hc/articles/4415488529943)
 - **Don’t delete suspicious apps immediately.** You may need to keep them as evidence. Plus, deletion may also cause the situation with your partner to escalate.
 
 #### If you’re pretty sure they’re spying on you and you’re scared
@@ -970,7 +1049,7 @@ When someone close to you (usually a romantic partner) spies on  you using a hid
 
 - Consumer Reports: [Shut Stalkers Out of Your Tech](https://www.consumerreports.org/digital-security/shut-stalkers-out-of-your-tech/)
 - Wirecutter: [Protect Your Devices Against Domestic Abusers](https://thewirecutter.com/blog/domestic-abusers-can-control-your-devices-heres-how-to-fight-back/)
-- Apple: [iOS checklist](https://support.apple.com/en-us/HT212021). Make sure to download the document at the bottom called `Device and Data Access when Personal Safety is At Risk`.
+- Apple iOS: [Personal Safety User Guide: Keep yourself safe and your data private](https://support.apple.com/en-ca/guide/personal-safety/welcome/web)
 
 ---
 
@@ -984,8 +1063,9 @@ When someone close to you (usually a romantic partner) spies on  you using a hid
 - Access Now: [Digital Security Helpline](https://www.accessnow.org/help/)
 - Front Line Defender: [Emergency Contact](https://www.frontlinedefenders.org/emergency-contact)
 - SMEX: [Digital Safety Helpdesk](https://smex.org/helpdesk/) for people in Lebanon and other Arabic-speaking countries
+- Qurium Foundation: [Rapid Response Support](https://www.qurium.org/rapid-response/) for websites under attack
 - [Vita Activa](https://vita-activa.org/) for Spanish speakers.
-- If you have a bit more time, apply for a Digital Defenders Partnership [Incident Emergency Grant](https://www.digitaldefenders.org/funding/incident-emergency-funding/)
+- Digital Defenders Partnership: [Incident Emergency Grant](https://www.digitaldefenders.org/funding/incident-emergency-fund/) (if you can wait for a week for a response)
 
 ##### Regional services
 
@@ -1021,7 +1101,7 @@ This section contains additional tips and tools that we encountered during our r
 - **Write and take notes on end-to-end encrypted apps.** Instead of Google Docs or Microsoft Office, use [CryptPad](https://cryptpad.fr) or [Standard Notes](https://standardnotes.org/). Both are open-source and free to use.
 - **Share files anonymous** with [Tresorit Send](https://send.tresorit.com/) or [OnionShare](https://onionshare.org/).
 - **Turn suspicious PDFs into safe ones** using [Dangerzone](https://dangerzone.rocks).
-- **Send end-to-end encrypted emails.** using [Protonmail](https://protonmail.com/) or [Tutanota](https://tutanota.com/).
+- **Send end-to-end encrypted emails** using [Protonmail](https://protonmail.com/) or [Tutanota](https://tutanota.com/).
 - **Find an end-to-end encrypted video calling service** using [Freedom of the Press' guide](https://freedom.press/training/blog/videoconferencing-tools/).
 - **Send a self-destructing, password-protected message** using [One Time](https://onetimesecret.com/).
 
@@ -1036,6 +1116,7 @@ This section contains additional tips and tools that we encountered during our r
 ### Cool tools with steep learning curves
 
 - **Switch to an open source, security-focused app store** by using [F-Droid](https://f-droid.org) (Android only).
+- **Use a decentralized, private messaging app powered by the Tor network**. Check out [Ricohet Refresh](https://www.ricochetrefresh.net/).
 - **Use a more secure operating system for your computer.**  Options include:
   - [Tails](https://tails.boum.org/)
   - [Qubes OS](https://www.qubes-os.org/)
@@ -1050,12 +1131,9 @@ This section contains additional tips and tools that we encountered during our r
 
 #### WhatsApp
 
-- **Turn off chat backups on WhatsApp.**
-  - `Settings → Chats → Chat backup`
-  - **iOS:** [Delete your previous backups on iPhone](https://www.wikihow.com/Delete-Backups-on-WhatsApp-on-iPhone-or-iPad)
-  - **Android:** [Delete your previous backups on Android](https://faq.whatsapp.com/en/android/30030306)).
 - **Turn on security notifications on WhatsApp** `Settings → Account → Security`
-- **Set up a PIN** (`Settings → Account → Two-Step Verification`) **and email address** (`Account → Two-step verification → tap Add Email Address`) to prevent your account from being moved without your permission.
+- **Set up a PIN** (`Settings → Account → Two-Step Verification`) 
+- **Set up an email address** (`Account → Two-step verification → tap Add Email Address`) to prevent your account from being moved without your permission.
 
 #### Telegram
 
