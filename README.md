@@ -464,7 +464,7 @@ The best way to counteract this problem is to install and use a password manager
 
 - **Consider using a nickname** or just your first name. This is especially important if your full name is very unique, which makes it very easy to search for online.
 - **Consider using a persistent pseudonym or collective identity,** especially if you’re a public figure. For more information on how and why, see:
-	- Tactical Tech: [Zen and the art of making tech work for you](https://gendersec.tacticaltech.org/wiki/index.php/Complete_manual#Creating_and_managing_identities_online)
+  - Tactical Tech: [Zen and the art of making tech work for you](https://gendersec.tacticaltech.org/wiki/index.php/Complete_manual#Creating_and_managing_identities_online)
 
 #### Get a secondary phone number
 
