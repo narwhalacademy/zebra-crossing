@@ -454,7 +454,7 @@ The best way to counteract this problem is to install and use a password manager
 
 ---
 
-## 💦❗️ Scenario-based recommendations
+## 💦❗️ Scenarios
 
 ---
 
