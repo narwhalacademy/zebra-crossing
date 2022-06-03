@@ -564,7 +564,7 @@ When it comes to attending a protest, there are many, many considerations depend
 
 ### 🩸 Accessing reproductive health services privately
 
-Getting an abortion can be a controversial and fraught endeavor in many parts of the world. Here are some recommendations that may apply if you live in one of those places.
+Getting the care you need can be a controversial and fraught endeavor in many parts of the world. Here are some recommendations that may apply if you live in one of those places.
 
 #### Researching and talking to friends
 
@@ -644,7 +644,20 @@ Getting an abortion can be a controversial and fraught endeavor in many parts of
 
 ---
 
-### 🕵🏼‍♂️ Online harassment & doxxing
+### ‍💻 Hosting a public event online
+
+- **Don’t say anything you wouldn’t say in public.** Encourage your attendees to do the same. Most commercial platforms have access to your audio/video data and mine your metadata to create consumer profiles.
+- **Limit the amount of control an audience member has.**  
+  - For example, for most Zoom events, it's not necessary for everyone to have screensharing access.
+- **Don't make the meeting link too public.** Either set a meeting password or set up an RSVP system so that you don’t have to give out the meeting link and password publicly.
+- **Create a user/content moderation plan.**
+  - If you have co-hosts or moderators, make sure they are set up in the online system as administrators/editors/moderators.
+  - Familiarize yourselves with what filtering/muting/blocking powers you have as a host/moderator.
+  - Create an emergency plan of action around what you would do if a malicious troll enters your event.
+
+---
+
+### 🥴 Online harassment & doxxing
 
 Harassment and doxxing tend to be very specific situations, which vary drastically depending on who you are, what you do, who the attacker is, etc.
 
@@ -891,16 +904,50 @@ Many social media companies let you restore your deleted account after a specifi
 
 ---
 
-### ‍💻 Hosting a public event online
+### 💔 Dealing with stalkerware/spyware
 
-- **Don’t say anything you wouldn’t say in public.** Encourage your attendees to do the same. Most commercial platforms have access to your audio/video data and mine your metadata to create consumer profiles.
-- **Limit the amount of control an audience member has.**  
-  - For example, for most Zoom events, it's not necessary for everyone to have screensharing access.
-- **Don't make the meeting link too public.** Either set a meeting password or set up an RSVP system so that you don’t have to give out the meeting link and password publicly.
-- **Create a user/content moderation plan.**
-  - If you have co-hosts or moderators, make sure they are set up in the online system as administrators/editors/moderators.
-  - Familiarize yourselves with what filtering/muting/blocking powers you have as a host/moderator.
-  - Create an emergency plan of action around what you would do if a malicious troll enters your event.
+When someone close to you (usually a romantic partner) spies on  you using a hidden app on your mobile device, that person is using *stalkerware*.
+
+#### If you’re not sure and things haven’t escalated between you and your partner
+
+- **Keep a hidden, pen-and-paper log of suspicious incidents.**
+- **Make sure your partner is not getting information from previously shared accounts.** Did you share your calendar with them? Do you have any joint online accounts?
+- **Check to see if you set up location share on an app.** Instructions for:
+  - [Google Maps](https://support.google.com/maps/answer/7326816)
+  - macOS: [Find My](https://support.apple.com/en-ca/HT210514)
+- **Review and redo the items in `Levels 1–3` of this guide.** Make sure to:
+  - Look for other active, logged in sessions on your accounts.
+  - Reset your passwords for important accounts.
+  - Check your privacy settings.
+  - Look up any apps you don’t recognize on your computer and phone.
+- **Keep an eye out for other signs.** Examples include:
+  - Your phone battery suddenly drains much faster than before.
+  - Your computer internet connection is slower than usual.
+  - You get emails/prompts about someone else logging into an account.
+  - Your partner suddenly asks to borrow your phone.
+- **Check to see if someone is using a tracking tile/tag to follow you.** Luckily, the two most popular tracking tile/tags have anti-stalking features.
+  - Instructions for scanning:
+    - Apple Airtags: [iOS](https://support.apple.com/HT212227), [Android](https://support.apple.com/HT212227#trackerdetect)
+    - [Tiles](https://tileteam.zendesk.com/hc/articles/4415488529943)
+- **Don’t delete suspicious apps immediately.** You may need to keep them as evidence. Plus, deletion may also cause the situation with your partner to escalate.
+
+#### If you’re pretty sure they’re spying on you and you’re scared
+
+*Don’t go through this alone — seek help:*
+
+- **Reach out to a trusted friend (through a public phone/line).** Ask them to hold space for you and your situation. They can be your sounding board while helping you analyze how grave the threat is.
+- **Connect with one of the many organizations who specialize in stalkerware and domestic abuse (through a public/friend's phone/line).** Some of them help you collect evidence and remove stalkerware safely.
+  -  See the Coalition Against Stalkerware's [global list of direct support organizations](https://stopstalkerware.org/resources/).
+- **Keep digital and printed records of relevant texts, emails, calls, etc.**
+	- See NNEDV's [guide on documenting/saving evidence](https://www.womenslaw.org/about-abuse/abuse-using-technology/evidence-issues-cases-involving-technology/digital-evidence).
+- **When you no longer need evidence, remove the suspicious apps/stalkerware yourself by performing a factory reset on your computer/phone.** Buying a brand new device is even safer, of course.
+  - **Remember to reinstall apps and import data manually,** lest you restore a backup with stalkerware in it.
+
+#### Additional resources ####
+
+- Consumer Reports: [Shut Stalkers Out of Your Tech](https://www.consumerreports.org/digital-security/shut-stalkers-out-of-your-tech/)
+- Wirecutter: [Protect Your Devices Against Domestic Abusers](https://thewirecutter.com/blog/domestic-abusers-can-control-your-devices-heres-how-to-fight-back/)
+- Apple iOS: [Personal Safety User Guide: Keep yourself safe and your data private](https://support.apple.com/en-ca/guide/personal-safety/welcome/web)
 
 ---
 
@@ -1005,54 +1052,6 @@ Below are some general recommendations that all journalists and researchers shou
   - Android: [Haven](https://guardianproject.info/apps/org.havenapp.main/)
 
 ---
-
-### 💔 Dealing with stalkerware/spyware
-
-When someone close to you (usually a romantic partner) spies on  you using a hidden app on your mobile device, that person is using *stalkerware*.
-
-#### If you’re not sure and things haven’t escalated between you and your partner
-
-- **Keep a hidden, pen-and-paper log of suspicious incidents.**
-- **Make sure your partner is not getting information from previously shared accounts.** Did you share your calendar with them? Do you have any joint online accounts?
-- **Check to see if you set up location share on an app.** Instructions for:
-  - [Google Maps](https://support.google.com/maps/answer/7326816)
-  - macOS: [Find My](https://support.apple.com/en-ca/HT210514)
-- **Review and redo the items in `Levels 1–3` of this guide.** Make sure to:
-  - Look for other active, logged in sessions on your accounts.
-  - Reset your passwords for important accounts.
-  - Check your privacy settings.
-  - Look up any apps you don’t recognize on your computer and phone.
-- **Keep an eye out for other signs.** Examples include:
-  - Your phone battery suddenly drains much faster than before.
-  - Your computer internet connection is slower than usual.
-  - You get emails/prompts about someone else logging into an account.
-  - Your partner suddenly asks to borrow your phone.
-- **Check to see if someone is using a tracking tile/tag to follow you.** Luckily, the two most popular tracking tile/tags have anti-stalking features.
-  - Instructions for scanning:
-    - Apple Airtags: [iOS](https://support.apple.com/HT212227), [Android](https://support.apple.com/HT212227#trackerdetect)
-    - [Tiles](https://tileteam.zendesk.com/hc/articles/4415488529943)
-- **Don’t delete suspicious apps immediately.** You may need to keep them as evidence. Plus, deletion may also cause the situation with your partner to escalate.
-
-#### If you’re pretty sure they’re spying on you and you’re scared
-
-*Don’t go through this alone — seek help:*
-
-- **Reach out to a trusted friend (through a public phone/line).** Ask them to hold space for you and your situation. They can be your sounding board while helping you analyze how grave the threat is.
-- **Connect with one of the many organizations who specialize in stalkerware and domestic abuse (through a public/friend's phone/line).** Some of them help you collect evidence and remove stalkerware safely.
-  -  See the Coalition Against Stalkerware's [global list of direct support organizations](https://stopstalkerware.org/resources/).
-- **Keep digital and printed records of relevant texts, emails, calls, etc.**
-	- See NNEDV's [guide on documenting/saving evidence](https://www.womenslaw.org/about-abuse/abuse-using-technology/evidence-issues-cases-involving-technology/digital-evidence).
-- **When you no longer need evidence, remove the suspicious apps/stalkerware yourself by performing a factory reset on your computer/phone.** Buying a brand new device is even safer, of course.
-  - **Remember to reinstall apps and import data manually,** lest you restore a backup with stalkerware in it.
-
-#### Additional resources ####
-
-- Consumer Reports: [Shut Stalkers Out of Your Tech](https://www.consumerreports.org/digital-security/shut-stalkers-out-of-your-tech/)
-- Wirecutter: [Protect Your Devices Against Domestic Abusers](https://thewirecutter.com/blog/domestic-abusers-can-control-your-devices-heres-how-to-fight-back/)
-- Apple iOS: [Personal Safety User Guide: Keep yourself safe and your data private](https://support.apple.com/en-ca/guide/personal-safety/welcome/web)
-
----
-
 
 ### 😣 Seeking help in an emergency
 
