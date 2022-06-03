@@ -74,7 +74,7 @@ The **weakest link** is where your digital safety is most vulnerable. For exampl
 
 ---
 
-## 💦 Level 1
+## 🚶🏽‍♀️ Level 1
 
 ### ✅ Things to do
 
@@ -202,7 +202,7 @@ A phishing scam is an email or text message where an attacker is trying to trick
 
 ---
 
-## 💦💦 Level 2
+## 🏃🏻‍♂️ Level 2
 
 ### ✅ Things to do
 
@@ -380,7 +380,7 @@ The best way to counteract this problem is to install and use a password manager
 
 ---
 
-## 💦💦💦 Level 3
+## 🧗🏿‍♀️ Level 3
 
 ### ✅ Things to do
 
@@ -1092,7 +1092,7 @@ When someone close to you (usually a romantic partner) spies on  you using a hid
 
 ---
 
-## 💦❓ Bonus
+## 🎁 Bonus
 
 This section contains additional tips and tools that we encountered during our research. Many of the recommendations below are popular with members of the cybersecurity community, but we found them to be a little too hard to follow, a little too new/untested or a little too specific for a small group of people.
 
