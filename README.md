@@ -39,7 +39,7 @@
 
 ### 🕒 Last updated ###
 
-- 2 June 2022
+- 7 June 2022
 
 ---
 
