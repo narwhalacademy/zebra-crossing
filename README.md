@@ -429,6 +429,48 @@ The best way to counteract this problem is to install and use a password manager
   - Recommended app: [Tresorit](https://tresorit.com/) 💰
   - *Remember: files stored on Dropbox, Google Drive and iCloud are not end-to-end encrypted.*
 
+#### Further secure your messaging apps
+
+##### Be aware of what other people can see in a group chat
+
+Messaging apps use either your phone number or a username as the unique identifier (which other people use to add you on the platform). As such, **your phone number or username is then visible to anyone you're in a group chat with**, along with the name and photo in your profile.
+
+Here's a breakdown of what unique identifiers are used for some popular messaging apps that offer some form of end-to-end encryption:
+
+- **Signal:** phone number
+- **Wire:** username (no one else can see the email or phone number you used to register your account)
+- **Telegram:** phone number by default *but* you can set up a username and then stop sharing your phone number:
+  - `Settings → Username`
+  - `Settings → Privacy and Security → Phone Number → Who can see my phone number: Nobody`
+- **WhatsApp:** phone number
+
+If you don't want to give out your personal phone number, consider getting a virtual phone number from one of the providers listed in our scenario for `Masking your identity for online dating, events, or organizing`.
+
+##### Use app-specific safety & privacy features
+
+###### Signal
+
+- **Turn on the extra layer of pin code protection** and prevent others from logging in with your phone number.
+  - `Settings → Account → Signal PIN`
+  - `Settings → Account → Registration Lock: On`
+
+###### Telegram
+
+- **Turn on two-step verification**  to prevent someone from moving your account without your permission.
+  - `Settings → Privacy and Security → Two-Step Verification`
+- **Start conversations by using `New Secret Chat` so that they are end-to-end encrypted.** All other conversations and groups are not. *Unfortunately, that this means your messages will not show up in your desktop or web app.*
+
+###### WhatsApp
+
+- **Turn on security notifications on WhatsApp** to get a notification when a person you're talking to switches to a new device.
+  - `Settings → Account → Security → Show Security Notifications on This Phone: On`
+- **Turn on two-step verification** to prevent someone from moving your account without your permission:
+  - `Settings → Account → Two-Step Verification: Enable`
+- **If you backup chats, make sure they are end-to-end encrypted,** or turn backup off altogether.
+  - `Settings → Chats → Chat Backup → End-to-end Encrypted Backup`
+  - For iOS users who use `iCloud Backup` (not end-to-end encrypted) to backup their entire phone, make sure WhatsApp is not included as part of the process. This `iCloud Backup` should not be confused with WhatsApp's interal backup feature that also uses iCloud. 
+    - `[iOS] Settings →` Your name `→ iCloud → Manage Storage → Backups →` device `→ WhatsApp: Off`
+
 #### Fully utilize your password manager
 
 - **Store login credentials for all online accounts in a password manager.** We previously asked you to store passwords for your most important accounts on there. Now, it's time to transfer everything onto there.
@@ -1125,24 +1167,6 @@ This section contains additional tips and tools that we encountered during our r
 - **Start using more secure devices.** Options include:   
   - [PINE64](https://www.pine64.org/)
   - [Purism](https://puri.sm/).
-
-### Special settings on messaging apps
-
-#### WhatsApp
-
-- **Turn on security notifications on WhatsApp** `Settings → Account → Security`
-- **Set up a PIN** (`Settings → Account → Two-Step Verification`) 
-- **Set up an email address** (`Account → Two-step verification → tap Add Email Address`) to prevent your account from being moved without your permission.
-
-#### Telegram
-
-- **Only use the `Secret Chat` function for secure conversations.** Note that this means your messages will not show up in your desktop or web app.
-- **Only allow your contacts to add / find your account.**
-- **Turn on self-destruct timers for your Secret Chat.**
-
-#### Apple Messages
-
-- Auto-delete messages after a year: `Settings → Messages → Keep Messages → 1 Year.`
 
 ### Hosting/running a website
 
