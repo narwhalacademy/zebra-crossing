@@ -39,7 +39,7 @@
 
 ### 🕒 Last updated ###
 
-- 7 June 2022
+- 29 June 2022
 
 ---
 
@@ -618,8 +618,10 @@ Getting the care you need can be a controversial and fraught endeavor in many pa
 
 #### Tracking your period
 
-- **Use an app that stores your data locally.**
+- **Use an app that stores your data locally,** or use pen and paper.
   - Recommended app: [Euki](https://eukiapp.com/)
+  - iOS: If you use iCloud Backup, turn it off for this app: 
+    - `Settings → `Your name` → iCloud → Manage Storage → Backups → `Your device` → Euki: Off`
 
 #### Interacting with a clinic
 
@@ -637,7 +639,12 @@ Getting the care you need can be a controversial and fraught endeavor in many pa
 
 #### Traveling to a clinic
  
-- If you are physically going to a clinic and think it will be a risky situation, **follow the recommendations in the above scenario: `Attending a protest`.** Seriously consider leaving your phone at home or setting up a burner phone so you don't leave a trail of evidence.
+- If you are physically going to a clinic and think it will be a risky situation, **follow the recommendations in the above scenario: `Attending a protest`.** 
+- Do not bring your phone with you to the clinic. At the least, leave the phone at home or at the hotel during this last part of the journey.
+
+#### Further advice for people in the US
+
+-  Kendra Albert, Maggie Delano, and Emma Weil's [Okay, Fine, Let’s Talk About Period Tracking: The Detailed Explainer](https://medium.com/@maggied/okay-fine-lets-talk-about-period-tracking-the-detailed-explainer-2f45112eebb4)
 
 ---
 
