@@ -37,9 +37,9 @@
 - Share this guide with your friends and community!
 - [Send your feedback](mailto:contact@narwhalacademy.org) or [contribute to the guide on GitHub](https://github.com/narwhalacademy/zebra-crossing).
 
-### 🕒 Last updated ###
+### 🕒 Last updated
 
-- 5 August 2022
+- 5 August 2023
 
 ---
 
