@@ -39,7 +39,7 @@
 
 ### 🕒 Last updated ###
 
-- 29 June 2022
+- 5 August 2022
 
 ---
 
@@ -268,7 +268,7 @@ The best way to counteract this problem is to install and use a password manager
     - Facebook: [Privacy checkup](https://www.facebook.com/privacy/checkup/)
     - Google: [Privacy checkup](https://myaccount.google.com/intro/privacycheckup)
     - Youtube: [Account privacy](https://www.youtube.com/account_privacy)
-    - Twitter: [Privacy and safety](https://twitter.com/settings/privacy_and_safety)
+    - X/Twitter: [Privacy and safety](https://twitter.com/settings/privacy_and_safety)
     - Reddit: [Safety & privacy](https://www.reddit.com/settings/privacy)
   - **Platforms/apps with mobile-only access their full privacy settings:**
     - Instagram: `Settings → Privacy`
@@ -285,7 +285,7 @@ The best way to counteract this problem is to install and use a password manager
   - [Google](https://support.google.com/accounts/answer/3466521?hl=en)
   - [Facebook](https://www.facebook.com/help/211829542181913)
   - [Instagram](https://www.facebook.com/help/instagram/1144624522593085)
-  - [Twitter](https://help.twitter.com/en/managing-your-account/connect-or-revoke-access-to-third-party-apps)
+  - [X /Twitter](https://help.twitter.com/en/managing-your-account/connect-or-revoke-access-to-third-party-apps)
 
 ##### On your phone
 
@@ -301,6 +301,12 @@ The best way to counteract this problem is to install and use a password manager
 - **Delete third-party keyboards on your phone.** They often share what you type with the software maker.
   - These keyboards are installed as apps on iOS and Android, so take the time to scan through all of your installed apps to find and delete them.
   - If you need to use a third-party keyboard, make sure it’s an open-source project that others have verified and does not share your data with third parties.
+
+##### On your computer
+
+- **Disable ad tracking for computers running Windows.** Instructions for:
+  - [Windows 10](https://privacyinternational.org/guide-step/4344/opt-out-targeted-ads-windows)
+  - [Windows 11](https://www.pcmag.com/how-to/how-to-remove-annoying-ads-from-windows-11)
 
 ##### On your mobile/computer web browsers
 
@@ -362,7 +368,7 @@ The best way to counteract this problem is to install and use a password manager
 - **When downloading a new mobile app, double-check to confirm it’s the right one.** Many fake apps trick people by using a slightly modified name or icon of an existing, popular app.
 - **Regularly check the installed apps on your phone.** Delete the ones you’re no longer using.
 - **Need to send someone a password? Split it in half and send it via two different channels.** For example, send half of the password through email and the other half via a voice call.
-- **Don’t use Google/Twitter/Facebook to sign up or log into other services,** which gives these platforms unnecessary data about you. Each service should have its account, and it should be easy to do this with a password manager.
+- **Don’t use Google/X/Twitter/Facebook to sign up or log into other services,** which gives these platforms unnecessary data about you. Each service should have its account, and it should be easy to do this with a password manager.
 
 ---
 
@@ -391,7 +397,7 @@ The best way to counteract this problem is to install and use a password manager
   - Recommended tool: [Cryptomator](https://cryptomator.org/).
 - **Set up this vault on your computer *and* your phone.**
 - **Move your files into the secure vault.** Make sure copies aren’t hanging around in an old folder or on your phone.
-
+- **If you’re on a paid plan for a password manager, put an extra copy of any documents that you use regularly (e.g. your passport or identity card) in it**. The feature is usually listed as `documents` or `attachments`. 💰
 #### Upgrade your gear 💰
 
 - **Buy a privacy screen for your laptop and phone.** These stick-on sheets prevent onlookers from seeing what's on your screen. Examples for:
@@ -403,9 +409,10 @@ The best way to counteract this problem is to install and use a password manager
 - **Buy a mobile phone that always gets the latest software updates.** Recommended phones:
   - Apple iPhone
   - Google Pixel Android
-- **Use a paid VPN service** both when you're on a public network (library or café) and when you're at home (to decrease data shared with your internet/phone company).
+- **Use a paid VPN service** both when you're on a public network (e.g. café) and when you're at home (to decrease data shared with your internet/phone company).
   - Avoid free VPN services because free services often make their money back by selling your data.
-  - Recommended VPNs: [Mullvad](https://mullvad.net), [TunnelBear](https://www.tunnelbear.com/)
+  - Recommended VPNs: [Mullvad](https://mullvad.net), [IVPN](https://www.ivpn.net/)
+  - *Note that though the iCloud Private Relay is similar to a VPN, it only applies to traffic through the Safari web browser.*
 
 #### Use end-to-end encrypted apps
 
@@ -425,9 +432,12 @@ The best way to counteract this problem is to install and use a password manager
 
 ##### For online file-sharing and backup
 
-- **Store files on the cloud using end-to-end encryption.**
+- **Store and share files on the cloud using end-to-end encryption.**
   - Recommended app: [Tresorit](https://tresorit.com/) 💰
-  - *Remember: files stored on Dropbox, Google Drive and iCloud are not end-to-end encrypted.*
+  - For iCloud: Turn on Advanced Data Protection. [See Apple’s instructions](https://support.apple.com/en-us/HT212520).
+  - *Remember: files stored on Dropbox and Google Drive are not end-to-end encrypted.*
+- **Backup your files online using an end-to-end encrypted platform.**
+  - Recommended app: [Arq](https://www.arqbackup.com/)  💰
 
 #### Further secure your messaging apps
 
@@ -470,6 +480,8 @@ If you don't want to give out your personal phone number, consider getting a vir
   - `Settings → Chats → Chat Backup → End-to-end Encrypted Backup`
   - For iOS users who use `iCloud Backup` (not end-to-end encrypted) to backup their entire phone, make sure WhatsApp is not included as part of the process. This `iCloud Backup` should not be confused with WhatsApp's interal backup feature that also uses iCloud. 
     - `[iOS] Settings →` Your name `→ iCloud → Manage Storage → Backups →` device `→ WhatsApp: Off`
+- **Stop automatically downloading any and all photos and videos your receive:**
+  - `Settings → Chats → Save to Camera Roll: Off`
 
 #### Fully utilize your password manager
 
@@ -619,7 +631,7 @@ Getting the care you need can be a controversial and fraught endeavor in many pa
 #### Tracking your period
 
 - **Use an app that stores your data locally,** or use pen and paper.
-  - Recommended app: [Euki](https://eukiapp.com/)
+  - Recommended apps: [Euki](https://eukiapp.com/), [drip](https://dripapp.org/)
   - iOS: If you use iCloud Backup, turn it off for this app: 
     - `Settings → `Your name` → iCloud → Manage Storage → Backups → `Your device` → Euki: Off`
 
@@ -687,7 +699,7 @@ Getting the care you need can be a controversial and fraught endeavor in many pa
   - See how often a platform hands over its data by looking up their transparency reports.
     - [Google Transparency Report: Request for user information](https://transparencyreport.google.com/user-data/overview)
     - [Facebook Transparency Report: Government Requests for User Data](https://transparency.facebook.com/)
-    - [Twitter Transparency Center: Information Requests](https://transparency.twitter.com/en/reports/information-requests.html)
+    - [X/Twitter Transparency Center: Information Requests](https://transparency.twitter.com/en/reports/information-requests.html)
     - [Apple Transparency Report](https://www.apple.com/legal/transparency/)
   - Look up the location of the platform's global headquarters and see where the nearest local/regional office is. Location affects a platform's relationship with the authorities and its privacy policy.
 
@@ -727,8 +739,8 @@ We recommend either going through the recommendations below with your trusted fr
 
 ##### Connect with communities
 
-- **Reach out to online communities you’re an active member of and ask for help.** See PEN America’s article on article on [Deploying Your Supportive Cyber Communities](https://onlineharassmentfieldmanual.pen.org/deploying-supportive-cyber-communities/).
-- **If no one is available right now, Heartmob has a list of [supportive organizations](https://iheartmob.org/resources/supportive_organizations)**, many of which have 24/7 hotlines.
+- **Reach out to online (and offline) communities you’re an active member of and ask for help.** See PEN America’s article on article on [Deploying Your Supportive Cyber Communities](https://onlineharassmentfieldmanual.pen.org/deploying-supportive-cyber-communities/).
+- **Share your story** on [Right To Be’s storytelling platform](https://stories.righttobe.org/), where their “community can help you document or report abuse on social media platforms, as well as send you messages of support.”
 
 #### Research and monitor the situation
 
@@ -747,7 +759,7 @@ We recommend either going through the recommendations below with your trusted fr
   - [Mention](https://mention.com) 💰
 - **Monitor and archive webpages that mention you**. Recommended tool:
   - [ChangeTower](https://changetower.com/).
-- **Log (date, time, description, screenshot, URL) incidents in whatever program/app is most accessible for you.** If there’s a lot of phone-only content, use the [Hunchly](https://hunch.ly/) mobile app.
+- **Log (date, time, description, screenshot, URL) incidents in whatever program/app is most accessible for you.** If there’s a lot of phone screenshots, use the [Hunchly Mobile](https://hunch.ly/mobile) app to organize and annotate them.
 - **If future legal action is likely, pay [Page Vault](https://www.page-vault.com) to capture a snapshot of a website.** Ask a lawyer to file an [evidence preservation request](https://onlinesos.org/blog/evidence-preservation-i-e-litigation-hold-request) with the relevant online platform.
 
 #### Decide on a course of action
@@ -762,6 +774,9 @@ The following choices are not mutually exclusive, and the best choice may change
 - **Block on social media:** Sends a strong signal to your harasser. They won’t be able to see your posts or message you. They will, however, notice that you blocked them and might interpret it as a sign of escalation.
 - **Go public:** Sometimes, shaming a harasser publicly or rallying people to your support will make them disappear. However, this has a high risk of escalating the situation and drawing more attention to it.
 - **Report:** Report the harasser to the relevant online platform to have their account frozen or deleted. You may also report the incident to your local law enforcement if it makes sense.
+- **Lawyer up:** If the harassment is clearly crossing legal boundaries in your jurisdiction, getting the help of a lawyer, might help, but make sure you have the time and money to do so.
+
+See PEN America's [Guidelines for Safely Practicing Counterspeech](https://onlineharassmentfieldmanual.pen.org/guidelines-for-safely-practicing-counterspeech/) for extra tips on how to talk back effectively.
 
 ##### If you decide to report
 
@@ -769,7 +784,7 @@ The following choices are not mutually exclusive, and the best choice may change
   - **Review the relevant reporting links for the following services:**
     - [Facebook](https://www.facebook.com/help/www/181495968648557)
     - [Instagram](https://help.instagram.com/192435014247952)
-    - [Twitter](https://help.twitter.com/en/forms/safety-and-sensitive-content)
+    - [X/Twitter](https://help.twitter.com/en/forms/safety-and-sensitive-content)
     - [Snapchat](https://support.snapchat.com/en-US/a/report-abuse-in-app)
 - **If there’s harassment material on a website:** File a report with the website’s web hosting service and domain registrar. You might be able to find out who these companies are by performing a [WHOIS lookup](https://lookup.icann.org/) on the website domain.
 - **If you contact law enforcement:**
@@ -805,14 +820,10 @@ Instagram has a set of nuanced features within its mobile app to filter and fine
 - **[Hidden Words](https://help.instagram.com/700284123459336)** filters out messages and comments with words that Instagram deems offensive. You can also set up a custom words list.
 - **[Limit](https://help.instagram.com/4106887762741654)** comments and messages from recent followers and accounts that aren’t following you.
 
-##### Twitter
+##### X/Twitter
 
-Twitter works with some pretty handy third-party tools and has a few features of its own.
+X no longer supports third-party tools that combat harassment, and the platform’s moderation efforts have gotten lax. If the controls below don’t work, consider setting your profile to private and disengaging until the platform is stable again.
 
-- **Filter unwanted mentions and replies** and/or archive them to process later with the help of a friend using [Block Party](https://www.blockpartyapp.com/).
-- **Block previously-identified offenders** using [Block Together](https://theblockbot.com/). Ask around in your communities for shared block lists.
-- **Block troll bots** using [Bot Sentinel](https://botsentinel.com).
-- **Reduce dogpiling** by using [Red Block](https://github.com/gaeulbyul/RedBlock). Red Block blocks all followers of a specific profile.
 - **See what lists you’ve been added to by going to `Profile → Lists → ··· → Lists` you’re on.** If you see a suspicious list or list owner, tap the three dots on the top right to report the list and leave the list by blocking the creator.
 - **Control who can reply to your tweets** by tapping `Everyone can reply` and restricting it to `People you follow` or `Only people you mention`.
 
@@ -856,9 +867,8 @@ Discord is centered around separate communities/servers, which affects the way b
 #### Check out these additional resources
 
 - Kat Fukui: [Guide for handling online harassment](https://www.tinykat.cafe/guide-for-handling-online-harassment)
-- OnlineSOS: [Action Center](https://onlinesos.org/action-center/category:identify)
 - PEN America: [Online Harassment Field Manual](https://onlineharassmentfieldmanual.pen.org/)
-- Feminist Frequency: [Speak Up & Stay Safe(r)](https://onlinesafety.feministfrequency.com/en/)
+- Games and Online Harassment Hotline: [Digital Safety Guide](https://gameshotline.org/online-free-safety-guide/)
 
 ---
 
@@ -900,13 +910,9 @@ You might not need to delete your entire account, but consider deleting (or maki
 - If you need to bulk-delete posts:
   - `Your activity → Photos and videos → Posts`, `Reels` or `Videos → Select` and then choose either `Archive` or `Delete`
 
-##### Twitter
+##### X/Twitter
 
-- **Use a third-party service to filter for tweets you want to save and bulk-delete the rest.** Recommended apps:
-  - [Semiphemeral](https://semiphemeral.com) (free + open source, but beta)
-  - [TweetDelete](https://tweetdelete.net/) (free + paid 💰 options)
-  - [Twitter Archive Eraser](https://martani.github.io/Twitter-Archive-Eraser/) (free + paid 💰 options)
-- **Alternately, manually locate and delete individual posts** using [Twitter’s Advanced search](https://twitter.com/search-advanced).
+- Manually locate and delete individual posts using [its advanced search](https://twitter.com/search-advanced).
 
 ##### LinkedIn
 
@@ -923,7 +929,7 @@ Many social media companies let you restore your deleted account after a specifi
 
 - **Facebook** [Read instructions](https://www.facebook.com/help/224562897555674) to deactivate or delete your account temporarily. You have 30 days after deactivation to reverse it.
 - **Instagram** [Read instructions](https://help.instagram.com/370452623149242/) to disable your account temporarily, but deleting it seems permanent.
-- **Twitter** [Read instructions](https://help.twitter.com/en/managing-your-account/how-to-deactivate-twitter-account) to deactivate your account. It will be permanently deleted if you don’t log in after 30 days.
+- **X/Twitter** [Read instructions](https://help.twitter.com/en/managing-your-account/how-to-deactivate-twitter-account) to deactivate your account. It will be permanently deleted if you don’t log in after 30 days.
 - **Snapchat** [Read instructions](https://support.snapchat.com/en-US/a/delete-my-account1) to delete your account. It will be permanently deleted if you don’t log in after 30 days.
 
 #### Remove your information from other people’s accounts or websites
@@ -964,8 +970,13 @@ When someone close to you (usually a romantic partner) spies on  you using a hid
 - **Check to see if you set up location share on an app.** Instructions for:
   - [Google Maps](https://support.google.com/maps/answer/7326816)
   - macOS: [Find My](https://support.apple.com/en-ca/HT210514)
+- **Log in to your important accounts and look for any suspicious logged in sessions.** Instructions for:
+  - [Gmail](https://support.google.com/mail/answer/45938?#zippy=%2Cconcurrent-session-information)
+  - [Facebook](https://www.facebook.com/help/211990645501187)
+  - [Instagram](https://help.instagram.com/2761108904184084)
+  - [X/Twitter](https://help.twitter.com/en/managing-your-account/connect-or-revoke-access-to-third-party-apps#sessions)
+  - [Microsoft](https://support.microsoft.com/en-us/account-billing/check-the-recent-sign-in-activity-for-your-microsoft-account-5b3cfb8e-70b3-2bd6-9a56-a50177863357)
 - **Review and redo the items in `Levels 1–3` of this guide.** Make sure to:
-  - Look for other active, logged in sessions on your accounts.
   - Reset your passwords for important accounts.
   - Check your privacy settings.
   - Look up any apps you don’t recognize on your computer and phone.
@@ -992,7 +1003,7 @@ When someone close to you (usually a romantic partner) spies on  you using a hid
 - **When you no longer need evidence, remove the suspicious apps/stalkerware yourself by performing a factory reset on your computer/phone.** Buying a brand new device is even safer, of course.
   - **Remember to reinstall apps and import data manually,** lest you restore a backup with stalkerware in it.
 
-#### Additional resources ####
+#### Additional resources
 
 - Consumer Reports: [Shut Stalkers Out of Your Tech](https://www.consumerreports.org/digital-security/shut-stalkers-out-of-your-tech/)
 - Wirecutter: [Protect Your Devices Against Domestic Abusers](https://thewirecutter.com/blog/domestic-abusers-can-control-your-devices-heres-how-to-fight-back/)
@@ -1012,7 +1023,7 @@ Below are some general recommendations that all journalists and researchers shou
 #### Protect your sources
 
 - **Use email as little as possible.** Even end-to-end encrypted email [leaves a trail of metadata](https://freedom.press/training/blog/how-reporters-emails-get-got-case-studies-legal-request-hacking/).
-- **Use an end-to-end encrypted messaging app that doesn’t store metadata to exchange messages.** Don’t use Twitter DMs!
+- **Use an end-to-end encrypted messaging app that doesn’t store metadata to exchange messages.** Don’t use X/Twitter DMs!
 - **For voice/video calls, use an end-to-end encrypted app as well.**
 - **Use the security features in Signal and WhatsApp.** See Martin Shelton’s articles on [Locking Down Signal](https://medium.com/@mshelton/locking-down-signal-d71678f653d3) and [Upgrading WhatsApp security](https://medium.com/@mshelton/upgrading-whatsapp-security-386c8ce496d3).
 - **For document transfers, have your organization set up [SecureDrop](https://securedrop.org/).** Failing that, encourage people to use [OnionShare](https://onionshare.org/).
@@ -1055,7 +1066,7 @@ Below are some general recommendations that all journalists and researchers shou
     - [Gmail](https://support.google.com/mail/answer/45938?#zippy=%2Cconcurrent-session-information)
     - [Facebook](https://www.facebook.com/help/211990645501187)
     - [Instagram](https://help.instagram.com/2761108904184084)
-    - [Twitter](https://help.twitter.com/en/managing-your-account/connect-or-revoke-access-to-third-party-apps#sessions)
+    - [X/Twitter](https://help.twitter.com/en/managing-your-account/connect-or-revoke-access-to-third-party-apps#sessions)
     - [Microsoft](https://support.microsoft.com/en-us/account-billing/check-the-recent-sign-in-activity-for-your-microsoft-account-5b3cfb8e-70b3-2bd6-9a56-a50177863357)
 - **To prevent misuse, get a new SIM card and cancel your old one.** Make sure to do this only after you've tried calling your phone to reach whoever has picked it up.
 - **If you get your device back, reset it** back to its factory settings and restore it from your last backup.
@@ -1069,7 +1080,7 @@ Below are some general recommendations that all journalists and researchers shou
   - [Gmail](https://support.google.com/mail/answer/45938?#zippy=%2Cconcurrent-session-information)
   - [Facebook](https://www.facebook.com/help/211990645501187)
   - [Instagram](https://help.instagram.com/2761108904184084)
-  - [Twitter](https://help.twitter.com/en/managing-your-account/connect-or-revoke-access-to-third-party-apps#sessions)
+  - [X/Twitter](https://help.twitter.com/en/managing-your-account/connect-or-revoke-access-to-third-party-apps#sessions)
   - [Microsoft](https://support.microsoft.com/en-us/account-billing/check-the-recent-sign-in-activity-for-your-microsoft-account-5b3cfb8e-70b3-2bd6-9a56-a50177863357)
 - **Use the device's built-in tools to look for irregular patterns.**
   - On your computer, look for any processes that are using a lot of your CPU, or have names that you don't recognize (look them up to be sure). Use these tools:
@@ -1087,6 +1098,7 @@ Below are some general recommendations that all journalists and researchers shou
     - [Loading](https://bonzaiapps.com/loading/)
     - [Little Snitch](https://www.obdev.at/products/littlesnitch/index.html)
     - [Charles Proxy](https://www.charlesproxy.com/)
+    - [LuLu](https://objective-see.org/products/lulu.html)
   - Windows:
     - [Glasswire](https://www.glasswire.com/)
     - [Charles Proxy](https://www.charlesproxy.com/)
@@ -1111,30 +1123,40 @@ Below are some general recommendations that all journalists and researchers shou
 - Access Now: [Digital Security Helpline](https://www.accessnow.org/help/)
 - Front Line Defender: [Emergency Contact](https://www.frontlinedefenders.org/emergency-contact)
 - SMEX: [Digital Safety Helpdesk](https://smex.org/helpdesk/) for people in Lebanon and other Arabic-speaking countries
+- Nothing2Hide: [Digital security helpline](https://nothing2hide.org/en/digital-security-helpline/) ensures against hacking threats for English and French speakers
 - Qurium Foundation: [Rapid Response Support](https://www.qurium.org/rapid-response/) for websites under attack
 - [Vita Activa](https://vita-activa.org/) for Spanish speakers.
 - Digital Defenders Partnership: [Incident Emergency Grant](https://www.digitaldefenders.org/funding/incident-emergency-fund/) (if you can wait for a week for a response)
 
+##### Services for journalists
+
+- Committee to Protect Journalists: [Contact via email, phone or fax](https://cpj.org/emergency-response/how-to-get-help/)
+- Free Press Unlimited: [Reporters Respond emergency fund](https://www.freepressunlimited.org/en/application-form-reporters-respond) for English, French, Spanish and Persian speakers
+- International Women’s Media Foundation: [one-on-one digital safety consultation](https://iwmf.submittable.com/submit/6df9dbf3-e068-4fa1-ba8a-67be4e4a3486/one-on-one-safety-consultation) (if it’s less urgent)
+
 ##### Regional services
 
+- Africa: [Digital Society of Africa’s helpline email](https://digitalsociety.africa/)
 - Jordan: [JOSA Emergency Response](https://er.jordanopensource.org/)
+- Pakistan: Digital Rights Foundation/Hamara Internet’s [Cyber Harassment Hotline](https://hamarainternet.org/cyber-harassment-helpline/) 
+- India: [CYBER B.A.A.P. offers guidance and counseling](https://www.cyberbaap.org/contact-us/) to victims of cyberbullying
 
-##### Services to counteract online harassment
+##### Services for victims of intimate image abuse
 
-- [Games and Online Harassment Hotline](https://gameshotline.org/): a US-based, text message-based, confidential emotional support hotline for members of the gaming community.
-- Digital Rights Foundation: [Cyber Harassment Hotline](https://digitalrightsfoundation.pk/contact/) (based on Pakistan)
+- Cyber Civil Rights Initiative: [online safety center and crisis helpline](https://cybercivilrights.org/ccri-safety-center/) (US-based)
+- [Revenge Porn Helpline](https://revengepornhelpline.org.uk/how-can-we-help/how-to-get-in-touch/) (UK only)
 
 ##### Other services to consider
 
+- [Games and Online Harassment Hotline](https://gameshotline.org/): a US-based, text message-based, confidential emotional support hotline for members of the gaming community.
 - The Coalition Against Stalkerware links to hotlines and organizations in 13 countries on [their resources page](https://stopstalkerware.org/resources/).
-- The [Cyber Civil Rights Initiative has a crisis helpline](https://www.cybercivilrights.org/contact-us/) for victims of nonconsensual pornography or other forms of online abuse.
 - Freemuse offers [assistance to artists](https://freemuse.org/artist-assistance/) at risk of threats, attacks, imprisonments, or exile.
 
-#### If someone else has taken control of your accounts ####
+#### If someone else has taken control of your accounts
 
 - See Consumer Reports Security Planners’ [list of instructions on regaining access](https://securityplanner.consumerreports.org/tool/regain-control-of-hacked-accounts).
 
-#### If you’ve been a victim of an online scam, fraud or ransomware ####
+#### If you’ve been a victim of an online scam, fraud or ransomware
 
 - See Microsoft’s [list of government fraud and scam reporting websites](https://support.microsoft.com/en-us/windows/protect-your-pc-from-ransomware-08ed68a7-939f-726c-7e84-a72ba92c01c3) (scroll down to "What to do if you already paid").
 
@@ -1152,10 +1174,12 @@ This section contains additional tips and tools that we encountered during our r
 - **Send end-to-end encrypted emails** using [Protonmail](https://protonmail.com/) or [Tutanota](https://tutanota.com/).
 - **Find an end-to-end encrypted video calling service** using [Freedom of the Press' guide](https://freedom.press/training/blog/videoconferencing-tools/).
 - **Send a self-destructing, password-protected message** using [One Time](https://onetimesecret.com/).
+- **Scan for any Bluetooth devices near you** (including AirTags) with [nRF Connect](https://www.nordicsemi.com/Products/Development-tools/nrf-connect-for-mobile).
 
 ### Cool tools that cost money
 
 - **Buy a USB [YubiKey](https://www.yubico.com/products/) for two-factor authentication.** If you work in free speech/press/internet, you may qualify for a free [Yubico for Free Speech](https://www.yubico.com/about/about-us/free-speech-program/).
+- **Use [1Password’s Travel Mode](https://support.1password.com/travel-mode/)** to create a set of passwords you don’t take with you on the road.
 - **Increase the protective barriers around your Google account and Android phone** by signing up for [Google’s Advanced Protection program](https://landing.google.com/advancedprotection/).
 - **Put your smart cards/passports/phones in a Faraday bag that blocks signals from going in and out.** (See [Micah Lee’s guide on them](https://micahflee.com/2015/11/some-thoughts-on-faraday-bags-and-operational-security/).)
 - **Buy a hardware-encrypted external USB or hard drive** from companies like [Apricorn](https://www.apricorn.com/).
@@ -1186,8 +1210,10 @@ This section contains additional tips and tools that we encountered during our r
   - **[Wordfence](https://wordpress.org/plugins/wordfence/)**
   - **[Sucuri Security](https://wordpress.org/plugins/sucuri-scanner/)**
   - **[iThemes Security](https://wordpress.org/plugins/better-wp-security/)**
+  - If your hosting service doesn't offer backups, use [VaultPress](https://jetpack.com/upgrade/backup/) or [BackupBuddy](https://ithemes.com/backupbuddy/).
 - **Consider switching to a more privacy-oriented hosting service** like [Greenhost](https://greenhost.net/) or one of these recommendations from [Gecko & Fly](https://www.geckoandfly.com/32144/anonymous-offshore-web-hosting/) and [PrivacyTools](https://www.privacytools.io/providers/hosting/).
 - **Set up a [security.txt](https://securitytxt.org/) file** so that researchers have a place to disclose security vulnerabilities.
+- 
 
 ### Other bonus items
 
