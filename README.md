@@ -39,7 +39,7 @@
 
 ### 🕒 Last updated
 
-- 5 August 2023
+- 12 August 2023
 
 ---
 
@@ -54,7 +54,7 @@
 
 Remember though, your threat model can change — either gradually over time or abruptly, say, when a new law is suddenly passed.
 
-### 🔗 Weakest link ###
+### 🔗 Weakest link
 
 The **weakest link** is where your digital safety is most vulnerable. For example, if an account’s forgot password function sends a link to your email, attackers only need to access your email to gain access to the account.
 
@@ -158,6 +158,7 @@ A phishing scam is an email or text message where an attacker is trying to trick
 
 - **Trust your instincts.** If you feel like something is off — whether it's the way the text is written, the way the graphics look, or an unusual, first-time request from a service provider — it probably is.
 - **Check who it's from.** Look over the sender's name and phone number or email address. If it's an email, be sure to closely read the bit after the `@` symbol.
+- **But remember sender details can be faked.** It happens rarely, but it is technically possible to put on a fake sender name, email or phone number. So checking the sender details is a not 100% foolproof process.
 - **Think twice before clicking a link.** When in doubt, carefully examine the domain in the link. To look at it without opening the link:
   - On mobile:
     - iOS: Tap and hold on a link. A mini preview of the destination will appear. On the top right of this mini-window, tap `Hide preview`. From then on, iOS will show the full URL whenever you tap and hold on a link.
@@ -169,6 +170,7 @@ A phishing scam is an email or text message where an attacker is trying to trick
 - **After clicking links, scan the URL address bar in your web browser.**
   - Is there a red warning icon or 'Not Secure' label? This means the website is running unencrypted on `http` (rather than `https`).
   - Is the domain spelled incorrectly?
+- **So if there’s any lingering doubt, don’t click the link.** In almost all cases, you don’t actually need to click the link. If you think it might be related to a transaction or application, you can always go to the original website to look up the details.
 
 #### Beware of file attachments
 
@@ -186,6 +188,8 @@ A phishing scam is an email or text message where an attacker is trying to trick
 
 #### Other considerations
 
+- **Use in-app browsers as little as you can.** When a mobile app lets you browse a webpage without opening your web browser (i.e. using an in-app browser), the app can track what websites you visit and in some cases what you type in them. So remember, if you ever find yourself tapping around in an in-app browser, find the icon to launch your phone/tablet’s normal browser ASAP. 
+- **Don’t plug in USB sticks/drives that you don’t know into your computer.** It might have malicious software on it.
 - **Wipe your devices properly before donating or giving them away.** If you’ve encrypted your phones and computers (as suggested earlier), a standard factory reset will work for most use cases.
   - If you want an extra layer of security for your computer hard drives, see [Wired’s guide on this topic](https://www.wired.co.uk/article/securely-wipe-android-iphone-hard-disk).
 - **Don’t charge your phone at public charging stations/ports.** They present a risk because attackers might steal your data. Instead, use a portable battery or bring our own adapter to plug directly into the power outlet.
@@ -293,8 +297,8 @@ The best way to counteract this problem is to install and use a password manager
   - iOS: `Settings → Privacy → Location Services`
   - Android: `Settings → Location → App access to location`
 - **Turn off your unique advertising ID number** so that advertisers can't pinpoint you as easily:
-  - iOS: `Settings → Privacy → Tracking → Allow Apps to Request to Track: Off`
-  - iOS: `Settings → Privacy → Apple Advertising → Personalized Ads: Off`
+  - iOS: `Settings → Privacy & Security → Tracking → Allow Apps to Request to Track: Off`
+  - iOS: `Settings → Privacy & Security → Apple Advertising → Personalized Ads: Off`
   - Android: `Settings → Privacy → Ads → Delete advertising ID`
 - **On Android, turn off passive Wi-Fi and Bluetooth scanning.**
   - `Settings → Location → Wi-Fi and Bluetooth scanning`
@@ -548,6 +552,8 @@ For sites and services that use email as the primary identifier/username, get a 
 - **Sign up for a privacy-focused virtual credit card 💰** (only available in the US). Both of these services a) mask who you are to the seller, and b) mask what you've bought from the bank.
   - [Privacy](https://privacy.com/)
   - [Blur](https://abine.com/) by Abine
+- **Get a virtual credit card for free trials** at [Do Not Pay](https://donotpay.com/learn/virtual-credit-cards/) for those cases where you want to sign up for a free service period but not give out your real credit card information.
+- **Ask to be paid in gift cards**, which can be used in stores without tracking.
 
 #### Create an untraceable online alias
 
@@ -623,8 +629,9 @@ Getting the care you need can be a controversial and fraught endeavor in many pa
 #### Researching and talking to friends
 
 - **Follow the privacy-enhancing recommendations in `Level 2`.**
-- **Use a VPN** to minimize what your internet provider can see.
+- **Use a VPN to minimize what your internet provider can see**.
   - Recommended VPNs: [Mullvad](https://mullvad.net), [TunnelBear](https://www.tunnelbear.com)
+  - Don’t have a VPN? Use [Tor Browser](https://www.torproject.org/) for now.
 - **Open a new private window on your web browser** to minimize tracking and makes sure your browsing history isn't saved. Alternately, use a different browser in private mode only for health research to further compartmentalize data.
 - **Think twice before sharing information,** and when you do, use an end-to-end encrypted messaging app with disappearing messages on. (Avoid email if possible.)
 
@@ -671,7 +678,7 @@ Getting the care you need can be a controversial and fraught endeavor in many pa
 - **Decide beforehand what you will do if you are asked to unlock your devices.** Searches sometimes happen as a routine part of border crossing.
 - **Notify your people about your flight number and arrival time.** Regularly check in with one of them at points in your journey. Have them contact a lawyer/relevant organization if you do not show up.
 
-#### For extreme situations ####
+#### For extreme situations
 
 *Note: Some of these practices might raise suspicions and backfire.*
 
@@ -757,8 +764,8 @@ We recommend either going through the recommendations below with your trusted fr
   - [Talkwalker](https://www.talkwalker.com/alerts)
   - [Google Alerts](https://www.google.com/alerts)
   - [Mention](https://mention.com) 💰
-- **Monitor and archive webpages that mention you**. Recommended tool:
-  - [ChangeTower](https://changetower.com/).
+- **Monitor and archive webpages that mention you**. Recommended tools:
+  - [ChangeTower](https://changetower.com/) or [Visualping](https://visualping.io/)
 - **Log (date, time, description, screenshot, URL) incidents in whatever program/app is most accessible for you.** If there’s a lot of phone screenshots, use the [Hunchly Mobile](https://hunch.ly/mobile) app to organize and annotate them.
 - **If future legal action is likely, pay [Page Vault](https://www.page-vault.com) to capture a snapshot of a website.** Ask a lawyer to file an [evidence preservation request](https://onlinesos.org/blog/evidence-preservation-i-e-litigation-hold-request) with the relevant online platform.
 
@@ -941,6 +948,7 @@ Many social media companies let you restore your deleted account after a specifi
 - Follow the Cyber Civil Rights Initiative’s [guide to get policy-violating posts/media removed from social networks](https://www.cybercivilrights.org/online-removal).
 - If you’re willing to pay 💰, [Yael Grauer](https://github.com/yaelwrites/Big-Ass-Data-Broker-Opt-Out-List#paid-options) recommends using [DeleteMe](https://joindeleteme.com/) and [Kanary](https://www.thekanary.com/) to remove your information from English-language public and paywalled sites.
 - If you want to do it yourself, check out Yael Grauer’s [Big Ass Data Broker Opt-Out List](https://github.com/yaelwrites/Big-Ass-Data-Broker-Opt-Out-List). (To be 100% thorough, use this on top of paid services.)
+- If you live in the US, [Consumer Reports’ Permission Slip app](https://www.permissionslipcr.com/) (iOS only) helps automate removal requests to 40+ US companies.
 
 #### Remove articles and press about you online
 
@@ -954,7 +962,7 @@ Many social media companies let you restore your deleted account after a specifi
 #### Obscure your personal information
 
 - **See the scenario:** `Masking your identity for online dating, events, or organizing`.
-- **Get a P.O. box** at a post office or use [Traveling Mailbox](https://travelingmailbox.com/) (U.S. only) to hide your home address.
+- **Get a P.O. box** at a post office or use [Earth Class Mail](https://www.earthclassmail.com/) (U.S. only) to hide your home address.
 - **Delete old accounts to eliminate traces of personal information on the internet.** Use the [JustDeleteMe](https://justdeleteme.xyz/) directory to accelerate this process.
 
 ---
@@ -967,15 +975,17 @@ When someone close to you (usually a romantic partner) spies on  you using a hid
 
 - **Keep a hidden, pen-and-paper log of suspicious incidents.**
 - **Make sure your partner is not getting information from previously shared accounts.** Did you share your calendar with them? Do you have any joint online accounts?
-- **Check to see if you set up location share on an app.** Instructions for:
-  - [Google Maps](https://support.google.com/maps/answer/7326816)
-  - macOS: [Find My](https://support.apple.com/en-ca/HT210514)
 - **Log in to your important accounts and look for any suspicious logged in sessions.** Instructions for:
   - [Gmail](https://support.google.com/mail/answer/45938?#zippy=%2Cconcurrent-session-information)
   - [Facebook](https://www.facebook.com/help/211990645501187)
   - [Instagram](https://help.instagram.com/2761108904184084)
   - [X/Twitter](https://help.twitter.com/en/managing-your-account/connect-or-revoke-access-to-third-party-apps#sessions)
   - [Microsoft](https://support.microsoft.com/en-us/account-billing/check-the-recent-sign-in-activity-for-your-microsoft-account-5b3cfb8e-70b3-2bd6-9a56-a50177863357)
+- **Check to see if you set up location share on an app.** Instructions for:
+  - [Google Maps](https://support.google.com/maps/answer/7326816)
+  - macOS: [Find My](https://support.apple.com/en-ca/HT210514)
+- **If you’re an iPhone user, run Safety Check** to review what you’ve shared and with who:
+  - `Settings → Privacy & Security → Safety Check`
 - **Review and redo the items in `Levels 1–3` of this guide.** Make sure to:
   - Reset your passwords for important accounts.
   - Check your privacy settings.
@@ -1038,7 +1048,7 @@ Below are some general recommendations that all journalists and researchers shou
 - **If you're traveling,** review the scenario titled `Crossing an international border`.
 - **If you’re covering a protest,** review the scenario titled `Attending a protest` and decide which parts apply to you (if you have special journalist rights/protections where you’re working).
 - **If you're doing research on social media,** do so under a separate account that uses an alias (not your real name). Set up this account using a disposable email address. (Not all newsrooms/employers allow this, but push the allowed boundaries as much as possible.)
-- **Use a VPN if you’re browsing the internet at the office.** For example, website administrators can see that you’re visiting from the *New York Times* network.
+- **Hide where you’re coming from to websites you visit.** Use a VPN or [Tor Browser](https://www.torproject.org/), especially if you’re browsing the internet at home or at the office. You don’t want website administrators to see that you’re visiting from the *New York Times* office network, for example.
 
 #### Protect your data
 
@@ -1092,6 +1102,10 @@ Below are some general recommendations that all journalists and researchers shou
     - Android: `Settings → Battery → Battery usage`
     - Android: `Settings → Network and interent → SIMs → App data usage`
     - Android: `Settings → Network and interent → Internet → Non-operator data usage` 
+  - If you are on an iPhone:
+    - See if you can go to `Settings → General → Profiles`, and if it’s available, look for anything you don’t recognize.
+    - In Safari, enter the URL `videos://`. This should ask you to open the TV app if it’s working. Cancel that, and then type in a new URL `cydia://`. It should say “Safari cannot open the page because the address is invalid.”
+
 - **Download third-party apps to help you analyze the data streams going in and out of your device:**
   - macOS:
     - [Radio Silence](https://radiosilenceapp.com/)
@@ -1105,12 +1119,18 @@ Below are some general recommendations that all journalists and researchers shou
   - Linux:
     - [Charles Proxy](https://www.charlesproxy.com/)
   - iOS:
+    - [iVerify](https://www.iverify.io/individuals)
     - [Guardian Firewall](https://guardianapp.com)
+    - [Lookout Life](https://www.lookout.com/life)
   - Android:
     - [Glasswire](https://www.glasswire.com/)
+    - [Lookout Life](https://www.lookout.com/life)
 - **Set up a spare phone as a room monitor** to detect unwanted physical intrusion. Example apps:
   - iOS & Android: [Alfred](https://alfred.camera/) 
   - Android: [Haven](https://guardianproject.info/apps/org.havenapp.main/)
+- **Put your phone or tablet in “lockdown mode” (iOS only)**  to block most of the incoming messages and connections while you figure things out:
+  - [Read Apple Support’s article about it.](https://support.apple.com/en-us/HT212650)
+  - `Settings → Privacy & Security → Lockdown Mode → Turn On Lockdown Mode` 
 
 ---
 
@@ -1122,10 +1142,11 @@ Below are some general recommendations that all journalists and researchers shou
 
 - Access Now: [Digital Security Helpline](https://www.accessnow.org/help/)
 - Front Line Defender: [Emergency Contact](https://www.frontlinedefenders.org/emergency-contact)
-- SMEX: [Digital Safety Helpdesk](https://smex.org/helpdesk/) for people in Lebanon and other Arabic-speaking countries
+- SMEX: [Digital Safety Helpdesk](https://smex.org/helpdesk/) for people in Arabic-speaking countries
+- Open Briefing: [Responsive assistance](https://www.openbriefing.org/support/referral/) for people outside the US (for English, Spanish, French, Portuguese or Arabic speakers)
 - Nothing2Hide: [Digital security helpline](https://nothing2hide.org/en/digital-security-helpline/) ensures against hacking threats for English and French speakers
 - Qurium Foundation: [Rapid Response Support](https://www.qurium.org/rapid-response/) for websites under attack
-- [Vita Activa](https://vita-activa.org/) for Spanish speakers.
+- [Vita Activa](https://vita-activa.org/) for Spanish and English speakers.
 - Digital Defenders Partnership: [Incident Emergency Grant](https://www.digitaldefenders.org/funding/incident-emergency-fund/) (if you can wait for a week for a response)
 
 ##### Services for journalists
@@ -1137,9 +1158,11 @@ Below are some general recommendations that all journalists and researchers shou
 ##### Regional services
 
 - Africa: [Digital Society of Africa’s helpline email](https://digitalsociety.africa/)
+- Southeast Asia: Security Matter’s [Help Desk](https://www.securitymatters.asia/help-desk) for civil society workers and marginalized people
+- Southeast Asia: SAFENet’s [Pelanggaran Hak-hak Digital](https://safenet.or.id/id/kontak/) for Indonesian speakers
 - Jordan: [JOSA Emergency Response](https://er.jordanopensource.org/)
 - Pakistan: Digital Rights Foundation/Hamara Internet’s [Cyber Harassment Hotline](https://hamarainternet.org/cyber-harassment-helpline/) 
-- India: [CYBER B.A.A.P. offers guidance and counseling](https://www.cyberbaap.org/contact-us/) to victims of cyberbullying
+- UK: [The Cyber Helpline](https://www.thecyberhelpline.com/) for “victims of cybercrime”
 
 ##### Services for victims of intimate image abuse
 
@@ -1148,7 +1171,6 @@ Below are some general recommendations that all journalists and researchers shou
 
 ##### Other services to consider
 
-- [Games and Online Harassment Hotline](https://gameshotline.org/): a US-based, text message-based, confidential emotional support hotline for members of the gaming community.
 - The Coalition Against Stalkerware links to hotlines and organizations in 13 countries on [their resources page](https://stopstalkerware.org/resources/).
 - Freemuse offers [assistance to artists](https://freemuse.org/artist-assistance/) at risk of threats, attacks, imprisonments, or exile.
 
@@ -1169,7 +1191,7 @@ This section contains additional tips and tools that we encountered during our r
 ### Cool tools for maximum safety
 
 - **Write and take notes on end-to-end encrypted apps.** Instead of Google Docs or Microsoft Office, use [CryptPad](https://cryptpad.fr) or [Standard Notes](https://standardnotes.org/). Both are open-source and free to use.
-- **Share files anonymous** with [Tresorit Send](https://send.tresorit.com/) or [OnionShare](https://onionshare.org/).
+- **Share files anonymous** with [Tresorit Send](https://send.tresorit.com/), Wormhole or [OnionShare](https://onionshare.org/).
 - **Turn suspicious PDFs into safe ones** using [Dangerzone](https://dangerzone.rocks).
 - **Send end-to-end encrypted emails** using [Protonmail](https://protonmail.com/) or [Tutanota](https://tutanota.com/).
 - **Find an end-to-end encrypted video calling service** using [Freedom of the Press' guide](https://freedom.press/training/blog/videoconferencing-tools/).
@@ -1180,10 +1202,10 @@ This section contains additional tips and tools that we encountered during our r
 
 - **Buy a USB [YubiKey](https://www.yubico.com/products/) for two-factor authentication.** If you work in free speech/press/internet, you may qualify for a free [Yubico for Free Speech](https://www.yubico.com/about/about-us/free-speech-program/).
 - **Use [1Password’s Travel Mode](https://support.1password.com/travel-mode/)** to create a set of passwords you don’t take with you on the road.
-- **Increase the protective barriers around your Google account and Android phone** by signing up for [Google’s Advanced Protection program](https://landing.google.com/advancedprotection/).
+- **Increase the protective barriers around your Google account and Android phone** by signing up for [Google’s Advanced Protection program](https://landing.google.com/advancedprotection/). This is especially useful if your most-used and most-private account belongs to Google (including Gmail). 
 - **Put your smart cards/passports/phones in a Faraday bag that blocks signals from going in and out.** (See [Micah Lee’s guide on them](https://micahflee.com/2015/11/some-thoughts-on-faraday-bags-and-operational-security/).)
+- **Get a security-focused router** from [pcWRT](https://www.pcwrt.com/) or [Peplink](https://www.peplink.com/).
 - **Buy a hardware-encrypted external USB or hard drive** from companies like [Apricorn](https://www.apricorn.com/).
-- **Scan your phone** with [iVerify](https://www.iverify.io/individuals) (iOS only).
 
 ### Cool tools with steep learning curves
 
@@ -1211,7 +1233,7 @@ This section contains additional tips and tools that we encountered during our r
   - **[Sucuri Security](https://wordpress.org/plugins/sucuri-scanner/)**
   - **[iThemes Security](https://wordpress.org/plugins/better-wp-security/)**
   - If your hosting service doesn't offer backups, use [VaultPress](https://jetpack.com/upgrade/backup/) or [BackupBuddy](https://ithemes.com/backupbuddy/).
-- **Consider switching to a more privacy-oriented hosting service** like [Greenhost](https://greenhost.net/) or one of these recommendations from [Gecko & Fly](https://www.geckoandfly.com/32144/anonymous-offshore-web-hosting/) and [PrivacyTools](https://www.privacytools.io/providers/hosting/).
+- **Consider switching to a more privacy-oriented hosting service** like [Greenhost](https://greenhost.net/) or [Maadix](https://maadix.net/en/) .
 - **Set up a [security.txt](https://securitytxt.org/) file** so that researchers have a place to disclose security vulnerabilities.
 - 
 
