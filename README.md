@@ -39,7 +39,7 @@
 
 ### 🕒 Last updated
 
-- 12 August 2023
+- 26 October 2023
 
 ---
 
@@ -579,12 +579,11 @@ When it comes to attending a protest, there are many, many considerations depend
 
 - **Turn off location history:**
   - iOS: `Settings → Privacy → Location Services → System Services → Significant Locations`.
-  - Android: `Settings → Privacy → Advanced → Google Location History →  Activity Controls: Location History.`
-  - Google Maps: `Settings → Maps history → Web & App Activity`.
+  - Android: `Settings → Security and privacy → More privacy settings → Activity controls →  Location History.`
+  - Google Maps: Tap your profile picture `→ Settings → Maps history → Saving to Web & App Activity → Turn off: Turn off and delete activity`.
 - **Delete past location history:**
   - iOS: `Settings → Privacy → Location Services → System Services → Significant Locations → Clear History`.
-  - Android: [See instructions](https://support.google.com/accounts/answer/3118687?hl=en#delete).
-  - Google Maps: [See instructions](https://support.google.com/maps/answer/3137804?hl=en).
+  - Android: `Settings → Security and privacy → More privacy settings → Activity controls →  Location History.`
 - **Consider turning off all location services temporarily:**
   - iPhone: `Settings → Privacy → Location Services → Location Services: Off`.
   - Android: `Settings → Location → Use location: Off`.
