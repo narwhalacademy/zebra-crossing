@@ -39,7 +39,7 @@
 
 ### 🕒 Last updated
 
-- 26 October 2023
+- 2 November 2023
 
 ---
 
@@ -425,14 +425,14 @@ The best way to counteract this problem is to install and use a password manager
 - **Use apps with open source end-to-end encryption protocols and easy-to-use disappearing message timers.**
   - Recommended apps:
     - [Signal](https://signal.org/): Sign up with a phone number.
-    - [Wire](https://wire.com/): Sign up with an email address or phone number.
+    - [Wire](https://wire.com/): Sign up with an email address. (The current website is confusing so the best thing to do is download their mobile app, open it and tap `Create a Wire personal account`.)
   - Set messages to disappear after 1 or 4 weeks.
     - **Signal:** Go to `Settings → Privacy →  Disappearing Messages → Default Timer for New Chats`.
     - **Wire:** No app-wide setting exists. You have to set it up for each conversation by tapping/clicking the timer icon ⏱.
   - These apps also end-to-end encrypt video and voice calls, so continue using them wherever possible.
 - **End-to-end encryption for video/voice calls with more than 5 people may not be worth it.** There are several reasons:
   - Privacy is hard to maintain in large group calls as they often become quasi-public events due to the large number of participants.
-  - End-to-end encrypted video/voice requires more bandwidth than usual, and there's a large chance one or more people on the call won't be able to connect properly.
+  - Support for end-to-end encrypted video/voice calls for larger groups is limited, and most platforms still collect the metadata around your call even when end-to-end encryption is switched on.
 
 ##### For online file-sharing and backup
 
@@ -520,7 +520,7 @@ If you don't want to give out your personal phone number, consider getting a vir
 
 #### Don't use your full name
 
-- **Consider using a nickname** or just your first name. This is especially important if your full name is very unique, which makes it very easy to search for online.
+- **Consider using a nickname** or only your first name (if your first name is common where you live). This is especially important if your full name is very unique, which makes it very easy to search for online.
 - **Consider using a persistent pseudonym or collective identity,** especially if you’re a public figure. For more information on how and why, see:
   - Tactical Tech: [Zen and the art of making tech work for you](https://gendersec.tacticaltech.org/wiki/index.php/Complete_manual#Creating_and_managing_identities_online)
 
@@ -620,6 +620,115 @@ When it comes to attending a protest, there are many, many considerations depend
     - Android: [Scrambled Exif](https://gitlab.com/juanitobananas/scrambled-exif)
 
 ---
+
+### 🫶🏾 Organizing a mutual aid group
+
+Mutual aid groups often include people with different backgrounds, so it’s very likely that at least one person in the group won’t be up-to-date on their digital safety practices. So the chances of an accidental data leak are much higher. Luckily, there are things you can do to minimize the damage done if that happens.
+
+- **Obscure your identity in the group**:
+  - Consider using a nickname or only your first name (if your first name is very common where you live).
+  - Don’t use a photo of yourself as your profile picture. Use a photo of an animal, cartoon character, etc.
+- **Split up who has access to your group’s private data** (e.g. community contact details and shared passwords). Not everyone needs access to everything. Here are some ways to split up who can access what:
+  - **Create different access level groups**. Access can be based on how long someone has been in the group, how good they are with technology, or which projects they are working on.
+  - **Fragment a document into pieces.** Make it so that different people have access to different parts of the document.
+  - **Assign one or two people as the documents/data managers.** But make sure that these people are well-versed in digital safety practices and stay home during risky public gatherings.
+- **Don’t use email to communicate, only use it to sign up for accounts.** Emails create metadata trails and tend to sit in people’s accounts for too long. 
+- **If you and your group plan on gathering publicly and in-person**, consider the recommendations in the scenario `Attending a protest`.
+
+#### Picking a chat app for closed, private groups
+
+Sometimes you will have to compromise on using the most technically secure app to using one that people are already familiar with. The one baseline requirement that’s worth fighting for is to **use an app with support for disappearing messages** (and to make sure it’s turned on). 
+
+We recommend:
+
+- **[Wire](https://app.wire.com/auth/#/)**:
+  - ✅ End-to-end encrypted group chats.
+  - ✅ Only shows your username to other people in the chat.
+  - ❌ The Wire website is confusing for new users (the best thing to do is download their mobile app, open it and tap `Create a Wire personal account`).
+  - Turn on disappearing messages:
+    - In the chat, tap the timer icon ⏱ at the bottom of the screen.
+- **[Signal](https://www.signal.org/)**:
+  - ✅ End-to-end encrypted group chats.
+  - ✅ Signal is easy to download and sign up for.
+  - ❌ Everyone in the chat can see your phone number. So we recommend pairing it with a secondary phone number (see scenario `Masking your identity for online dating, events, or organizing`).
+  - Turn on disappearing messages:
+    - In the chat, tap the group name at the top of the screen and then selecting `Disappearing Messages`.
+
+We don’t currently recommend Telegram, but it remains a popular choice for group chats. So we’ve included notes below on how to use it more safely:
+
+- **[Telegram](https://telegram.org/)**:
+  - ❌ No end-to-end encrypted group chats.
+  - ❌ Hard-to-find settings to hide phone number.
+  - ❌ Hard to turn on disappearing messages.
+  - To hide your phone number:
+    - Go to `Settings → Privacy and Security → Phone Number`, and then set:
+      - `Who can see my phone number` to `Nobody`.
+      - `Who can find me by my number` to `My Contacts`.
+  - Turn on disappearing messages by: 
+    - In the chat, tap the group name at the top of the screen, then tap the three dots at the top right of the screen, then tap `Auto-Delete`. 
+
+We do not recommend using WhatsApp at all. While its group chats are end-to-end encrypted, there are many downsides:
+
+- ❌ Your contacts list is sent to Meta/Facebook.
+- ❌ All chat metadata is sent to Meta/Facebook.
+- ❌ Everyone in the chat can see your phone number.
+- ❌ By default, it automatically downloads all shared images and videos.
+- ❌ By default, its chat backups aren’t end-to-end encrypted.
+
+##### Picking an app to broadcast updates
+
+Groups often use social media platforms (e.g. Instagram, X/Twitter) to post updates about their work. One popular alternative is to use [Telegram](https://telegram.org/)’s Channels to broadcast messages one-way to a large audience (with no comments or replies). The advantages of Telegram Channels:
+
+- You can create a publicly searchable or private invite-only channel.
+- Followers/readers subscribe to your channel and receive all of the updates (compared to traditional social media where you have to compete for attention and reach).
+
+##### Picking an app for big-group public outreach
+
+When your group grows, it may make sense to set up a more public online space to work with new members. Groups often migrate to platforms like [Slack](https://slack.com/), [Mattermost](https://mattermost.com/) and [Discord](https://discord.com/), which allow for multiple chatrooms within the same space. However, because these platforms are designed for corporate workplaces or public gaming communities, their privacy features are very limited. So we recommend using these platforms only for public outreach or for quasi-public messaging.
+
+##### Picking an app for group video calls
+
+Video call apps are tricky because not many of them support end-to-end encryption, and even those that do often collect your metadata. Having said that here is what we recommend:
+
+- **For small groups of ten or less, use [Signal](https://www.signal.org/)**. Its calls are end-to-end encrypted and it doesn’t collect any metadata. Unfortunately, it doesn’t work well with slower internet connections and only allows a maximum of 40 people on a call.
+- **For larger groups:**
+  - If you have a technical group member who is skilled at system administration, set up your own [BigBlueButton](https://bigbluebutton.org/) or [Jitsi](https://jitsi.org/) server. Encryption matters less when you control the data (i.e. you can delete it after each call).
+  - Otherwise, fall back on big tech platforms [Zoom](https://zoom.us/) or [Google Meet](https://meet.google.com/). (Zoom might seem like a safer bet because of its [end-to-end encryption feature](https://support.zoom.us/hc/en-us/articles/360048660871-End-to-end-E2E-encryption-for-meetings), but it also has a [poor track record of security issues](https://www.tomsguide.com/news/zoom-security-privacy-woes).) Remember though, both platforms collect your metadata and the host has to have a registered account.
+
+##### How to pick collaboration apps/platforms
+
+There are two paths groups take when it comes to picking collaboration apps/platforms:
+
+1. Use Google’s apps because they’re more accessible.
+2. Use open-source alternatives because they have better privacy features.
+
+Here’s the rundown on both of these paths.
+
+###### 1. Using Google Workspace more safely
+
+Google Workplace (Docs, Sheets, Drive, etc.) is a popular choice for collaborative work because its apps are powerful, easy-to-use and work well on mobile devices. But they also carry serious privacy limitations:
+
+1. Anyone who opens a document or file can see the creator’s profile picture, name and email address tied to their Google account.
+2. The activity log on documents also shows the details of who has made edits.
+3. None of your data is end-to-end encrypted.
+
+To mitigate these pitfalls:
+
+- Create a view-only webpage of your Google document or spreadsheet by going to `File → Share → Publish to web`. It’s hosted for free by Google, and doesn’t show who is creator is. (Unfortunately, this feature is available on the computer and not on mobile devices.)
+- Obscure your identity:
+  - Create a separate Google account under a fake name to create documents and upload files.
+  - Edit your own Google account profile to use a nick name or only your first same. Unfortunately, this changes how your name is displayed on all Google apps (including Gmail). 
+  - Open a private/incognito window when editing other people’s documents.
+
+###### 2. Using open-source alternatives
+
+Our recommended apps/platforms with notes about their accessibility limitations:
+
+- **[Riseup Pad:](https://pad.riseup.net/)** A browser-based text editor that doesn’t require any accounts. But this anonymity comes with limitations: anyone with the link can edit/delete the pad, pads will auto-delete after 60 days of inactivity and have a maximum lifespan of one year (so remember to backup).
+- **[Cryptpad:](https://cryptpad.fr/)** A browser-based platform that has apps for end-to-end encrypted text editing, spreadsheets and slides. The only downside is that people may experience loading problems on mobile devices.
+- **[Tresorit Send](https://send.tresorit.com/)** and  **[Wormhole](https://wormhole.app/)** are both websites that allow you to share end-to-end encrypted files (up to 5 and 10 GB respectively) without setting up an account.
+
+--- 
 
 ### 🩸 Accessing reproductive health services privately
 
@@ -1190,7 +1299,7 @@ This section contains additional tips and tools that we encountered during our r
 ### Cool tools for maximum safety
 
 - **Write and take notes on end-to-end encrypted apps.** Instead of Google Docs or Microsoft Office, use [CryptPad](https://cryptpad.fr) or [Standard Notes](https://standardnotes.org/). Both are open-source and free to use.
-- **Share files anonymous** with [Tresorit Send](https://send.tresorit.com/), Wormhole or [OnionShare](https://onionshare.org/).
+- **Share files anonymous** with [Tresorit Send](https://send.tresorit.com/), [Wormhole](https://wormhole.app/) or [OnionShare](https://onionshare.org/).
 - **Turn suspicious PDFs into safe ones** using [Dangerzone](https://dangerzone.rocks).
 - **Send end-to-end encrypted emails** using [Protonmail](https://protonmail.com/) or [Tutanota](https://tutanota.com/).
 - **Find an end-to-end encrypted video calling service** using [Freedom of the Press' guide](https://freedom.press/training/blog/videoconferencing-tools/).
@@ -1262,12 +1371,12 @@ We consulted many sources and drew upon our experiences in creating this guide. 
 
 ---
 
-## <a id="license"></a> 📝 License ##
+## 📝 License ##
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 ---
 
-## <a id="thanks"></a> 👋🏾 Special thanks ##
+## 👋🏾 Special thanks ##
 
 Special thanks to the [CryptoHarlem](https://twitter.com/cryptoharlem) community, the students at the School of Journalism and Communication at the Chinese University of Hong Kong, and [our GitHub contributors](https://github.com/narwhalacademy/zebra-crossing/graphs/contributors).
