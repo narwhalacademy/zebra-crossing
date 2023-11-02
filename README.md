@@ -1299,7 +1299,7 @@ This section contains additional tips and tools that we encountered during our r
 ### Cool tools for maximum safety
 
 - **Write and take notes on end-to-end encrypted apps.** Instead of Google Docs or Microsoft Office, use [CryptPad](https://cryptpad.fr) or [Standard Notes](https://standardnotes.org/). Both are open-source and free to use.
-- **Share files anonymous** with [Tresorit Send](https://send.tresorit.com/), [Wormhole](https://wormhole.app/) or [OnionShare](https://onionshare.org/).
+- **Share files anonymously** with [Tresorit Send](https://send.tresorit.com/), [Wormhole](https://wormhole.app/) or [OnionShare](https://onionshare.org/).
 - **Turn suspicious PDFs into safe ones** using [Dangerzone](https://dangerzone.rocks).
 - **Send end-to-end encrypted emails** using [Protonmail](https://protonmail.com/) or [Tutanota](https://tutanota.com/).
 - **Find an end-to-end encrypted video calling service** using [Freedom of the Press' guide](https://freedom.press/training/blog/videoconferencing-tools/).
@@ -1343,7 +1343,6 @@ This section contains additional tips and tools that we encountered during our r
   - If your hosting service doesn't offer backups, use [VaultPress](https://jetpack.com/upgrade/backup/) or [BackupBuddy](https://ithemes.com/backupbuddy/).
 - **Consider switching to a more privacy-oriented hosting service** like [Greenhost](https://greenhost.net/) or [Maadix](https://maadix.net/en/) .
 - **Set up a [security.txt](https://securitytxt.org/) file** so that researchers have a place to disclose security vulnerabilities.
-- 
 
 ### Other bonus items
 
