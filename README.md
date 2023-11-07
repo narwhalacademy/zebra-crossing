@@ -39,7 +39,7 @@
 
 ### 🕒 Last updated
 
-- 2 November 2023
+- 7 November 2023
 
 ---
 
@@ -634,6 +634,7 @@ Mutual aid groups often include people with different backgrounds, so it’s ver
   - **Assign one or two people as the documents/data managers.** But make sure that these people are well-versed in digital safety practices and stay home during risky public gatherings.
 - **Don’t use email to communicate, only use it to sign up for accounts.** Emails create metadata trails and tend to sit in people’s accounts for too long. 
 - **If you and your group plan on gathering publicly and in-person**, consider the recommendations in the scenario `Attending a protest`.
+- **If your work includes being visible to the public** (you help people in public spaces or appear on video interviews), consider taking your photo and full name off of your employer or school websites. This is to prevent people who disagree with your group from harassing your employer or school.
 
 #### Picking a chat app for closed, private groups
 
@@ -785,6 +786,7 @@ Getting the care you need can be a controversial and fraught endeavor in many pa
 - **Be mindful of what stickers you put on your devices.** A border agent could mistake them for something suspicious.
 - **Decide beforehand what you will do if you are asked to unlock your devices.** Searches sometimes happen as a routine part of border crossing.
 - **Notify your people about your flight number and arrival time.** Regularly check in with one of them at points in your journey. Have them contact a lawyer/relevant organization if you do not show up.
+- **If the process becomes uncomfortable, consider going back home for now.**  Sometimes you get unlucky and going through with it is not worth the stress. Tell them you are withdrawing your application and want to go home.
 
 #### For extreme situations
 
