@@ -986,6 +986,7 @@ Discord is centered around separate communities/servers, which affects the way b
 - Kat Fukui: [Guide for handling online harassment](https://www.tinykat.cafe/guide-for-handling-online-harassment)
 - PEN America: [Online Harassment Field Manual](https://onlineharassmentfieldmanual.pen.org/)
 - Games and Online Harassment Hotline: [Digital Safety Guide](https://gameshotline.org/online-free-safety-guide/)
+- If you have a tip, confedential information and you want to blow whistle, So, in such cases it is safe and anonymous delivery of information is very important. [Drop a News Tip](https://docs.google.com/spreadsheets/d/e/2PACX-1vSRFKbJUtFQ55uB5NSaIgxUwQM8qRGMwLyybDWhqmqbCba_zaeDo5L7i3yJv8vb_Q_VqRvIwOcRKDeJ/pubhtml) is a list of 50+ news sites which use securedrop and other safe methods for receiving information. You can select news site depending on your region.
 
 ---
 
