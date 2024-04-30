@@ -111,15 +111,17 @@ The first lock is usually your account password. The second lock takes on a diff
 
 #### Secure your phone
 
-- **Use a non-common/obvious unlock code for your phone with at least 9 digits.** We recommend using a long string of numbers as it's easier to tap (but using both letters and numbers is okay too). Swipe patterns are not recommended, however, as they are too easy replicated by onlookers.
+- **Use a non-common/obvious unlock code for your phone with at least 10 digits.** We recommend using a long string of numbers as it's easier to tap (but using both letters and numbers is okay too). Swipe patterns are not recommended, however, as they are too easy replicated by onlookers.
 - **Set up a pin code for your mobile phone SIM card:**
   - Instructions for:
     - [iPhone](https://support.apple.com/en-hk/HT201529)
     - [Android](https://www.maketecheasier.com/change-sim-pin-android/).
-  - If it asks you for a SIM pin code and you don't remember setting one, then the phone company/provider might have set one by default. Go to your phone provider’s website to find out what it is.
+  - If it asks you for a SIM pin code and you don't remember setting one, then the phone company might have set one by default. Go to your phone provider’s website to find out what it is.
 - **Don’t allow USB accessories to control a locked device:**
   - iOS: Turn off `Settings → Face ID & Passcode → Allow Access When Locked: USB Accessories`.
   - Android: Setting is off by default and is only available if `Developer Options` are turned on.
+- **For iOS devices, make sure `Stolen Device Protection` is turned on:**
+  - `Settings → Face ID & Passcode → Stolen Device Protection`
 
 #### Secure your computer
 
@@ -367,6 +369,18 @@ The best way to counteract this problem is to install and use a password manager
      - `Who can see my phone number` to `Nobody`.
      - `Who can find me by my number` to `My Contacts`.
 
+#### Know when your name publicly appears as a supporter or donor
+
+**Always check whether your name appears publicly online for subscriptions, crowdfunds, petitions and donations.** This is especially relevant if you have a unique name.
+
+Some platforms that facilitate these things often have privacy settings, so it’s best to create an account with them to gain some control over what appears publicly. Some examples of important but often overlooked privacy settings:
+
+- **Patreon:** `Settings → Accounts → Privacy`: Turn off both `Full public profile` and `Community profile`.
+- **Indiegogo:** In the menu, go to `My Campaigns`. If you want to hide a project from your public profile:
+  - Under `Campaigns I've Funded`,  select `Actions: Hide contribution`.
+  - Then the page refreshes, but the project has simply moved down to `Campaigns I’m Following`. There, select `Actions: Unfollow`. 
+- **GoFundMe:** In the menu, go to `Your impact`. Then go to any campaign you’ve supported. There, under `Your donations`, you can change whether your name appears publicly.
+
 #### Other considerations
 
 - **When downloading a new mobile app, double-check to confirm it’s the right one.** Many fake apps trick people by using a slightly modified name or icon of an existing, popular app.
@@ -437,7 +451,7 @@ The best way to counteract this problem is to install and use a password manager
 ##### For online file-sharing and backup
 
 - **Store and share files on the cloud using end-to-end encryption.**
-  - Recommended app: [Tresorit](https://tresorit.com/) 💰
+  - Recommended apps: [Tresorit](https://tresorit.com/), [Proton Drive](https://proton.me/drive) 💰
   - For iCloud: Turn on Advanced Data Protection. [See Apple’s instructions](https://support.apple.com/en-us/HT212520).
   - *Remember: files stored on Dropbox and Google Drive are not end-to-end encrypted.*
 - **Backup your files online using an end-to-end encrypted platform.**
@@ -451,7 +465,7 @@ Messaging apps use either your phone number or a username as the unique identifi
 
 Here's a breakdown of what unique identifiers are used for some popular messaging apps that offer some form of end-to-end encryption:
 
-- **Signal:** phone number
+- **Signal:** phone number or username (depending on your settings)
 - **Wire:** username (no one else can see the email or phone number you used to register your account)
 - **Telegram:** phone number by default *but* you can set up a username and then stop sharing your phone number:
   - `Settings → Username`
@@ -464,6 +478,10 @@ If you don't want to give out your personal phone number, consider getting a vir
 
 ###### Signal
 
+- **Set up a username** so people can find you with it rather than your phone number. To create a username:
+  - `Settings →` [Tap your profile icon or name] `→ @ Username`
+- **Hide your phone number.**
+  - Go to `Settings → Privacy → Phone Number`, and set both to `Nobody`.
 - **Turn on the extra layer of pin code protection** and prevent others from logging in with your phone number.
   - `Settings → Account → Signal PIN`
   - `Settings → Account → Registration Lock: On`
@@ -526,7 +544,7 @@ If you don't want to give out your personal phone number, consider getting a vir
 
 #### Get a secondary phone number
 
-For messaging apps using phone numbers as the primary identifier or username (e.g., Signal, WhatsApp, Telegram), get a secondary number from:
+For messaging apps using phone numbers as the primary identifier (e.g. Signal, WhatsApp, Telegram), get a secondary number from:
 
 - **Paid online services 💰** (more reliable)
   - [Hushed:](https://hushed.com): Offers US, Canada, and UK numbers
@@ -544,8 +562,8 @@ For messaging apps using phone numbers as the primary identifier or username (e.
 
 For sites and services that use email as the primary identifier/username, get a new 🆓 email account or an email alias that forwards to your main account from:
 
-- [SimpleLogin:](https://simplelogin.io): Based in the EU
-- [AnonAddy:](https://anonaddy.com): Based in the UK and EU
+- [SimpleLogin:](https://simplelogin.io): Based in Switzerland (as part of the ProtonMail/ProtonVPN group)
+- [addy.io](https://addy.io): Based in the UK and EU
 
 #### Buy things online anonymously
 
@@ -590,7 +608,7 @@ When it comes to attending a protest, there are many, many considerations depend
 
 ##### Other considerations
 
-- **Draft a message to a trusted friend before or legal hotline.** Prepare to hit send if arrested at the protest or if there’s an emergency.
+- **Draft a message to a trusted friend or legal hotline beforehand.** Prepare to hit send if arrested at the protest or if there’s an emergency.
 - **As a backup, write down the phone number of the trusted friend/hotline on your arm** with a permanent marker.
 - **Charge your phone fully and bring a spare battery.**
 - **Clean out any sensitive personal information on your phone.** Delete any photos, chat logs, and notes that can be used against you.
@@ -607,6 +625,10 @@ When it comes to attending a protest, there are many, many considerations depend
 #### Remember when you're out
 
 - **Power off your phone if there's risk of an imminent arrest or phone seizure.** Encryption works best when devices are off.
+- **Your location can be tracked by third parties through your phone’s SIM card connection.** Tracking is done using devices (often called IMSI catchers) that simulate mobile-phone towers, which log both your SIM card’s unique identity number and rough location. To preserve your privacy, you can turn off your phone or set up a burner phone.
+
+##### Respect privacy when taking photos and videos
+
 - **Try not to take photos or videos where people’s faces are visible.** Taking a photo of people’s backs is okay. *The one exception is if you’re filming a video of a conflict or arrest where documentation is critical.*
 - **If there are faces captured in a photo/video, make sure to blur them before sharing them online.**
   - Recommended tools:
@@ -642,18 +664,19 @@ Sometimes you will have to compromise on using the most technically secure app t
 
 We recommend:
 
+- **[Signal](https://www.signal.org/)**:
+  - ✅ End-to-end encrypted group chats.
+  - ✅ Signal is easy to download and sign up for.
+  - ✅ People in the chat can only see your phone number if it’s already in their phone’s address book by default, and you can even turn that off:
+    - Go to `Settings → Privacy → Phone Number`, and set both to `Nobody`.
+  - Turn on disappearing messages:
+    - In the chat, tap the group name at the top of the screen and then selecting `Disappearing Messages`.
 - **[Wire](https://app.wire.com/auth/#/)**:
   - ✅ End-to-end encrypted group chats.
   - ✅ Only shows your username to other people in the chat.
   - ❌ The Wire website is confusing for new users (the best thing to do is download their mobile app, open it and tap `Create a Wire personal account`).
   - Turn on disappearing messages:
     - In the chat, tap the timer icon ⏱ at the bottom of the screen.
-- **[Signal](https://www.signal.org/)**:
-  - ✅ End-to-end encrypted group chats.
-  - ✅ Signal is easy to download and sign up for.
-  - ❌ Everyone in the chat can see your phone number. So we recommend pairing it with a secondary phone number (see scenario `Masking your identity for online dating, events, or organizing`).
-  - Turn on disappearing messages:
-    - In the chat, tap the group name at the top of the screen and then selecting `Disappearing Messages`.
 
 We don’t currently recommend Telegram, but it remains a popular choice for group chats. So we’ve included notes below on how to use it more safely:
 
@@ -739,7 +762,7 @@ Getting the care you need can be a controversial and fraught endeavor in many pa
 
 - **Follow the privacy-enhancing recommendations in `Level 2`.**
 - **Use a VPN to minimize what your internet provider can see**.
-  - Recommended VPNs: [Mullvad](https://mullvad.net), [TunnelBear](https://www.tunnelbear.com)
+  - Recommended VPNs: [Mullvad](https://mullvad.net) 💰, [ProtonVPN](https://protonvpn.com/free-vpn) (free for one device)
   - Don’t have a VPN? Use [Tor Browser](https://www.torproject.org/) for now.
 - **Open a new private window on your web browser** to minimize tracking and makes sure your browsing history isn't saved. Alternately, use a different browser in private mode only for health research to further compartmentalize data.
 - **Think twice before sharing information,** and when you do, use an end-to-end encrypted messaging app with disappearing messages on. (Avoid email if possible.)
@@ -805,7 +828,7 @@ Getting the care you need can be a controversial and fraught endeavor in many pa
 - **Setup a VPN beforehand to:**
   - Access services uninterrupted.
   - Minimize the amount of data collected about you.
-  - Recommended apps: [Mullvad](https://mullvad.net/), [TunnelBear](https://www.tunnelbear.com/)
+  - Recommended apps: [Mullvad](https://mullvad.net/), [IVPN](https://www.ivpn.net/)
 - **Download these offline apps in case there are connectivity issues:**
   - **An offline messaging app** to send text messages to people nearby if the internet goes down by using Bluetooth.
     - Recommended: [Bridgefy](https://bridgefy.me/)
@@ -986,7 +1009,6 @@ Discord is centered around separate communities/servers, which affects the way b
 - Kat Fukui: [Guide for handling online harassment](https://www.tinykat.cafe/guide-for-handling-online-harassment)
 - PEN America: [Online Harassment Field Manual](https://onlineharassmentfieldmanual.pen.org/)
 - Games and Online Harassment Hotline: [Digital Safety Guide](https://gameshotline.org/online-free-safety-guide/)
-- If you have a tip, confedential information and you want to blow whistle, So, in such cases it is safe and anonymous delivery of information is very important. [Drop a News Tip](https://docs.google.com/spreadsheets/d/e/2PACX-1vSRFKbJUtFQ55uB5NSaIgxUwQM8qRGMwLyybDWhqmqbCba_zaeDo5L7i3yJv8vb_Q_VqRvIwOcRKDeJ/pubhtml) is a list of 50+ news sites which use securedrop and other safe methods for receiving information. You can select news site depending on your region.
 
 ---
 
@@ -1074,6 +1096,7 @@ Many social media companies let you restore your deleted account after a specifi
 
 - **See the scenario:** `Masking your identity for online dating, events, or organizing`.
 - **Get a P.O. box** at a post office or use [Earth Class Mail](https://www.earthclassmail.com/) (U.S. only) to hide your home address.
+  - If you live in the US, you might qualify for your home state’s [Address Confidentiality Program](https://en.wikipedia.org/wiki/Address_confidentiality_program) if you are a victim of abuse or a healthcare worker. Rules vary state by state.
 - **Delete old accounts to eliminate traces of personal information on the internet.** Use the [JustDeleteMe](https://justdeleteme.xyz/) directory to accelerate this process.
 
 ---
@@ -1110,6 +1133,7 @@ When someone close to you (usually a romantic partner) spies on  you using a hid
   - Instructions for scanning:
     - Apple Airtags: [iOS](https://support.apple.com/HT212227), [Android](https://support.apple.com/HT212227#trackerdetect)
     - [Tiles](https://tileteam.zendesk.com/hc/articles/4415488529943)
+  - Additional tool for Android: [AirGuard](https://github.com/seemoo-lab/AirGuard)
 - **Don’t delete suspicious apps immediately.** You may need to keep them as evidence. Plus, deletion may also cause the situation with your partner to escalate.
 
 #### If you’re pretty sure they’re spying on you and you’re scared
@@ -1182,13 +1206,21 @@ Below are some general recommendations that all journalists and researchers shou
   - iOS and macOS: [Find My](https://support.apple.com/HT210515).
   - Android: [Find My Device](https://support.google.com/accounts/answer/6160491).
   - Windows: [Find My Device](https://support.microsoft.com/account-billing/find-and-lock-a-lost-windows-device-890bf25e-b8ba-d3fe-8253-e98a12f26316)
-- **Log out of all important accounts** by logging into them from another device, and then logging out all other active sessions.
+- **Remove access to all important accounts on the lost device** by logging into them from another device, and then logging out all other active sessions.
   - Instructions for:
     - [Gmail](https://support.google.com/mail/answer/45938?#zippy=%2Cconcurrent-session-information)
     - [Facebook](https://www.facebook.com/help/211990645501187)
     - [Instagram](https://help.instagram.com/2761108904184084)
     - [X/Twitter](https://help.twitter.com/en/managing-your-account/connect-or-revoke-access-to-third-party-apps#sessions)
     - [Microsoft](https://support.microsoft.com/en-us/account-billing/check-the-recent-sign-in-activity-for-your-microsoft-account-5b3cfb8e-70b3-2bd6-9a56-a50177863357)
+- **Remove access to your authenticator app on the lost device** (if you use an app that supports multiple devices).
+  - Instructions for:
+    - [Authy](https://help.twilio.com/articles/19753662574363)
+- **Remove access to your password manager on the lost device** in the same way.
+  - Instructions for:
+    - 1Password: Tap/click your profile icon/name, then `Manage Accounts → Accounts → [Your account name] → Trusted Devices and Browsers`, and choose `Deauthorize` on the lost device 
+    - Bitwarden: `Settings → My accounts → Deauthorize sessions`
+- **Change the password on important accounts** (banking, email, social media) if you think someone else might misuse them.
 - **To prevent misuse, get a new SIM card and cancel your old one.** Make sure to do this only after you've tried calling your phone to reach whoever has picked it up.
 - **If you get your device back, reset it** back to its factory settings and restore it from your last backup.
 - **If the authorities seize your device at an international border crossing, ask for a seizure receipt** (available in some jurisdictions, such as [Canada](https://bccla.org/wp-content/uploads/2018/10/Electronic-Devices-Privacy-Handbook-BCCLA_2.0.pdf)).
@@ -1293,6 +1325,10 @@ Below are some general recommendations that all journalists and researchers shou
 
 - See Microsoft’s [list of government fraud and scam reporting websites](https://support.microsoft.com/en-us/windows/protect-your-pc-from-ransomware-08ed68a7-939f-726c-7e84-a72ba92c01c3) (scroll down to "What to do if you already paid").
 
+#### If you need to safely send information to journalists
+
+- [Drop a News Tip](https://docs.google.com/spreadsheets/d/e/2PACX-1vSRFKbJUtFQ55uB5NSaIgxUwQM8qRGMwLyybDWhqmqbCba_zaeDo5L7i3yJv8vb_Q_VqRvIwOcRKDeJ/pubhtml) has a list of 50+ news organizations from all over the world that let you submit information through SecureDrop and/or an end-to-end encrypted messaging app.
+
 ---
 
 ## 🎁 Bonus
@@ -1344,6 +1380,7 @@ This section contains additional tips and tools that we encountered during our r
   - **[Sucuri Security](https://wordpress.org/plugins/sucuri-scanner/)**
   - **[iThemes Security](https://wordpress.org/plugins/better-wp-security/)**
   - If your hosting service doesn't offer backups, use [VaultPress](https://jetpack.com/upgrade/backup/) or [BackupBuddy](https://ithemes.com/backupbuddy/).
+  - Alternatively, use [Simply Static](https://simplystatic.com/) to turn your public-facing Wordpress site into a static site.
 - **Consider switching to a more privacy-oriented hosting service** like [Greenhost](https://greenhost.net/) or [Maadix](https://maadix.net/en/) .
 - **Set up a [security.txt](https://securitytxt.org/) file** so that researchers have a place to disclose security vulnerabilities.
 
@@ -1370,6 +1407,7 @@ We consulted many sources and drew upon our experiences in creating this guide. 
 
 - Consumer Reports: [Security Planner](https://securityplanner.consumerreports.org/)
 - Electronic Frontier Foundation: [Surveillance Self-Defense](https://ssd.eff.org/)
+- Michael Horowitz: [A Defensive Computing Checklist](https://defensivecomputingchecklist.com/)
 
 ---
 
