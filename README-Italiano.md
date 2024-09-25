@@ -42,7 +42,7 @@ Per capire che misure di protezione adottare, devi prima capire a che rischi sei
 ### 🔡 Livelli di crittografia
 
 1. Dati non criptati: Chunque intercetti le tue comunicazioni, puo' leggerle.
-2. Livello di criptazione normale: I tuoi dati sono crittografati, chiunque intercetti le tue comunicazioni, non puo' leggerle. Ma la piattaforma usata per comunicare (per esempio Google or Facebook) puo' accedere ai tuoi dati in chiaro, e potrebbe consegnarli alle autorita' in caso venga chiesto loro di farlo, per esempio da un ordine del tribunale.
+2. Livello di criptazione normale: I tuoi dati sono crittografati, chiunque intercetti le tue comunicazioni, non puo' leggerle. Ma la piattaforma usata per comunicare (per esempio Google or Facebook) puo' accedere ai tuoi dati in chiaro, e potrebbe consegnarli in caso venga chiesto loro di farlo, per esempio da un ordine del tribunale.
 3. Crittografia end-to-end: le comunicazioni possono essere lette solo dal mittente e dal destinatario. Questo significa che nemmeno la piattaforma usata per comunicare ha accesso al contenuto della comunicazione. Quindi anche in caso di un ordine del tribunale, la piattaforma puo' solo fornire il contenuto crittografato delle comunicazioni, non in chiaro.
 
 ### 🧩 Metadati

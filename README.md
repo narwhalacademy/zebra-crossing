@@ -28,6 +28,7 @@
 - [繁體中文 (Traditional Chinese)](https://github.com/narwhalacademy/zebra-crossing/blob/main/README-繁體中文.md)
 - [Deutsch (German)](https://github.com/narwhalacademy/zebra-crossing/blob/main/README-Deutsch.md)
 - [日本語](https://github.com/narwhalacademy/zebra-crossing/blob/main/README-日本語.md) (Japanese, a work-in-progress)
+- [Türkçe](https://github.com/narwhalacademy/zebra-crossing/blob/main/README-Türkçe.md) (Turkish, a work-in-progress)
 - [Italiano](https://github.com/narwhalacademy/zebra-crossing/blob/main/README-Italiano.md) (Italian, a work-in-progress)
 - Looking to contribute another language? [Send us a message](mailto:contact@narwhalacademy.org) to collaborate.
 
@@ -63,8 +64,8 @@ The **weakest link** is where your digital safety is most vulnerable. For exampl
 **Encryption** is the process of scrambling or encoding information to make it unreadable to passers-by and prevent unauthorized access. People often categorize **encryption** into these three types:
 
 1. **No encryption:** Any third party can intercept the data and read it as-is. Often called "plaintext."
-2. **Standard encryption:** Data is encrypted so that intercepting third parties cannot read it, but the platform being used to send the data (e.g. Facebook Messenger) can unscramble and read it. The platform may hand the unscrambled data to courts or government agencies if ordered to do so.
-3. **End-to-end encryption:** Only the original sender and receiver can read the data. The platform being used to send the data only has the scrambled, unreadable version. So if courts or government agencies order the platform to hand over the data, there's nothing useful to hand over.
+2. **Standard encryption:** Data is encrypted so that intercepting third parties cannot read it, but the platform being used to send the data (e.g. Facebook Messenger) can unscramble and read it. The platform may hand the unscrambled data to courts if ordered to do so.
+3. **End-to-end encryption:** Only the original sender and receiver can read the data. The platform being used to send the data only has the scrambled, unreadable version. So if courts order the platform to hand over the data, there's nothing useful to hand over.
 
 ### 🧩 Metadata
 
@@ -125,9 +126,6 @@ The first lock is usually your account password. The second lock takes on a diff
 
 #### Secure your computer
 
-- **Turn on HTTPS-only mode** (warns against unencrypted website traffic) on your desktop web browser(s):
-  - Instructions for:
-    - [Firefox, Chrome, Edge, Safari](https://www.eff.org/https-everywhere/set-https-default-your-browser)
 - **Turn on your computer’s firewall:**
   - macOS: `System Preferences → Security & Privacy → Firewall`.
   - Windows: `Control Panel → System and Security → Windows Firewall`.
@@ -259,9 +257,9 @@ The best way to counteract this problem is to install and use a password manager
 
 - **Set up tracking** or `Find My`, which will allow you to remotely find and wipe your devices by logging into a website if you ever lose them.
 - Instructions for:
-  - [iOS & macOS](https://support.apple.com/en-us/HT210400).
-  - [Android](https://support.google.com/android/answer/6160491?hl=en).
-  - [Windows:](https://support.microsoft.com/en-us/account-billing/find-and-lock-a-lost-windows-device-890bf25e-b8ba-d3fe-8253-e98a12f26316).
+  - [iOS & macOS](https://support.apple.com/en-us/HT210400)
+  - [Android](https://support.google.com/android/answer/6160491?hl=en)
+  - [Windows](https://support.microsoft.com/en-us/account-billing/find-and-lock-a-lost-windows-device-890bf25e-b8ba-d3fe-8253-e98a12f26316)
 
 #### Enhance your privacy
 
@@ -291,7 +289,7 @@ The best way to counteract this problem is to install and use a password manager
   - [Google](https://support.google.com/accounts/answer/3466521?hl=en)
   - [Facebook](https://www.facebook.com/help/211829542181913)
   - [Instagram](https://www.facebook.com/help/instagram/1144624522593085)
-  - [X /Twitter](https://help.twitter.com/en/managing-your-account/connect-or-revoke-access-to-third-party-apps)
+  - [X/Twitter](https://help.twitter.com/en/managing-your-account/connect-or-revoke-access-to-third-party-apps)
 
 ##### On your phone
 
