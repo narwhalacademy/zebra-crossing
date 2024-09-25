@@ -28,7 +28,7 @@
 - [繁體中文 (Traditional Chinese)](https://github.com/narwhalacademy/zebra-crossing/blob/main/README-繁體中文.md)
 - [Deutsch (German)](https://github.com/narwhalacademy/zebra-crossing/blob/main/README-Deutsch.md)
 - [日本語](https://github.com/narwhalacademy/zebra-crossing/blob/main/README-日本語.md) (Japanese, a work-in-progress)
-- [Türkçe](https://github.com/narwhalacademy/zebra-crossing/blob/main/README-Türkçe.md) (Turkish, a work-in-progress)
+- [Türkçe](https://github.com/narwhalacademy/zebra-crossing/blob/main/README-T%C3%BCrk%C3%A7e.md) (Turkish, a work-in-progress)
 - [Italiano](https://github.com/narwhalacademy/zebra-crossing/blob/main/README-Italiano.md) (Italian, a work-in-progress)
 - Looking to contribute another language? [Send us a message](mailto:contact@narwhalacademy.org) to collaborate.
 

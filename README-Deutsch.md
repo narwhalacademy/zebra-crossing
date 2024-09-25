@@ -22,7 +22,7 @@ Diese Ratschläge beruhen auf unseren Erfahrungen mit dem Leben und Arbeiten in 
 
 - [English (Englisch)](https://github.com/narwhalacademy/zebra-crossing/blob/main/README.md)
 - [繁體中文 (Traditionelles Chinesisch)](https://github.com/narwhalacademy/zebra-crossing/blob/main/README-繁體中文.md)
-- [Türkçe](https://github.com/narwhalacademy/zebra-crossing/blob/main/README-Türkçe.md) (Türkisch, in Arbeit)
+- [Türkçe](https://github.com/narwhalacademy/zebra-crossing/blob/main/README-T%C3%BCrk%C3%A7e.md) (Türkisch, in Arbeit)
 - [日本語 (Japanisch, in Arbeit)](https://github.com/narwhalacademy/zebra-crossing/blob/main/README-日本語.md)
 - [Italiano (Italienisch, in Arbeit)](https://github.com/narwhalacademy/zebra-crossing/blob/main/README-Italiano.md)
 

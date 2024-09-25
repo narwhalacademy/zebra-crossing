@@ -23,7 +23,7 @@
 - [English (英語)](https://github.com/narwhalacademy/zebra-crossing/blob/main/README.md)
 - [繁體中文（中国語)](https://github.com/narwhalacademy/zebra-crossing/blob/main/README-繁體中文.md)
 - [Deutsch（ドイツ語、作成中）](https://github.com/narwhalacademy/zebra-crossing/blob/main/README-Deutsch.md)
-- [Türkçe](https://github.com/narwhalacademy/zebra-crossing/blob/main/README-Türkçe.md) (トルコ語, 作成中)
+- [Türkçe](https://github.com/narwhalacademy/zebra-crossing/blob/main/README-T%C3%BCrk%C3%A7e.md) (トルコ語, 作成中)
 - [Italiano (イタリア語、作成中)](https://github.com/narwhalacademy/zebra-crossing/blob/main/README-Italiano.md)
 
 ### ☕️ このガイドを支持する
