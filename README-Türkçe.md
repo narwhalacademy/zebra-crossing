@@ -64,7 +64,7 @@ Yine de unutmayın, tehdit modeliniz değişebilir - zaman içinde kademeli olar
 
 1. **Şifreleme yok:** Herhangi bir üçüncü taraf veriyi kesebilir ve olduğu gibi okuyabilir. Genellikle “düz metin” olarak adlandırılır.
 2. **Standart şifreleme:** Veriler, araya giren üçüncü tarafların okuyamayacağı şekilde şifrelenir, ancak verileri göndermek için kullanılan platform (örneğin Facebook Messenger) verileri çözebilir ve okuyabilir. Platform, emir verilmesi halinde şifresi çözülmüş verileri mahkemelere verilir.
-3. **Uçtan uca şifreleme:** Verileri yalnızca orijinal gönderici ve alıcı okuyabilir. Verileri göndermek için kullanılan platform sadece karıştırılmış, okunamayan versiyona sahiptir. Dolayısıyla, mahkemeler platforma verileri teslim etmesini emrederdim, teslim edilecek yararlı bir şey yoktur.
+3. **Uçtan uca şifreleme:** Verileri yalnızca orijinal gönderici ve alıcı okuyabilir. Verileri göndermek için kullanılan platform sadece karıştırılmış, okunamayan versiyona sahiptir. Dolayısıyla, mahkemeler platforma verileri teslim etmesini emrederse, teslim edilecek yararlı bir şey yoktur.
 
 ### 🧩 Meta Veriler
 
