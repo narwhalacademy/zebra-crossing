@@ -40,7 +40,7 @@
 
 ### 🕒 Last updated
 
-- 7 January 2025
+- 13 January 2025
 
 ---
 
@@ -390,12 +390,12 @@ Try to have a backup copy of these papers in a second location.
     - Android Chrome: `[Chrome] Settings → Privacy and security`, turn on `Safe Browsing` (either option), `Always use secure connections`, `Do Not Track`
     - Android Firefox: `[Firefox] Settings → Privacy and security`, turn on `HTTPS-Only Mode`, `Enhanced Tracking Protection`
   - On your computer:
-    - macOS Safari: `Preferences → Privacy`, turn on `Website tracking` and `Hide IP address`
+    - macOS Safari: `Preferences → Privacy`, tick the checkboxes for `Website tracking` and `Hide IP address`
     - macOS/Windows Chrome: `Preferences → Privacy and security → Cookies and other site data`, turn on `Block third-party cookies`, `Do not track`
     - macOS/Windows Firefox: `Preferences → Privacy & Security`, turn on `Enhanced Tracking Protection` (any option), `Do Not Track` and `HTTPS-Only Mode` (scroll to the bottom)
 - **Install these web browser extensions/add-ons** if your browser supports it. Make sure they’re on even during private/incognito mode. The following extensions/add-ons are available for Firefox (macOS, Windows, Android) and Chrome (macOS, Windows):
   - [uBlock Origin](https://ublockorigin.com/), which blocks invasive ads.
-  - [Privacy Badger](https://www.eff.org/privacybadger), which blocks trackers.
+  - [Privacy Badger](https://privacybadger.org/), which blocks trackers.
   - [Decentraleyes](https://decentraleyes.org/), which decrease tracking on commonly-used resource files.
 - **Review your other web browser extensions/add-ons.** Delete any that you haven’t used in a while or don’t remember installing.
 
@@ -546,13 +546,11 @@ Some platforms that facilitate these things often have privacy settings, so it�
 
 Messaging apps use either your phone number or a username as the unique identifier (which other people use to add you on the platform). As such, **your phone number or username is then visible to anyone you're in a group chat with**, along with the name and photo in your profile.
 
-Here's a breakdown of what unique identifiers are used for some popular messaging apps that offer some form of end-to-end encryption:
+Here's a breakdown of what unique identifiers is visible to others in a group chat on popular messaging apps:
 
-- **Signal:** phone number or username (depending on your settings)
+- **Signal:** phone number by default if you’re the recipient’s address book already, no unique identifier if not (but you can set up a username and stop sharing your phone number altogether)
 - **Wire:** username (no one else can see the email or phone number you used to register your account)
-- **Telegram:** phone number by default *but* you can set up a username and then stop sharing your phone number:
-  - `Settings → Username`
-  - `Settings → Privacy and Security → Phone Number → Who can see my phone number: Nobody`
+- **Telegram:** phone number by default (but you can set up a username and stop sharing your phone number)
 - **WhatsApp:** phone number
 
 If you don't want to give out your personal phone number, consider getting a virtual phone number from one of the providers listed in our scenario for `Masking your identity for online dating, events, or organizing`.
@@ -1098,6 +1096,13 @@ Bluesky lets anyone create their own manual or algorithmic label/mute/block list
 
 Important caveat: It’s currently possible to retrieve a list of everyone you block using the Bluesky API.
 
+##### Mastodon
+
+Mastodon has basic features to limit post visibility, filter what you see and block other user. On top of that, it has unique features because it’s run on a network of federated/decentralized servers (each user has to join a home server that supposedly aligns with their values).
+
+- **Federated/decentralized features:** Users can block all users from another server. Your server’s administrators can also issue a server-wide block to another server (as a user they are automatically blocked for you).
+- **Post visibility settings:** Each post can be set to `Public`, `Unlisted/Quiet Public`  (hidden from search and explore), `Follows only`.
+
 ##### X/Twitter
 
 X no longer supports third-party tools that combat harassment, and the platform’s moderation efforts have gotten lax. If the controls below don’t work, consider setting your profile to private and disengaging until the platform is stable again.
@@ -1299,7 +1304,7 @@ When someone close to you (usually a romantic partner) spies on you using a hidd
   - Instructions for scanning:
     - Apple Airtags: [iOS](https://support.apple.com/HT212227), [Android](https://support.apple.com/HT212227#trackerdetect)
     - [Tiles](https://tileteam.zendesk.com/hc/articles/4415488529943)
-  - Additional tool for Android: [AirGuard](https://github.com/seemoo-lab/AirGuard)
+  - Additional tool: AirGuard for [iOS](https://apps.apple.com/us/app/airguard-tracking-protection/id1659427454) and [Android](https://github.com/seemoo-lab/AirGuard)
 
 #### If you’re pretty sure they’re spying on you and you’re scared
 
@@ -1473,8 +1478,9 @@ This section contains additional tools and tips that we encountered during our r
 - **Sign up to be notified by [Have I Been Pwned](https://haveibeenpwned.com/)** when an account tied to your email is compromised.
 - **Scan for any Bluetooth devices near you** (including AirTags) with [nRF Connect](https://www.nordicsemi.com/Products/Development-tools/nrf-connect-for-mobile).
 - **Increase the protective barriers around your accounts:**
-  - [Google’s Advanced Protection program](https://landing.google.com/advancedprotection/) for Google accounts/apps and Android phones. This is especially useful if your most-used and most-private account belongs to Google (including Gmail). 
-  - [Proton Sentinel](https://proton.me/support/proton-sentinel) 💰 for Proton services/apps.
+  - [Google’s Advanced Protection program](https://landing.google.com/advancedprotection/): mandates passkeys or security keys, is extra careful about downloads, and limits “Sign in with Google” for Google accounts/apps/devices. 
+  - [Apple iCloud’s Advanced Data Protection](https://support.apple.com/guide/security/sec973254c5f/web): turns on end-to-end encryption for some iCloud apps but not Mail/Contacts/Calendar.
+  - [Proton Sentinel](https://proton.me/support/proton-sentinel) 💰: creates more detailed “security events” logs, and offers better human support around security for Proton services/apps.
 - **US residents: freeze your credit** to prevent bad actors from accessing or mis-using your personal information. See IntelTechniques’ [Credit Freeze Guide](https://inteltechniques.com/freeze.html) for details.
 
 ### Tools & tips that cost money
