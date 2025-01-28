@@ -40,7 +40,7 @@
 
 ### 🕒 Last updated
 
-- 13 January 2025
+- 28 January 2025
 
 ---
 
@@ -737,6 +737,14 @@ When it comes to attending a protest, there are many, many considerations depend
     - iPhone: Take a screenshot of the photo and share the screenshot
     - Android: [Scrambled Exif](https://gitlab.com/juanitobananas/scrambled-exif)
 
+##### Help others with their emergency medical information
+
+- **If someone has fainted from heatstroke, check to see if they carry their emergency medical information with them.** This information might be:
+  - On a medical identification tag, wrist bracelet, neck chain or wallet card. There is usually a name and phone number on it, and sometimes even a QR code.
+  - On their phone:
+    - iPhone: Open the lock screen, tap `Emergency` in the bottom left corner, and then `Medical ID` on the bottom left corner.
+    - Android: Open the lock screen, tap `Emergency` at the bottom.
+
 ---
 
 ### 🫶🏾 Organizing a mutual aid group
@@ -1098,10 +1106,12 @@ Important caveat: It’s currently possible to retrieve a list of everyone you b
 
 ##### Mastodon
 
-Mastodon has basic features to limit post visibility, filter what you see and block other user. On top of that, it has unique features because it’s run on a network of federated/decentralized servers (each user has to join a home server that supposedly aligns with their values).
+Mastodon has basic features to limit post visibility and searchability, and adjust how public your proflie is. On top of that, it has unique features because it’s run on a network of federated/decentralized servers (each user has to join a home server that supposedly aligns with their values).
 
-- **Federated/decentralized features:** Users can block all users from another server. Your server’s administrators can also issue a server-wide block to another server (as a user they are automatically blocked for you).
 - **Post visibility settings:** Each post can be set to `Public`, `Unlisted/Quiet Public`  (hidden from search and explore), `Follows only`.
+- **Profile privacy settings:** In the `Settings → Public Profile → Privacy and reach` section of the website, you can adjust whether your posts and profile show up in recommendation or search pages, whether you want to manually screen every new follower, and whether you want your follows/followers to be browsable.
+- **Federated/decentralized features:** Users can block all users from another server. Your server’s administrators can also issue a server-wide block to another server (as a user they are automatically blocked for you).
+
 
 ##### X/Twitter
 
