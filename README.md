@@ -40,7 +40,7 @@
 
 ### 🕒 Last updated
 
-- 28 January 2025
+- 11 August 2025
 
 ---
 
@@ -129,8 +129,13 @@ The first lock is usually your account password. The second lock takes on a diff
 - **Don’t allow USB accessories to control a locked device:**
   - iOS: Turn off `Settings → Face ID & Passcode → Allow Access When Locked: USB Accessories`.
   - Android: Setting is off by default and is only available if `Developer Options` are turned on.
-- **For iOS devices, make sure `Stolen Device Protection` is turned on:**
-  - `Settings → Face ID & Passcode → Stolen Device Protection`
+- **Turn on your phone's anti-theft features:**
+  - iOS: `Settings  Face ID & Passcode → Stolen Device Protection`
+  - Android: `Settings → Security & Privacy → Other settings: More security and privacy → Security: Theft protection`
+
+- **For Android devices, make sure Google Play Protect is turned on** if you use the Google Play Store:
+  - In the Google Play app: Profile icon `→ Play Protect → Settings → Scan apps with Play Protect`
+
 
 #### Secure your computer
 
@@ -204,7 +209,7 @@ A phishing scam is an email or text message where an attacker is trying to trick
 - **Don’t download/open unnecessary attachments.**
   - When in doubt, reply to the original sender to ask what it is.
   - On email, preview attachments within the app or website. On Gmail and Proton Mail, simply clicking the attachment brings up its preview, which runs in a safe environment inside the mail program.
-  - Ask the sender to use a filesharing service (Dropbox, Google Drive, Tresorit), which also have their own online preview system.
+  - Ask the sender to use a file sharing service (Dropbox, Google Drive, Tresorit), which also have their own online preview system.
 - **Upload suspicious attachments to [VirusTotal](http://www.virustotal.com)** to have them analyze it. *Keep in mind files submitted to VirusTotal may be shared with multiple security researchers, so don’t submit sensitive information.*
 
 #### Say yes to updates
@@ -247,7 +252,7 @@ Attackers commonly gain access to your account is if your password is:
 
 So it is crucial to use a different password for every account, and make sure that those passwords are very long and very hard to guess. To help come up with and store these long passwords, you can:
 
-1. Use apps calls password managers.
+1. Use password managers apps.
 2. Invent your own formula that’s a wordplay on the service you’re logging into.
 3. Write them down with pen and paper.
 
@@ -267,6 +272,7 @@ This is a popular option for people who are comfortable navigating extra setting
 - **Install the password manager browser extension** on your desktop web browser.
 - **Only create passwords with more than 12 characters.** We recommend using the option in the password manager that strings together random, unrelated words (e.g. `plant-truck-nose-frame-lace`) so that it's easy to type in those rare instances when the autofill isn't working.
 - **Next time you have to type in your password for another account, create an entry for it.** This way, you will gradually add any frequently used accounts into the password manager. If you do this on the computer, the password manager's browser extension/add-on will capture the details automatically after you type them in.
+- **Notice that the app ties the login information to the URL.** So if you're on a website and the password manager has no entry for it, be extra careful it's not a phishing website.
 - **Transfer all of your accounts later.** Entering all of your accounts into the password manager will take a while, and is a task best saved for another day. (We've placed this time-consuming task in our `Level 3`.)
 - **Don't use your password manager as a two-factor authentication app.** It's better to not put all your eggs in one basket.
 
@@ -305,7 +311,7 @@ Try to have a backup copy of these papers in a second location.
 - **Encrypt your backup hard drives.**
   - Instructions for:
     - [macOS (if you use Time Machine)](https://support.apple.com/en-ca/guide/mac-help/mh21241/mac)
-    - [Microsoft Windows](https://techjury.net/blog/how-to-encrypt-your-hard-drive/)
+    - [Microsoft Windows](https://web.archive.org/web/20250123165604/https://techjury.net/blog/how-to-encrypt-your-hard-drive/)
 
 #### Make sure your home wifi router is set up right
 
@@ -320,11 +326,11 @@ Try to have a backup copy of these papers in a second location.
 
 ##### Track your devices in case you lose them
 
-- **Set up tracking** or `Find My`, which will allow you to remotely find and wipe your devices by logging into a website if you ever lose them.
+- **Set up tracking** that will allow you to remotely find and wipe your devices by logging into a website if you ever lose them.
 - Instructions for:
-  - [iOS & macOS](https://support.apple.com/en-us/HT210400)
-  - [Android](https://support.google.com/android/answer/6160491?hl=en)
-  - [Windows](https://support.microsoft.com/en-us/account-billing/find-and-lock-a-lost-windows-device-890bf25e-b8ba-d3fe-8253-e98a12f26316)
+  - [iOS & macOS](https://support.apple.com/en-us/HT210400) (Find My)
+  - [Android](https://support.google.com/android/answer/6160491?hl=en) (Find Hub)
+  - [Windows](https://support.microsoft.com/en-us/account-billing/find-and-lock-a-lost-windows-device-890bf25e-b8ba-d3fe-8253-e98a12f26316) (Find My Device)
 
 #### Enhance your privacy
 
@@ -349,12 +355,18 @@ Try to have a backup copy of these papers in a second location.
 
 ##### On email & social media accounts
 
-- **Review `Third-Party Apps` or `Connected Apps` linked to major social media/email platforms.** These third-party/connected apps have access to your data, and they might be selling it.
-- Instructions for:
+- **Review `Third-Party Apps` or `Connected Apps` linked to major social media/email platforms.** These third-party/connected apps have access to your data, and they might be selling it. Instructions for:
   - [Google](https://support.google.com/accounts/answer/3466521?hl=en)
   - [Facebook](https://www.facebook.com/help/211829542181913)
   - [Instagram](https://www.facebook.com/help/instagram/1144624522593085)
   - [X/Twitter](https://help.twitter.com/en/managing-your-account/connect-or-revoke-access-to-third-party-apps)
+
+##### On email accounts
+
+- **Stop images from automatically loading in your emails**, because companies use them as a way of tracking you.
+  - Gmail: On your computer, click the settings `⚙️ → All settings → General: Images: Ask before displaying external images`. For email senders you trust, you can always click ` Always display images from` on an email from them. To reverse this decision, you have to click the tiny downwards-pointing triangle next to `to me` at the top of your email.
+  - Proton Mail: Not necessary, as they have a feature that loads images on their own servers before sending it to you. [More information here](https://proton.me/support/protonmail-images).
+  - Tuta Mail: Image loading is off by default, but you can turn on auto loading one sender at a time. In the `automatic image loading` disclaimer message that appears below the sender information,  click `Always trust sender` (on mobile first click `More`). To reverse this decision, click/tap the three dots on the upper right corner and then click/tap `Block external content`.
 
 ##### On your phone
 
@@ -365,6 +377,9 @@ Try to have a backup copy of these papers in a second location.
   - iOS: `Settings → Privacy & Security → Tracking → Allow Apps to Request to Track: Off`
   - iOS: `Settings → Privacy & Security → Apple Advertising → Personalized Ads: Off`
   - Android: `Settings → Security & Privacy → Privacy → Ads → Delete advertising ID`
+- **On iOS, turn off the setting that allows apps to track your activity across other apps and websites:**
+  - `Settings → Privacy & Security → Tracking → Allow Apps to Request to Track: Off`
+
 - **On Android, turn off passive Wi-Fi and Bluetooth scanning.**
   - `Settings → Location → Location services → Wi-Fi scanning`
   - `Settings → Location → Location services → Bluetooth scanning`
@@ -384,20 +399,41 @@ Try to have a backup copy of these papers in a second location.
 
 ##### On your mobile/computer web browsers
 
+- **Change your browser if you are using Chrome or Edge,** they both have terrible track records when it comes to protecting your privacy.
+  - For iOS: Use Safari.
+  - For macOS: install [Firefox](https://www.firefox.com) or use Safari.
+  - For Android/Windows: install [Firefox](https://www.firefox.com).
+
 - **Review your web browser's privacy settings**
   - On your mobile:
     - iOS Safari: `[iOS] Settings → Apps → Safari → Privacy & Security`. Make sure `Prevent Cross-Site Tracking` , `Hide IP Address` and `Fraudulent Website Warning` are on. 
-    - Android Chrome: `[Chrome] Settings → Privacy and security`, turn on `Safe Browsing` (either option), `Always use secure connections`, `Do Not Track`
     - Android Firefox: `[Firefox] Settings → Privacy and security`, turn on `HTTPS-Only Mode`, `Enhanced Tracking Protection`
   - On your computer:
     - macOS Safari: `Preferences → Privacy`, tick the checkboxes for `Website tracking` and `Hide IP address`
-    - macOS/Windows Chrome: `Preferences → Privacy and security → Cookies and other site data`, turn on `Block third-party cookies`, `Do not track`
     - macOS/Windows Firefox: `Preferences → Privacy & Security`, turn on `Enhanced Tracking Protection` (any option), `Do Not Track` and `HTTPS-Only Mode` (scroll to the bottom)
-- **Install these web browser extensions/add-ons** if your browser supports it. Make sure they’re on even during private/incognito mode. The following extensions/add-ons are available for Firefox (macOS, Windows, Android) and Chrome (macOS, Windows):
-  - [uBlock Origin](https://ublockorigin.com/), which blocks invasive ads.
-  - [Privacy Badger](https://privacybadger.org/), which blocks trackers.
-  - [Decentraleyes](https://decentraleyes.org/), which decrease tracking on commonly-used resource files.
-- **Review your other web browser extensions/add-ons.** Delete any that you haven’t used in a while or don’t remember installing.
+- **Install these web browser extensions/add-ons** to block invasive ads and trackers if your if your browser supports them. Make sure they’re on even in private/incognito mode.
+  - [uBlock Origin](https://ublockorigin.com/)
+  - [uBlock Origin Lite](https://github.com/uBlockOrigin/uBOL-home) (if your browser doesn't support uBlock Origin)
+  - [Privacy Badger](https://privacybadger.org/)
+- **Review your other web browser extensions/add-ons.**
+  - Check what permissions/access each of them have:
+    - iOS Safari: `[iOS] Settings → Apps → Safari → General: Extensions`, then tap on extension to see details.
+    - Android Firefox: `[Firefox] Settings → Advanced: Extensions`, then tap on extension, then tap on `Permissions`.
+    - macOS Safari: Top menu bar: `Safari → Settings... → Extensions`
+    - macOS Firefox: Top menu bar:  `Tools → Extensions and Themes`, then click on each extension to see more, and then click on the `Permissions and data` tab.
+    - Windows Firefox: ` → Extensions and themes`, then click on each extension to see more, and then click on the `Permissions and data` tab.
+
+  - The only ones that should be able to read your webpage data are:
+    - Our recommendations above (uBlock Origin/uBlock Origin Lite, Privacy Badger)
+    - Your password manager extension (if you use a password manager on your computer)
+    - Extensions/add-ons made by the same company as the browser (e.g. Firefox's Facebook Container)
+
+  - Deactivate or delete any other extensions/add-ons that have read access. 
+
+- **Instead of opening a `New Private/Incognito Window` in your normal browser, use a separate privacy-enhanced browser** when you want minimal tracking. These browsers might not work as well for everyday use, but that's because they have extra protections. Plus, when there are two separate apps, it's less likely you will mix up the private and non-private windows.
+  - For macOS/Windows: [Mullvad Browser](https://mullvad.net/en/browser)
+  - For iOS/Android: [Firefox Focus](https://www.firefox.com/browsers/mobile/focus/)
+
 
 ##### On other internet-connected devices
 
@@ -500,9 +536,12 @@ Some platforms that facilitate these things often have privacy settings, so it�
 - **Place a sticker (or webcam cover) over your laptop’s front-facing camera.**
   - If you buy a webcam cover for a laptop, make sure it is less than 0.1mm thick so that it doesn't affect how the laptop closes.
 - **Don't use devices your workplace gives you for personal things.** Either have separate devices for your work and personal lives, or, if it's too troublesome to have multiple devices, use your personal device for everything. Devices set up by workplaces often have monitoring systems that can be misused during disputes.
-- **Buy a mobile phone that always gets the latest software updates.** Recommended phones:
-  - Apple iPhone
-  - Google Pixel Android
+- **Buy a mobile phone that always gets the latest software updates** and, in the case of Android, doesn't install unnecessary apps and system add-ons.
+  - First choice: Apple iPhone. Apple has a track record of supporting devices for a long time.
+  - Second choice: Google Pixel. Pixel phones get Android updates direct from Google and ships with a more-or-less "vanilla" installation of Android.
+  - Avoid Samsung: They have a track record of adding a lot of unnecessary apps, including [an app platform that installs apps without permission and collects data about you without consent](https://www.techfinitive.com/explainers/what-is-app-cloud-delete/).
+  - For other Android phones: It's a balancing act between choosing a phone that a) doesn't add too much bloat to their installation of Android, b) quickly applies security patches that are released from Google's Android project, and c) will guarantee software updates for their hardware for a long time.
+  
 - **Use a paid VPN service** both when you're on a public network (e.g. café) and when you're at home (to decrease data shared with your internet/phone company).
   - Avoid free VPN services because free services often make their money back by selling your data.
   - Recommended VPNs: [Mullvad](https://mullvad.net), [IVPN](https://www.ivpn.net/)💰
@@ -566,6 +605,15 @@ If you don't want to give out your personal phone number, consider getting a vir
 - **Turn on the extra layer of pin code protection** and prevent others from logging in with your phone number.
   - `Settings → Account → Signal PIN`
   - `Settings → Account → Registration Lock: On`
+- **Hide your messages from your phone's app switcher** (so your messages aren't accidentally exposed to other apps) by turning on `Screen Security`:
+  - `Settings → Privacy → Hide Screen in App Switcher`
+
+- **Hide your messages from Microsoft Windows' Recall feature.**
+  - The Signal desktop app hides them by default, but double check by going to `Settings → Privacy → Screen Security`.
+
+- **Stop messages from showing up in notification boxes.**
+  - `Settings → Notificataions → Notifications Content: Show → No Name or Content` 
+
 
 ###### Telegram
 
@@ -667,6 +715,51 @@ Even with all the third-party services above, courts can still compel companies 
 
 ---
 
+### 🗃️ Backing up your data
+
+In case your devices get lost or hacked, it's good to have a recent backup copy of the data on them.
+
+#### Backing up your phone/tablet
+
+##### iOS devices
+
+Our recommendations for backing up remotely and locally:
+
+- Back up to iCloud: An automated process that only works if you have/subscribe to iCloud+ 💰 .
+- Back up to your computer: A manual process (you connect your device to your computer with a cable) that's free as long as you have hard drive space.
+
+See Apple's [instructions to do both](https://support.apple.com/en-ca/guide/iphone/iph3ecf67d29/ios).
+
+- If you use iCloud, turn on Advanced Data Protection (which includes end-to-end encryption) afterwards by following [these instructions](https://support.apple.com/en-us/108756).
+- If you're backing up to computer, remember to check `Encrypt local backup` to set a password in the process.
+
+##### Android devices
+
+Android phones can only be backed up on the cloud:
+
+- Back up to Google One: An automated process that only works if have/subscribe to Google One 💰.  Unlike Apple's iCloud however, there is no support for end-to-end encryption. See [Google's instructions](https://support.google.com/android/answer/2819582).
+
+While you can transfer select files if you connect your Android to your computer with a cable, there's no way to back up everything on your phone.
+
+#### Backing up your computer to an external hard drive
+
+##### macOS
+
+Apple's default recommendation is to use their Time Machine app, which will automatically backup the full contents of your computer to an external hard drive. [Follow their instructions](https://support.apple.com/104984) and remember to turn on `Encrypt Backups`.
+
+##### Windows
+
+Windows has a File History feature, which will automatically backup the contents of your computer to an external hard drive. [Follow their instructions to set it up](https://support.microsoft.com/windows/backup-and-restore-with-file-history-7bf065bf-f1ea-0a78-c1cf-7dcf51cc8bfc). There is no option to encrypt the backup, so you have to manually add encryption to the external drive using BitLocker by [following these instructions](https://support.microsoft.com/en-us/windows/bitlocker-drive-encryption-76b92ac9-1040-48d6-9f5f-d14b3c5fa178). Unfortunately, some Home versions of Windows do not include BitLocker, and the workarounds to use Veracrypt with File History are quite complicated ([see this example set of instructions](https://usercomp.com/news/1480091/veracrypt-drive-for-win-11-file-history)).
+
+#### Backing up your computer to the cloud
+
+While backups on external hard drives are generally cheaper and easier to maintain, you may want to supplement them with a cloud service 💰:
+
+- If you want to back up everything on your computer, we recommend [Arq](https://www.arqbackup.com/), [Blackblaze](https://www.backblaze.com/) or [IDrive](https://www.idrive.com). (Just make sure to turn on end-to-end encryption, which Blackblaze and IDrive call `private encryption key` .)
+- If you just want to back up specific folders and files, we recommend [Tresorit](https://tresorit.com/) or [Proton Drive](https://proton.me/drive).
+
+---
+
 ### ✊🏾 Attending a protest
 
 When it comes to attending a protest, there are many, many considerations depending on where you are and who you are. In this guide, we are only going to make general recommendations related to technology.
@@ -703,21 +796,31 @@ When it comes to attending a protest, there are many, many considerations depend
 - Android alternative: If that option doesn’t appear, open the Phone app and enter `*#*#4636#*#*`. A `Testing` screen will pop up. Select `Phone information` and then change the `Set Preferred Network Type` to the same as the current selection minus `GSM`. To see what each acronymn stands for, see Wikipedia’s [Comparison of mobile phone standards page](https://en.wikipedia.org/wiki/Comparison_of_mobile_phone_standards). 
 - On iOS: Turn on Lockdown Mode by going to `Settings → Privacy & Security → Lockdown Mode: On`. This launches a range of restrictive safety precautions (including disabling 2G) that you’ll probably want to turn it off after you return home safetly.
 
+##### Clean up the data on your phone
+
+**Clean out any sensitive personal information on your phone.** Delete any photos, chat logs, and notes that can be used against you.
+
+**Store less information on your devices.** They can’t take what you don’t have (if your devices are seized).
+
+- See scenario: `Spring cleaning for old messages and data`.
+
 ##### Other considerations
 
 - **Draft a message to a trusted friend or legal hotline beforehand.** Prepare to hit send if arrested at the protest or if there’s an emergency.
 - **As a backup, write down the phone number of the trusted friend/hotline on your arm** with a permanent marker.
 - **Charge your phone fully and bring a spare battery.**
-- **Clean out any sensitive personal information on your phone.** Delete any photos, chat logs, and notes that can be used against you.
 - **If you use your fingerprint or face to unlock your phone, turn it off before the protest.** In some jurisdictions, officers can compel you to provide your fingerprint but not your passcode.
 - **Dress up to *not* stand out.** Wear plain clothes that don't attract attention, cover up visible tattoos, and put on a face mask. Make it harder to be easily identified from a photo and by facial recognition technology.
 
-##### Get a burner phone only if you really need it
+##### For almost all situations, we do not recommend burner phones
 
-- **A burner phone is a single-use, disposable phone and SIM card that you buy with cash.** Ideally, it makes you anonymous to the phone company and online services, and not reveal information about you if someone takes or steals your phone.
-- **Burner phones require extra time and money to set up.** For example, see [Micah Lee's guide](https://theintercept.com/2020/06/15/protest-tech-safety-burner-phone/) on setting one up in the US.
-- **Decide what you want to use a burner phone for, and what that use might reveal about you.** Every action you perform with your phone creates a clue about who you are. E.g. if you activate it at home, it will give away your home address.
-- **Do you need a burner phone and SIM card *or* do you just need a burner virtual phone number?** For the latter, see the scenario above: `Masking your identity for online dating, events, or organizing`.
+A burner phone is a single-use, disposable phone and SIM card that you buy with cash. Ideally, it makes you anonymous to the phone company and online services, and not reveal information about you if someone takes or steals your phone. But:
+
+- Burner phones require extra time and money to set up. You have to source the phone and SIM card, and then create and set up new accounts for everything.
+- Every action you perform with your phone creates a clue about who you are. If you activate it at home, it will give away your home address. If you message your friend with it, it might give away your identity.
+- Being caught with a burner phone raises suspicions about you.
+
+In most cases, making your identity less public is good enough and is actually achievable. See the scenario above: `Masking your identity for online dating, events, or organizing`.
 
 #### Remember when you're out
 
@@ -776,6 +879,7 @@ We recommend:
   - ✅ Supports audio & video group calls
   - Turn on disappearing messages:
     - In the chat, tap the group name at the top of the screen and then selecting `Disappearing Messages`.
+  - If you set up the group, review the `Permissions` setting to decide whether you want `All Members` or `Only Admins` to be able to add new members. 
 - **[Wire](https://app.wire.com/auth/#/)**:
   - ✅ End-to-end encrypted group chats.
   - ✅ Only shows your username to other people in the chat.
@@ -811,6 +915,11 @@ Groups often use social media platforms (e.g. Instagram, X/Twitter) to post upda
 
 - You can create a publicly searchable or private invite-only channel.
 - Followers/readers subscribe to your channel and receive all of the updates (compared to traditional social media where you have to compete for attention and reach).
+
+If you are only broadcasting updates to 1000 or less people, then [Signal](https://www.signal.org/)'s new features can make this happen while retaining maximum privacy for both sides:
+
+- Tap the group profile picture and name at the top fo enter settings. Scroll down to `Permissions` and tap it. Then under `Send Messages`, set it to `Only Admins`.
+- Optional: Set up a public `Group link` in the same group chat settings screen to add members quicker. Think about whether new members require the `Require Admin Approval` setting. On top of that, consider turning off the publicly accessible link after a short period of time.  
 
 ##### Picking an app for big-group public outreach
 
@@ -856,10 +965,9 @@ Our recommended apps/platforms with notes about their accessibility limitations:
 
 - **[Riseup Pad:](https://pad.riseup.net/)** A browser-based text editor that doesn’t require any accounts. But this anonymity comes with limitations: anyone with the link can edit/delete the pad, pads will auto-delete after 60 days of inactivity and have a maximum lifespan of one year (so remember to backup).
 - **[Cryptpad:](https://cryptpad.fr/)** A browser-based platform that has apps for end-to-end encrypted text editing, spreadsheets and slides. The only downside is that people may experience loading problems on mobile devices.
-- **[Tresorit Send](https://send.tresorit.com/)**  is a website that allows you to upload end-to-end encrypted files (up to 5 GB) and share them with a link. No account registration needed, but there’s also no way to update the files in the link. 
 - **[CryptDrive](https://cryptpad.fr/drive/)** and **[Proton Drive](https://proton.me/drive)** are both Google Drive alternatives that are a bit more private. They allow you to store files and folders online, share them with a link and update them afterwards. Unlike Google Drive, sharing a link won’t show your username or email, but both platforms do require you to have an account, which means the files are ultimately still traceable to you on the server side. Free plans come with 1 GB and 5 GB of storage respectively.
 
---- 
+---
 
 ### 🩸 Accessing reproductive health services privately
 
@@ -876,7 +984,7 @@ Getting the care you need can be a controversial and fraught endeavor in many pa
 - **Think twice before sharing information,** and when you do, use an end-to-end encrypted messaging app with disappearing messages on. (Avoid email.)
 
 #### Discussing information with friends
- 
+
 - **Use end-to-end encrypted messaging apps** recommended in the `Level 3: Use end-to-end encrypted apps` section, and remember to turn on disappearing messages.
 - Do not use email or other messaging apps that create a data trail.
 
@@ -900,7 +1008,7 @@ Getting the care you need can be a controversial and fraught endeavor in many pa
   - A privacy-focused virtual credit card from [Privacy](https://privacy.com/) (only available in the US).
 
 #### Traveling to a clinic
- 
+
 - If you are physically going to a clinic and think it will be a risky situation, **follow the recommendations in the above scenario: `Attending a protest`.** 
 - Do not bring your phone with you to the clinic. At the least, leave the phone at home or at the hotel during this last part of the journey.
 
@@ -912,14 +1020,28 @@ Getting the care you need can be a controversial and fraught endeavor in many pa
 
 ### 🛫 Crossing an international border
 
-- **Turn off your devices.**
+- **Backup before you depart and keep a copy at home** in case your devices are lost in transit.
+- **Store less information on your devices.** They can’t take what you don’t have (if your devices are seized).
+  - See scenario: `Spring cleaning for old messages and data`.
+  - 1Password users can use the app’s [Travel Mode](https://support.1password.com/travel-mode/) to remove certain passwords from the device during a trip.
+  - Remove access to data by deleting some apps and logging out of some accounts while you're on your trip.
+  - Alternatively, if the above is too time consuming but you have the funds, buy an extra phone and use that as your travel phone. Then, without importing from your current phone, set it up by adding apps and accounts one at a time as you need them. That way, you are fully aware of what is on your phone. But make sure to start this process at least a week before your trip, and actually use the phone as your main phone that week so you're not traveling with a suspiciously-empty device.
+- **Review your public social media profiles** as some places might check them.
+  - Archive or delete old posts that might be misunderstood.
+  - Retrain your social media algorithm a month or two ahead of time.
+
+- **Only take devices that you need.** 
+  - Traveling for work? Just take your work devices and leave personal devices at home.
+  - Do you really need to bring your laptop with you? You can do most things on a phone or tablet these days.
+- **Be mindful of what stickers you put on your devices.** A border agent might read them the wrong way.
+- **Decide beforehand what you will do if you are asked to unlock your devices.** Searches sometimes happen as a routine part of border crossing.
+- **Consider turning off your devices during the crossing.**
   - Storage/hard drives are only encrypted when off, *not* when they’re just in sleep mode.
   - This will also ensure that your mobile devices can only be unlocked using a pin code, which is protected by freedom of speech laws in some jurisdictions.
-- **Backup before you depart and keep a copy at home** in case your devices are lost in transit.
-- **Store less information on your devices.** They can’t take what you don’t have if your devices are seized.
-  - **1Password users can use the app’s [Travel Mode](https://support.1password.com/travel-mode/)** to remove certain passwords from the device during a trip.
-- **Be mindful of what stickers you put on your devices.** A border agent could mistake them for something suspicious.
-- **Decide beforehand what you will do if you are asked to unlock your devices.** Searches sometimes happen as a routine part of border crossing.
+- **If you keep your device on, restart it and then put it on airplane mode.**
+  - Restarting clears whatever your phone's temporary/short-term memory (cache).
+  - Airplane mode prevents random files and messsages from automatically downloading.
+
 - **Attach a tracking tile/tag to bags** you’re worried about.
 - **Notify your people about your flight number and arrival time.** Regularly check in with one of them at points in your journey (e.g. “They just finished scanning my bags!”). Have them contact a lawyer/relevant organization if you do not show up.
 - **If the process becomes uncomfortable, consider going back home for now.**  Sometimes you get unlucky and going through with it is not worth the stress. Tell them you are withdrawing your application, no longer want to enter the country, and want to go home.
@@ -928,9 +1050,8 @@ Getting the care you need can be a controversial and fraught endeavor in many pa
 
 *Note: Some of these practices might raise suspicions and backfire.*
 
-- **Create an alternate universe version of yourself... digitally.** Create photo albums, email addresses, and social media accounts full of vanilla content.
 - **“Forget” half of your password.** Password lock your device/account so that only a trusted friend has the second half of the password.
-- **Log out of all important accounts.** Or leave your devices at home.
+- **Log out of all important accounts.** Or leave all of your devices at home.
 - **Consult a lawyer beforehand.** Keep a printed copy of their contact information with you, so you can contact them easily.
 
 ---
@@ -947,7 +1068,6 @@ Getting the care you need can be a controversial and fraught endeavor in many pa
     - Recommended: [Bridgefy](https://bridgefy.me/) — *but you need to open the app with an internet connection to setup your account!*
   - **An offline maps app**
     - Recommended: [Organic Maps](https://organicmaps.app/)
-- **Consider traveling with a burner phone while leaving your laptop at home.** This will be especially useful if you need to install new/untested software for work that might violate data privacy policies.
 - **Re-evaluate which online platforms are safe to use.**  
   - See how often a platform hands over its data by looking up their transparency reports.
     - [Google Transparency Report: Request for user information](https://transparencyreport.google.com/user-data/overview)
@@ -1200,24 +1320,17 @@ You might not need to delete your entire account, but consider deleting (or maki
 - **Consider bulk deleting past posts.** To delete multiple posts at once:
   - `Settings and privacy → Activity log → Your Posts` and then select to `Archive` or `Trash`
 
-##### WhatsApp
-
-- Swipe to delete individual conversations.
-- Delete chat content but keep the chat groups:
-  - `Settings → Chats → Clear All Chats`.
-- Delete all chats, including the chat groups:
-  - `Settings → Chats → Delete All Chats`.
-- Turn off chat backups on WhatsApp:
-  - `Settings → Chats → Chat backup`.
-- Delete your previous backups. Instructions for:
-  - [iOS](https://faq.whatsapp.com/iphone/chats/how-to-turn-off-icloud-backup/)
-  - [Android](https://faq.whatsapp.com/android/how-to-delete-backups/)
-
 ##### Instagram
 
-- Look through your profile and manually delete posts. Tap the three dots in the upper-right corner of a photo.
+- Look through your profile and manually delete posts. Tap the three dots in the upper-right corner of a photo or video.
 - If you need to bulk-delete posts:
-  - `Your activity → Photos and videos → Posts`, `Reels` or `Videos → Select` and then choose either `Archive` or `Delete`
+  - From the mobile app, go to `Settings and activity → Your activity → Photos and videos → Posts`, `Reels` or `Videos → Select` and then choose either `Archive` or `Delete.`
+- To download your archive before you delete anything:
+  - From the mobile app, go to `Settings and activity → Accounts Center → Your information and permissions → Download your information`.
+
+- Consider turning off the automatic stories archive feature. Be warned though, you will no longer be able to access past stories after 24 hours.
+  - From the mobile app, go to `Settings and activity → Archiving and downloading → Your app and media → Save story to archive`.
+
 
 ##### X/Twitter
 
@@ -1250,10 +1363,12 @@ Many social media companies let you restore your deleted account after a specifi
 
 *Remember: Information removal requests takes time to process and often require repeated attempts.*
 
-- Ask [Google](https://support.google.com/websearch/troubleshooter/3111061?hl=en) and [Bing](https://www.microsoft.com/en-ca/concern/bing) and Bing to remove search results pointing to pages with your personal information on them.
+- Use [Google's Results About You](https://myactivity.google.com/results-about-you) tool to scan for websites that list your name, phone number, home address and/or email together, and request that they be removed from Google search results.
+- Ask [Google](https://support.google.com/websearch/troubleshooter/3111061?hl=en) and [Bing](https://www.microsoft.com/en-ca/concern/bing) to remove search results pointing to pages with your personal information on them.
+- [Ask Google Maps](https://support.google.com/maps/answer/15439776) to blur out their Street View image of your home.
 - Remove any local business reviews you’ve left on Google Maps, Yelp, etc. They might point to your home or frequently visited places.
 - Follow the Cyber Civil Rights Initiative’s [guide to get policy-violating posts/media removed from social networks](https://www.cybercivilrights.org/online-removal).
-- If you want to do it yourself, check out Yael Grauer’s [BADBOOL](https://github.com/yaelwrites/Big-Ass-Data-Broker-Opt-Out-List). (To be 100% thorough, use this on top of paid services.)
+- If you want to do it yourself, check out Yael Grauer’s [BADBOOL](https://github.com/yaelwrites/Big-Ass-Data-Broker-Opt-Out-List). (To be 100% thorough, use this on top of paid services with Yael's [Fill in the Gaps chart](https://docs.google.com/spreadsheets/d/115L6LpQg_UX638IyUfdwGhRS7dIU3lKwz6fjAcDtE-0/).)
 - If you’re willing to pay 💰, [BADBOOL](https://github.com/yaelwrites/Big-Ass-Data-Broker-Opt-Out-List?tab=readme-ov-file#additional-options-paid-and-free) recommends using [EasyOptOuts](https://easyoptouts.com/) to remove your information from English-language public and paywalled sites.
 - If you live in the US, [Consumer Reports’ Permission Slip app](https://www.permissionslipcr.com/) (iOS only) helps automate removal requests to 40+ US companies.
 
@@ -1273,6 +1388,65 @@ Many social media companies let you restore your deleted account after a specifi
 - **Get a P.O. box** at a post office or use [Earth Class Mail](https://www.earthclassmail.com/) (U.S. only) to hide your home address.
   - If you live in the US, you might qualify for your home state’s [Address Confidentiality Program](https://en.wikipedia.org/wiki/Address_confidentiality_program) if you are a victim of abuse or a healthcare worker. Rules vary state by state.
 - **Delete old accounts to eliminate traces of personal information on the internet.** Use the [JustDeleteMe](https://justdeleteme.xyz/) directory to accelerate this process.
+
+---
+
+### 🧹 Spring cleaning for old messages and data
+
+When your device is stolen or hacked, the thief also gains access to all of the data inside. So it's always good to keep as little data as you can on your devices, particularly on your mobile phone. We recommend spring cleaning your devices once a year and/or before big trips.
+
+#### Email
+
+##### Gmail
+
+- Follow [these instructions](https://support.google.com/accounts/answer/3024190) to use Google Takeout to download your data (including emails).
+  - To only download emails from a specific time period, say, from 2015-2020, create a label with that date range by [following these instructions](https://support.cloudhq.net/how-to-create-a-gmail-label-with-email-messages-in-certain-date-range/), and then select that label in Google Takeout.
+- Follow [these instructions](https://zapier.com/blog/how-to-mass-delete-emails-gmail/#date) to delete old emails by filtering for a date range, then deleting everything within that time period. (Alternately, if you've created a label for it, just select everything under that label.)
+
+#### Messaging apps
+
+##### WhatsApp
+
+- There are several options for deleting or emptying chats:
+  - Swipe to delete individual conversations.
+  - Delete chat content but keep the chat groups:
+    - `Settings → Chats → Clear All Chats`.
+  - Delete all chats, including the chat groups:
+    - `Settings → Chats → Delete All Chats`.
+- Consider turning off chat backups on WhatsApp:
+  - `Settings → Chats → Chat backup`.
+- If you want to delete your previous backups, here are the instructions for:
+  - [iOS](https://faq.whatsapp.com/iphone/chats/how-to-turn-off-icloud-backup/)
+  - [Android](https://faq.whatsapp.com/android/how-to-delete-backups/)
+
+##### Apple Messages/iMessage
+
+- Download your messages before deletion using third-party tool [imessage-exporter](https://github.com/ReagentX/imessage-exporter/). It is free, but you have to use command line (Terminal app). If you're unfamiliar with Terminal but still want to try, [this article has a nice walkthrough of the process](https://www.cultofmac.com/how-to/back-up-messages).
+- Consider turning on auto delete after a certain time period has passed. On iOS, go to `Settings → Apps → Messages → Keep Messages`. Set to keep messages only for 30 days or 1 year.
+
+##### Signal
+
+- If a disappearing messages timer isn't enough, you can either delete chats one-by-one or delete everything.
+  - To deliete everything, go to `Settings → Chats → Clear Chat History`.
+
+##### Instagram
+
+- Before deleting anything, download your posts and stories by following [these instructions to download to export your Instagram information](https://help.instagram.com/181231772500920).
+- The only way to mass delete past stories follow [these instructions is to turn off the auto archiving feature](https://www.facebook.com/help/1935507879999791/). Turn it off for a day to delete past stories, and consider keeping it off afterwards as well.
+- To delete Instagram Direct Message chats faster, change your account from a personal one to a business one. Then, in your chat window, tap `...` and then `Selects chats` to select multiple chats at a time.
+
+#### Photos & videos
+
+We recommend downloading photos and videos from your phone to your computer and then deleting them from your device. We don't recommend using cloud services like iCloud Photos or Google Photos because your media is forever accessible from your device.
+
+##### iPhone or Android phone to a Mac computer
+
+- Plug your phone to your computer using a USB cable and use the Image Capture app ([detailed instructions here](https://blinksandbuttons.net/how-to-download-pictures-from-camera-to-mac/)).
+- To delete photos in bulk, select and delete them within the Image Capture app.
+
+#### Other
+
+- **Google Drive:** Be sure to double check what's in the `Shared with me` section, as Google Drive will add any shared document you've ever clicked to that list.
 
 ---
 
@@ -1385,8 +1559,8 @@ Below are some general recommendations that all journalists and researchers shou
 ### 😭 Missing or lost device
 
 - **Look for, lock or wipe your device remotely.** Instructions for:
-  - iOS and macOS: [Find My](https://support.apple.com/HT210515).
-  - Android: [Find My Device](https://support.google.com/accounts/answer/6160491).
+  - iOS and macOS: [Find My](https://support.apple.com/HT210515)
+  - Android: [Find Hub](https://support.google.com/accounts/answer/6160491)
   - Windows: [Find My Device](https://support.microsoft.com/account-billing/find-and-lock-a-lost-windows-device-890bf25e-b8ba-d3fe-8253-e98a12f26316)
 - **Remove access to all important accounts on the lost device** by logging into them from another device, and then logging out all other active sessions.
   - Instructions for:
@@ -1478,7 +1652,8 @@ This section contains additional tools and tips that we encountered during our r
 ### Tools & tips for maximum safety
 
 - **Write and take notes on end-to-end encrypted apps.** Instead of Google Docs or Microsoft Office, use [CryptPad](https://cryptpad.fr) or [Standard Notes](https://standardnotes.org/). Both are open-source and free to use.
-- **Share files anonymously** with [Tresorit Send](https://send.tresorit.com/) or [OnionShare](https://onionshare.org/).
+- **Share files anonymously** with [OnionShare](https://onionshare.org/).
+- **Get a single-use temporary semi-public email address** from [Maildrop](https://maildrop.cc/).
 - **Turn suspicious PDFs into safe ones** using [Dangerzone](https://dangerzone.rocks).
 - **Edit your `Protected View` settings (Windows only)** if you open a lot of files in [Microsoft Office](https://support.microsoft.com/en-us/office/what-is-protected-view-d6f09ac7-e6b9-4495-8e43-2bbcdbcb6653) and [Adobe Acrobat](https://helpx.adobe.com/acrobat/using/protected-view-feature-pdfs-windows.html).
 - **Try a new end-to-end encrypted messaging app.** It’s always good to have more than one installed in case it has a server outage. See Mark Williams’ [Secure Messaging Apps Comparison](https://www.securemessagingapps.com/) for some options.
@@ -1491,7 +1666,7 @@ This section contains additional tools and tips that we encountered during our r
   - [Google’s Advanced Protection program](https://landing.google.com/advancedprotection/): mandates passkeys or security keys, is extra careful about downloads, and limits “Sign in with Google” for Google accounts/apps/devices. 
   - [Apple iCloud’s Advanced Data Protection](https://support.apple.com/guide/security/sec973254c5f/web): turns on end-to-end encryption for some iCloud apps but not Mail/Contacts/Calendar.
   - [Proton Sentinel](https://proton.me/support/proton-sentinel) 💰: creates more detailed “security events” logs, and offers better human support around security for Proton services/apps.
-- **US residents: freeze your credit** to prevent bad actors from accessing or mis-using your personal information. See IntelTechniques’ [Credit Freeze Guide](https://inteltechniques.com/freeze.html) for details.
+- **US residents: freeze your credit** to prevent bad actors from accessing or mis-using your personal information. Just turn it back on when you need to use it. See IntelTechniques’ [Credit Freeze Guide](https://inteltechniques.com/freeze.html) for details.
 
 ### Tools & tips that cost money
 
@@ -1532,7 +1707,7 @@ This section contains additional tools and tips that we encountered during our r
   - If your hosting service doesn't offer backups, use [VaultPress](https://jetpack.com/upgrade/backup/) or [BackupBuddy](https://ithemes.com/backupbuddy/).
   - Alternatively, use [Simply Static](https://simplystatic.com/) to turn your public-facing Wordpress site into a static site.
 - **Use a privacy-oriented analytics service** like [Matomo](https://matomo.org/) or [Koko Analytics](https://www.kokoanalytics.com/).
-- **Consider switching to a more privacy-oriented hosting service** like [Greenhost](https://greenhost.net/) or [Maadix](https://maadix.net/en/) .
+- **Consider switching to a more privacy-oriented hosting service** like [Greenhost](https://greenhost.net/), [Maadix](https://maadix.net/en/) or [1984](https://1984.hosting/).
 - **Set up a [security.txt](https://securitytxt.org/) file** so that researchers have a place to disclose security vulnerabilities.
 - **Set up a robots.txt file** using [this ai.robots.txt list](https://github.com/ai-robots-txt/ai.robots.txt) to prevent AI companies from crawling and scraping your data.
 
