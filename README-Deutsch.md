@@ -321,14 +321,14 @@ Sagen Sie nichts, was Sie in einer "privaten" Slack-Gruppe, Facebook-Seite, eine
 	- [Glasswire](https://www.glasswire.com/) für Windows/Android.
 	- [Guardian Firewall](https://guardianapp.com) für iOS.
 - Führen Sie die Aktivitätsüberwachung auf dem Mac oder den Process Explorer unter Windows aus, um zu sehen, welche Prozesse/Anwendungen ausgeführt werden. Googeln Sie alle verdächtigen Namen.
-- Melden Sie sich bei wichtigen Online-Konten an, um festzustellen, ob es verdächtige Anmeldungen gegeben hat - [siehe diesen Motherboard-Leitfaden für weitere Informationen](https://motherboard.vice.com/en_us/article/bjeznz/how-do-you-know-when-youve-been-hacked-gmail-facebook).
+- Melden Sie sich bei wichtigen Online-Konten an, um festzustellen, ob es verdächtige Anmeldungen gegeben hat - [siehe diesen Motherboard-Leitfaden für weitere Informationen](https://vice.com/en_us/article/bjeznz/how-do-you-know-when-youve-been-hacked-gmail-facebook).
 - Richten Sie ein zusätzliches Android-Telefon mit [Haven](https://guardianproject.github.io/haven/) als Raumüberwachungsgerät ein, um unerwünschte Eindringlinge zu erkennen.
 
 ---
 
 ### 🍆 Sexting und einvernehmlicher Bildaustausch
 
-- Siehe [The Motherboard Guide to Sexting Securely](https://motherboard.vice.com/en_us/article/mb3nd4/how-to-sext-securely-safely-what-apps-to-use-sexting).
+- Siehe [The Motherboard Guide to Sexting Securely](https://vice.com/en_us/article/mb3nd4/how-to-sext-securely-safely-what-apps-to-use-sexting).
 
 ---
 

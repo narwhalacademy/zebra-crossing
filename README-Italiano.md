@@ -217,14 +217,14 @@ Per capire che misure di protezione adottare, devi prima capire a che rischi sei
 
 - Download an application that will notify you when data is being sent out from your computer. E.g. [Little Snitch for Mac](https://www.obdev.at/products/littlesnitch/index.html).
 - Run Activity Monitor on Mac or Process Explorer on Windows to look at what processes/applications are running. Google any suspicious names.
-- Login to important online accounts to see if there have been any suspicious logins – see [this Motherboard guide for details](https://motherboard.vice.com/en_us/article/bjeznz/how-do-you-know-when-youve-been-hacked-gmail-facebook).
+- Login to important online accounts to see if there have been any suspicious logins – see [this Motherboard guide for details](https://vice.com/en_us/article/bjeznz/how-do-you-know-when-youve-been-hacked-gmail-facebook).
 - Setup a spare smartphone using [Haven](https://guardianproject.github.io/haven/) as a room monitor to detect unwanted intrusions.
 
 ---
 
 ### 🍆 Sexting & condivisione di immagini non-consensuale
 
-- See [The Motherboard Guide to Sexting Securely](https://motherboard.vice.com/en_us/article/mb3nd4/how-to-sext-securely-safely-what-apps-to-use-sexting).
+- See [The Motherboard Guide to Sexting Securely](https://vice.com/en_us/article/mb3nd4/how-to-sext-securely-safely-what-apps-to-use-sexting).
 
 ---
 
@@ -342,7 +342,7 @@ Harassment and doxxing can get very specific and complicated based on the attack
 
 - Pay [Reputation.com](https://www.reputation.com/) to remove your information from paid sites and monitor them to make sure it stays removed.
 
-- Alternately, both [PrivacyDuck](https://www.privacyduck.com/resources/) and [Motherboard](https://motherboard.vice.com/en_us/article/ne9b3z/how-to-get-off-data-broker-and-people-search-sites-pipl-spokeo) have free online resources to help you remove your information yourself.
+- Alternately, both [PrivacyDuck](https://www.privacyduck.com/resources/) and [Motherboard](https://vice.com/en_us/article/ne9b3z/how-to-get-off-data-broker-and-people-search-sites-pipl-spokeo) have free online resources to help you remove your information yourself.
 
 #### Cancella le tue informazioni personali da internet - even more
 
@@ -473,7 +473,7 @@ This section is a catch-all for difficult or esoteric practices that do not fall
 
 We consulted many sources and drew upon our own experiences in creating this resource. ([See our full list of sources.](SourcesConsulted.md)) If you're not finding quite what you want here, we recommend checking out these other resources: 
 
-- [The Motherboard Guide to Not Getting Hacked](https://motherboard.vice.com/en_us/article/d3devm/motherboard-guide-to-not-getting-hacked-online-safety-guide)
+- [The Motherboard Guide to Not Getting Hacked](https://vice.com/en_us/article/d3devm/motherboard-guide-to-not-getting-hacked-online-safety-guide)
 - [The Electronic Frontier Foundation's Surveillance Self-Defense](https://ssd.eff.org/)
 - [Holistic digital security training curriculum for women human rights defenders](https://cyber-women.com/en/)
 - [Matt Mitchell's Twitter stream](https://twitter.com/geminiimatt/)
