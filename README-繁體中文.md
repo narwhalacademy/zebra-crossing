@@ -1,5 +1,7 @@
 # 🦓 網絡安全懶人包
 
+## 🎯 前言
+
 ### 🤔 誰適合使用這份指南
 
 - 你每天都上網——為了工作，刷社交媒體，使用網上銀行等等。
@@ -44,7 +46,7 @@
 
 ---
 
-## 💦 第一級安全建議
+## 💦 第一級建議
 
 ### ✅ 行動清單
 
@@ -105,7 +107,7 @@
 
 ---
 
-## 💦💦 第二級安全建議
+## 💦💦 第二級建議
 
 ### ✅ 行動清單
 
@@ -164,7 +166,7 @@
 
 ---
 
-## 💦💦💦 第三級安全建議
+## 💦💦💦 第三級建議
 
 ### ✅ 行動清單
 
@@ -197,7 +199,7 @@
 
 ---
 
-## 💦❗️ 基於特定情境的安全建議
+## 💦❗️ 基於特定情境
 
 ---
 
@@ -389,11 +391,11 @@
 
 ---
 
-## 👀 在互聯網上移除和你相關的信息
+### 👀 在互聯網上移除和你相關的信息
 
 如果你即將成為公眾人物，或者正在經歷網絡暴力，考慮進行採取以下建議。
 
-### 清理你的社交媒體偏好設置
+#### 清理你的社交媒體偏好設置
 
 你或許不需要完全刪除你的帳號，你可以考慮刪除那些久遠的或者暴露了太多個人信息，比如你在哪裡居住，經常出入哪裡，和誰一起的帖子（或者改為盡個人可見）。
 
@@ -418,12 +420,12 @@
  - Reddit或其他論壇：
   - 通常沒有一步到位的簡單方法。有些時候你需要完全刪除你的帳號。對於Reddit，你需要使用[第三方腳本](https://social.techjunkie.com/how-to-delete-all-reddit-posts/)，因為即使你刪除了你的帳號你的貼文也都還在。
 
-### 從別人網站上刪除你的信息
+#### 從別人網站上刪除你的信息
 
   - 付費使用[PrivacyDuck](https://www.privacyduck.com/)或者[Reputation Defender](https://www.reputationdefender.com/)移除英文公開和付費網頁上關於你的信息。PrivacyDuck針對不同人群的[優惠計劃](https://www.privacyduck.com/discount-programs/)，查看你是否適用。
   - 如果你希望自己刪除，你可以使用[PrivacyDuck的指南](https://www.privacyduck.com/resources/)，和Yael Grauer的[Big Ass Data Broker Opt-Out List](https://docs.google.com/document/d/1ElB7VXmr5JEkFaLJpO7YLGrAuasedmq-rZC-8TUMxTM/)。（為了保證100%的刪除相關信息，在使用付費服務的基礎上再使用這些指南）。
 
-### 隱藏你的個人信息
+#### 隱藏你的個人信息
 
   - 使用[Burner](http://www.burnerapp.com/)或者[Hushed](https://hushed.com/)來獲取打電話和發信息所用的一次性號碼。
   - 使用PO box郵寄地址，或者用[Traveling Maibox](https://travelingmailbox.com/)（僅限美國）來隱藏你的家庭住址。
@@ -477,7 +479,7 @@
 
 ---
 
-## 🤐 出行目的地沒有很好的數據保護條例，或者有網絡審查
+### 🤐 出行目的地沒有很好的數據保護條例，或者有網絡審查
 
 - 注意手機運營商可能會在未經你同意下與第三方共享你的地理位置信息和個人信息。
 - 在你出行前設置VPN以便 a）不受影響地接入服務，b）最少化對你的數據收集。避免免費的VPN或者擁有者不明的VPN服務。閱讀[Wirecutter](https://thewirecutter.com/reviews/best-vpn-service/)和[Freedom of the Press](https://freedom.press/training/choosing-a-vpn/)的建議。
@@ -489,7 +491,7 @@
     - [Apple Transparency Report](https://www.apple.com/legal/transparency/)
   - 查看這些服務商的總部在哪裏，以及這會如何影響它們的隱私政策。
 
-## 😣 我需要幫助，我的系統正在遭受攻擊
+### 😣 我需要幫助，我的系統正在遭受攻擊
 
 如果你爲公民組織工作，你可以聯系：
 - Access Now's [Digital Security Helpline](https://www.accessnow.org/help/)

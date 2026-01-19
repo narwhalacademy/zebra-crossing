@@ -266,7 +266,7 @@ This is a popular option for people who are comfortable navigating extra setting
 
 - **Recommended password managers:**
   - [1Password](https://1password.com/) 💰
-  - [BitWarden](https://bitwarden.com/)
+  - [Bitwarden](https://bitwarden.com/)
 - **We do not recommend password managers that come with your operating system or web browser** because they do not work outside of their ecosystem (e.g. Apple Passwords won’t work on an Android phone).
 - **Install the password manager app** on both your phone and computer.
 - **Install the password manager browser extension** on your desktop web browser.
@@ -322,7 +322,7 @@ Try to have a backup copy of these papers in a second location.
   - UPnP (Universal Plug and Play)
   - WPS (Wi-Fi Protected Setup)
   - Remote Management
-- **Check for any software updates.** Look for sections labeled `maintenance`, `firmware` or `system update`. Don’t worry if you don’t see it — that means it’s either up-to-date or automatic updates are hard set to on.
+- **Check for any software updates.** Look for sections labeled `maintenance`, `firmware` or `system update`. Don’t worry if you don’t see it — that means it’s either up to date or automatic updates are hard set to on.
 
 ##### Track your devices in case you lose them
 
@@ -852,7 +852,7 @@ In most cases, making your identity less public is good enough and is actually a
 
 ### 🫶🏾 Organizing a mutual aid group
 
-Mutual aid groups often include people with different backgrounds, so it’s very likely that at least one person in the group won’t be up-to-date on their digital safety practices. So the chances of an accidental data leak are much higher. Luckily, there are things you can do to minimize the damage done if that happens.
+Mutual aid groups often include people with different backgrounds, so it’s very likely that at least one person in the group won’t be up to date on their digital safety practices. So the chances of an accidental data leak are much higher. Luckily, there are things you can do to minimize the damage done if that happens.
 
 - **Obscure your identity in the group**:
   - Consider using a nickname or only your first name (if your first name is very common where you live).
@@ -1498,7 +1498,7 @@ When someone close to you (usually a romantic partner) spies on you using a hidd
 - **Connect with one of the many organizations who specialize in stalkerware and domestic abuse (through a public/friend's phone/line).** Some of them help you collect evidence and remove stalkerware safely.
   -  See the Coalition Against Stalkerware's [global list of direct support organizations](https://stopstalkerware.org/resources/).
 - **Keep digital and printed records of relevant texts, emails, calls, etc.**
-	- See NNEDV's [guide on documenting/saving evidence](https://www.womenslaw.org/about-abuse/abuse-using-technology/evidence-issues-cases-involving-technology/digital-evidence).
+  - See NNEDV's [guide on documenting/saving evidence](https://www.womenslaw.org/about-abuse/abuse-using-technology/evidence-issues-cases-involving-technology/digital-evidence).
 - **When you no longer need evidence, remove the suspicious apps/stalkerware yourself by performing a factory reset on your computer/phone.** Buying a brand new device is even safer, of course.
   - **Remember to reinstall apps and import data manually,** lest you restore a backup with stalkerware in it.
 
@@ -1680,7 +1680,7 @@ This section contains additional tools and tips that we encountered during our r
 ### Tools & tips with steep learning curves
 
 - **Use a specialized DNS service to access the internet** like [Quad9](https://www.quad9.net/).
-- **Use a decentralized, private messaging app powered by the Tor network**. Check out [Ricohet Refresh](https://www.ricochetrefresh.net/).
+- **Use a decentralized, private messaging app powered by the Tor network**. Check out [Ricochet Refresh](https://www.ricochetrefresh.net/).
 - **Access Facebook with more anonymity and bypass internet filtering by using [its onion service](https://en.wikipedia.org/wiki/Facebookcorewwwi.onion).**
 - **Use a more secure operating system for your computer.**  Options include:
   - [Tails](https://tails.boum.org/)
@@ -1692,7 +1692,7 @@ This section contains additional tools and tips that we encountered during our r
     - If you don’t have a Google phone, install a vanilla “stock” version of Android directly from Google and without all the extras your phone manufacturer added. (Instructions vary depending on what phone you have, so you will have to do some research.)
 - **Start using super secure devices.** Options include:   
   - [PINE64](https://www.pine64.org/)
-  - [Purism](https://puri.sm/).
+  - [Purism](https://puri.sm/)
 
 ### Tools & tips for hosting/running a website
 

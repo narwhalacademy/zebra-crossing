@@ -1,5 +1,7 @@
 # 🦓 Zebrastreifen - eine einfache Checkliste für digitale Sicherheit
 
+## 🎯 Einführung
+
 ### 🤔 Für wen dieser Leitfaden gedacht ist
 
 - Sie nutzen das Internet tagtäglich - für die Arbeit, soziale Medien, finanzielle Transaktionen usw.
@@ -60,7 +62,7 @@ Daten über Ihre Daten - z. B. welche Nummer Sie angerufen und wie lange Sie tel
 
 ---
 
-## 💦 Empfehlungen der Stufe 1
+## 💦 Stufe 1
 
 ### ✅ Was jetzt zu tun ist
 
@@ -153,7 +155,7 @@ Verwenden Sie die Zwei-Faktor-Authentifizierung (auch bekannt als 2FA und zweist
 
 ---
 
-## 💦💦 Empfehlungen der Stufe 2
+## 💦💦 Stufe 2
 
 ### ✅ Was jetzt zu tun ist
 
@@ -234,7 +236,7 @@ Sagen Sie nichts, was Sie in einer "privaten" Slack-Gruppe, Facebook-Seite, eine
 
 ---
 
-## 💦💦💦 Empfehlungen der Stufe 3
+## 💦💦💦 Stufe 3
 
 ### ✅ Zu tun
 
@@ -274,7 +276,7 @@ Sagen Sie nichts, was Sie in einer "privaten" Slack-Gruppe, Facebook-Seite, eine
 
 ---
 
-## 💦❗️ Szenariobasierte Empfehlungen
+## 💦❗️ Szenarien
 
 ### 👩🏿‍💻 Durchführung einer öffentlichen Veranstaltung auf einer Plattform für Videogespräche (z. B. Zoom)
 
@@ -503,7 +505,7 @@ Legen Sie fest, wer auf Ihre Tweets antworten kann, indem Sie auf `Jeder kann an
 - Informieren Sie Ihre engen Kontakte, Ihre Familie und Ihren Arbeitgeber über die Vorgänge. Bereiten Sie sich auf die Situation vor, indem Sie gemeinsam Gesprächspunkte festlegen, damit sie wissen, wie sie reagieren sollen, wenn Fremde im Internet oder die Presse sie kontaktieren.
 - Wenn die Situation eskaliert, suchen Sie eine Person in Ihrer Nähe, die über Krisenerfahrung verfügt, und benachrichtigen Sie sie, um sie zu schützen und zu unterstützen.
 
-### Sei besonders nett zu dir selbst
+#### Sei besonders nett zu dir selbst
 
 - Machen Sie sich keine Sorgen, wenn Sie nicht in der Lage sind, Ihren normalen Arbeitsalltag zu bewältigen.
 - Rufen Sie Freunde an, mit denen Sie essen können, eine Pause einlegen oder ein paar Tage auf Ihre Katzen aufpassen.
@@ -591,7 +593,7 @@ Bei vielen sozialen Medien können Sie Ihr komplettes Konto wiederherstellen, na
 - Wenn Sie es selbst machen wollen, schauen Sie sich die [Big Ass Data Broker Opt-Out List](https://github.com/yaelwrites/Big-Ass-Data-Broker-Opt-Out-List) von Yael Grauer an. (Um 100 % gründlich zu sein, sollten Sie diese Liste zusätzlich zu kostenpflichtigen Diensten verwenden).
 - Denken Sie daran, dass die Bearbeitung von Anträgen auf Löschung von Informationen Zeit in Anspruch nimmt und oft mehrere Versuche erforderlich sind.
 
-### Entfernen von Artikeln und Presse über Sie im Internet
+#### Entfernen von Artikeln und Presse über Sie im Internet
 
 - Betrachten Sie dies als Risikominderung, nicht als vollständige Beseitigung, denn es ist unmöglich, alles zu entfernen.
 - Wenden Sie sich an den Redakteur oder Ihren früheren Ansprechpartner. Erklären Sie Ihre Situation ehrlich und hoffen Sie auf einen verständnisvollen Redakteur/Schreiber.
@@ -710,7 +712,7 @@ Wenn Sie Opfer eines Online-Betrugs, eines Betrugs oder von Ransomware geworden 
 
 ---
 
-## 💦❓ Sonstige Empfehlungen
+## 💦❓ Sonstiges
 
 Dieser Abschnitt ist ein Auffangbecken für schwierige oder esoterische Praktiken, die nicht unter eines der obigen Szenarien fallen und sich für den Gelegenheitsnutzer möglicherweise nicht sofort auszahlen.
 
