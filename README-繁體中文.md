@@ -240,14 +240,14 @@
 
 - 下載一個能在你的數據被發送到其他設備時提示你的軟件，如 [Little Snitch for Mac](https://www.obdev.at/products/littlesnitch/index.html).
 - 蘋果電腦上運行 “活動監視器“（Activity Monitor）或者Windows系統上的 ”進程瀏覽“ （Process Explorer），查看有那些進程正在運行。搜索那些看起來可疑的名字。
-- 登陸重要的網絡賬號，查看是有其他可疑登陸，詳細教程在這裡閱讀：[Motherboard:  How to Tell if Your Account Has Been Hacked](https://motherboard.vice.com/en_us/article/bjeznz/how-do-you-know-when-youve-been-hacked-gmail-facebook)。
+- 登陸重要的網絡賬號，查看是有其他可疑登陸，詳細教程在這裡閱讀：[Motherboard:  How to Tell if Your Account Has Been Hacked](https://vice.com/en_us/article/bjeznz/how-do-you-know-when-youve-been-hacked-gmail-facebook)。
 - 使用一部閒置的智能手機運行[Haven](https://guardianproject.github.io/haven/) ，這個軟件可以幫助你偵測入室行為。
 
 ---
 
 ### 🍆 性短信及無共識的照片分享
 
-- 查看 [The Motherboard Guide to Sexting Securely](https://motherboard.vice.com/en_us/article/mb3nd4/how-to-sext-securely-safely-what-apps-to-use-sexting).
+- 查看 [The Motherboard Guide to Sexting Securely](https://vice.com/en_us/article/mb3nd4/how-to-sext-securely-safely-what-apps-to-use-sexting).
 
 ---
 
@@ -350,7 +350,7 @@
 
 - 给[PrivacyDuck](https://www.privacyduck.com/) 付費，清除你在網上的信息。如果你是運動家，你可以聯繫[Equity Labs](https://medium.com/@EqualityLabs/anti-doxing-guide-for-activists-facing-attacks-from-the-alt-right-ec6c290f543c)，獲取折扣價。
 - 给[Reputation.com](https://www.reputation.com/) 付費， 從付費網站上移除你的信息，並後續跟蹤這些網站，確保信息保持移除。
-- 你也可以用 [PrivacyDuck](https://www.privacyduck.com/resources/) 和 [Motherboard](https://motherboard.vice.com/en_us/article/ne9b3z/how-to-get-off-data-broker-and-people-search-sites-pipl-spokeo) 的免費資源幫助你移除相關信息。
+- 你也可以用 [PrivacyDuck](https://www.privacyduck.com/resources/) 和 [Motherboard](https://vice.com/en_us/article/ne9b3z/how-to-get-off-data-broker-and-people-search-sites-pipl-spokeo) 的免費資源幫助你移除相關信息。
 
 #### 隱藏你的個人信息
 
