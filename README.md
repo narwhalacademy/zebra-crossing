@@ -544,6 +544,7 @@ Some platforms that facilitate these things often have privacy settings, so it�
   - iOS Photos: Open the photo and tap the `…`  button on the top right. Tap `Hide`. This will put the photo in a `Hidden` folder in the Photos app (under `Utilites`) that can only be unlocked with FaceID or a passcode.
   - Android Google Photos: [Follow these instructions](https://support.google.com/photos/answer/10694388?co=GENIE.Platform%3DAndroid&oco=1) and read the section about automatic backups carefully.
   - Android Gallery: The basic Gallery app doesn’t support hidden photos, so download an alternative gallery app like [Fossify Gallery](https://github.com/FossifyOrg/Gallery) and turn on password protection for hidden items in the settings.
+
 ### 💰 Upgrade your gear 
 
 - **Buy a privacy screen for your laptop and phone.** These stick-on sheets prevent onlookers from seeing what's on your screen. Examples for:
