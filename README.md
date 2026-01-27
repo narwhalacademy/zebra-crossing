@@ -16,11 +16,13 @@
 ### 🌱 How to use this guide
 
 - **Start from Level 1 and work your way up!** Recommendations are sorted by increasing levels of difficulty.
-- **Level 1 is the quick essentials section.** You should be able to work through it within 1 hour, and chances are, you're already familiar with many of the recommendations in there — but it never hurts to double check.
-- **Level 2 digs deeper into your device/app settings and will help you fine tune your privacy online.** This section will take 1-2 hours, depending on how many accounts and devices you frequently use.
-- **At a minimum, do everything in Levels 1 and 2.** It'll protect you from the most widely-used attacks while drastically decreasing the amount of personal information you're giving out for free.
-- **Level 3 ties up loose ends in your digital safety practice**, but it does requires more time and money to complete. Depending on the amount of digital housekeeping required, this part may take anywhere from 1-4 hours.
-- **The scenarios shared after Level 3 are for higher-stakes situations.** Scan them to see if any of them apply to you. (Because the stakes are higher, they assume you’ve done everything in Levels 1–3.)
+- **Level 1 is the quick essentials section.** You should be able to work through it within half an hour, and chances are, you're already familiar with many of the recommendations in there — but it never hurts to double check.
+- **Level 2 digs deeper into your device/app settings.** This section will take 1-2 hours, depending on how many accounts and devices you frequently use.
+- **At a minimum, do everything in Levels 1 and 2.** It'll protect you from the most widely-used attacks.
+- **Between level 2 and 3 is a reading break intermission** about developing better digital safety habits and reflexes.
+- **Level 3 will help you fine tune your privacy online** and drastically decrease the amount of personal information you're giving out for free. This section will also take 1-2 hours.
+- **Level 4 powers up your digital safety practice with the latest tools and tips.** Some parts of it might require you to step outside your comfort zone, some parts require you to spend money on things. Most of it should only take half an hour to complete.
+- **The scenarios shared after Level 4 are for higher-stakes situations.** Scan them to see if any of them apply to you. (Because the stakes are higher, they assume you’ve done everything in Levels 1–4.)
 - **This guide is a living document.** Please feel free to submit a pull request or fork your version of this guide [on GitHub](https://github.com/narwhalacademy/zebra-crossing).
 
 ### 🗣 Read this guide in other languages
@@ -40,7 +42,7 @@
 
 ### 🕒 Last updated
 
-- 11 August 2025
+- 27 January 2026
 
 ---
 
@@ -75,17 +77,15 @@ The **weakest link** is where your digital safety is most vulnerable. For exampl
 
 ---
 
-## 🚶🏽‍♀️ Level 1
+## 🚶🏽‍♀️ Level 1: Essential safety in ten minutes
 
-### ✅ Things to do
-
-#### Identify important accounts
+### 🔍 Identify important accounts
 
 - Imagine that an attacker gains access to all of your online accounts. Which of these accounts would be really painful to lose? List them out and write them down.
 - Typically this list includes accounts used for email, online banking, social media, and maybe one or two related to work.
 - The list should be short, and have less than 10 items.
 
-#### Double-lock important accounts
+### 🔒 Double-lock important accounts
 
 The first lock is usually your account password. The second lock takes on a different form and/or comes via a different channel — most often as a code sent to your phone via an app or text message (SMS). This additional lock is usually called *two-factor authentication* (abbreviated as *2FA*) or *two-step verification*.
 
@@ -96,60 +96,13 @@ The first lock is usually your account password. The second lock takes on a diff
   - Recommended apps:
     - [2FAS](https://2fas.com) (if you only use one device to get authentication codes)
     - [Ente Auth](https://ente.io/auth/) (if you want the codes to sync across multiple devices)
+  - Most banking accounts will force you to use their own app, so don't worry if you can't use one of the above apps for that.
 - **Turn on cloud-backup for your authenticator app** in case you ever lose your phone.
   - Instructions for:
     - 2FAS: Go to `Settings → 2FAS Backup`
     - Ente Auth: Create an account in the app
 
-#### Double-check backup security questions on important accounts
-
-- **Make sure the answers to these questions are not easy to find out using public information about you.** Security questions often get used to verify your identity during login or password resets, so they play a crucial role.
-
-#### Secure your email
-
-- **Check the address bar for https://** If you’re using a webmail service, check that you're logging into it using an `https://` URL. If there isn't one available, find a new email provider.
-- **Find out if your email service supports backup codes.** Once you turn on 2FA, your email provider may provide single-use backup codes you can use if you lose your phone.
-  - Instructions for:
-    - [Gmail](https://support.google.com/accounts/answer/1187538?hl=en)
-    - [Proton Mail](https://proton.me/support/set-account-recovery-methods#how-to-enable-a-recovery-phrase)
-    - [Tuta Mail](https://tuta.com/support#recovery)
-    - [iCloud](https://support.apple.com/en-us/HT208072)
-
-#### Secure your phone
-
-- **Use a non-common/obvious unlock code for your phone with at least 10 digits.** We recommend using a long string of numbers as it's easier to tap, but using both letters and numbers works too. Swipe patterns are not recommended, however, as they are too easy replicated by onlookers.
-  - To change it:
-    - iOS: `Settings → Face ID & Passcode → Change Passcode`
-    - Android: `Settings → Security → Screen lock`
-- **Set up a pin code for your mobile phone SIM card:**
-  - Instructions for:
-    - [iPhone](https://support.apple.com/en-us/118228)
-    - [Android](https://www.androidpolice.com/enable-sim-lock-android-phone-protection/).
-  - If it asks you for a SIM pin code and you don't remember setting one, then the phone company might have set one by default. Go to your phone provider’s website to find out what it is.
-- **Don’t allow USB accessories to control a locked device:**
-  - iOS: Turn off `Settings → Face ID & Passcode → Allow Access When Locked: USB Accessories`.
-  - Android: Setting is off by default and is only available if `Developer Options` are turned on.
-- **Turn on your phone's anti-theft features:**
-  - iOS: `Settings  Face ID & Passcode → Stolen Device Protection`
-  - Android: `Settings → Security & Privacy → Other settings: More security and privacy → Security: Theft protection`
-
-- **For Android devices, make sure Google Play Protect is turned on** if you use the Google Play Store:
-  - In the Google Play app: Profile icon `→ Play Protect → Settings → Scan apps with Play Protect`
-
-
-#### Secure your computer
-
-- **Turn on your computer’s firewall:**
-  - macOS: `System Preferences → Security & Privacy → Firewall`.
-  - Windows 10/11: `Start  → Settings → Update & Security → Windows Security → Firewall & network protection → Microsoft Defender Firewall: On`
-- **Turn off your computer’s remote access:**
-  - macOS: `System Preferences → Sharing → Remote Login, Remote Management`.
-  - Windows 10/11: `Settings → System → Remote Desktop → Remote desktop: Off`.
-- **Set up basic anti-virus software on your computer:**
-  - macOS: None required.
-  - Windows 10/11:  `Start  → Settings → Update & Security → Windows Security → Virus & threat protection`
-
-#### Turn on automatic software updates
+### 🔁 Turn on automatic software updates
 
 Most new devices these days have automatic updates turned on by default, but it’s worth double checking:
 
@@ -166,83 +119,24 @@ Most new devices these days have automatic updates turned on by default, but it�
   - Android: Open `Play Store`, then go to `Settings → Auto-update apps`
   - macOS: Open `App Store`, then go to `Settings → Automatic Updates`
   - Windows 10/11: Open the `Microsoft Store`, then go to `Profile → Settings → App updates`.
-
-#### Other considerations
-
-- **Turn off app-specific passwords that bypass two-factor authentication (where possible)**.
-  - Instructions for:
-    - [Gmail](https://www.lifewire.com/revoke-an-application-password-for-gmail-1171889)
-    - [iCloud](https://support.apple.com/en-us/HT204397)
-- **Turn off automatically added calendar invitations,** which can be used to send malicious links.
-  - Google Calendar [Settings](https://calendar.google.com/calendar/r/settings) `→ Event Settings → Add invitations to my calendar: When I respond to the invitation in email`
-  - Outlook: `File → Options → Calendar → Automatic accept or decline → Auto Accept/Decline: Automatically Accept Meeting Requests and Remove Canceled Meetings`
-  - iCloud: On iOS: Go to `Settings → [Your name] → iCloud → Saved to iCloud: See All → iCloud Calendar → Send & Receive → Receiving` and select `Email` for each account. 
-- **Disable macros in Microsoft Office.** Macros are small bits of code that automate actions which can be exploited by attackers. They can still be useful sometimes, which is why we recommend the `Disable all macros with notification`, which allows you to manually allow macros from trusted sources to run.
-  - Instructions for:
-    - [macOS](https://support.microsoft.com/en-us/office/enable-or-disable-macros-in-office-for-mac-c2494c99-a637-4ce6-9b82-e02cbb85cb96)
-    - [Windows](https://support.microsoft.com/en-us/office/macros-in-office-files-12b036fd-d140-4e74-b45e-16fed1a7e5c6), which may require [special settings for Excel](https://support.microsoft.com/en-us/office/change-macro-security-settings-in-excel-a97c09d2-c082-46b8-b19f-e8621e8fe373)
-
-### 💪🏽 Habits to grow
-
-#### Watch out for phishing scams
-
-A phishing scam is an email or text message where an attacker is trying to trick you into giving your password or other login details. To defend yourself:
-
-- **Trust your instincts.** If you feel like something is off — whether it's the way the text is written, the way the graphics look, or an unusual, first-time request from a service provider — it probably is.
-- **Check who it's from.** Look over the sender's name and phone number or email address. If it's an email, be sure to closely read the bit after the `@` symbol.
-- **But remember sender details can be faked.** It happens rarely, but it is technically possible to put on a fake sender name, email or phone number. So checking the sender details is a not 100% foolproof process.
-- **Think twice before clicking a link.** When in doubt, carefully examine the domain in the link. To look at it without opening the link:
-  - On mobile:
-    - iOS: Tap and hold on a link. A mini preview of the destination will appear. On the top right of this mini-window, tap `Hide preview`. From then on, iOS will show the full URL whenever you tap and hold on a link.
-    - Android: Tap and hold on a link.
-  - On desktop:
-    - Firefox, Chrome, Edge: When your mouse cursor hovers over a link or button, the full URL will show up on the bottom left.
-    - macOS Safari: To turn on the above feature, go to `View → Show Status Bar`
-    - macOS Mail: Hover your mouse cursor over a link and wait for a few seconds for a pop-up to appear.
-- **After clicking links, scan the URL address bar in your web browser.**
-  - Is there a red warning icon or 'Not Secure' label? This means the website is running unencrypted on `http` (rather than `https`).
-  - Is the domain spelled incorrectly?
-- **So if there’s any lingering doubt, don’t click the link.** In almost all cases, you don’t actually need to click the link. If the message is linked to a transaction or account, you can always go to the original website to look up the details.
-
-#### Beware of file attachments
-
-- **Don’t download/open unnecessary attachments.**
-  - When in doubt, reply to the original sender to ask what it is.
-  - On email, preview attachments within the app or website. On Gmail and Proton Mail, simply clicking the attachment brings up its preview, which runs in a safe environment inside the mail program.
-  - Ask the sender to use a file sharing service (Dropbox, Google Drive, Tresorit), which also have their own online preview system.
-- **Upload suspicious attachments to [VirusTotal](http://www.virustotal.com)** to have them analyze it. *Keep in mind files submitted to VirusTotal may be shared with multiple security researchers, so don’t submit sensitive information.*
-
-#### Say yes to updates
-
-- **Device operating systems:** If you get a notification on your devices to update the operating system, do it as soon as possible.
-- **Apps:** If you see notifications about available updates, follow through and update the app.
-- **Firmware updates:** Check occasionally for firmware updates for your router and other internet-connected devices.
-
-#### Other considerations
-
-- **Don’t enter passwords into in-app browsers.** When a mobile app lets you browse a webpage without opening your web browser (i.e. an in-app browser), the app can record what websites you visit and what you type in them. So don’t type anything sensitive in there.
-- **Don’t plug in USB sticks/drives that you don’t know into your computer.** It might have malicious software on it.
-- **Wipe your devices properly before donating or giving them away.** If you’ve encrypted your phones and computers (as suggested earlier), a standard factory reset will work for most use cases.
-  - If you want an extra layer of security for your computer hard drives, see [Wired’s guide on this topic](https://www.wired.co.uk/article/securely-wipe-android-iphone-hard-disk).
-- **Don’t charge your phone at public charging stations/ports.** They present a risk because attackers might steal your data. Instead, use a portable battery or bring our own adapter to plug directly into the power outlet.
+- **Make sure your device's operating system can still receive updates:**
+  - If it's been more than three years since you bought your phone or computer, it's worth double checking that you are still getting updates.
+    - For phones: Look up [your device on endoflife.date](https://endoflife.date/tags/device), and make sure it's still listed as "supported."
+    - For macOS: Find out what operating system you are running. Click the Apple logo on the top left corner, then `About This Mac`. Then make sure it's still "Service Status: Yes" on [this endoflife.date page](https://endoflife.date/macos).
+    - For Windows: Find out what operating system you are running.  `Start → Settings → System → About` Then make sure that it's still receiving security support on [this endoflife.date page](https://endoflife.date/windows).
+  - If it's no longer getting updates:
+    - Make sure you have updated to the latest operating system that works on your device. Sometimes an update stalls because of a lack of disk space. (You will have gotten notices about this if you followed the steps above.) Or in the case of Windows, you may need to buy the new edition.
+    - Start looking into what device you want to get. For now though, work through the rest of this checklist to patch everything else up.
 
 ---
 
-**👍 Great job! You've secured**  
-**👍 some important quick wins**  
-**👍 for your online safety & privacy.**  
-**👍 Please, do treat yourself to**  
-**👍 a cup of tea and a stretch.**  
-**👍**  
-**👍 Now, ready for Level 2?**
+*👍 Excellent! These simple steps will actually keep you safe "most" of the time. Think of it as having a good, solid lock on your front door. It's not foolproof, but it will keep your home safe most of the time. Continue on to secure the little things that may become vulnerabilities down the line.*
 
 ---
 
-## 🏃🏻‍♂️ Level 2
+## 🏃🏻‍♂️ Level 2: Secure all the little things
 
-### ✅ Things to do
-
-#### Use hard-to-guess passwords for important accounts
+### 🧠 Use hard-to-guess passwords for important accounts
 
 Attackers commonly gain access to your account is if your password is:
 
@@ -297,7 +191,83 @@ In fact, password manager apps encourage people to print a sheet of paper with a
 
 Try to have a backup copy of these papers in a second location.
 
-#### Encrypt your devices
+### 🧑‍🔬 Set up backup codes for your important accounts
+
+These codes are single-use, super long passwords that let you login to your account if you lose your devices. You might have been prompted to create a backup code when you set up two-factor authentication. They are useful to have in case of emergencies. Safe ways to store them include:
+
+- Printing a paper copy and storing it in a private location
+- Copying and pasting into a file that is then password locked folder on your computer (if you don't know how to do this, we will teach you our favorite method in Level 4)
+- If you use a password manager, you can store it there as a note
+
+Find out if your account supports backup codes by running an internet search for "backup codes" along with your account name. Instructions for:
+
+- [Google (including Gmail)](https://support.google.com/accounts/answer/1187538?hl=en)
+- [Instagram](https://www.facebook.com/help/1006568999411025/)
+- [Facebook](https://www.facebook.com/help/148104135383285/)
+- [Apple (including iCloud)](https://support.apple.com/en-us/109345)
+- [Proton Mail](https://proton.me/support/set-account-recovery-methods#how-to-enable-a-recovery-phrase)
+- [Tuta Mail](https://tuta.com/support#recovery)
+
+### 📱 Secure your devices
+
+#### Secure your phone
+
+- **Use a non-common/obvious unlock code for your phone with at least 10 digits.** We recommend using a long string of numbers as it's easier to tap, but using both letters and numbers works too. Swipe patterns are not recommended, however, as they are too easy replicated by onlookers.
+  - To change it:
+    - iOS: `Settings → Face ID & Passcode → Change Passcode`
+    - Android: `Settings → Security → Screen lock`
+- **Set up a pin code for your mobile phone SIM card:**
+  - Instructions for:
+    - [iPhone](https://support.apple.com/en-us/118228)
+    - [Android](https://www.androidpolice.com/enable-sim-lock-android-phone-protection/).
+  - If it asks you for a SIM pin code and you don't remember setting one, then the phone company might have set one by default. Go to your phone provider’s website to find out what it is.
+- **Don’t allow USB accessories to control a locked device:**
+  - iOS: Turn off `Settings → Face ID & Passcode → Allow Access When Locked: USB Accessories`.
+  - Android: Setting is off by default and is only available if `Developer Options` are turned on.
+- **Turn on your phone's anti-theft features:**
+  - iOS: `Settings  Face ID & Passcode → Stolen Device Protection`
+  - Android: `Settings → Security & Privacy → Other settings: More security and privacy → Security: Theft protection`
+- **Turn on tracking for your devices in case you lose them,** which allows you to remotely find and wipe your devices by logging into a website if you ever lose them.
+  - Instructions for:
+    - [iOS & macOS](https://support.apple.com/en-us/HT210400) (Find My)
+    - [Android](https://support.google.com/android/answer/6160491?hl=en) (Find Hub)
+    - [Windows](https://support.microsoft.com/en-us/account-billing/find-and-lock-a-lost-windows-device-890bf25e-b8ba-d3fe-8253-e98a12f26316) (Find My Device)
+- **Disable 2G connectivity on your phone (Android only)**. 2G cellular network technology is outdated and has security vulunerabilities that allow fraudsters to send fake text messages. To disable it on Android:
+  - `Settings → Network and Internet → SIMs → [Your carrier name] → Allow 2G: Off`
+  - If that option doesn’t appear, open the Phone app and enter `*#*#4636#*#*`. A `Testing` screen will pop up. Select `Phone information` and then change the `Set Preferred Network Type` to the same as the current selection minus `GSM`. To see what each acronymn stands for, see Wikipedia’s [Comparison of wireless standards page](https://en.wikipedia.org/wiki/Comparison_of_mobile_phone_standards#Comparison_of_wireless_Internet_standards). 
+
+- **For Android devices, make sure Google Play Protect is turned on** if you use the Google Play Store:
+  - In the Google Play app: Profile icon `→ Play Protect → Settings → Scan apps with Play Protect`
+
+
+#### Secure your computer
+
+- **Turn on your computer’s firewall:**
+  - macOS: `System Preferences → Security & Privacy → Firewall`.
+  - Windows 10/11: `Start  → Settings → Update & Security → Windows Security → Firewall & network protection → Microsoft Defender Firewall: On`
+- **Turn off your computer’s remote access:**
+  - macOS: `System Preferences → Sharing → Remote Login, Remote Management`.
+  - Windows 10/11: `Settings → System → Remote Desktop → Remote desktop: Off`.
+- **Set up basic anti-virus software on your computer:**
+  - macOS: None required.
+  - Windows 10/11:  `Start  → Settings → Update & Security → Windows Security → Virus & threat protection`
+- **If you use Microsoft Office: disable macros.** Macros are small bits of code that automate actions which can be exploited by attackers. They can still be useful sometimes, which is why we recommend the `Disable all macros with notification`, which allows you to manually allow macros from trusted sources to run.
+  - Instructions for:
+    - [macOS](https://support.microsoft.com/en-us/office/enable-or-disable-macros-in-office-for-mac-c2494c99-a637-4ce6-9b82-e02cbb85cb96)
+    - [Windows](https://support.microsoft.com/en-us/office/macros-in-office-files-12b036fd-d140-4e74-b45e-16fed1a7e5c6), which may require [special settings for Excel](https://support.microsoft.com/en-us/office/change-macro-security-settings-in-excel-a97c09d2-c082-46b8-b19f-e8621e8fe373)
+
+#### Secure your home wifi router
+
+- **Log into the administration and settings dashboard.** It’s usually accessible by going to `http://192.168.0.1` in your web browser. Otherwise, check your instructions that came with your router.
+- **Update the dashboard login if the password is simple.**
+- **Review the devices currently connect to your network.** You may have to explore until you find the `access control`. Make sure you know what every device on the list is.
+- **Turn off the following options if you see them.** (Look for them under `advanced settings` or `gateway functions`):
+  - UPnP (Universal Plug and Play)
+  - WPS (Wi-Fi Protected Setup)
+  - Remote Management
+- **Check for any software updates.** Look for sections labeled `maintenance`, `firmware` or `system update`. Don’t worry if you don’t see it — that means it’s either up to date or automatic updates are hard set to on.
+
+### 🔑 Encrypt the data on your devices
 
 *Remember, encryption is only fully effective when the device is off!*
 
@@ -313,28 +283,88 @@ Try to have a backup copy of these papers in a second location.
     - [macOS (if you use Time Machine)](https://support.apple.com/en-ca/guide/mac-help/mh21241/mac)
     - [Microsoft Windows](https://web.archive.org/web/20250123165604/https://techjury.net/blog/how-to-encrypt-your-hard-drive/)
 
-#### Make sure your home wifi router is set up right
+### 🗓️ Stop malicious calendar invitations
 
-- **Log into the administration and settings dashboard.** It’s usually accessible by going to `http://192.168.0.1` in your web browser. Otherwise, check your instructions that came with your router.
-- **Update the dashboard login if the password is simple.**
-- **Review the devices currently connect to your network.** You may have to explore until you find the `access control`. Make sure you know what every device on the list is.
-- **Turn off the following options if you see them.** (Look for them under `advanced settings` or `gateway functions`):
-  - UPnP (Universal Plug and Play)
-  - WPS (Wi-Fi Protected Setup)
-  - Remote Management
-- **Check for any software updates.** Look for sections labeled `maintenance`, `firmware` or `system update`. Don’t worry if you don’t see it — that means it’s either up to date or automatic updates are hard set to on.
+Prevent calendar invitations from people you don't know from showing up automatically in your calendar; these invitations can be used to send malicious links.
 
-##### Track your devices in case you lose them
+- Google Calendar [Settings](https://calendar.google.com/calendar/r/settings) `→ Event Settings → Add invitations to my calendar: When I respond to the invitation in email`
+- Outlook: `File → Options → Calendar → Automatic accept or decline → Auto Accept/Decline: Automatically Accept Meeting Requests and Remove Canceled Meetings`
+- iCloud: On iOS: Go to `Settings → [Your name] → iCloud → Saved to iCloud: See All → iCloud Calendar → Send & Receive → Receiving` and select `Email` for each account. 
 
-- **Set up tracking** that will allow you to remotely find and wipe your devices by logging into a website if you ever lose them.
-- Instructions for:
-  - [iOS & macOS](https://support.apple.com/en-us/HT210400) (Find My)
-  - [Android](https://support.google.com/android/answer/6160491?hl=en) (Find Hub)
-  - [Windows](https://support.microsoft.com/en-us/account-billing/find-and-lock-a-lost-windows-device-890bf25e-b8ba-d3fe-8253-e98a12f26316) (Find My Device)
+---
 
-#### Enhance your privacy
+*👍👍 Congratulations! You dove fearlessly into your settings — clicking, tapping, and swiping your way through — to close up the safety loopholes on your accounts and devices. Now the next section is all about learning and reviewing your habits and reflexes when it comes to digital safety, so it'll be mostly reading and reflecting (rather than tapping/clicking on your devices). Nevertheless, we still recommend taking a break for now because you definitely deserve the rest of the day off.*
 
-##### On social media & messaging apps
+---
+
+## 💪🏽 Intermission: Habits & reflexes review
+
+### 🎣 Watch out for phishing scams
+
+A phishing scam is an email or text message where an attacker is trying to trick you into giving your password or other login details. To defend yourself:
+
+- **Trust your instincts.** If you feel like something is off — whether it's the way the text is written, the way the graphics look, or an unusual, first-time request from a service provider — it probably is.
+- **Check who it's from.** Look over the sender's name and phone number or email address. If it's an email, be sure to closely read the bit after the `@` symbol.
+- **But remember sender details can be faked.** It happens rarely, but it is technically possible to put on a fake sender name, email or phone number. So checking the sender details is a not 100% foolproof process.
+- **Think twice before clicking a link.** When in doubt, carefully examine the domain in the link. To look at it without opening the link:
+  - On mobile:
+    - iOS: Tap and hold on a link. A mini preview of the destination will appear. On the top right of this mini-window, tap `Hide preview`. From then on, iOS will show the full URL whenever you tap and hold on a link.
+    - Android: Tap and hold on a link.
+  - On desktop:
+    - Firefox, Chrome, Edge: When your mouse cursor hovers over a link or button, the full URL will show up on the bottom left.
+    - macOS Safari: To turn on the above feature, go to `View → Show Status Bar`
+    - macOS Mail: Hover your mouse cursor over a link and wait for a few seconds for a pop-up to appear.
+- **After clicking links, scan the URL address bar in your web browser.**
+  - Is there a red warning icon or 'Not Secure' label? This means the website is running unencrypted on `http` (rather than `https`).
+  - Is the domain spelled incorrectly?
+- **So if there’s any lingering doubt, don’t click the link.** In almost all cases, you don’t actually need to click the link. If the message is linked to a transaction or account, you can always go to the original website to look up the details.
+
+### 🗄️ Beware of file attachments
+
+- **Don’t download/open unnecessary attachments.**
+  - When in doubt, reply to the original sender to ask what it is.
+  - On email, preview attachments within the app or website. On Gmail and Proton Mail, simply clicking the attachment brings up its preview, which runs in a safe environment inside the mail program.
+  - Ask the sender to use a file sharing service (Dropbox, Google Drive, Tresorit), which also have their own online preview system.
+- **Upload suspicious attachments to [VirusTotal](http://www.virustotal.com)** to have them analyze it. *Keep in mind files submitted to VirusTotal may be shared with multiple security researchers, so don’t submit sensitive information.*
+
+### 🫡 Say yes to updates
+
+- **Device operating systems:** If you get a notification on your devices to update the operating system, do it as soon as possible.
+- **Apps:** If you see notifications about available updates, follow through and update the app.
+- **Firmware updates:** Check occasionally for firmware updates for your router and other internet-connected devices.
+
+### 🙅🏾 Don't do this at home (or anywhere)
+
+- **Don’t charge your phone at public charging stations/ports.** They present a risk because attackers might steal your data. Instead, use a portable battery or bring our own adapter to plug directly into the power outlet.
+- **Don’t plug in USB sticks/drives that you don’t know into your computer.** It might have malicious software on it.
+- **Don’t enter passwords into in-app browsers.** When a mobile app lets you browse a webpage without opening your web browser (i.e. an in-app browser), the app can record what websites you visit and what you type in them. So don’t type anything sensitive in there.
+- **Don’t use Google/X/Twitter/Facebook to sign up or log into other services,** which gives these platforms unnecessary data about you. Each service should have its account.
+
+### 🏊🏼‍♀️ Other healthy habits 
+
+- **Restart your phone and computer once a week by turning it off and then back on** to clean up its temporary memory (RAM) and so it runs smoother.
+- **When downloading a new mobile app, double-check to confirm it’s the right one.** Many fake apps trick people by using a slightly modified name or icon of an existing, popular app.
+- **Regularly check the installed apps on your phone.** Delete the ones you’re no longer using.
+- **Wipe your devices properly before donating or giving them away.** If you’ve encrypted your phones and computers (as suggested earlier), a standard factory reset will work for most use cases.
+  - If you want an extra layer of security for your computer hard drives, see [Wired’s guide on this topic](https://www.wired.co.uk/article/securely-wipe-android-iphone-hard-disk).
+- **Need to send someone a password? Split it in half and send it via two different channels.** For example, send half of the password through email and the other half via a voice call.
+
+### 🆘 Learn about your phone’s Emergency SOS feature
+
+- iOS: `Settings → Emergency SOS`
+- Android: `Settings → Safety & emergency → Emergency SOS`
+
+---
+
+*🥳 Digital safety is as much about things you do on a daily basis as it is about how you set up your devices and apps. Feel free to come back and review these habits and reflexes later; we don't expect anyone to memorize them on their first read. Now, our next section is about how to upgrade your digital privacy, and it's a dense topic because everywhere we turn, some company is trying to harvest and sell our data to the highest bidder. Hope you're ready to take back (some) control of your data!*
+
+---
+
+## 🧗🏿‍♀️ Level 3: Upgrade your digital privacy
+
+### ⚙️ Fine tune your privacy settings
+
+#### On social media & messaging apps
 
 - **Review the privacy settings on social media platforms and messaging apps you frequently use.** Check who can see your content, what information about you is being made public, and what you are sharing with third-party apps/advertisers.
 - **Wherever possible, turn off read receipts for messaging apps.** It may seem inconvenient at first, but in the long run you will have more privacy and freedom when people *don't* know if you've read their messages or not. 
@@ -353,7 +383,7 @@ Try to have a backup copy of these papers in a second location.
     - Telegram: `Settings → Privacy and Security`
 - **Limit how Facebook tracks you on other websites** by clearing and disconnecting [Off-Facebook activity](https://www.facebook.com/off_facebook_activity).
 
-##### On email & social media accounts
+#### On email & social media accounts
 
 - **Review `Third-Party Apps` or `Connected Apps` linked to major social media/email platforms.** These third-party/connected apps have access to your data, and they might be selling it. Instructions for:
   - [Google](https://support.google.com/accounts/answer/3466521?hl=en)
@@ -361,14 +391,14 @@ Try to have a backup copy of these papers in a second location.
   - [Instagram](https://www.facebook.com/help/instagram/1144624522593085)
   - [X/Twitter](https://help.twitter.com/en/managing-your-account/connect-or-revoke-access-to-third-party-apps)
 
-##### On email accounts
+#### On email accounts
 
 - **Stop images from automatically loading in your emails**, because companies use them as a way of tracking you.
   - Gmail: On your computer, click the settings `⚙️ → All settings → General: Images: Ask before displaying external images`. For email senders you trust, you can always click ` Always display images from` on an email from them. To reverse this decision, you have to click the tiny downwards-pointing triangle next to `to me` at the top of your email.
   - Proton Mail: Not necessary, as they have a feature that loads images on their own servers before sending it to you. [More information here](https://proton.me/support/protonmail-images).
   - Tuta Mail: Image loading is off by default, but you can turn on auto loading one sender at a time. In the `automatic image loading` disclaimer message that appears below the sender information,  click `Always trust sender` (on mobile first click `More`). To reverse this decision, click/tap the three dots on the upper right corner and then click/tap `Block external content`.
 
-##### On your phone
+#### On your phone
 
 - **Review which apps on your smartphone have access to your location data.** Turn off access for the apps that don’t need it, and minimize the number of apps tracking your location.
   - iOS: `Settings → Privacy & Security → Location Services`
@@ -391,13 +421,26 @@ Try to have a backup copy of these papers in a second location.
   - These keyboards are installed as apps on iOS and Android, so take the time to scan through all of your installed apps to find and delete them.
   - If you need to use a third-party keyboard, make sure it’s an open-source project that others have verified and does not share your data with third parties.
 
-##### On your computer
+#### On your computer
 
 - **Disable ad tracking for computers running Windows.** Instructions for:
   - [Windows 10](https://privacyinternational.org/guide-step/4344/opt-out-targeted-ads-windows)
   - [Windows 11](https://www.pcmag.com/how-to/how-to-remove-annoying-ads-from-windows-11)
 
-##### On your mobile/computer web browsers
+#### On other internet-connected devices
+
+- **If you are concerend about privacy, don't use Amazon Echo (speakers) or Ring (home security system).** They both have a track record of privacy violations. If you already own them, here are some mitigation measures:
+  - Amazon Echo: Turn off voice commands by pressing the physical button that looks like a circle with a line through it. Otherwise, anything you say will be uploaded to their cloud systems for analysis.
+  - Amazon Echo and Ring: Turn off the "Amazon Sidewalk" feature that shares your internet with strangers by following [these instructions](https://allaboutcookies.org/opt-out-amazon-sidewalk). 
+- **Consider disabling voice commands on your smart speakers.** Voice commands can be a convenience, but the commands only work because audio clips are sent to the device maker's servers to process what you said.
+- **If voice commands are important to you, here are some ways to have some privacy with them:**
+  - **Google Nest:** go to Google Home's [Activity Controls](https://myaccount.google.com/activitycontrols/audio) and uncheck `Include audio recordings`.
+  - **Apple HomePod:**  on your phone linked to the speaker, go to: `Home app → [Homepod icon] → Accessory Settings → Analytics & Improvement` and disable all the options.
+  -  **Sonos:** See [Mozilla Foundation's suggestions](https://www.mozillafoundation.org/en/privacynotincluded/sonos-smart-speakers/).
+- **For smart TVs, make sure to turn off the manufacturer's data tracking functionality,** also known as automatic content recognition (ACR).
+  - Instructions from: [Consumer Reports](https://www.consumerreports.org/privacy/how-to-turn-off-smart-tv-snooping-features-a4840102036/) 
+
+### 🕸️ Upgrade the web browser on your phone and computer
 
 - **Change your browser if you are using Chrome or Edge,** they both have terrible track records when it comes to protecting your privacy.
   - For iOS: Use Safari.
@@ -434,32 +477,20 @@ Try to have a backup copy of these papers in a second location.
   - For macOS/Windows: [Mullvad Browser](https://mullvad.net/en/browser)
   - For iOS/Android: [Firefox Focus](https://www.firefox.com/browsers/mobile/focus/)
 
+### 📊 Review what data these big tech platforms have on you
 
-##### On other internet-connected devices
+Delete out anything you don't need, if there are options to do so:
 
-- **If you use smart speakers, turn off their recording function.**
-  - **Google Home:** go to [Activity Controls](https://myaccount.google.com/activitycontrols/audio) and uncheck `Include audio recordings`.
-  - **Amazon Alexa:** [Follow these instructions](https://www.digitaltrends.com/home/how-to-stop-amazon-from-listening-to-your-alexa-recordings/).
-- **For an Amazon Ring or Echo, turn off the feature that shares your internet with strangers.**
-  - **In the Alexa app:** `Settings → Account Settings → Amazon Sidewalk`
-- **For smart TVs, make sure to turn off the manufacturer's data tracking functionality,** also known as automatic content recognition (ACR).
-  - Instructions from: [Consumer Reports](https://www.consumerreports.org/privacy/how-to-turn-off-smart-tv-snooping-features-a4840102036/) 
+- **Google:** [My Activity](https://myactivity.google.com)
+- **Facebook:** [Your Facebook information](https://www.facebook.com/settings?tab=your_facebook_information)
+- **Amazon:** [Alexa Privacy Settings](https://www.amazon.com/b/?node=19149164011)
+- **Microsoft:** [Account Privacy](https://account.microsoft.com/privacy)
 
-##### Other considerations
+### 💪🏽 Habits & reflexes review (digital privacy edition)
 
-- **Review what data these platforms have on you.** Delete out anything you don't need, if there are options to do so.
-  - **Google:** [My Activity](https://myactivity.google.com)
-  - **Facebook:** [Your Facebook information](https://www.facebook.com/settings?tab=your_facebook_information)
-  - **Amazon:** [Alexa Privacy Settings](https://www.amazon.com/b/?node=19149164011)
-  - **Microsoft:** [Account Privacy](https://account.microsoft.com/privacy)
+#### The golden rule
 
-### 💪🏽 Habits to grow
-
-#### Enhance your privacy
-
-- **Post less personal information online.** This includes information that can be used to identify/track/scam you (addresses, phone numbers, birthday, etc.).
-- **Set up a separate account under a pen name to leave local business reviews** (on Google Maps, Yelp, etc.) if you write many of them. Otherwise, reviews will be shown under your real name and possibly give away your home location.
-- **When registering domains, make sure WHOIS/domain privacy is turned on.** Many domain name registrars and webhosts offer this feature for free. *Note: There are unofficial WHOIS lookup/history tools out there that make it hard to remove your information from the history log once you’ve entered it at an earlier point in time.*
+**Post less personal information online.** This includes information that can be used to identify/track/scam you (addresses, phone numbers, birthday, etc.) as well as photos of your home and neighborhood.
 
 #### Watch what you say in online groups
 
@@ -484,35 +515,20 @@ Some platforms that facilitate these things often have privacy settings, so it�
   - Then the page refreshes, but the project has simply moved down to `Campaigns I’m Following`. There, select `Actions: Unfollow`. 
 - **GoFundMe:** In the menu, go to `Your impact`. Then go to any campaign you’ve supported. There, under `Your donations`, you can change whether your name appears publicly.
 
-#### Other considerations
+#### Other recommendations
 
-- **Restart your phone and computer once a week by turning it off and then back on** to clean up its temporary memory (RAM) and so it runs smoother.
-- **When downloading a new mobile app, double-check to confirm it’s the right one.** Many fake apps trick people by using a slightly modified name or icon of an existing, popular app.
-- **Regularly check the installed apps on your phone.** Delete the ones you’re no longer using.
-- **Need to send someone a password? Split it in half and send it via two different channels.** For example, send half of the password through email and the other half via a voice call.
-- **Don’t use Google/X/Twitter/Facebook to sign up or log into other services,** which gives these platforms unnecessary data about you. Each service should have its account.
+- **Set up a separate account under a pen name to leave local business reviews** (on Google Maps, Yelp, etc.) if you write many of them. Otherwise, reviews will be shown under your real name and possibly give away your home location.
+- **If you have a website domain, make sure WHOIS/domain privacy is turned on.** Many domain name registrars and webhosts offer this feature for free and turn it on by default.
 
 ---
 
-**🎉 Congratulations! You dove**  
-**🎉 fearlessly into your settings,**  
-**🎉 clicking, tapping, swiping,**  
-**🎉 which makes you a very, very**  
-**🎉 above average human being.**  
-**🎉 Now, you deserve a day off.**  
-**🎉**  
-**🎉 When you come back,**    
-**🎉 be prepared to join**  
-**🎉 the upper ranks of safety**  
-**🎉 as you enter Level 3.**
+*👍👍👍 Whew! Give yourself a pat on the back, because navigating all of that was not easy at all. But we hope you're feeling much more in control of what data you're sending out into the world. Our recommendations are by no means exhaustive, but they should provide you with a reasonable level of privacy without having to sacrifice the convenience and joy of technology. Again, we recommend taking a nice long break before moving onto the next section, where we introduce our favorite tips and tools to be more safe and private online.*
 
 ---
 
-## 🧗🏿‍♀️ Level 3
+## 🤾🏻‍♀️ Level 4: Tips & tools to do more
 
-### ✅ Things to do
-
-#### Put an extra lock on sensitive files
+### 🔐 Put an extra lock on sensitive files
 
 - **Identify files you don’t want others to access.** This may include private photos, passport scans, and financial documents.
 - **For files on your computer, create an encrypted, password-protected vault for your files:**
@@ -528,7 +544,7 @@ Some platforms that facilitate these things often have privacy settings, so it�
   - iOS Photos: Open the photo and tap the `…`  button on the top right. Tap `Hide`. This will put the photo in a `Hidden` folder in the Photos app (under `Utilites`) that can only be unlocked with FaceID or a passcode.
   - Android Google Photos: [Follow these instructions](https://support.google.com/photos/answer/10694388?co=GENIE.Platform%3DAndroid&oco=1) and read the section about automatic backups carefully.
   - Android Gallery: The basic Gallery app doesn’t support hidden photos, so download an alternative gallery app like [Fossify Gallery](https://github.com/FossifyOrg/Gallery) and turn on password protection for hidden items in the settings.
-#### Upgrade your gear 💰
+### 💰 Upgrade your gear 
 
 - **Buy a privacy screen for your laptop and phone.** These stick-on sheets prevent onlookers from seeing what's on your screen. Examples for:
   - Laptops: [3M Privacy Filters](https://www.3m.com/3M/en_US/p/c/office-supplies/workstation-accessories/screen-filters-protectors/laptop-filters/)
@@ -539,24 +555,17 @@ Some platforms that facilitate these things often have privacy settings, so it�
 - **Buy a mobile phone that always gets the latest software updates** and, in the case of Android, doesn't install unnecessary apps and system add-ons.
   - First choice: Apple iPhone. Apple has a track record of supporting devices for a long time.
   - Second choice: Google Pixel. Pixel phones get Android updates direct from Google and ships with a more-or-less "vanilla" installation of Android.
-  - Avoid Samsung: They have a track record of adding a lot of unnecessary apps, including [an app platform that installs apps without permission and collects data about you without consent](https://www.techfinitive.com/explainers/what-is-app-cloud-delete/).
-  - For other Android phones: It's a balancing act between choosing a phone that a) doesn't add too much bloat to their installation of Android, b) quickly applies security patches that are released from Google's Android project, and c) will guarantee software updates for their hardware for a long time.
-  
+  - For other Android phones:
+    - Research to find a phone that a) doesn't add too much bloat to their installation of Android, b) quickly applies security patches that are released from Google's Android project, and c) will guarantee software updates for their hardware for a long time.
+    - Avoid cheaper Android phones from big companies like Samsung, Xiaomi or OPPO: They have a track record of adding unnecessary and intrusive apps. E.g. Samsung's [app platform that installs apps without permission and collects data about you without consent](https://www.techfinitive.com/explainers/what-is-app-cloud-delete/).
 - **Use a paid VPN service** both when you're on a public network (e.g. café) and when you're at home (to decrease data shared with your internet/phone company).
   - Avoid free VPN services because free services often make their money back by selling your data.
   - Recommended VPNs: [Mullvad](https://mullvad.net), [IVPN](https://www.ivpn.net/)💰
   - *Note that though the iCloud Private Relay is similar to a VPN, it only applies to traffic through the Safari web browser.*
 
-#### Disable 2G connectivity on your phone (Android only)
+### 🔡 Use end-to-end encrypted apps
 
-2G cellular network technology is outdated and has security vulunerabilities that allow fraudsters to send fake text messages. To disable it on Android:
-
-- `Settings → Network and Internet → SIMs → [Your carrier name] → Allow 2G: Off`
-- If that option doesn’t appear, open the Phone app and enter `*#*#4636#*#*`. A `Testing` screen will pop up. Select `Phone information` and then change the `Set Preferred Network Type` to the same as the current selection minus `GSM`. To see what each acronymn stands for, see Wikipedia’s [Comparison of wireless standards page](https://en.wikipedia.org/wiki/Comparison_of_mobile_phone_standards#Comparison_of_wireless_Internet_standards). 
-
-#### Use end-to-end encrypted apps
-
-##### For secure messaging & calls
+#### For secure messaging & calls
 
 - **Use apps with open source end-to-end encryption protocols and easy-to-use disappearing message timers.**
   - Recommended apps:
@@ -570,7 +579,7 @@ Some platforms that facilitate these things often have privacy settings, so it�
   - Privacy is hard to maintain in large group calls as they often become quasi-public events due to the large number of participants.
   - Support for end-to-end encrypted video/voice calls for larger groups is limited, and most platforms still collect the metadata around your call even when end-to-end encryption is switched on.
 
-##### For online file-sharing and backup
+#### For online file-sharing and backup
 
 - **Store and share files on the cloud using end-to-end encryption.**
   - Recommended apps: [Tresorit](https://tresorit.com/), [Proton Drive](https://proton.me/drive) 💰
@@ -579,9 +588,9 @@ Some platforms that facilitate these things often have privacy settings, so it�
 - **Backup your files online using an end-to-end encrypted platform.**
   - Recommended app: [Arq](https://www.arqbackup.com/)  💰
 
-#### Further secure your messaging apps
+### 😷 Further secure your messaging apps
 
-##### Be aware of what other people can see in a group chat
+#### Be aware of what other people can see in a group chat
 
 Messaging apps use either your phone number or a username as the unique identifier (which other people use to add you on the platform). As such, **your phone number or username is then visible to anyone you're in a group chat with**, along with the name and photo in your profile.
 
@@ -594,9 +603,9 @@ Here's a breakdown of what unique identifiers is visible to others in a group ch
 
 If you don't want to give out your personal phone number, consider getting a virtual phone number from one of the providers listed in our scenario for `Masking your identity for online dating, events, or organizing`.
 
-##### Use app-specific safety & privacy features
+#### Use app-specific safety & privacy features
 
-###### Signal
+##### Signal
 
 - **Set up a username** so people can find you with it rather than your phone number. To create a username:
   - `Settings →` [Tap your profile icon or name] `→ @ Username`
@@ -614,8 +623,7 @@ If you don't want to give out your personal phone number, consider getting a vir
 - **Stop messages from showing up in notification boxes.**
   - `Settings → Notificataions → Notifications Content: Show → No Name or Content` 
 
-
-###### Telegram
+##### Telegram
 
 - **Turn on two-step verification**  to prevent someone from moving your account without your permission.
   - `Settings → Privacy and Security → Two-Step Verification`
@@ -623,7 +631,7 @@ If you don't want to give out your personal phone number, consider getting a vir
   - `Settings → Privacy and Security → Phone Number`, and then set `Who can see my phone number` to `Nobody`.
 - **Start conversations by using `New Secret Chat` so that they are end-to-end encrypted.** All other conversations and groups are not. *Unfortunately, that this means your messages will not show up in your desktop or web app.*
 
-###### WhatsApp
+##### WhatsApp
 
 - **Turn on security notifications on WhatsApp** to get a notification when a person you're talking to switches to a new device.
   - `Settings → Account → Security → Show Security Notifications on This Phone: On`
@@ -636,14 +644,9 @@ If you don't want to give out your personal phone number, consider getting a vir
 - **Stop automatically downloading any and all photos and videos your receive:**
   - `Settings → Chats → Save to Camera Roll: Off`
 
-#### Learn about your phone’s Emergency SOS feature
+### 🙃 Secure the rest of your accounts
 
-- iOS: `Settings → Emergency SOS`
-- Android: `Settings → Safety & emergency → Emergency SOS`
-
-#### Secure the rest of your passwords
-
-You made unique passwords for important accounts in `Level 2`, now it’s time to deal with the rest of your online accounts.
+You made unique passwords for important accounts in `Level 2`, but you should plan out a day to deal with the rest of your online accounts. It's not an urgent task, which is why we've put so far down the list, but it will require quite a bit of time and effort. Feel free to do this now or mark it as a to-do for later.
 
 - **Make a list of any active accounts and any accounts with your private information.** Don’t worry about finding every last account, you can always deal with them later.
 - **If you no longer use the account, consider logging in to deactivate/delete it.** A few accounts might have sentimental value, but most won’t.
@@ -655,16 +658,9 @@ You made unique passwords for important accounts in `Level 2`, now it’s time t
 
 ---
 
-**😲 Wow, you really did it.**  
-**😲 You finished all 3 levels!**  
-**😲 You deserve a reward —**  
-**😲 a cookie, perhaps,**  
-**😲 but not the tracking type.**  
-**😲**  
-**😲 Rest for the rest of the week**  
-**😲 and when you're well rested,**  
-**😲 come back and check out**  
-**😲 the scenarios below.**
+*👍👍👍👍 Wow, you really did it. You finished all four levels! You locked up all the things (big and small), you drastically increased your digital privacy, and got your hands on some super safe tools and tips. You've done all the things that we think are useful for everyone. Treat yourself to something nice as a reward for sure.*
+
+*From here on out, we're providing recommendations for special cases (scenarios) followed by a small bonus section for technical people. If none of the scenarios apply to you right now, then you're all set. Just remember, the scenarios will be here if you ever need them!*
 
 ---
 
@@ -768,7 +764,7 @@ When it comes to attending a protest, there are many, many considerations depend
 
 ##### Keep communications private
 
-- **Use an end-to-end encrypted messaging app and make sure disappearing messages is turned on.** See the encrypted messaging app part of `Level 3` above.
+- **Use an end-to-end encrypted messaging app and make sure disappearing messages is turned on.** See the encrypted messaging app part of `Level 4` above.
 - **Double-check the privacy settings in your messaging apps.**
 - **Turn off message previews in your notifications.**
   - **iOS:** `Settings → Notifications → Show Previews: When Unlocked`.
@@ -803,6 +799,7 @@ When it comes to attending a protest, there are many, many considerations depend
 **Store less information on your devices.** They can’t take what you don’t have (if your devices are seized).
 
 - See scenario: `Spring cleaning for old messages and data`.
+- Remove access to data by deleting some apps and logging out of some accounts while you're out.
 
 ##### Other considerations
 
@@ -810,7 +807,8 @@ When it comes to attending a protest, there are many, many considerations depend
 - **As a backup, write down the phone number of the trusted friend/hotline on your arm** with a permanent marker.
 - **Charge your phone fully and bring a spare battery.**
 - **If you use your fingerprint or face to unlock your phone, turn it off before the protest.** In some jurisdictions, officers can compel you to provide your fingerprint but not your passcode.
-- **Dress up to *not* stand out.** Wear plain clothes that don't attract attention, cover up visible tattoos, and put on a face mask. Make it harder to be easily identified from a photo and by facial recognition technology.
+- **Dress up to *not* stand out.** Wear plain clothes that don't attract attention, cover up visible tattoos, and put on a face mask. Make it harder to be easily identified from a photo.
+- **Consider wearing a full face mask** to avoid facial recognition technology, as the technology can sometimes still identify someone with a surgical (nose and mouth) mask on.
 
 ##### For almost all situations, we do not recommend burner phones
 
@@ -821,6 +819,17 @@ A burner phone is a single-use, disposable phone and SIM card that you buy with 
 - Being caught with a burner phone raises suspicions about you.
 
 In most cases, making your identity less public is good enough and is actually achievable. See the scenario above: `Masking your identity for online dating, events, or organizing`.
+
+##### We advise caution around getting a "secondary" phone
+
+A secondary phone is a phone that stores less personal information: it's disconnected from social media and email accounts, doesn't have photos of family on it, and isn't tied to group chats with your friends. Like a burner phone, if someone takes your phone, your private information won't be exposed. Unlike a burner phone, this second phone is not a one-time use device, you use it on and off alongside your first phone.
+
+We advise caution because:
+
+- Having a second phone means you have to maintain, update and pay for a second phone.
+- A second phone is only useful if you leave your first phone at home, so you cannot attend any sponteneous events if you happen to be out already with your first phone. 
+
+For most people, we recommend devoting your energy to cleaning up and securing your one phone. Only consider a second phone if you have the extra time and resources to spend on it.
 
 #### Remember when you're out
 
@@ -985,7 +994,7 @@ Getting the care you need can be a controversial and fraught endeavor in many pa
 
 #### Discussing information with friends
 
-- **Use end-to-end encrypted messaging apps** recommended in the `Level 3: Use end-to-end encrypted apps` section, and remember to turn on disappearing messages.
+- **Use end-to-end encrypted messaging apps** recommended in the `Level 4: Use end-to-end encrypted apps` section, and remember to turn on disappearing messages.
 - Do not use email or other messaging apps that create a data trail.
 
 #### Tracking your period
@@ -1025,7 +1034,7 @@ Getting the care you need can be a controversial and fraught endeavor in many pa
   - See scenario: `Spring cleaning for old messages and data`.
   - 1Password users can use the app’s [Travel Mode](https://support.1password.com/travel-mode/) to remove certain passwords from the device during a trip.
   - Remove access to data by deleting some apps and logging out of some accounts while you're on your trip.
-  - Alternatively, if the above is too time consuming but you have the funds, buy an extra phone and use that as your travel phone. Then, without importing from your current phone, set it up by adding apps and accounts one at a time as you need them. That way, you are fully aware of what is on your phone. But make sure to start this process at least a week before your trip, and actually use the phone as your main phone that week so you're not traveling with a suspiciously-empty device.
+  - Alternatively, if the above is too time consuming but you have the funds, buy an extra phone and use that as your travel phone. Then, without importing from your current phone, set it up by adding apps and accounts one at a time as you need them. That way, you are fully aware of what is on your phone. But make sure to start this process at least a month before your trip, and actually use the phone as your main phone that week so you're not traveling with a suspiciously-empty device.
 - **Review your public social media profiles** as some places might check them.
   - Archive or delete old posts that might be misunderstood.
   - Retrain your social media algorithm a month or two ahead of time.
@@ -1444,6 +1453,18 @@ We recommend downloading photos and videos from your phone to your computer and 
 - Plug your phone to your computer using a USB cable and use the Image Capture app ([detailed instructions here](https://blinksandbuttons.net/how-to-download-pictures-from-camera-to-mac/)).
 - To delete photos in bulk, select and delete them within the Image Capture app.
 
+#### Web browser history
+
+If you think your browsing history reveals private information about you, consider clearing it and starting from a clean slate.
+
+##### On your computer
+
+- macOS Firefox: `Settings → Privacy & Security: Cookies and Site Data → Browsing & download history`
+
+##### On your phone:
+
+- iOS Safari: `Settings → Apps → Safari: History and Website Data → Clear History and Website Data`
+
 #### Other
 
 - **Google Drive:** Be sure to double check what's in the `Shared with me` section, as Google Drive will add any shared document you've ever clicked to that list.
@@ -1472,7 +1493,7 @@ When someone close to you (usually a romantic partner) spies on you using a hidd
   - `Settings → Privacy & Security → Safety Check`
 - **Scan for high-level spyware on your phone with [iVerify](https://iverify.io/products/basic).** The app’s basic tier costs only $1 and allows you do submit a forensic scan once a month.
 - **Don’t delete suspicious apps immediately.** You may need to keep them as evidence. Plus, deletion may also cause the situation with your partner to escalate.
-- **Review and redo the items in `Levels 1–3` of this guide.** Make sure to:
+- **Review and redo the items in `Levels 1–4` of this guide.** Make sure to:
   - Reset your passwords for important accounts.
   - Check your privacy settings.
   - Look up any apps you don’t recognize on your computer and phone.
@@ -1549,7 +1570,7 @@ Below are some general recommendations that all journalists and researchers shou
   - Recommended email platforms: [Proton Mail](https://protonmail.com/), [Tuta Mail](https://tutanota.com/)
   - Recommended document/spreadsheet platform: [CryptPad](cryptpad.fr/)
   - Recommended cloud storage platforms:  [Tresorit](https://tresorit.com/), [Proton Drive](https://proton.me/drive) 
-- **Store sensitive data in a password-protected cloud or external storage device as much as possible.** Read the relevant recommendations in our `Level 3` section above.
+- **Store sensitive data in a password-protected cloud or external storage device as much as possible.** Read the relevant recommendations in our `Level 4` section above.
 - **Permanently erase sensitive files from your computer.** Recommended apps:
   - macOS: [CleanMyMac X](https://macpaw.com/cleanmymac) (its file shredder feature is included in the free trial)
   - Windows: [Eraser for Windows](https://sourceforge.net/projects/eraser/)
@@ -1645,7 +1666,7 @@ These typically fall into several categories:
 
 ---
 
-## 🎁 Bonus
+## 🎁 Bonus tools & tips for technical people
 
 This section contains additional tools and tips that we encountered during our research. Many of the recommendations below are popular with members of the cybersecurity community, but we found them to be a little too hard to use/follow, or too specific for a small group of people.
 
@@ -1713,15 +1734,13 @@ This section contains additional tools and tips that we encountered during our r
 
 ---
 
-**🏆 Oh my, you have arrived.**  
-**🏆 This is the end.**  
-**🏆 Thank you for reading.**  
-**🏆 Thank you for being thorough.**  
-**🏆 You are a true champ.**
+*🏆 Oh my, you have arrived. This is the end. Thank you for reading. Thank you for being thorough. You are a true champ.*
 
 ---
 
-## 🧠 Other resources
+## 📝 Appendix
+
+### 🧠 Other resources
 
 We consulted many sources and drew upon our experiences in creating this guide. If you’re not finding quite what you want here, we recommend checking out the following resources:
 
@@ -1729,14 +1748,10 @@ We consulted many sources and drew upon our experiences in creating this guide. 
 - Electronic Frontier Foundation: [Surveillance Self-Defense](https://ssd.eff.org/)
 - Michael Horowitz: [A Defensive Computing Checklist](https://defensivecomputingchecklist.com/)
 
----
-
-## 📝 License ##
+### 📝 License
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
 
----
-
-## 👋🏾 Special thanks ##
+### 👋🏾 Special thanks
 
 Special thanks to [our GitHub contributors](https://github.com/narwhalacademy/zebra-crossing/graphs/contributors) and community members who wrote in with edits, suggestions and translations.
