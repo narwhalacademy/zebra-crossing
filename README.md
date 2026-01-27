@@ -798,7 +798,7 @@ When it comes to attending a protest, there are many, many considerations depend
 - **Clean out any sensitive personal information on your phone.** Delete any photos, chat logs, and notes that can be used against you.
 - **Store less information on your devices.** They can’t take what you don’t have (if your devices are seized).
   - See scenario: `Spring cleaning for old messages and data`.
-  - Remove access to data by deleting some apps and logging out of some accounts while you're out. If it helps, write down what you deleted and logged out of on a piece of paper and leave it at home, so you can return to them later.
+  - Remove access to data by deleting some apps and logging out of some accounts while you're out. Remember to restart  your phone afterwards to clear them out of your device's memory as well. If it helps, write down what you deleted and logged out of on a piece of paper and leave it at home, so you can return to them later.
 
 ##### Other considerations
 
@@ -1032,7 +1032,7 @@ Getting the care you need can be a controversial and fraught endeavor in many pa
 - **Store less information on your devices.** They can’t take what you don’t have (if your devices are seized).
   - See scenario: `Spring cleaning for old messages and data`.
   - 1Password users can use the app’s [Travel Mode](https://support.1password.com/travel-mode/) to remove certain passwords from the device during a trip.
-  - Remove access to data by deleting some apps and logging out of some accounts while you're on your trip. If it helps, write down what you deleted and logged out of on a piece of paper and leave it at home, so you can return to them later.
+  - Remove access to data by deleting some apps and logging out of some accounts while you're on your trip. Remember to restart  your phone afterwards to clear them out of your device's memory as well. If it helps, write down what you deleted and logged out of on a piece of paper and leave it at home, so you can return to them later.
   - Alternatively, if the above is too time consuming but you have the funds, buy an extra phone and use that as your travel phone. Then, without importing from your current phone, set it up by adding apps and accounts one at a time as you need them. That way, you are fully aware of what is on your phone. But make sure to start this process at least a month before your trip, and actually use the phone as your main phone that week so you're not traveling with a suspiciously-empty device.
 - **Review your public social media profiles** as some places might check them.
   - Archive or delete old posts that might be misunderstood.
