@@ -27,10 +27,10 @@
 
 ### 🗣 Lies diesen Leitfaden in anderen Sprachen
 
-*   [English (Englisch)](https://zebracrossing.narwhalacademy.org/index-Deutsch.php)
+*   [English (Englisch)](https://zebracrossing.narwhalacademy.org/)
 *   [繁體中文 (Traditionelles Chinesisch)](https://github.com/narwhalacademy/zebra-crossing/blob/main/README-繁體中文.md)
 *   [Arabisch](https://zebracrossing.narwhalacademy.org/index-Arabic.php)
-*   [日本語](https://github.com/narwhalacademy/zebra-crossing/blob/main/README-日本語.md) (Japanisch, in Arbeit)
+*   [日本語 (Japanisch)](https://github.com/narwhalacademy/zebra-crossing/blob/main/README-日本語.md) (Japanisch, in Arbeit)
 *   [Türkçe](https://github.com/narwhalacademy/zebra-crossing/blob/main/README-T%C3%BCrk%C3%A7e.md) (Türkisch, in Arbeit)
 *   [Italiano](https://github.com/narwhalacademy/zebra-crossing/blob/main/README-Italiano.md) (Italienisch, in Arbeit)
 *   Möchtest du eine weitere Sprache hinzufügen? [Schick uns eine Nachricht](mailto:contact@narwhalacademy.org), um mitzuarbeiten.
