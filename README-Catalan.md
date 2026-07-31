@@ -1,11 +1,11 @@
-# 🦓 Pas zebra: una llista de comprovació de seguretat digital fàcil d'utilitzar
+# 🦓 Pas de zebra: una llista de comprovació de seguretat digital fàcil d'utilitzar
 
 ## 🎯 Comença aquí!
 
 ### 🤔 Llegeix aquesta guia si tu
 
 -   Utilitzes internet diàriament — per a la feina, les xarxes socials i les transaccions financeres.
--   Vols garantir proactivament la teva seguretat i privacitat digitals, però no et trobes en perill imminent. (Si és el teu cas, contacta amb algú de la teva comunitat per a una consulta individual.)
+-   Vols garantir proactivament la teva seguretat i privadesa digitals, però no et trobes en perill imminent. (Si és el teu cas, contacta amb algú de la teva comunitat per a una consulta individual.)
 -   Et sents còmode amb la tecnologia — confies en la teva capacitat per canviar la configuració de l'ordinador o del telèfon intel·ligent.
 
 ### 🗺 D'on prové aquesta guia
@@ -20,7 +20,7 @@
 -   **El nivell 2 aprofundeix més en la configuració del dispositiu/aplicació.** Aquesta secció trigarà d'1 a 2 hores, en funció de quants comptes i dispositius utilitzis habitualment.
 -   **Com a mínim, fes tot el dels nivells 1 i 2.** Això et protegirà dels atacs més habituals.
 -   **Entre el nivell 2 i el 3 hi ha una pausa de lectura** sobre com desenvolupar millors hàbits i reflexos de seguretat digital.
--   **El nivell 3 t'ajudarà a afinar la teva privacitat en línia** i**a** reduir dràsticament la quantitat d'informació personal que comparteixes gratuïtament. Aquesta secció també trigarà d'1 a 2 hores.
+-   **El nivell 3 t'ajudarà a afinar la teva privadesa en línia** i**a** reduir dràsticament la quantitat d'informació personal que comparteixes gratuïtament. Aquesta secció també trigarà d'1 a 2 hores.
 -   **El nivell 4 potencia la teva pràctica de seguretat digital amb les últimes eines i consells.** Algunes parts poden requerir que surtis de la teva zona de confort i d'altres que gastis diners en coses. La major part només hauria de trigar mitja hora a completar-se.
 -   **Els escenaris que es comparteixen després del Nivell 4 són per a situacions de més risc.** Repassa'ls per veure si se t'hi aplica algun. (Com que el risc és més alt, es dona per fet que has fet tot el que s'explica als Nivells 1–4.)
 -   **Aquesta guia és un document viu.** No dubteu a enviar una sol·licitud d'extracció (pull request) o a fer una bifurcació de la vostra versió de la guia [a GitHub](https://github.com/narwhalacademy/zebra-crossing).
@@ -49,12 +49,12 @@
 
 **El modelatge de amenaces** és un procés que ens permet identificar amenaces potencials per protegir-nos-en. Per crear el vostre model de amenaces, feu-vos les preguntes següents:
 
--   **«Quin tipus de perill corro?»** Per exemple, robatoris de dades de targetes de crèdit, espionatge corporatiu o assetjament/doxxing en línia.
+-   **"Quin tipus de perill corro?"** Per exemple, robatoris de dades de targetes de crèdit, espionatge corporatiu o assetjament/revelació d'informació personal en línia (doxing).
 -   **"Quin tipus d'actius protegeixo?"** Per exemple: documents confidencials, fotos privades o missatges personals.
 
 Recorda, però, que el teu model d'amenaça pot canviar, ja sigui gradualment amb el temps o de manera abrupta, per exemple, quan de sobte s'aprova una nova llei.
 
-### 🔗 Enllaç més feble
+### 🔗 L'enllaç més feble
 
 **El punt més feble** és on la teva seguretat digital és més vulnerable. Per exemple, si la funció "he oblidat la contrasenya" d'un compte t'envia un enllaç al correu electrònic, els atacants només han d'accedir al teu correu electrònic per accedir al compte.
 
@@ -63,8 +63,8 @@ Recorda, però, que el teu model d'amenaça pot canviar, ja sigui gradualment am
 **El xifratge** és el procés de desordenar o codificar informació per fer-la il·legible per a tercers i evitar l'accés no autoritzat. Sovint, la gent classifica **el xifratge** en aquests tres tipus:
 
 1.  **Sense xifratge:** qualsevol tercer pot interceptar les dades i llegir-les tal qual. Sovint s'anomena "text pla".
-2.  **Xifratge estàndard:** Les dades es xifren de manera que tercers que les intercepten no les poden llegir, però la plataforma que s'utilitza per enviar les dades (p. ex., Facebook Messenger) les pot descifrar i llegir-les. La plataforma pot lliurar les dades descifrades als tribunals si se li ordena.
-3.  **Xifratge de fi a fi:** només l'emissor i el receptor originals poden llegir les dades. La plataforma que s'utilitza per enviar les dades només té la versió xifrada i il·legible. Així que, si els tribunals ordenen a la plataforma que lliuri les dades, no hi ha res d'útil per lliurar.
+2.  **Xifratge estàndard:** Les dades es xifren de manera que tercers que les intercepten no les poden llegir, però la plataforma que s'utilitza per enviar les dades (p. ex., Facebook Messenger) les pot desxifrar i llegir-les. La plataforma pot lliurar les dades desxifrades als tribunals si se li ordena.
+3.  **Xifratge d'extem a extrem:** només l'emissor i el receptor originals poden llegir les dades. La plataforma que s'utilitza per enviar les dades només té la versió xifrada i il·legible. Així que, si els tribunals ordenen a la plataforma que lliuri les dades, no hi ha res d'útil per lliurar.
 
 ### 🧩 Metadades
 
@@ -84,15 +84,15 @@ _Malauradament, les proteccions legals al voltant de les metadades solen ser feb
 
 ### 🔒 Doble bloqueig per als comptes importants
 
-El primer pany sol ser la contrasenya del vostre compte. El segon pany adopta una forma diferent i/o arriba per un canal diferent, la majoria de vegades com un codi enviat al vostre telèfon mitjançant una aplicació o un missatge de text (SMS). Aquest pany addicional s'anomena habitualment _autenticació de dos factors_ (abreujada com _2FA_) o _verificació de dos passos_.
+El primer pany sol ser la contrasenya del vostre compte. El segon pany adopta una forma diferent i/o arriba per un canal diferent, la majoria de vegades com un codi enviat al vostre telèfon mitjançant una aplicació o un missatge de text (SMS). Aquest pany addicional s'anomena habitualment _autenticació de dos factors_ (abreujada com _2FA_ de l'anglès 2 Factor Authentication) o _verificació de dos passos_.
 
 -   **Activa l'autenticació de dos factors als comptes importants que** acabes d'identificar. Per trobar instruccions sobre com fer-ho:
     -   Fes una cerca a Internet de " `autenticació de dos factors` " i el nom del compte
     -   Cerqueu el proveïdor del compte a [2fa.directory](https://2fa.directory)
--   **Utilitza una aplicació d'autenticació si n'hi ha una disponible.** Són més segures que utilitzar SMS per rebre el codi de 2FA.
+-   **Utilitza una aplicació d'autenticació si n'hi ha una disponible.** Són més segures que utilitzar missatges SMS per rebre el codi de 2FA.
     -   Aplicacions recomanades:
         -   [2FAS](https://2fas.com) (si només utilitzes un dispositiu per obtenir els codis d'autenticació)
-        -   [Ente Auth](https://ente.io/auth/) (si vols que els codis es sincronicin en diversos dispositius)
+        -   [Ente Auth](https://ente.io/auth/) (si vols que els codis es sincronitzin en diversos dispositius)
     -   La majoria de comptes bancaris t'obligaran a fer servir la seva pròpia aplicació, així que no et preocupis si no pots fer servir una de les aplicacions anteriors per a això.
 -   **Activa la còpia de seguretat al núvol per a la teva aplicació d'autenticació** per si mai perds el telèfon.
     -   Instruccions per a:
@@ -105,25 +105,36 @@ La majoria de dispositius nous avui dia tenen les actualitzacions automàtiques 
 
 -   **Comproveu la configuració d'actualitzacions del sistema operatiu del vostre dispositiu:**
     -   En telèfons i tauletes:
-        -   iOS: `Configuració → General → Actualització de programari → Actualitzacions automàtiques`
-        -   Android: `Configuració → Sistema → Actualització del sistema`
+        -  **iOS:** `Configuració → General → Actualització de programari → Actualitzacions automàtiques`
+        -  **Android:** `Configuració → Sistema → Actualització del sistema`
     -   En ordinadors:
-        -   macOS: `Configuració del sistema… → General → Actualització de programari → Actualitzacions automàtiques`
-        -   Windows 11: `Inici → Configuració → Actualització de Windows → Opcions avançades`
-        -   Windows 10: `Configuració → Actualització i seguretat → Actualització de Windows → Opcions avançades`En ordinadors:macOS: Preferències del sistema… → General → Actualització de programari → Actualitzac
+        -  **macOS:** `Configuració del sistema… → General → Actualització de programari → Actualitzacions automàtiques`
+        -  **Windows 11:** `Inici → Configuració → Actualització de Windows → Opcions avançades`
+        -  **Windows 10:** `Configuració → Actualització i seguretat → Actualització de Windows → Opcions avançades`
+        -  **macOS:** Preferències del sistema… → General → Actualització de programari → Actualitza
+        -  **GNU/Linux (segons la distribució):**
+	        - **Ubuntu / Debian (i derivades):** Obre l'aplicació _Programari i actualitzacions_ (Software & Updates) → ves a la pestanya _Actualitzacions_. Allà pots configurar que es descarreguin i s'instal·lin automàticament les actualitzacions de seguretat. Des del terminal, pots actualitzar manualment amb: `sudo apt update && sudo apt upgrade`.
+            - **Fedora / Red Hat:** Obre la botiga de _Programari de GNOME_ (GNOME Software) → fes clic al menú d'opcions (tres ratlles) → _Configuració d'actualitzacions_ i activa les actualitzacions automàtiques. Des del terminal, pots actualitzar manualment amb: `sudo dnf upgrade`.
+            - **Arch Linux (i derivades com Manjaro):** En ser distribucions de llançament continu (_rolling release_), s'han d'actualitzar manualment molt sovint des del terminal executant: `sudo pacman -Syu`. També es poden fer servir assistents gràfics com _Pamac_ o _Octopi_ per rebre notificacions d'actualitzacions pendents.
 -   **Comproveu la configuració d'actualitzacions de la botiga d'aplicacions principal del vostre dispositiu:**
-    -   iOS: `Configuració → App Store → Descàrregues automàtiques: Actualitzacions d'aplicacions`
-    -   Android: Obre `la Play Store`, després ves a `Configuració → Actualitzar automàticament les aplicacions`
-    -   macOS: Obre `l'App Store` i després ves a `Configuració → Actualitzacions automàtiques`
-    -   Windows 10/11: Obriu la `Microsoft Store`, després aneu a `Perfil → Configuració → Actualitzacions d'aplicacions`.
+    -  **iOS:** `Configuració → App Store → Descàrregues automàtiques: Actualitzacions d'aplicacions`
+    -  Android: Obre `la Play Store`, després ves a `Configuració → Actualitzar automàticament les aplicacions`
+    -  **macOS:** Obre `l'App Store` i després ves a `Configuració → Actualitzacions automàtiques`
+    -  **Windows 10/11:** Obriu la `Microsoft Store`, després aneu a `Perfil → Configuració → Actualitzacions d'aplicacions`.
+    -  **GNU/Linux (GNOME Software / KDE Discover):** Si utilitzes una botiga d'aplicacions gràfica integrada, obre-la i entra a la seva _Configuració_ (o Preferències). Assegura't d'activar les actualitzacions automàtiques, ja que això també mantindrà al dia els paquets en formats universals com **Flatpak** i **Snap**.
 -   **Assegura't que el sistema operatiu del teu dispositiu encara pugui rebre actualitzacions:**
     -   Si han passat més de tres anys des que vas comprar el telèfon o l'ordinador, val la pena comprovar que encara reps actualitzacions.
-        -   Per a telèfons: cerqueu [el vostre dispositiu a endoflife.date](https://endoflife.date/tags/device) i assegureu-vos que encara aparegui com a «compatible».
-        -   Per a macOS: Esbrina quin sistema operatiu estàs utilitzant. Fes clic al logotip d'Apple a la cantonada superior esquerra i, a continuació, `a «Sobre aquest Mac`». Després, assegura't que a [aquesta pàgina d'endoflife.date](https://endoflife.date/macos) encara indiqui «Estat del servei: Sí».
-        -   Per a Windows: Descobreix quin sistema operatiu estàs utilitzant. `Inici → Configuració → Sistema → Sobre.` A continuació, assegura't que encara rep suport de seguretat a [aquesta pàgina d'endoflife.date](https://endoflife.date/windows).
+        -  **Per a telèfons:** cerqueu [el vostre dispositiu a endoflife.date](https://endoflife.date/tags/device) i assegureu-vos que encara aparegui com a «compatible».
+        -  **Per a macOS:** Esbrina quin sistema operatiu estàs utilitzant. Fes clic al logotip d'Apple a la cantonada superior esquerra i, a continuació, `a «Sobre aquest Mac`». Després, assegura't que a [aquesta pàgina d'endoflife.date](https://endoflife.date/macos) encara indiqui «Estat del servei: Sí».
+        -  **Per a Windows:** Descobreix quin sistema operatiu estàs utilitzant. `Inici → Configuració → Sistema → Sobre.` A continuació, assegura't que encara rep suport de seguretat a [aquesta pàgina d'endoflife.date](https://endoflife.date/windows).
+        -  **Per a GNU/Linux:**
+	        - Primer, esbrina quina distribució i versió exacta utilitzes. Pots fer-ho anant a _Configuració → Sobre el sistema_ o obrint un terminal i escrivint: `cat /etc/os-release`.
+            - Busca la teva distribució a [endoflife.date](https://endoflife.date "null") (per exemple, cerca _Ubuntu_, _Fedora_ o _Debian_).
+            - Recorda que les versions **LTS (Long Term Support)** d'Ubuntu o Debian reben suport de seguretat durant 5 anys o més, mentre que les versions no-LTS d'Ubuntu o les de Fedora tenen un cicle de vida molt més curt (entre 9 i 13 mesos). Assegura't que la teva versió encara està en el període actiu de suport.
     -   Si ja no rep actualitzacions:
         -   Assegura't que has actualitzat a l'últim sistema operatiu que funciona al teu dispositiu. De vegades, una actualització es paralitza per falta d'espai al disc. (Hauràs rebut avisos sobre això si has seguit els passos anteriors.) O, en el cas de Windows, pot ser que hagis de comprar la nova edició.
-        -   Comenceu a investigar quin dispositiu voleu adquirir. De moment, però, seguiu la resta d'aquesta llista de comprovació per actualitzar tot el que falti.
+        - **En el cas de GNU/Linux:** Si utilitzes una versió que ha arribat al final del seu cicle de vida (EOL de l'anglès End Of Life), només has de fer un canvi de versió (_upgrade_) des del propi gestor d'actualitzacions del sistema o del terminal. En gairebé totes les distribucions de Linux, el pas a una versió superior amb suport de seguretat és completament gratuït i fàcil de fer sense haver d'adquirir cap llicència.
+        -   **Comenceu a investigar quin dispositiu voleu adquirir.** Si el maquinari ja no és compatible amb sistemes operatius moderns i segurs, de moment, seguiu la resta d'aquesta llista de comprovació per actualitzar tot el programari que falti i comenceu a planificar la substitució del dispositiu per un de més segur.
 
 ---
 
@@ -131,15 +142,15 @@ _👍 Excel·lent! Aquests passos senzills realment et mantindran segur la major
 
 ---
 
-## 🏃🏻‍♂️ Nivell 2: Seguritzeu tots els petits detalls
+## 🏃🏻‍♂️ Nivell 2: Assegureu tots els petits detalls
 
 ### 🧠 Utilitza contrasenyes difícils de endevinar per als comptes importants
 
 Els atacants solen accedir al vostre compte si la vostra contrasenya és:
 
-1.  Massa curt.
-2.  Massa fàcil de endevinar.
-3.  Ja s'ha filtrat com a part d'una violació de dades/incident de pirateig i fas servir la mateixa contrasenya en diferents llocs.
+1.  Massa curta.
+2.  Massa fàcil d'endevinar.
+3.  Ja s'ha filtrat com a part d'una violació de dades/incident pirata i fas servir la mateixa contrasenya en diferents llocs.
 
 Per tant, és crucial utilitzar una contrasenya diferent per a cada compte i assegurar-vos que siguin molt llargues i molt difícils de endevinar. Per ajudar a crear i emmagatzemar aquestes contrasenyes llargues, podeu:
 
@@ -147,13 +158,13 @@ Per tant, és crucial utilitzar una contrasenya diferent per a cada compte i ass
 2.  Inventa la teva pròpia fórmula que sigui un joc de paraules amb el servei al qual t'hi connectes.
 3.  Escriu-les amb bolígraf i paper.
 
-El que funciona millor és diferent per a tothom, i no cal que t'adheris a una sola opció: pots combinar-les com vulguis. Per a una explicació més detallada i completa de les tres opcions, consulta l'article de Michael Horowitz [«The world's BEST password advice](https://michaelhorowitz.com/BestPasswordAdvice.php) ».
+El que funciona millor és diferent per a tothom, i no cal que facis servir una única opció: pots combinar-les com vulguis. Per a una explicació més detallada i completa de les tres opcions, consulta l'article de Michael Horowitz [«The world's BEST password advice](https://michaelhorowitz.com/BestPasswordAdvice.php) ».
 
 De moment, **centra't a assegurar-te que els comptes importants que vas identificar al Nivell 1 tinguin contrasenyes llargues, úniques i difícils de endevinar**. A continuació, tens una guia pas a pas de les tres opcions:
 
 ##### Opció 1: instal·lar un gestor de contrasenyes (recomanat)
 
-Aquesta és una opció popular per a les persones que se senten còmodes navegant per paràmetres i finestres emergents addicionals. Una aplicació gestor de contrasenyes ajuda a generar contrasenyes llargues, les emmagatzema i les omple gairebé automàticament quan inicies la sessió en un lloc web.
+Aquesta és una opció popular per a les persones que se senten còmodes amb finestres emergents addicionals. Una aplicació gestor de contrasenyes ajuda a generar contrasenyes llargues, les emmagatzema i les omple gairebé automàticament quan inicies la sessió en un lloc web.
 
 -   **Gestors de contrasenyes recomanats:**
     -   [1Password](https://1password.com/) 💰
@@ -163,7 +174,7 @@ Aquesta és una opció popular per a les persones que se senten còmodes navegan
 -   **Instal·la l'extensió del gestor de contrasenyes** al navegador web del teu ordinador.
 -   **Creeu només contrasenyes de més de 12 caràcters.** Recomanem utilitzar l'opció del gestor de contrasenyes que combina paraules aleatòries i sense relació entre si (p. ex., `planta-camió-nas-estructura-puntes`) perquè sigui fàcil escriure-les en aquells casos poc habituals en què l'emplenament automàtic no funciona.
 -   **La propera vegada que hagis de teclejar la contrasenya d'un altre compte, crea-hi una entrada.** D'aquesta manera, aniràs afegint gradualment qualsevol compte que facis servir sovint al gestor de contrasenyes. Si ho fas a l'ordinador, l'extensió/add-on del navegador del gestor de contrasenyes capturarà les dades automàticament després que les teclegis.
--   **Fixa't que l'aplicació vincula la informació d'inici de sessió a l'URL.** Per tant, si ets en un lloc web i el gestor de contrasenyes no té cap entrada per a ell, vigila especialment que no sigui un lloc web de suplantació d'identitat (phishing).
+-   **Fixa't que l'aplicació vincula la informació d'inici de sessió a l'URL. (adreça web)** Per tant, si ets en un lloc web i el gestor de contrasenyes no té cap entrada per a ell, vigila especialment que no sigui un lloc web de suplantació d'identitat (phishing).
 -   **Transferiu tots els vostres comptes més endavant.** Introduir tots els vostres comptes al gestor de contrasenyes trigarà una estona, i és una tasca que és millor deixar per a un altre dia. (Hem col·locat aquesta tasca que porta temps al nostre `Nivell 3`.)
 -   **No utilitzis el gestor de contrasenyes com a aplicació d'autenticació de dos factors.** És millor no posar tots els ous en una mateixa cistella.
 
@@ -173,7 +184,7 @@ Aquesta opció la fan servir habitualment les persones amb una bona memòria i l
 
 Aquí teniu un exemple d'una fórmula senzilla de [la llista de comprovació de Computació Defensiva](https://defensivecomputingchecklist.com/indexold.php#passwoyds):
 
-> …un aficionat al beisbol podria començar cada contrasenya amb «BaseballRules!». Aleshores, si «jungle» fos la seva contrasenya per a Amazon.com, la contrasenya real seria «BaseballRules!jungle». I l'únic que hauries de recordar seria que la teva contrasenya d'Amazon és «jungle». Bastant fàcil. Amazon. Jungle. I la miserable contrasenya "book" per a Barnes and Noble es converteix en una bona contrasenya ("BaseballRules!book") quan s'aplica la fórmula.
+> …un aficionat al beisbol podria començar cada contrasenya amb «BaseballRules!». Aleshores, si «jungle» fos la seva contrasenya per a Amazon.com, la contrasenya real seria «BaseballRules!jungle». I l'únic que hauries de recordar seria que la teva contrasenya d'Amazon és «jungle». Bastant fàcil. Amazon. Jungle. I la feble contrasenya "book" per a Barnes and Noble es converteix en una bona contrasenya ("BaseballRules!book") quan s'aplica la fórmula.
 
 Afegiu alguns signes de puntuació, guions i números per fer la contrasenya una mica més llarga i irregular, i tindreu una fórmula de contrasenya força sòlida.
 
@@ -205,9 +216,9 @@ Esbrina si el teu compte admet codis de recuperació fent una cerca a Internet d
 -   [Proton Mail](https://proton.me/support/set-account-recovery-methods#how-to-enable-a-recovery-phrase)
 -   [Tuta Mail](https://tuta.com/support#recovery)
 
-### 📱 Segureu els vostres dispositius
+### 📱 Assegura els teus dispositius
 
-#### Segureu el telèfon
+#### Assegura el telèfon
 
 -   **Utilitza un codi de bloqueig no comú ni obvi per al teu telèfon amb almenys 10 dígits.** Recomanem utilitzar una sèrie llarga de números, ja que és més fàcil de teclejar, però també funciona utilitzar tant lletres com números. No obstant això, no es recomana el patró de lliscada, ja que és massa fàcil de replicar per a les persones que t'observen.
     -   Per canviar-lo:
@@ -223,31 +234,34 @@ Esbrina si el teu compte admet codis de recuperació fent una cerca a Internet d
     -   Android: la configuració està desactivada per defecte i només està disponible si `les Opcions de desenvolupador` estan activades.
 -   **Activa les funcions antirrobatori del teu telèfon:**
     -   iOS: `Configuració Face ID i codi d'accés → Protecció contra robatori de dispositiu`
-    -   Android: `Configuració → Seguretat i privacitat → Altres configuracions: Més seguretat i privacitat → Seguretat: Protecció contra robatori`
+    -   Android: `Configuració → Seguretat i privadesa → Altres configuracions: Més seguretat i privadesa → Seguretat: Protecció contra robatori`
 -   **Activa el seguiment dels teus dispositius per si els perds,** la qual cosa et permet localitzar-los i esborrar-los de forma remota iniciant sessió en un lloc web si els perds.
     -   Instruccions per a:
         -   [iOS i macOS](https://support.apple.com/en-us/HT210400) (Trobar el meu)
         -   [Android](https://support.google.com/android/answer/6160491?hl=en) (Find Hub)
         -   [Windows](https://support.microsoft.com/en-us/account-billing/find-and-lock-a-lost-windows-device-890bf25e-b8ba-d3fe-8253-e98a12f26316) (Trobar el meu dispositiu)
 -   **Desactiva la connectivitat 2G al teu telèfon (només Android)**. La tecnologia de xarxa mòbil 2G està obsoleta i té vulnerabilitats de seguretat que permeten als estafadors enviar missatges de text falsos. Per desactivar-la a Android:
-    
     -   `Configuració → Xarxa i Internet → Tarjetes SIM → [Nom del teu operador] → Permet 2G: Desactivat`
     -   Si aquesta opció no apareix, obriu l'aplicació Telèfon i introduïu `*#*#4636#*#*.` Apareixerà una pantalla `de proves`. Seleccioneu `Informació del telèfon` i després canvieu el `camp Tipus de xarxa preferit` al mateix que la selecció actual, però sense `GSM`. Per veure què significa cada acrònim, consulteu [la pàgina](https://en.wikipedia.org/wiki/Comparison_of_mobile_phone_standards#Comparison_of_wireless_Internet_standards) de la Viquipèdia [«Comparació dels estàndards sense fil](https://en.wikipedia.org/wiki/Comparison_of_mobile_phone_standards#Comparison_of_wireless_Internet_standards)».
 -   **Per als dispositius Android, assegura't que Google Play Protect estigui activat** si fas servir la Google Play Store:
-    
     -   A l'aplicació Google Play: icona de perfil `→ Play Protect → Configuració → Analitza les aplicacions amb Play Protect`
 
 #### Protegiu l'ordinador
-
 -   **Activa el tallafocs del teu ordinador:**
     -   macOS: `Preferències del sistema → Seguretat i privadesa → Tallafocs`.
     -   Windows 10/11: `Inici → Configuració → Actualització i seguretat → Seguretat de Windows → Tallafocs i protecció de xarxa → Tallafocs de Microsoft Defender: Activat`
+    -   **GNU/Linux (segons la distribució):**
+	    - **Ubuntu / Debian (i derivades):** Obre el terminal i executa `sudo ufw enable` (o utilitza l'eina gràfica `gufw`).  
+		- **Fedora / Red Hat:** Obre el terminal i executa `sudo systemctl enable --now firewalld`.
+	    - **Arch Linux (i derivades com EndeavourOS o Manjaro):** Activa el tallafocs de la teva elecció (p. ex., `sudo systemctl enable --now ufw` o `firewalld`).
 -   **Desactiva l'accés remot del teu ordinador:**
     -   macOS: `Preferències del sistema → Compartició → Inici de sessió remot, Gestió remota`.
     -   Windows 10/11: `Configuració → Sistema → Escriptori remot → Escriptori remot: Desactivat`.
+    -   **GNU/Linux (totes les distribucions):** Assegura't que el servei SSH està desactivat executant al terminal `sudo systemctl stop sshd` i `sudo systemctl disable sshd` (o desactiva la "Compartició de pantalla" / "Escriptori remot" des de l'apartat de Configuració del teu entorn d'escriptori, com GNOME o KDE).
 -   **Configura un programari antivirus bàsic al teu ordinador:**
     -   macOS: No cal res.
     -   Windows 10/11: `Inici → Configuració → Actualització i seguretat → Seguretat de Windows → Protecció contra virus i amenaces`
+	-  **GNU/Linux (totes les distribucions):** Per defecte no sol ser necessari un antivirus actiu, però per a escanejos puntuals pots instal·lar **ClamAV** (i la seva interfície gràfica `clamtk`) des del gestor de programari de la teva distribució. Es recomana sobretot si comparteixes fitxers sovint amb sistemes Windows.
 -   **Si utilitzeu Microsoft Office: desactiveu els macros.** Els macros són fragments petits de codi que automatitzen accions que poden ser explotades per atacants. Tot i això, de vegades poden ser útils, per això recomanem l'opció `Desactiva tots els macros amb notificació`, que us permet executar manualment macros de fonts de confiança.
     -   Instruccions per a:
         -   [macOS](https://support.microsoft.com/en-us/office/enable-or-disable-macros-in-office-for-mac-c2494c99-a637-4ce6-9b82-e02cbb85cb96)
@@ -255,7 +269,7 @@ Esbrina si el teu compte admet codis de recuperació fent una cerca a Internet d
 
 #### Seguritzeu el router Wi-Fi de casa
 
--   **Inicieu la sessió al tauler d'administració i configuració.** Normalment s'hi pot accedir anant a `http://192.168.0.1` al vostre navegador web. Si no, consulteu les instruccions que van amb el vostre encaminador.
+-   **Inicieu la sessió al tauler d'administració i configuració.** Normalment s'hi pot accedir anant a `http://192.168.0.1` al vostre navegador web. Si no, consulteu les instruccions que van amb el vostre router.
 -   **Actualitzeu la informació d'inici de sessió del panell de control si la contrasenya és senzilla.**
 -   **Revisa els dispositius que estan connectats actualment a la teva xarxa.** Potser hauràs d'explorar fins que trobis el `control d'accés`. Assegura't de saber què és cada dispositiu de la llista.
 -   **Desactiva les opcions següents si les veus.** (Busca-les a `la configuració avançada` o a `les funcions de passarel·la`):
@@ -270,15 +284,17 @@ _Recorda, el xifratge només és totalment eficaç quan el dispositiu està apag
 
 -   **Xifra el disc dur del teu ordinador.**
     -   Instruccions per a:
-        -   [macOS](https://support.apple.com/en-us/HT204837).
-        -   [Microsoft Windows](https://support.microsoft.com/en-us/windows/device-encryption-in-windows-10-ad5dcf4b-dbe0-2331-228f-7925c2a3012d) (utilitzeu [BitLocker](https://docs.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-overview) si està disponible).
+        - [macOS](https://support.apple.com/en-us/HT204837).
+        - [Microsoft Windows](https://support.microsoft.com/en-us/windows/device-encryption-in-windows-10-ad5dcf4b-dbe0-2331-228f-7925c2a3012d) (utilitzeu [BitLocker](https://docs.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-overview) si està disponible).
+        -  **GNU/Linux (totes les distribucions):** S'ha de seleccionar l'opció de xifratge de disc (**LUKS**) durant el procés d'instal·lació del sistema operatiu (marcant la casella "Xifra el disc" o "Encrypt system"). Post-instal·lació és un procés complex.
 -   **Xifra l'emmagatzematge del telèfon.**
     -   iOS: Xifra automàticament.
     -   Android: Gairebé sempre xifra automàticament. Verifica-ho anant a `Configuració → Seguretat → Xifratge`.
 -   **Xifra els teus discs durs de còpia de seguretat.**
     -   Instruccions per a:
-        -   [macOS (si utilitzeu Time Machine)](https://support.apple.com/en-ca/guide/mac-help/mh21241/mac)
-        -   [Microsoft Windows](https://web.archive.org/web/20250123165604/https://techjury.net/blog/how-to-encrypt-your-hard-drive/)
+        - [macOS (si utilitzeu Time Machine)](https://support.apple.com/en-ca/guide/mac-help/mh21241/mac)
+        - [Microsoft Windows](https://web.archive.org/web/20250123165604/https://techjury.net/blog/how-to-encrypt-your-hard-drive/)
+        - **GNU/Linux (totes les distribucions):** Pots fer servir l'eina gràfica de Discs (Gnome Disks) per formatar la unitat externa triant l'opció **"Ext4 protegit amb contrasenya (LUKS)"**, o utilitzar programari multiplataforma com **[VeraCrypt](https://veracrypt.io/en/Home.html)**.
 
 ### 🗓️ Atura les invitacions malicioses al calendari
 
@@ -287,14 +303,11 @@ Evita que les invitacions de calendari de persones que no coneixes apareguin aut
 -   [Configuració de](https://calendar.google.com/calendar/r/settings) Google Calendar `→ Configuració d'esdeveniments → Afegeix les invitacions al meu calendari: Quan responc a la invitació per correu electrònic`
 -   Outlook: `Fitxer → Opcions → Calendari → Acceptació o rebuig automàtics → Acceptar/Rebre automàticament i Suprimir les reunions cancel·lades`
 -   iCloud: A iOS: Ves a `Configuració → [El teu nom] → iCloud → Dades emmagatzemades a iCloud: Veure-ho tot → Calendari iCloud → Enviar i rebre → Rebre` i selecciona `Correu electrònic` per a cada compte.
-
 ---
-
 _👍👍 Enhorabona! T'has endinsat sense por a la configuració —fent clic, tocant i lliscant— per tancar les llacunes de seguretat dels teus comptes i dispositius. Ara la següent secció tracta sobre aprendre i revisar els teus hàbits i reflexos pel que fa a la seguretat digital, així que serà principalment de lectura i reflexió (en lloc de tocar/fer clic als teus dispositius). No obstant això, encara recomanem que facis una pausa ara mateix perquè et mereixes de debò el que et queda de dia lliure._
 
 ---
-
-## 💪🏽 Intermissió: Revisió d'hàbits i reflexos
+## 💪🏽 Intermedi: Revisió d'hàbits i reflexos
 
 ### 🎣 Vigileu amb els intents de suplantació d'identitat (phishing)
 
@@ -310,7 +323,7 @@ Un frau de phishing és un correu electrònic o un missatge de text en què un a
     -   En ordinador:
         -   Firefox, Chrome, Edge: Quan el cursor del ratolí es posa sobre un enllaç o botó, l'URL complet apareixerà a la part inferior esquerra.
         -   macOS Safari: Per activar aquesta funció, aneu a `Visualització → Mostra la barra d'estat`
-        -   macOS Mail: Passa el cursor del ratolí per sobre d'un enllaç i espera uns segons que aparegui un missatge emergent.Per tant, si teniu cap dubte, no feu clic a l'enllaç. En gairebé tots els casos, de fet no cal que f
+        -   macOS Mail: Passa el cursor del ratolí per sobre d'un enllaç i espera uns segons que aparegui un missatge emergent.
 -   **Després de fer clic en enllaços, escaneja la barra d'adreces URL del teu navegador web.**
     -   Hi ha una icona d'advertiment vermella o una etiqueta de 'No segur'? Això significa que el lloc web s'està executant sense xifrar en `http` (en lloc `d'https`).
     -   L'adreça de domini està mal escrita?
@@ -328,7 +341,7 @@ Un frau de phishing és un correu electrònic o un missatge de text en què un a
 
 -   **Sistemes operatius dels dispositius:** si rebeu una notificació als vostres dispositius per actualitzar el sistema operatiu, feu-ho com més aviat millor.
 -   **Aplicacions:** si veus notificacions sobre actualitzacions disponibles, fes-les i actualitza l'aplicació.
--   **Actualitzacions del firmware:** Comproveu ocasionalment si hi ha actualitzacions del firmware per al vostre encaminador i altres dispositius connectats a Internet.
+-   **Actualitzacions del microprogramari *(firmware)*:** Comproveu ocasionalment si hi ha actualitzacions del microprogramari per al vostre *router* i altres dispositius connectats a Internet.
 
 ### 🙅🏾 No ho facis a casa (ni enlloc)
 
@@ -342,7 +355,7 @@ Un frau de phishing és un correu electrònic o un missatge de text en què un a
 -   **Reinicia el telèfon i l'ordinador un cop per setmana apagant-los i tornant-los a engegar** per netejar la memòria temporal (RAM) i perquè funcionin més fluidament.
 -   **Quan descarregues una nova aplicació mòbil, comprova-ho dues vegades per confirmar que és la correcta.** Moltes aplicacions falses enganyen la gent fent servir un nom o una icona lleugerament modificats d'una aplicació existent i popular.
 -   **Revisa regularment les aplicacions instal·lades al teu telèfon.** Elimina les que ja no fas servir.
--   **Eixa adequadament els teus dispositius abans de donar-los o regalar-los.** Si has xifrat els teus telèfons i ordinadors (com s'ha suggerit abans), un restabliment de fàbrica estàndard funcionarà en la majoria de casos.
+-   **Esborra adequadament els teus dispositius abans de donar-los o regalar-los.** Si has xifrat els teus telèfons i ordinadors (com s'ha suggerit abans), un restabliment de fàbrica estàndard funcionarà en la majoria de casos.
     -   Si voleu una capa de seguretat addicional per a les unitats de disc del vostre ordinador, consulteu [la guia de Wired sobre aquest tema](https://www.wired.co.uk/article/securely-wipe-android-iphone-hard-disk).
 -   **Has de enviar una contrasenya a algú? Separa-la per la meitat i envia-la per dos canals diferents.** Per exemple, envia la meitat de la contrasenya per correu electrònic i l'altra meitat per trucada de veu.
 
@@ -353,177 +366,155 @@ Un frau de phishing és un correu electrònic o un missatge de text en què un a
 
 ---
 
-_🥳 La seguretat digital té tant a veure amb les coses que fas cada dia com amb la configuració dels teus dispositius i aplicacions. No dubteu a tornar més endavant per revisar aquests hàbits i reflexos; no esperem que ningú se'ls aprengui de memòria a la primera lectura. Ara, la nostra següent secció tracta sobre com millorar la vostra privacitat digital, i és un tema dens perquè, a cada cantonada, hi ha alguna empresa que intenta recollir i vendre les nostres dades al millor postor. Esperem que estigueu a punt per recuperar (una part del) control de les vostres dades!_
+_🥳 La seguretat digital té tant a veure amb les coses que fas cada dia com amb la configuració dels teus dispositius i aplicacions. No dubteu a tornar més endavant per revisar aquests hàbits i reflexos; no esperem que ningú se'ls aprengui de memòria a la primera lectura. Ara, la nostra següent secció tracta sobre com millorar la vostra privadesa digital, i és un tema dens perquè, a cada cantonada, hi ha alguna empresa que intenta recollir i vendre les nostres dades al millor postor. Esperem que estigueu a punt per recuperar (una part del) control de les vostres dades!_
 
 ---
 
-## 🧗🏿‍♀️ Nivell 3: Millora la teva privacitat digital
+## 🧗🏿‍♀️ Nivell 3: Millora la teva privadesa digital
 
-### ⚙️ Ajusta amb precisió la configuració de la teva privacitat
+### ⚙️ Ajusta amb precisió la configuració de la teva privadesa
 
 #### A les xarxes socials i a les aplicacions de missatgeria
-
--   **Revisa la configuració de privacitat de les xarxes socials i les aplicacions de missatgeria que fas servir sovint.** Comprova qui pot veure el teu contingut, quina informació teva es fa pública i què comparteixes amb aplicacions de tercers o anunciants.
--   **Sempre que sigui possible, desactiva els rebuts de lectura a les aplicacions de missatgeria.** Al principi pot semblar incòmode, però a la llarga tindràs més privacitat i llibertat quan la gent _no_ sàpiga si has llegit els seus missatges o no.
+-   **Revisa la configuració de privadesa de les xarxes socials i les aplicacions de missatgeria que fas servir sovint.** Comprova qui pot veure el teu contingut, quina informació teva es fa pública i què comparteixes amb aplicacions de tercers o anunciants.
+-   **Sempre que sigui possible, desactiva els rebuts de lectura a les aplicacions de missatgeria.** Al principi pot semblar incòmode, però a la llarga tindràs més privadesa i llibertat quan la gent _no_ sàpiga si has llegit els seus missatges o no.
 -   Aquí teniu enllaços i instruccions per a les plataformes/aplicacions més utilitzades:
-    -   **Plataformes/aplicacions amb configuració de privacitat disponible a través d'un navegador d'escriptori:**
-        -   Facebook: [Revisió de la privacitat](https://www.facebook.com/privacy/checkup/)
-        -   Google: [Revisió de la privacitat](https://myaccount.google.com/intro/privacycheckup)
+    -   **Plataformes/aplicacions amb configuració de privadesa disponible a través d'un navegador d'escriptori:**
+        -   Facebook: [Revisió de la privadesa](https://www.facebook.com/privacy/checkup/)
+        -   Google: [Revisió de la privadesa](https://myaccount.google.com/intro/privacycheckup)
         -   YouTube: [Confidencialitat de la compte](https://www.youtube.com/account_privacy)
-        -   X/Twitter: [Privacitat i seguretat](https://twitter.com/settings/privacy_and_safety)
-        -   Reddit: [Seguretat i privacitat](https://www.reddit.com/settings/privacy)
-    -   **Plataformes/aplicacions amb configuració de privacitat només disponible completament a través de la seva aplicació mòbil:**
+        -   X/Twitter: [Privadesa i seguretat](https://twitter.com/settings/privacy_and_safety)
+        -   Reddit: [Seguretat i privadesa](https://www.reddit.com/settings/privacy)
+        -   Bluesky: [Privadesa i seguretat](https://bsky.app/settings/privacy-and-security)
+    -   **Plataformes/aplicacions amb configuració de privadesa només disponible completament a través de la seva aplicació mòbil:**
         -   Instagram: `Configuració → Privadesa`
-        -   WhatsApp: `Configuració → Compte → Privacitat`
-        -   Snapchat: `Configuració → Controls de privacitat`
-        -   TikTok: `Perfil → Configuració i privacitat → Privacitat`
-        -   Telegram: `Configuració → Privacitat i seguretat`
+        -   WhatsApp: `Configuració → Compte → Privadesa
+        -   Snapchat: `Configuració → Controls de privadesa`
+        -   TikTok: `Perfil → Configuració i privadesa → privadesa`
+        -   Telegram: `Configuració → Privadesa i seguretat`
+        -   Signal: `Configuració → Privadesa`
 -   **Limita com Facebook et fa un seguiment en altres llocs web** eliminant i desconnectant [l'activitat fora de Facebook](https://www.facebook.com/off_facebook_activity).
 
 #### En comptes de correu electrònic i de xarxes socials
-
 -   **Revisa `les aplicacions de tercers` o `les aplicacions connectades` vinculades a les principals plataformes de xarxes socials/correu electrònic.** Aquestes aplicacions de tercers/connectades tenen accés a les teves dades i podrien estar-les venent. Instruccions per a:
     -   [Google](https://support.google.com/accounts/answer/3466521?hl=en)
     -   [Facebook](https://www.facebook.com/help/211829542181913)
     -   [Instagram](https://www.facebook.com/help/instagram/1144624522593085)
     -   [X/Twitter](https://help.twitter.com/en/managing-your-account/connect-or-revoke-access-to-third-party-apps)
 
-#### En comptes de correu electrònic
-
+#### Als comptes de correu electrònic
 -   **Evita que les imatges es carreguin automàticament als teus correus electrònics**, perquè les empreses les utilitzen com una manera de fer-te un seguiment.
     -   Gmail: A l'ordinador, feu clic a Configuració `⚙️ → Totes les configuracions → General: Imatges: Demanar abans de mostrar imatges externes`. Per als remitent de correus electrònics de confiança, sempre podeu fer clic `a Sempre mostra imatges d'un` correu electrònic seu. Per revertir aquesta decisió, heu de fer clic al petit triangle orientat cap avall `que hi ha` al costat `de "de"` a la part superior del correu electrònic.
     -   Proton Mail: No cal, ja que tenen una funció que carrega les imatges als seus propis servidors abans d'enviar-t'les. [Més informació aquí](https://proton.me/support/protonmail-images).
     -   Tuta Mail: La càrrega d'imatges està desactivada per defecte, però podeu activar la càrrega automàtica d'un remitent a la vegada. Al missatge de descàrrec de responsabilitat `de càrrega automàtica d'imatges` que apareix a sota de la informació del remitent, feu clic `a Sempre confiar en el remitent` (al mòbil, primer feu clic `a Més`). Per revertir aquesta decisió, feu clic/toc a les tres punxes a la cantonada superior dreta i després feu clic/toc `a Bloqueja el contingut extern`.
-
 #### Al teu telèfon
-
 -   **Revisa quines aplicacions del teu telèfon intel·ligent tenen accés a les teves dades de localització.** Desactiva l'accés per a les aplicacions que no el necessiten i minimitza el nombre d'aplicacions que rastregen la teva ubicació.
-    -   iOS: `Configuració → Privacitat i seguretat → Serveis de localització`
+    -   iOS: `Configuració → Privadesa i seguretat → Serveis de localització`
     -   Android: `Configuració → Ubicació → Permisos de ubicació de les aplicacions`
 -   **Desactiva el teu identificador publicitari únic** perquè els anunciants no et puguin localitzar tan fàcilment:
-    -   iOS: `Configuració → Privacitat i seguretat → Rastreig → Permetre que les aplicacions sol·licitin fer un seguiment: Desactivat`
-    -   iOS: `Configuració → Privacitat i seguretat → Publicitat d'Apple → Anuncis personalitzats: Desactivat`
-    -   Android: `Configuració → Seguretat i privacitat → Privacitat → Anuncis → Esborra l'identificador d'anuncis`Suprimeix qualsevol aplicació que no reconeixis o que no hagis utilitzat en molt de temps. Sempre le
--   **A iOS, desactiva la configuració que permet a les aplicacions fer un seguiment de la teva activitat en altres aplicacions i llocs web:**
-    
+    -   iOS: `Configuració → Privadesa i seguretat → Rastreig → Permetre que les aplicacions sol·licitin fer un seguiment: Desactivat`
+    -   iOS: `Configuració → Privadesa i seguretat → Publicitat d'Apple → Anuncis personalitzats: Desactivat`
+    -   Android: `Configuració → Seguretat i privadesa → Privadesa → Anuncis → Esborra l'identificador d'anuncis`
+-   A iOS, desactiva la configuració que permet a les aplicacions fer un seguiment de la teva activitat en altres aplicacions i llocs web:
     -   `Configuració → Privadesa i seguretat → Rastrejament → Permetre que les aplicacions sol·licitin rastrejar: Desactivat`
 -   **A Android, desactiva l'escaneig passiu de Wi-Fi i Bluetooth.**
-    
     -   `Configuració → Ubicació → Serveis de ubicació → Escaneig de Wi-Fi`
     -   `Configuració → Ubicació → Serveis de ubicació → Escaneig de Bluetooth`
--   **Elimina qualsevol aplicació que no reconeixis o que no hagis utilitzat des de fa molt de temps.** Sempre les pots tornar a descarregar si cal, tot i que hi ha algunes aplicacions que vénen amb el sistema operatiu i que no es poden eliminar.
+-   **Elimina qualsevol aplicació que no reconeguis o que no hagis utilitzat des de fa molt de temps.** Sempre les pots tornar a descarregar si cal, tot i que hi ha algunes aplicacions que vénen amb el sistema operatiu i que no es poden eliminar.
     -   **Assegura't de buscar també aplicacions ocultes.** Instruccions per a:
         -   iOS: A la pantalla d'inici, continua lliscant cap a l'esquerra fins que arribis a la pantalla `de la Biblioteca d'aplicacions`. Desplaça't fins a la part inferior, al grup `Ocultat`. Toca per obrir-lo i desbloqueja'l amb Face ID o codi d'accés.
         -   Android: Vegeu totes les aplicacions, incloses les ocultes, a `Configuració → Aplicacions → Veure totes les aplicacions`
 -   **Elimina els teclats de tercers del teu telèfon.** Sovint comparteixen el que escrius amb el fabricant del programari.
     -   Aquests teclats s'instal·len com a aplicacions a iOS i Android, així que dedica temps a revisar totes les aplicacions instal·lades per trobar-los i eliminar-los.
     -   Si necessites utilitzar un teclat de tercers, assegura't que sigui un projecte de codi obert que altres hagin verificat i que no comparteixi les teves dades amb tercers.
-
 #### Al teu ordinador
-
 -   **Desactiva el seguiment publicitari als ordinadors amb Windows.** Instruccions per a:
     -   [Windows 10](https://privacyinternational.org/guide-step/4344/opt-out-targeted-ads-windows)
     -   [Windows 11](https://www.pcmag.com/how-to/how-to-remove-annoying-ads-from-windows-11)
-
 #### En altres dispositius connectats a Internet
 
--   **Si us preocupa la privacitat, no utilitzeu Amazon Echo (altaveus) ni Ring (sistema de seguretat domèstic).** Tots dos tenen un historial de violacions de la privacitat. Si ja en teniu, aquí teniu algunes mesures de mitigació:
+-   **Si us preocupa la privadesa, no utilitzeu Amazon Echo (altaveus) ni Ring (sistema de seguretat domèstic).** Tots dos tenen un historial de violacions de la privadesa. Si ja en teniu, aquí teniu algunes mesures de mitigació:
     -   Amazon Echo: Desactiva les comandes de veu prement el botó físic que sembla un cercle amb una línia travessada. Altrament, tot el que diguis s'enviarà als seus sistemes en el núvol per a l'anàlisi.
     -   Amazon Echo i Ring: Desactiva la funció "Amazon Sidewalk" que comparteix la teva connexió a Internet amb desconeguts seguint [aquestes instruccions](https://allaboutcookies.org/opt-out-amazon-sidewalk).
 -   **Considereu desactivar els comandaments per veu als vostres altaveus intel·ligents.** Els comandaments per veu poden ser una comoditat, però només funcionen perquè s'envien fragments d'àudio als servidors del fabricant del dispositiu per processar el que heu dit.
--   **Si les ordres de veu són importants per a tu, aquí tens algunes maneres de tenir certa privacitat amb elles:**
+-   **Si les ordres de veu són importants per a tu, aquí tens algunes maneres de tenir certa privadesa amb elles:**
     -   **Google Nest:** aneu a [Controls d'activitat](https://myaccount.google.com/activitycontrols/audio) de Google Home i desmarqueu `Inclou enregistraments d'àudio`.
     -   **Apple HomePod:** al telèfon vinculat a l'altaveu, aneu a: `aplicació Home → [icona de l'HomePod] → Configuració de l'accessori → Anàlisi i millora` i desactiveu totes les opcions.
     -   **Sonos:** Consulteu [les suggerències de la Fundació Mozilla](https://www.mozillafoundation.org/en/privacynotincluded/sonos-smart-speakers/).
--   **Per a les televisors intel·ligents, assegura't d'inactivar la funcionalitat de seguiment de dades del fabricant,** també coneguda com a reconeixement automàtic de contingut (ACR).
+-   **Per a les televisors intel·ligents, assegura't desactivar la funcionalitat de seguiment de dades del fabricant,** també coneguda com a reconeixement automàtic de contingut (ACR).
     -   Instruccions de: [Consumer Reports](https://www.consumerreports.org/privacy/how-to-turn-off-smart-tv-snooping-features-a4840102036/)
 
 ### 🕸️ Actualitza el navegador web del teu telèfon i del teu ordinador
 
--   **Canvia el navegador si fas servir Chrome o Edge,** tots dos tenen un historial pèssim pel que fa a la protecció de la teva privacitat.
-    
+-   **Canvia el navegador si fas servir Chrome o Edge,** tots dos tenen un historial pèssim pel que fa a la protecció de la teva privadesa.
     -   Per a iOS: utilitzeu Safari.
     -   Per a macOS: instal·la [el Firefox](https://www.firefox.com) o fes servir el Safari.
     -   Per a Android/Windows: instal·la [el Firefox](https://www.firefox.com).
--   **Revisa la configuració de privacitat del teu navegador web**
-    
+-   **Revisa la configuració de privadesa del teu navegador web**
     -   Al teu mòbil:
-        -   Safari d'iOS: `[iOS] Configuració → Aplicacions → Safari → Privacitat i seguretat`. Assegura't que els opcions `«Evita el seguiment entre llocs` », `«Amaga l'adreça IP»` i `«Advertiment de llocs web fraudulents»` estiguin activades.
-        -   Firefox per a Android: `[Firefox] Configuració → Privacitat i seguretat`, activa `el mode només HTTPS` i `la protecció reforçada contra el seguiment`.
+        -   Safari d'iOS: `[iOS] Configuració → Aplicacions → Safari → Privadesa i seguretat`. Assegura't que els opcions `«Evita el seguiment entre llocs` », `«Amaga l'adreça IP»` i `«Advertiment de llocs web fraudulents»` estiguin activades.
+        -   Firefox per a Android: `[Firefox] Configuració → Privadesa i seguretat`, activa `el mode només HTTPS` i `la protecció reforçada contra el seguiment`.
     -   Al teu ordinador:
         -   Safari de macOS: `Preferències → Privadesa`, marqueu les caselles de `Seguiment de llocs web` i `Amaga l'adreça IP`
-        -   Firefox per a macOS/Windows: `Preferències → Privadesa i seguretat`, activa `la Protecció de seguiment millorada` (qualsevol opció), `No em segueixis` i `el Mode només HTTPS` (desplaça't fins a la part inferior).Per a macOS/Windows: Mullvad Browser
+        -   Firefox per a macOS/Windows: `Preferències → Privadesa i seguretat`, activa `la Protecció de seguiment millorada` (qualsevol opció), `No em segueixis` i `el Mode només HTTPS` (desplaça't fins a la part inferior).
 -   **Instal·leu aquestes extensions/components addicionals per al navegador web** per bloquejar anuncis intrusius i seguidors si el vostre navegador els admet. Assegureu-vos que estiguin actives fins i tot en mode privat/incògnit.
     -   [uBlock Origin](https://ublockorigin.com/)
     -   [uBlock Origin Lite](https://github.com/uBlockOrigin/uBOL-home) (si el teu navegador no és compatible amb uBlock Origin)
     -   [Privacy Badger](https://privacybadger.org/)
 -   **Revisa les altres extensions/add-ons del teu navegador web.**
-    
     -   Comproveu quins permisos/accés té cadascun d'ells:
-        
         -   Safari d'iOS: `[iOS] Ajustaments → Aplicacions → Safari → General: Extensions`, després toca l'extensió per veure'n els detalls.
         -   Firefox per a Android: `[Firefox] Configuració → Avançat: Extensions`, després toca l'extensió i, a continuació, toca `Permisos`.
         -   Safari de macOS: barra de menú superior: `Safari → Configuració... → Extensions`
         -   macOS Firefox: Barra de menú superior: `Eines → Extensions i temes`, després feu clic a cada extensió per veure'n més detalls i, a continuació, feu clic a la pestanya `Permissions i dades`.
         -   Firefox per a Windows: `→ Extensions i temes`, després fes clic a cada extensió per veure'n més detalls i, a continuació, fes clic a la pestanya `Permisos i dades`.
     -   Els únics que haurien de poder llegir les dades de la teva pàgina web són:
-        
         -   Les nostres recomanacions anteriors (uBlock Origin/uBlock Origin Lite, Privacy Badger)
         -   La teva extensió de gestor de contrasenyes (si fas servir un gestor de contrasenyes al teu ordinador)
         -   Extensions/add-ons fets per la mateixa empresa que el navegador (p. ex. el Facebook Container de Firefox)
-    -   Desactiva o elimina qualsevol altra extensió/add-on que tingui accés de lectura.
-        
--   **En lloc d'obrir una `finestra privada/incògnita nova` al vostre navegador habitual, feu servir un navegador separat amb més privacitat** quan vulgueu un seguiment mínim. És possible que aquests navegadors no funcionin tan bé per a l'ús diari, però és perquè tenen proteccions addicionals. A més, quan hi ha dues aplicacions separades, és menys probable que barregeu les finestres privades i les no privades.
-    
-    -   Per a macOS/Windows: [Mullvad Browser](https://mullvad.net/en/browser)
-    -   Per a iOS/Android: [Firefox Focus](https://www.firefox.com/browsers/mobile/focus/)
+    -   Desactiva o elimina qualsevol altra extensió/add-on que tingui accés de lectura.        
+-   **En lloc d'obrir una `finestra privada/incògnita nova` al vostre navegador habitual, feu servir un navegador separat amb més privadesa** quan vulgueu un seguiment mínim. És possible que aquests navegadors no funcionin tan bé per a l'ús diari, però és perquè tenen proteccions addicionals. A més, quan hi ha dues aplicacions separades, és menys probable que barregeu les finestres privades i les no privades.
+    -   Per a macOS, Windows i GNU/Linux: [Mullvad Browser](https://mullvad.net/en/browser)
+    -   Per a iOS i Android: [Firefox Focus](https://www.firefox.com/browsers/mobile/focus/)
 
 ### 📊 Revisa quines dades tenen sobre tu aquestes grans plataformes tecnològiques
 
 Suprimeix tot allò que no necessitis, si hi ha opcions per fer-ho:
-
 -   **Google:** [La meva activitat](https://myactivity.google.com)
 -   **Facebook:** [La teva informació de Facebook](https://www.facebook.com/settings?tab=your_facebook_information)
--   **Amazon:** [Configuració de privacitat d'Alexa](https://www.amazon.com/b/?node=19149164011)
--   **Microsoft:** [Privacitat del compte](https://account.microsoft.com/privacy)
+-   **Amazon:** [Configuració de privadesa d'Alexa](https://www.amazon.com/b/?node=19149164011)
+-   **Microsoft:** [Privadesa del compte](https://account.microsoft.com/privacy)
 
-### 💪🏽 Revisió d'hàbits i reflexos (edició de privacitat digital)
+### 💪🏽 Revisió d'hàbits i reflexos (edició de privadesa digital)
 
 #### La regla d'or
-
 **Publica menys informació personal en línia.** Això inclou informació que es pot utilitzar per identificar-te, rastrejar-te o estafar-te (adreces, números de telèfon, data de naixement, etc.), així com fotos de casa teva i del teu veïnat.
 
 #### Compte amb el que dius als grups en línia
-
 **No diguis res del que et puguis penedir en un grup «privat»** a Slack, Discord, Facebook, xat de grup de WhatsApp, canal de Telegram o qualsevol fòrum en línia «privat». Vet aquí per què:
-
 1.  **Qualsevol persona del grup pot filtrar les dades.**
 2.  **Els administradors solen tenir accés a tot el que hi ha dins del grup,** incloses les missatges eliminades i les missatges directes privades entre dues persones.
 3.  **El que dius es pot rastrejar fins al número de telèfon o l'adreça de correu electrònic del teu compte.** Fins i tot si no fas servir el teu nom o la teva foto reals.
-    -   Per evitar-ho a Telegram, aneu a `Configuració → Privacitat i seguretat → Número de telèfon` i, a continuació, configureu:
+    -   Per evitar-ho a Telegram, aneu a `Configuració → Privadesa i seguretat → Número de telèfon` i, a continuació, configureu:
         -   `Qui pot veure el meu número de telèfon` a `Ningú`.
         -   `Qui em pot trobar pel meu número` a `Els meus contactes`.
 
 #### Sàpiga quan el seu nom apareix públicament com a simpatitzant o donant
-
 **Comprova sempre si el teu nom apareix públicament en línia per subscripcions, micromecenatges, peticions i donacions.** Això és especialment rellevant si tens un nom únic.
 
-Algunes plataformes que faciliten aquestes coses sovint tenen configuracions de privacitat, així que el millor és crear-hi un compte per tenir un cert control sobre el que es mostra públicament. Alguns exemples de configuracions de privacitat importants però sovint passades per alt:
-
--   **Patreon:** `Configuració → Comptes → Privacitat`: Desactiva tant `el Perfil públic complet` com `el Perfil de comunitat`.
+Algunes plataformes que faciliten aquestes coses sovint tenen configuracions de privadesa, així que el millor és crear-hi un compte per tenir un cert control sobre el que es mostra públicament. Alguns exemples de configuracions de privadesa importants però sovint passades per alt:
+-   **Patreon:** `Configuració → Comptes → Privadesa`: Desactiva tant `el Perfil públic complet` com `el Perfil de comunitat`.
 -   **Indiegogo:** Al menú, ves a `Les meves campanyes`. Si vols amagar un projecte del teu perfil públic:
     -   A sota `Campanyes que he finançat`, selecciona `Accions: Amaga la contribució`.
-    -   Aleshores la pàgina es refresca, però el projecte simplement s'ha desplaçat a `Campanyes que segueixo`. Allà, seleccioneu `Accions: Deixa de seguir`.Patreon: Configuració → Comptes → Privacitat: Desactiva tant el Perfil públic complet com el Perfil
+    -   Aleshores la pàgina es refresca, però el projecte simplement s'ha desplaçat a `Campanyes que segueixo`. Allà, seleccioneu `Accions: Deixa de seguir`.Patreon: Configuració → Comptes → Privadesa: Desactiva tant el Perfil públic complet com el Perfil
 -   **GoFundMe:** Al menú, aneu a `El vostre impacte`. A continuació, aneu a qualsevol campanya que hàgiu donat suport. Allà, a sota `Les vostres donacions`, podeu canviar si el vostre nom apareix públicament.
 
 #### Altres recomanacions
-
 -   **Crea un compte separat amb un pseudònim per deixar ressenyes de negocis locals** (a Google Maps, Yelp, etc.) si n'escrius moltes. Altrament, les ressenyes es mostraran amb el teu nom real i podrien revelar la teva ubicació.
--   **Si teniu un domini web, assegureu-vos que la privacitat WHOIS/de domini estigui activada.** Molts registradors de dominis i proveïdors d'allotjament web ofereixen aquesta funció gratuïtament i la tenen activada per defecte.
+-   **Si teniu un domini web, assegureu-vos que la privadesa WHOIS/de domini estigui activada.** Molts registradors de dominis i proveïdors d'allotjament web ofereixen aquesta funció gratuïtament i la tenen activada per defecte.
 
 ---
 
-_👍👍👍 Uf! Dona't un cop de pal, perquè navegar per tot això no ha estat gens fàcil. Però esperem que ara et sentis molt més en control de les dades que envies al món. Les nostres recomanacions no són de cap manera exhaustives, però haurien de proporcionar-vos un nivell de privacitat raonable sense haver de sacrificar la comoditat i la diversió de la tecnologia. De nou, us recomanem que feu un bon descans abans de passar a la següent secció, on presentem els nostres consells i eines preferits per ser més segurs i privats en línia._
+_👍👍👍 Uf! Dona't un cop a l'esquena, perquè navegar per tot això no ha estat gens fàcil. Però esperem que ara sentis que tens molt més control de les dades que envies al món. Les nostres recomanacions no són de cap manera exhaustives, però haurien de proporcionar-vos un nivell de privadesa raonable sense haver de sacrificar la comoditat i la diversió de la tecnologia. De nou, us recomanem que feu un bon descans abans de passar a la següent secció, on presentem els nostres consells i eines preferits per ser més segurs i privats en línia._
 
 ---
 
@@ -532,15 +523,15 @@ _👍👍👍 Uf! Dona't un cop de pal, perquè navegar per tot això no ha esta
 ### 🔐 Afegeix un pany addicional als fitxers sensibles
 
 -   **Identifica els fitxers als quals no vols que altres hi accedeixin.** Això pot incloure fotos privades, escanejats del passaport i documents financers.
--   **Per als fitxers del vostre ordinador, creeu una caixa forta xifrada i protegida per contrasenya per als vostres fitxers:**
+-   **Per als fitxers del vostre ordinador, creeu una caixa forta xifrada (volta) i protegida per contrasenya per als vostres fitxers:**
     -   Eina recomanada: [Cryptomator](https://cryptomator.org/).
-    -   Demanar el vostre cofre al núvol o al vostre ordinador està bé. Decidiu segons com vulgueu fer còpies de seguretat del cofre.
+    -   Està bé tant emmagatzemar la vostre caixa forta al núvol o al vostre ordinador. Decidiu segons com vulgueu fer còpies de seguretat de la caixa forta.
     -   Mou els teus fitxers a aquesta caixa forta segura. Assegura't d'esborrar les còpies originals un cop hagin estat traslladades a la caixa forta.
 -   **Per als documents del telèfon, hi ha diverses opcions:**
-    -   Crea un cofre similar amb una aplicació com [Cryptomator](https://cryptomator.org/)(💰 per a mòbils).
+    -   Crea un caixa forta similar amb una aplicació com [Cryptomator](https://cryptomator.org/)(💰 per a mòbils).
     -   Si tens un pla de pagament per a un gestor de contrasenyes, les aplicacions també et permeten desar fitxers en una secció anomenada `documents` o `adjunts`. 💰
     -   L'aplicació Files d'iOS té una funció `de bloqueig de PDF` per a fitxers individuals.
-    -   Android Files by Google et permet crear una `carpeta segura` [seguint aquestes instruccions](https://support.google.com/files/answer/9935264).
+    -   Android Files de Google et permet crear una `carpeta segura` [seguint aquestes instruccions](https://support.google.com/files/answer/9935264).
 -   **Per a les fotos i vídeos del telèfon, utilitzeu les funcions de les aplicacions de fotos predeterminades:**
     -   Fotos d'iOS: obriu la foto i toqueu el botó `…` a la part superior dreta. Toqueu `Amaga`. Això posarà la foto en una carpeta `Amagada` a l'aplicació Fotos (a sota `d'Utilitats`) que només es pot desblocar amb FaceID o un codi d'accés.
     -   Android Google Photos: [Segueix aquestes instruccions](https://support.google.com/photos/answer/10694388?co=GENIE.Platform%3DAndroid&oco=1) i llegeix amb atenció la secció sobre còpies de seguretat automàtiques.
@@ -548,46 +539,47 @@ _👍👍👍 Uf! Dona't un cop de pal, perquè navegar per tot això no ha esta
 
 ### 💰 Millora el teu equipament
 
--   **Compra una pantalla de privacitat per al teu portàtil i telèfon.** Aquestes làmines adheribles eviten que els curiosos vegin el que hi ha a la pantalla. Exemples per a:
-    -   Portàtils: [Filtres de privacitat 3M](https://www.3m.com/3M/en_US/p/c/office-supplies/workstation-accessories/screen-filters-protectors/laptop-filters/)
+-   **Compra una pantalla de privadesa per al teu portàtil i telèfon.** Aquestes làmines adhesives eviten que els curiosos vegin el que hi ha a la pantalla. Exemples per a:
+    -   Portàtils: [Filtres de privadesa 3M](https://www.3m.com/3M/en_US/p/c/office-supplies/workstation-accessories/screen-filters-protectors/laptop-filters/)
     -   iPhone: [Spigen EZ FIT GLAS.tR Privacy](https://www.spigen.com/collections/iphone-13-pro/products/iphone-13-pro-screen-protector-ez-fit-glas-tr-privacy)
 -   **Col·loca un adhesiu (o una coberta per a la webcam) sobre la càmera frontal del teu portàtil.**
     -   Si compres una tapa per a la càmera web d'un portàtil, assegura't que tingui menys de 0,1 mm de gruix perquè no afecti el tancament del portàtil.
--   **No utilitzis els dispositius que et proporciona la teva empresa per a assumptes personals.** Tens dispositius separats per a la teva vida laboral i personal o, si és massa complicat tenir-ne diversos, utilitza el teu dispositiu personal per a tot. Els dispositius que proporcionen les empreses sovint tenen sistemes de monitoratge que es poden malutilitzar durant les disputes.
+-   **No utilitzis els dispositius que et proporciona la teva empresa per a assumptes personals.** Tingues dispositius separats per a la teva vida laboral i personal o, si és massa complicat tenir-ne diversos, utilitza el teu dispositiu personal per a tot. Els dispositius configurats pels llocs de treball sovint tenen sistemes de monitorització que es poden fer servir malament durant les disputes.
 -   **Compra un telèfon mòbil que sempre rebi les últimes actualitzacions de programari** i, en el cas d'Android, que no instal·li aplicacions ni complements de sistema innecessaris.
-    -   Primera opció: Apple iPhone. Apple té un historial de donar suport als dispositius durant molt de temps.
-    -   Segona opció: Google Pixel. Els telèfons Pixel reben les actualitzacions d'Android directament de Google i venen amb una instal·lació d'Android més o menys «pura».
+    -   **Primera opció: Fairphone.** Aquests dispositius destaquen pel seu compromís de suport a molt llarg termini (fins a 8-10 anys d'actualitzacions de seguretat segons el model) i utilitzen un Android net sense aplicacions innecessàries. A més, estan dissenyats perquè **l'usuari els pugui reparar fàcilment** a casa (pots comprar peces de recanvi oficials com pantalles o bateries a la seva [botiga de recanvis](https://www.google.com/search?q=https://shop.fairphone.com/es/spare-parts)) i permeten instal·lar sistemes operatius alternatius centrats en la privadesa.
+    -    Segona opció: Apple iPhone. Apple té un historial de donar suport als dispositius durant molt de temps.
+    -   Tercera opció: Google Pixel. Els telèfons Pixel reben les actualitzacions d'Android directament de Google i venen amb una instal·lació d'Android més o menys «pura».
     -   Per a altres telèfons Android:
         -   Investiga per trobar un telèfon que a) no afegeixi massa programari innecessari a la seva instal·lació d'Android, b) apliqui ràpidament els pegats de seguretat que publica el projecte Android de Google i c) garanteixi actualitzacions de programari per al seu maquinari durant molt de temps.
-        -   Eviteu els telèfons Android més barats de grans empreses com Samsung, Xiaomi o OPPO: tenen un historial d'afegir aplicacions innecessàries i intrusius. Per exemple, [la plataforma d'aplicacions](https://www.techfinitive.com/explainers/what-is-app-cloud-delete/) de Samsung [que instal·la aplicacions sense permís i recull dades sobre vosaltres sense consentiment](https://www.techfinitive.com/explainers/what-is-app-cloud-delete/).
--   **Utilitzeu un servei de VPN de pagament** tant quan sigueu en una xarxa pública (p. ex., un cafè) com quan sigueu a casa (per reduir les dades que compartiu amb la vostra companyia de telefonia/internet).
+        -   Evita els telèfons Android més barats de grans empreses com Samsung, Xiaomi o OPPO: tenen un historial d'afegir aplicacions innecessàries i intrusius. Per exemple, [la plataforma d'aplicacions](https://www.techfinitive.com/explainers/what-is-app-cloud-delete/) de Samsung [que instal·la aplicacions sense permís i recull dades sobre tu sense consentiment](https://www.techfinitive.com/explainers/what-is-app-cloud-delete/).
+-   **Utilitza un servei de VPN de pagament** tant quan sigueu en una xarxa pública (p. ex., un cafè) com quan siguis a casa (per reduir les dades que compartiu amb la vostra companyia de telefonia/internet).
     -   Evita els serveis de VPN gratuïts perquè sovint recuperen la inversió venent les teves dades.
     -   VPN recomanades: [Mullvad](https://mullvad.net), [IVPN💰](https://www.ivpn.net/)
-    -   _Tingueu en compte que, tot i que el relleu privat d'iCloud és similar a una VPN, només s'aplica al trànsit a través del navegador web Safari._
+    -   _Tingues en compte que, tot i que el  iCloud Private Relay és similar a una VPN, només s'aplica al trànsit a través del navegador web Safari._
 
-### 🔡 Utilitza aplicacions amb xifrat de fi a fi
+### 🔡 Utilitza aplicacions amb xifrat de principi a fi
 
 #### Per a missatgeria i trucades segures
 
--   **Utilitza aplicacions amb protocols de xifratge de fi a fi de codi obert i temporitzadors de missatges efímers fàcils d'utilitzar.**
+-   **Utilitza aplicacions amb protocols de xifratge de principi a fi de codi obert i temporitzadors de missatges efímers fàcils d'utilitzar.**
     -   Aplicacions recomanades:
         -   [Signal](https://signal.org/): Registra't amb un número de telèfon.
         -   [Wire](https://wire.com/): Registra't amb una adreça de correu electrònic.
     -   Configura els missatges perquè desapareguin. Tria un interval que et sigui còmode.
-        -   **Signal:** Ves a `Configuració → Privacitat → Missatges que desapareixen → Temporitzador per defecte per a xats nous`.
+        -   **Signal:** Ves a `Configuració → Privadesa → Missatges que desapareixen → Temporitzador per defecte per a xats nous`.
         -   **Wire:** No hi ha cap configuració a nivell d'aplicació. L'has de configurar per a cada conversa tocant/fent clic a la icona del temporitzador ⏱.
     -   Aquestes aplicacions també xifren les trucades de vídeo i veu de punta a punta, així que continueu utilitzant-les sempre que sigui possible.
--   **El xifratge de fi a fi per a trucades de vídeo/veu amb més de 5 persones potser no val la pena.** Hi ha diverses raons:
-    -   És difícil mantenir la privacitat en trucades de grup grans, ja que sovint es converteixen en esdeveniments quasi públics a causa del gran nombre de participants.
-    -   El suport per a trucades de vídeo/veu xifrades de cap a cap per a grups més grans és limitat, i la majoria de plataformes encara recullen les metadades de la vostra trucada fins i tot quan el xifratge de cap a cap està activat.
+-   **El xifratge de principi a fi per a trucades de vídeo/veu amb més de 5 persones potser no val la pena.** Hi ha diverses raons:
+    -   És difícil mantenir la privadesa en trucades de grup grans, ja que sovint es converteixen en esdeveniments quasi públics a causa del gran nombre de participants.
+    -   El suport per a trucades de vídeo/veu xifrades de principi a fi per a grups més grans és limitat, i la majoria de plataformes encara recullen les metadades de la vostra trucada fins i tot quan el xifratge de principi a fi està activat.
 
 #### Per a compartir fitxers en línia i fer còpies de seguretat
 
--   **Desa i comparteix fitxers al núvol utilitzant el xifrat de fi a fi.**
+-   **Desa i comparteix fitxers al núvol utilitzant el xifrat de principi a fi.**
     -   Aplicacions recomanades: [Tresorit](https://tresorit.com/), [Proton Drive](https://proton.me/drive) 💰
     -   Per a iCloud: activa la Protecció de dades avançada. [Consulta les instruccions d'Apple](https://support.apple.com/en-us/HT212520).
-    -   _Recorda: els fitxers emmagatzemats a Dropbox i Google Drive no estan xifrats de cap a cap._
--   **Fes còpia de seguretat dels teus fitxers en línia amb una plataforma amb xifratge de fi a fi.**
+    -   _Recorda: els fitxers emmagatzemats a Dropbox i Google Drive no estan xifrats de principi a fi._
+-   **Fes còpia de seguretat dels teus fitxers en línia amb una plataforma amb xifratge de principi a fi.**
     -   Aplicació recomanada: [Arq](https://www.arqbackup.com/) 💰
 
 ### 😷 Segmenteu encara més les vostres aplicacions de missatgeria
@@ -605,23 +597,23 @@ A continuació, es detalla quins identificadors únics són visibles per als alt
 
 Si no vols donar el teu número de telèfon personal, considera obtenir un número de telèfon virtual d'un dels proveïdors que esmentem en el nostre article sobre `com ocultar la teva identitat per a cites en línia, esdeveniments o organitzar activitats`.
 
-#### Utilitzeu les funcions de seguretat i privacitat específiques de l'aplicació
+#### Utilitzeu les funcions de seguretat i privadesa específiques de l'aplicació
 
-##### Signal
+##### Signal []
 
 -   **Configura un nom d'usuari** perquè la gent et trobi amb aquest nom en lloc del teu número de telèfon. Per crear un nom d'usuari:
     -   `Configuració →` \[Toca la icona del teu perfil o el teu nom\] `→ @ Nom d'usuari`
 -   **Amaga el teu número de telèfon.**
-    -   Ves a `Configuració → Privacitat → Número de telèfon` i estableix ambdós a `Ningú`.
+    -   Ves a `Configuració → Privadesa → Número de telèfon` i estableix ambdós a `Ningú`.
 -   **Activa la capa addicional de protecció amb codi PIN** i evita que altres iniciïn la sessió amb el teu número de telèfon.
     -   `Configuració → Compte → Bloqueig de registre: Activat`
     -   `Configuració → Compte → Bloqueig de registre: Activat`
 -   **Amaga els teus missatges del canviador d'aplicacions del telèfon** (perquè els teus missatges no es mostrin accidentalment a altres aplicacions) activant `la seguretat de la pantalla`:
     
-    -   `Configuració → Privacitat → Amaga la pantalla a Canviador d'aplicacions`
+    -   `Configuració → Privadesa → Amaga la pantalla a Canviador d'aplicacions` [ALERT This is not valid]
 -   **Amaga els teus missatges de la funció Recall de Microsoft Windows.**
     
-    -   L'aplicació de sobretaula de Signal les amaga per defecte, però comprova-ho doblement anant a `Configuració → Privacitat → Seguretat de la pantalla`.
+    -   L'aplicació de sobretaula de Signal les amaga per defecte, però comprova-ho doblement anant a `Configuració → Privadesa → Seguretat de la pantalla`.
 -   **Evita que els missatges apareguin a les finestres de notificació.**
     
     -   `Configuració → Notificacions → Contingut de les notificacions: Mostra → Sense nom ni contingut`
@@ -631,8 +623,8 @@ Si no vols donar el teu número de telèfon personal, considera obtenir un núme
 -   **Activa la verificació de dos passos** per evitar que algú mogui el teu compte sense el teu permís.
     -   `Configuració → Privadesa i seguretat → Verificació en dos passos`
 -   **Amaga el teu número de telèfon:**
-    -   `Configuració → Privacitat i seguretat → Número de telèfon`, i després estableix `Qui pot veure el meu número de telèfon` a `Ningú`.
--   **Comença les converses amb `la nova xerrada secreta` perquè estiguin xifrades de fi a fi.** Totes les altres converses i grups no**ho** estan. _Malauradament, això significa que els teus missatges no apareixeran a l'aplicació d'escriptori o web._
+    -   `Configuració → Privadesa i seguretat → Número de telèfon`, i després estableix `Qui pot veure el meu número de telèfon` a `Ningú`.
+-   **Comença les converses amb `Inicia un xat secret` perquè estiguin xifrades de principi a fi.** Totes les altres converses i grups no**ho** estan. _Malauradament, això significa que els teus missatges no apareixeran a l'aplicació d'escriptori o web._ Aquesta opció està disponible fent clic al menú dels tres punt del perfil de la persona amb qui vols mantenir la conversa.
 
 ##### WhatsApp
 
@@ -647,7 +639,7 @@ Si no vols donar el teu número de telèfon personal, considera obtenir un núme
 -   **Atura la descàrrega automàtica de totes les fotos i vídeos que reps:**
     -   `Configuració → Xats → Desa a la carpeta de fotos: Desactivat`
 
-### 🙃 Segureu la resta dels vostres comptes
+### 🙃 Assegureu la resta dels vostres comptes
 
 Has creat contrasenyes úniques per als comptes importants al `Nivell 2`, però hauries de planificar un dia per ocupar-te de la resta dels teus comptes en línia. No és una tasca urgent, per això l'hem posat tan avall a la llista, però requerirà força temps i esforç. Pots fer-ho ara o marcar-ho com a tasca pendent per més endavant.
 
@@ -661,7 +653,7 @@ Has creat contrasenyes úniques per als comptes importants al `Nivell 2`, però 
 
 ---
 
-_👍👍👍👍 Uau, ho has aconseguit. Has completat els quatre nivells! Has assegurat-ho tot (grans i petits), has augmentat dràsticament la teva privacitat digital i has aconseguit eines i consells supersegurs. Has fet tot el que creiem que és útil per a tothom. Regala't alguna cosa bonica com a recompensa, sens dubte._
+_👍👍👍👍 Uau, ho has aconseguit. Has completat els quatre nivells! Has bloquejat totes les coses (grans i petites), has augmentat dràsticament la teva privadesa digital i has aconseguit eines i consells súper segurs. Has fet tot el que creiem que és útil per a tothom. Regala't alguna cosa bonica com a recompensa, sens dubte._
 
 _A partir d'ara, oferim recomanacions per a casos especials (escenaris) i, a continuació, una petita secció de bonificació per a usuaris tècnics. Si cap dels escenaris no s'aplica a tu ara mateix, ja ho tens tot a punt. Recorda que els escenaris seran aquí si mai els necessites!_
 
@@ -671,7 +663,7 @@ _A partir d'ara, oferim recomanacions per a casos especials (escenaris) i, a con
 
 ---
 
-### 👤 Amagar la teva identitat per a cites en línia, esdeveniments o organitzar
+### 👤 Amagar la teva identitat per a cites en línia, esdeveniments o organització
 
 #### No utilitzis el teu nom complet
 
@@ -692,25 +684,27 @@ Per a les aplicacions de missatgeria que utilitzen el número de telèfon com a 
 -   **Les vostres companyies telefòniques locals 💰**
     -   Obteniu un pla de targeta SIM prepagament o econòmic
 
-_Nota: si perds el teu número de telèfon secundari o t'hi desuscribes, altres persones el poden comprar i fer-se passar per tu._
+_Nota: Si perds o et dones de baixa el número de telèfon secundari, altres persones el poden comprar i suplantar la teva identitat._
 
-#### Obtén un alias de correu electrònic
+#### Obtén un àlies de correu electrònic
 
-Per a llocs i serveis que utilitzen el correu electrònic com a identificador principal/nom d'usuari, crea un compte de correu electrònic nou 🆓 o un alias de correu electrònic que reenviï al teu compte principal des de:
+Per a llocs i serveis que utilitzen el correu electrònic com a identificador principal/nom d'usuari, crea un compte de correu electrònic nou 🆓 o un àlies de correu electrònic que reenviï al teu compte principal des de:
 
 -   [SimpleLogin::](https://simplelogin.io) Amb seu a Suïssa (com a part del grup Proton Mail/VPN)
 -   [addy.io](https://addy.io): Amb seu al Regne Unit i a la UE
 
 #### Comprar coses en línia de manera anònima
 
--   **Registra't per obtenir una targeta de crèdit virtual centrada en la privacitat 💰** de [Privacy](https://privacy.com/) (només disponible als EUA). Ajuda a) a ocultar la teva identitat al venedor i b) a ocultar al banc què has comprat.
+-   **Registra't per obtenir una targeta de crèdit virtual centrada en la privadesa 💰** de [Privacy](https://privacy.com/) (només disponible als EUA). Ajuda a) a ocultar la teva identitat al venedor i b) a ocultar al banc què has comprat.
 -   **Compra una targeta de crèdit prepagament en una botiga de conveniència local.** Però tingues cura, aquestes targetes no sempre funcionen per a compres en línia, depenent d'on et trobis.
 -   **Obtén una targeta de crèdit virtual per a proves gratuïtes** a [Do Not Pay](https://donotpay.com/learn/virtual-credit-cards/) per a aquells casos en què vulguis registrar-te en un període de servei gratuït però no vulguis facilitar la informació real de la teva targeta de crèdit.
 -   **Demana que et paguin amb targetes regal**, que es poden utilitzar a les botigues sense rastreig.
 
 #### Crea un àlies en línia no rastrejable
 
-Fins i tot amb tots els serveis de tercers esmentats anteriorment, els tribunals encara poden obligar les empreses a lliurar informació sobre tu. Per tant, si realment et trobes en una situació d'alt risc, potser hauràs de fer tot el que s'ha dit i més. Per a un exemple d'això, consulta [la RECEPTA DE PRIVACITAT](https://geminiimatt.medium.com/creating-an-online-persona-deb4cd8c7f46) de Matt Mitchell [: Crear una personalitat en línia](https://geminiimatt.medium.com/creating-an-online-persona-deb4cd8c7f46).
+Fins i tot amb tots els serveis de tercers esmentats anteriorment, els tribunals encara poden obligar les empreses a lliurar informació sobre tu. Per tant, si realment et trobes en una situació d'alt risc, potser hauràs de fer tot el que s'ha dit i més. Per a un exemple d'això, consulta [la RECEPTA DE PRIVADESA](https://geminiimatt.medium.com/creating-an-online-persona-deb4cd8c7f46) de Matt Mitchell [: Crear una personalitat en línia](https://geminiimatt.medium.com/creating-an-online-persona-deb4cd8c7f46).
+
+_Revisada fins aqui la traducció automàtica_
 
 ---
 
@@ -768,7 +762,7 @@ Pel que fa a assistir a una protesta, hi ha moltes i moltes consideracions depen
 ##### Mantingueu les comunicacions privades
 
 -   **Utilitza una aplicació de missatgeria amb xifrat de fi a fi i assegura't que els missatges efímers estiguin activats.** Consulta la secció sobre aplicacions de missatgeria xifrades del `Nivell 4` anterior.
--   **Revisa de nou la configuració de privacitat de les teves aplicacions de missatgeria.**
+-   **Revisa de nou la configuració de privadesa de les teves aplicacions de missatgeria.**
 -   **Desactiva les previsualitzacions de missatges a les notificacions.**
     -   **iOS:** `Configuració → Notificacions → Mostra previsualitzacions: Quan el dispositiu està desblocat`.
     -   **Android:** `Configuració → Aplicacions i notificacions → Notificacions → Notificacions a la pantalla de bloqueig → Notificacions sensibles: Desactivat`.
@@ -777,23 +771,23 @@ Pel que fa a assistir a una protesta, hi ha moltes i moltes consideracions depen
 ##### Minimitzar el seguiment de la ubicació al telèfon
 
 -   **Desactiva l'historial de localització:**
-    -   iOS: `Configuració → Privacitat i seguretat → Serveis de localització → Serveis del sistema → Ubicacions importants`.
-    -   Android: `Configuració → Seguretat i privacitat → Més configuracions de privacitat → Controls d'activitat → Historial de ubicacions.`
+    -   iOS: `Configuració → Privadesa i seguretat → Serveis de localització → Serveis del sistema → Ubicacions importants`.
+    -   Android: `Configuració → Seguretat i privadesa → Més configuracions de privadesa → Controls d'activitat → Historial de ubicacions.`
     -   Google Maps: toca la teva foto de perfil `→ Configuració → Historial de mapes → Desar a l'activitat web i de l'aplicació → Desactiva: desactiva i elimina l'activitat`.
 -   **Suprimeix l'historial de localitzacions anterior:**
     -   iOS: `Configuració → Privadesa → Serveis de localització → Serveis del sistema → Ubicacions rellevants → Esborra l'historial`.
-    -   Android: `Configuració → Seguretat i privacitat → Més configuracions de privacitat → Controls d'activitat → Historial de ubicacions.`
+    -   Android: `Configuració → Seguretat i privadesa → Més configuracions de privadesa → Controls d'activitat → Historial de ubicacions.`
 -   **Considera desactivar temporalment tots els serveis de localització:**
-    -   iPhone: `Configuració → Privacitat → Serveis de localització → Serveis de localització: Desactivat`.
+    -   iPhone: `Configuració → Privadesa → Serveis de localització → Serveis de localització: Desactivat`.
     -   Android: `Configuració → Ubicació → Utilitzar ubicació: Desactivat`.
 
 ##### Desactiva el 2G al telèfon per reduir el seguiment
 
-**La teva ubicació pot ser rastrejada per tercers a través de la connexió de la targeta SIM del teu telèfon.** El seguiment es fa mitjançant dispositius (anomenats sovint captadors d'IMSI) que simulen torres de telefonia mòbil, les quals registren tant el número d'identificació únic de la teva targeta SIM com la teva ubicació aproximada. Per protegir completament la teva privacitat, hauries d'apagar el telèfon o configurar un telèfon de descàrrega. Per limitar el seguiment, desactiva el 2G al teu telèfon:
+**La teva ubicació pot ser rastrejada per tercers a través de la connexió de la targeta SIM del teu telèfon.** El seguiment es fa mitjançant dispositius (anomenats sovint captadors d'IMSI) que simulen torres de telefonia mòbil, les quals registren tant el número d'identificació únic de la teva targeta SIM com la teva ubicació aproximada. Per protegir completament la teva privadesa, hauries d'apagar el telèfon o configurar un telèfon de descàrrega. Per limitar el seguiment, desactiva el 2G al teu telèfon:
 
 -   Android: `Configuració → Xarxa i Internet → Tarjetes SIM → [Nom del teu operador] → Permet 2G: Desactivat`.
 -   Alternativa per a Android: si aquesta opció no apareix, obriu l'aplicació Telèfon i introduïu `*#*#4636#*#*.` Apareixerà una pantalla `de proves`. Seleccioneu `Informació del telèfon` i després canvieu el `tipus de xarxa preferit` al mateix que la selecció actual, però sense `GSM`. Per veure què significa cada acrònim, consulteu [la pàgina Comparació dels estàndards de telèfon mòbil](https://en.wikipedia.org/wiki/Comparison_of_mobile_phone_standards) de la Viquipèdia.
--   A iOS: activa el mode de confinament anant a `Configuració → Privacitat i seguretat → Mode de confinament: Activat`. Això posa en marxa una sèrie de precaucions de seguretat restrictives (incloent-hi la desactivació del 2G) que probablement voldràs desactivar un cop tornis a casa amb seguretat.
+-   A iOS: activa el mode de confinament anant a `Configuració → Privadesa i seguretat → Mode de confinament: Activat`. Això posa en marxa una sèrie de precaucions de seguretat restrictives (incloent-hi la desactivació del 2G) que probablement voldràs desactivar un cop tornis a casa amb seguretat.
 
 ##### Neteja les dades del teu telèfon
 
@@ -836,7 +830,7 @@ Per a la majoria de la gent, recomanem dedicar la vostra energia a netejar i pro
 
 -   **Apaga el telèfon si existeix risc d'una detenció imminent o de la confiscació del telèfon.** El xifratge funciona millor quan els dispositius estan apagats.
 
-##### Respecta la privacitat quan facis fotos i vídeos
+##### Respecta la privadesa quan facis fotos i vídeos
 
 -   **Intenta no fer fotos o vídeos on es vegin les cares de la gent.** Fer una foto de les esquenes de la gent està bé. _L'única excepció és si estàs gravant un vídeo d'un conflicte on la documentació és crucial._
 -   **Si en una foto o vídeo apareixen cares, assegura't de difuminar-les abans de compartir-les en línia.**
@@ -881,16 +875,16 @@ De vegades haureu de fer concessions i utilitzar una aplicació que la gent ja c
 
 Recomanem:
 
--   **[Senyal](https://www.signal.org/)**:
+-   **[Signal](https://www.signal.org/)**:
     -   ✅ Xats de grup amb xifrat de fi a fi.
     -   ❌ No es pot esborrar una conversa de grup.
     -   ✅ Les persones del xat només poden veure el teu número de telèfon si ja el tenen a la seva agenda de contactes per defecte, i fins i tot pots desactivar-ho:
-        -   Ves a `Configuració → Privacitat → Número de telèfon` i configura ambdues opcions a `«Ningú`».
+        -   Ves a `Configuració → Privadesa → Número de telèfon` i configura ambdues opcions a `«Ningú`».
     -   ✅ Admet trucades de grup d'àudio i vídeo
     -   Activa els missatges efímers:
         -   Al xat, toca el nom del grup a la part superior de la pantalla i després selecciona `Missatges que desapareixen`.
     -   Si has creat el grup, revisa la configuració `de Permisos` per decidir si vols que `Tots els membres` o `Només els administradors` puguin afegir nous membres.
--   **[Fils](https://app.wire.com/auth/#/)**:
+-   **[Wire](https://app.wire.com/auth/#/)**:
     -   ✅ Xats de grup xifrats de fi a fi.
     -   ✅ Només mostra el teu nom d'usuari a les altres persones del xat.
     -   ✅ Pot esborrar una conversa de grup.
@@ -905,7 +899,7 @@ Actualment no recomanem Telegram, però continua sent una opció popular per a x
     -   ❌ Configuració difícil de trobar per amagar el número de telèfon.
     -   ❌ Difícil d'activar els missatges efímers.
     -   Per amagar el teu número de telèfon:
-        -   Ves a `Configuració → Privacitat i seguretat → Número de telèfon` i, a continuació, configura:
+        -   Ves a `Configuració → Privadesa i seguretat → Número de telèfon` i, a continuació, configura:
             -   `Qui pot veure el meu número de telèfon` a `Ningú`.
             -   `Qui em pot trobar pel meu número` a `Els meus contactes`.Activa els missatges efímers:
     -   Activa els missatges efímers fent:
@@ -926,14 +920,14 @@ Els grups sovint utilitzen plataformes de xarxes socials (p. ex., Instagram, X/T
 -   Podeu crear un canal públic, cercable o privat només per invitació.
 -   Els seguidors/lectors s'aboquen al teu canal i reben totes les actualitzacions (en comparació amb les xarxes socials tradicionals, on has de competir per l'atenció i l'abast).
 
-Si només transmeteu actualitzacions a 1000 persones o menys, les noves funcions [de Signal](https://www.signal.org/) poden fer-ho possible tot mantenint la màxima privacitat per a ambdues parts:
+Si només transmeteu actualitzacions a 1000 persones o menys, les noves funcions [de Signal](https://www.signal.org/) poden fer-ho possible tot mantenint la màxima privadesa per a ambdues parts:
 
 -   Toca la imatge de perfil del grup i el nom a la part superior per accedir a la configuració. Desplaça't cap avall fins a `Permisos` i toca-hi. A continuació, a `Envia missatges`, configura-ho a `Només administradors`.
 -   Opcional: Configura un `enllaç de grup` públic a la mateixa pantalla de configuració del xat de grup per afegir membres més ràpidament. Pensa si els nous membres necessiten la configuració `«Aprovació de l'administrador` ». A més, considera desactivar l'enllaç d'accés públic després d'un breu període de temps.
 
 ##### Tria d'una aplicació per a la difusió pública de grans grups
 
-Quan el vostre grup creixi, pot ser que tingui sentit crear un espai en línia més públic per treballar amb nous membres. Els grups sovint migren a plataformes com [Slack](https://slack.com/), [Mattermost](https://mattermost.com/) i [Discord](https://discord.com/), que permeten tenir diverses sales de xat dins del mateix espai. No obstant això, com que aquestes plataformes estan dissenyades per a entorns corporatius o comunitats de jocs públiques, les seves funcions de privacitat són molt limitades. Per tant, recomanem utilitzar aquestes plataformes només per a l'abast públic o per a missatgeria quasi pública.
+Quan el vostre grup creixi, pot ser que tingui sentit crear un espai en línia més públic per treballar amb nous membres. Els grups sovint migren a plataformes com [Slack](https://slack.com/), [Mattermost](https://mattermost.com/) i [Discord](https://discord.com/), que permeten tenir diverses sales de xat dins del mateix espai. No obstant això, com que aquestes plataformes estan dissenyades per a entorns corporatius o comunitats de jocs públiques, les seves funcions de privadesa són molt limitades. Per tant, recomanem utilitzar aquestes plataformes només per a l'abast públic o per a missatgeria quasi pública.
 
 ##### Elecció d'una aplicació per a videotrucades en grup
 
@@ -949,13 +943,13 @@ Les aplicacions de videotrucades són complicades perquè poques d'elles admeten
 Hi ha dues vies que segueixen els grups a l'hora d'escollir aplicacions/plataformes de col·laboració:
 
 1.  Utilitzeu les aplicacions de Google perquè són més accessibles.
-2.  Utilitzeu alternatives de codi obert perquè tenen millors funcions de privacitat.
+2.  Utilitzeu alternatives de codi obert perquè tenen millors funcions de privadesa.
 
 A continuació, fem un resum d'ambdues opcions.
 
 ###### 1\. Fer servir Google Workspace de manera més segura
 
-Google Workspace (Docs, Sheets, Drive, etc.) és una opció popular per al treball col·laboratiu perquè les seves aplicacions són potents, fàcils d'utilitzar i funcionen bé en dispositius mòbils. Però també tenen limitacions greus de privacitat:
+Google Workspace (Docs, Sheets, Drive, etc.) és una opció popular per al treball col·laboratiu perquè les seves aplicacions són potents, fàcils d'utilitzar i funcionen bé en dispositius mòbils. Però també tenen limitacions greus de privadesa:
 
 1.  Qualsevol persona que obri un document o fitxer pot veure la foto de perfil, el nom i l'adreça de correu electrònic del creador, vinculats al seu compte de Google.
 2.  El registre d'activitat dels documents també mostra els detalls de qui ha fet edicions.
@@ -1015,7 +1009,7 @@ Obtenir l'atenció que necessites pot ser una tasca controvertida i complicada e
 -   **Amaga les teves transaccions** pagant amb:
     -   Efectiu
     -   Una targeta de crèdit de prepagament que vas comprar amb efectiu
-    -   Una targeta de crèdit virtual centrada en la privacitat de [Privacy](https://privacy.com/) (només disponible als EUA).
+    -   Una targeta de crèdit virtual centrada en la privadesa de [Privacy](https://privacy.com/) (només disponible als EUA).
 
 #### Desplaçar-se a una clínica
 
@@ -1068,7 +1062,7 @@ _Nota: Algunes d'aquestes pràctiques poden despertar sospites i tenir efectes c
 
 ---
 
-### 🤐 Viatjar a un lloc amb lleis de privacitat de dades febles o censura d'internet
+### 🤐 Viatjar a un lloc amb lleis de privadesa de dades febles o censura d'internet
 
 -   **Tingueu en compte que les companyies de telefonia mòbil poden compartir la vostra ubicació i informació personal** amb tercers sense el vostre permís.
 -   **Configura una VPN prèviament per:**
@@ -1086,7 +1080,7 @@ _Nota: Algunes d'aquestes pràctiques poden despertar sospites i tenir efectes c
         -   [Informe de transparència de Facebook: Sol·licituds de dades d'usuari per part del govern](https://transparency.facebook.com/)
         -   [Centre de transparència d'X/Twitter: Sol·licituds d'informació](https://transparency.twitter.com/en/reports/information-requests.html)
         -   [Informe de transparència d'Apple](https://www.apple.com/legal/transparency/)
-    -   Cerqueu la ubicació de la seu central de la plataforma i vegeu on és l'oficina local o regional més propera. La ubicació afecta la relació de la plataforma amb les autoritats i la seva política de privacitat.
+    -   Cerqueu la ubicació de la seu central de la plataforma i vegeu on és l'oficina local o regional més propera. La ubicació afecta la relació de la plataforma amb les autoritats i la seva política de privadesa.
 
 ---
 
@@ -1214,7 +1208,7 @@ En la majoria dels casos, estaràs més segur si revises i elimines part de la i
 Facebook té algunes funcions per controlar les teves interaccions, però, en última instància, depèn de tu establir límits sobre qui pot veure i comentar les teves publicacions i el teu perfil.
 
 -   **[Ignora missatges](https://www.facebook.com/help/messenger-app/1245152242249842)** dins de Facebook Messenger per moure els missatges actuals i futurs a la secció `de Sol·licituds de missatges`
--   **[Revisió de la privacitat](https://www.facebook.com/privacy/checkup)** dins de Facebook inclou una secció sobre `Qui pot veure el que comparteixes` que t'orienta sobre la visibilitat del teu perfil i les teves publicacions.
+-   **[Revisió de la privadesa](https://www.facebook.com/privacy/checkup)** dins de Facebook inclou una secció sobre `Qui pot veure el que comparteixes` que t'orienta sobre la visibilitat del teu perfil i les teves publicacions.
 
 ##### Instagram
 
@@ -1241,7 +1235,7 @@ Avís important: Actualment és possible obtenir una llista de totes les persone
 Mastodon té funcions bàsiques per limitar la visibilitat i la cercabilitat de les publicacions, i per ajustar com de públic és el teu perfil. A més, té funcions úniques perquè funciona en una xarxa de servidors federats/descentralitzats (cada usuari ha d'unir-se a un servidor d'origen que, suposadament, s'alinea amb els seus valors).
 
 -   **Configuració de la visibilitat de les publicacions:** Cada publicació es pot configurar com a `Pública`, `No indexada/Pública silenciosa` (amagada a les cerques i a Explora) o `Només per a seguidors`.
--   **Configuració de la privacitat del perfil:** A la secció `Configuració → Perfil públic → Privacitat i abast` del lloc web, podeu ajustar si les vostres publicacions i el vostre perfil apareixen a les pàgines de recomanacions o de cerca, si voleu revisar manualment cada nou seguidor i si voleu que els usuaris que seguiu i els que us segueixen siguin consultables.
+-   **Configuració de la privadesa del perfil:** A la secció `Configuració → Perfil públic → Privadesa i abast` del lloc web, podeu ajustar si les vostres publicacions i el vostre perfil apareixen a les pàgines de recomanacions o de cerca, si voleu revisar manualment cada nou seguidor i si voleu que els usuaris que seguiu i els que us segueixen siguin consultables.
 -   **Funcionalitats federades/descentralitzades:** Els usuaris poden bloquejar tots els usuaris d'un altre servidor. Els administradors del vostre servidor també poden aplicar un bloqueig a tot el servidor per a un altre servidor (com a usuari, se us bloqueja automàticament).
 
 ##### X/Twitter
@@ -1268,7 +1262,7 @@ Discord està centrat en comunitats/servidors separats, la qual cosa afecta la m
     -   Els seus missatges per a tu desapareixen.
     -   Els missatges que escriuen als canals compartits estan ocults. _Però_ els missatges que escrius als canals compartits continuen sent visibles per a ells.
     -   Per a tu, sempre apareixen `com a fora de línia`, però encara poden veure el teu estat en línia/fora de línia.
--   **[Configuració de privacitat](https://support.discord.com/hc/en-us/articles/217916488-Blocking-Privacy-Settings-)** et permet ajustar si els membres de la comunitat/del servidor et poden enviar missatges directes, i qui pot enviar-te sol·licituds d'amistat.
+-   **[Configuració de privadesa](https://support.discord.com/hc/en-us/articles/217916488-Blocking-Privacy-Settings-)** et permet ajustar si els membres de la comunitat/del servidor et poden enviar missatges directes, i qui pot enviar-te sol·licituds d'amistat.
 
 ##### Triar entre silenciar o bloquejar un compte
 
@@ -1326,10 +1320,10 @@ Potser no cal que elimines tot el teu compte, però considera esborrar (o fer pr
     -   Escriptori: ves al teu perfil i fes clic al botó 👁 situat a la dreta del botó `Edita el perfil`.
     -   Mòbil: ves al teu perfil, toca els tres punts a la dreta de " `Afegeix una història` " i toca " `Veure com a`".
 -   **Fes que només els amics puguin veure les teves publicacions anteriors.**
-    -   Ordinador: Ves a `Configuració → Privacitat → Limita les publicacions anteriors`.
-    -   Mòbil: Ves a `Configuració i privacitat → Configuració → Configuració de privacitat → Limita qui pot veure les publicacions anteriors`.
+    -   Ordinador: Ves a `Configuració → Privadesa → Limita les publicacions anteriors`.
+    -   Mòbil: Ves a `Configuració i privadesa → Configuració → Configuració de privadesa → Limita qui pot veure les publicacions anteriors`.
 -   **Considera esborrar en massa les publicacions anteriors.** Per esborrar diverses publicacions d'una sola vegada:
-    -   `Configuració i privacitat → Diari d'activitat → Les teves publicacions` i després selecciona `Arxivar` o `Mostrar a la brossa`
+    -   `Configuració i privadesa → Diari d'activitat → Les teves publicacions` i després selecciona `Arxivar` o `Mostrar a la brossa`
 
 ##### Instagram
 
@@ -1497,7 +1491,7 @@ Quan algú proper a tu (normalment una parella sentimental) t'espia amb una apli
 -   **No elimineu les aplicacions sospitoses immediatament.** Potser les necessiteu com a prova. A més, eliminar-les també podria fer que la situació amb la vostra parella s'agreugés.
 -   **Revisa i torna a fer els passos dels `nivells 1–4` d'aquesta guia.** Assegura't de:
     -   Restablix les contrasenyes dels comptes importants.
-    -   Comprova la configuració de la teva privacitat.
+    -   Comprova la configuració de la teva privadesa.
     -   Cerqueu qualsevol aplicació que no reconegueu al vostre ordinador i telèfon.
     -   Assegura't de buscar també aplicacions ocultes. Instruccions per a:
         -   iOS: A la pantalla d'inici, continua lliscant cap a l'esquerra fins que arribis a la pantalla `de la Biblioteca d'aplicacions`. Desplaça't fins a la part inferior, al grup `Ocultat`. Toca per obrir-lo i desbloqueja'l amb Face ID o codi d'accés.
@@ -1720,7 +1714,7 @@ Aquesta secció conté eines i consells addicionals que vam trobar durant la nos
 
 ### Eines i consells per allotjar/gestionar un lloc web
 
--   **Llegiu [aquesta guia d'EDRi sobre el desenvolupament i manteniment ètics de llocs web](https://edri.org/ethical-web-dev/).** Pareu especial atenció a les seves recomanacions de privacitat.
+-   **Llegiu [aquesta guia d'EDRi sobre el desenvolupament i manteniment ètics de llocs web](https://edri.org/ethical-web-dev/).** Pareu especial atenció a les seves recomanacions de privadesa.
 -   **Protegiu el vostre lloc web d'atacs DDoS i altres amenaces utilitzant**
     -   **[Deflect](https://deflect.ca/).** Hi ha un [pla gratuït]([https://deflect.ca/nonprofit](https://deflect.ca/nonprofit) per a organitzacions sense ànim de lucre.
     -   **[Cloudflare](https://www.cloudflare.com/).** Hi ha un [pla gratuït](https://www.cloudflare.com/galileo/) per a organitzacions d'arts, drets humans, societat civil, periodisme o democràcia.
@@ -1730,8 +1724,8 @@ Aquesta secció conté eines i consells addicionals que vam trobar durant la nos
     -   **[Sucuri Security](https://wordpress.org/plugins/sucuri-scanner/)**
     -   Si el vostre servei d'allotjament no ofereix còpies de seguretat, utilitzeu [VaultPress](https://jetpack.com/upgrade/backup/) o [BackupBuddy](https://ithemes.com/backupbuddy/).
     -   Alternativament, utilitzeu [Simply Static](https://simplystatic.com/) per convertir el vostre lloc de WordPress públic en un lloc estàtic.
--   **Utilitza un servei d'analítica orientat a la privacitat** com [Matomo](https://matomo.org/) o [Koko Analytics](https://www.kokoanalytics.com/).
--   **Considereu canviar a un servei d'allotjament més orientat a la privacitat** com ara [Greenhost](https://greenhost.net/), [Maadix](https://maadix.net/en/) o [1984](https://1984.hosting/).
+-   **Utilitza un servei d'analítica orientat a la privadesa** com [Matomo](https://matomo.org/) o [Koko Analytics](https://www.kokoanalytics.com/).
+-   **Considereu canviar a un servei d'allotjament més orientat a la privadesa** com ara [Greenhost](https://greenhost.net/), [Maadix](https://maadix.net/en/) o [1984](https://1984.hosting/).
 -   **Crea un fitxer [security.txt](https://securitytxt.org/)** perquè els investigadors tinguin un lloc on revelar vulnerabilitats de seguretat.
 -   **Creeu un fitxer robots.txt** utilitzant [aquesta llista ai.robots.txt](https://github.com/ai-robots-txt/ai.robots.txt) per evitar que les empreses d'IA rastrejin i rasquin les vostres dades.
 
