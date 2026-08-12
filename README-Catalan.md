@@ -42,7 +42,9 @@
 
 ### 🕒 Darrera actualització
 -   27 de gener de 2026
+
 ---
+
 ## 🧐 Termes útils per aprendre
 
 ### 🎯 Modelatge de amenaces
@@ -303,10 +305,13 @@ Evita que les invitacions de calendari de persones que no coneixes apareguin aut
 -   [Configuració de](https://calendar.google.com/calendar/r/settings) Google Calendar `→ Configuració d'esdeveniments → Afegeix les invitacions al meu calendari: Quan responc a la invitació per correu electrònic`
 -   Outlook: `Fitxer → Opcions → Calendari → Acceptació o rebuig automàtics → Acceptar/Rebre automàticament i Suprimir les reunions cancel·lades`
 -   iCloud: A iOS: Ves a `Configuració → [El teu nom] → iCloud → Dades emmagatzemades a iCloud: Veure-ho tot → Calendari iCloud → Enviar i rebre → Rebre` i selecciona `Correu electrònic` per a cada compte.
+
 ---
+
 _👍👍 Enhorabona! T'has endinsat sense por a la configuració —fent clic, tocant i lliscant— per tancar les llacunes de seguretat dels teus comptes i dispositius. Ara la següent secció tracta sobre aprendre i revisar els teus hàbits i reflexos pel que fa a la seguretat digital, així que serà principalment de lectura i reflexió (en lloc de tocar/fer clic als teus dispositius). No obstant això, encara recomanem que facis una pausa ara mateix perquè et mereixes de debò el que et queda de dia lliure._
 
 ---
+
 ## 💪🏽 Intermedi: Revisió d'hàbits i reflexos
 
 ### 🎣 Vigileu amb els intents de suplantació d'identitat (phishing)
