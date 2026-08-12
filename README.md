@@ -617,7 +617,8 @@ If you don't want to give out your personal phone number, consider getting a vir
   - `Settings → Account → Signal PIN`
   - `Settings → Account → Registration Lock: On`
 - **Hide your messages from your phone's app switcher** (so your messages aren't accidentally exposed to other apps) by turning on `Screen Security`:
-  - `Settings → Privacy → Hide Screen in App Switcher`
+  - iOS: `Settings → Privacy → App Security: Hide Screen in App Switcher`
+  - Android: `Settings → Privacy → App Security: Screen security` (this also prevents you but not your message recipients from being able to take screenshots)
 
 - **Hide your messages from Microsoft Windows' Recall feature.**
   - The Signal desktop app hides them by default, but double check by going to `Settings → Privacy → Screen Security`.
